@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  id: IndustrialValley.UI
+  children:
+  - IndustrialValley.UI.DraggableManipulator
+  - IndustrialValley.UI.GameUIManager
+  - IndustrialValley.UI.GlyphLabel
+  - IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  - IndustrialValley.UI.InputGlyphData
+  - IndustrialValley.UI.InputGlyphData.GlyphEntry
+  - IndustrialValley.UI.MainMenuUIManager
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.UI.GameUIManager
+  commentId: T:IndustrialValley.UI.GameUIManager
+  parent: IndustrialValley.UI
+  href: IndustrialValley.UI.GameUIManager.html
+  name: GameUIManager
+  nameWithType: GameUIManager
+  fullName: IndustrialValley.UI.GameUIManager
+- uid: IndustrialValley.UI.DraggableManipulator
+  commentId: T:IndustrialValley.UI.DraggableManipulator
+  href: IndustrialValley.UI.DraggableManipulator.html
+  name: DraggableManipulator
+  nameWithType: DraggableManipulator
+  fullName: IndustrialValley.UI.DraggableManipulator
+- uid: IndustrialValley.UI.GlyphLabel
+  commentId: T:IndustrialValley.UI.GlyphLabel
+  href: IndustrialValley.UI.GlyphLabel.html
+  name: GlyphLabel
+  nameWithType: GlyphLabel
+  fullName: IndustrialValley.UI.GlyphLabel
+- uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  commentId: T:IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  href: IndustrialValley.UI.GlyphLabel.html
+  name: GlyphLabel.UxmlSerializedData
+  nameWithType: GlyphLabel.UxmlSerializedData
+  fullName: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  spec.csharp:
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+    href: IndustrialValley.UI.GlyphLabel.html
+  - name: .
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html
+  spec.vb:
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+    href: IndustrialValley.UI.GlyphLabel.html
+  - name: .
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html
+- uid: IndustrialValley.UI.InputGlyphData
+  commentId: T:IndustrialValley.UI.InputGlyphData
+  href: IndustrialValley.UI.InputGlyphData.html
+  name: InputGlyphData
+  nameWithType: InputGlyphData
+  fullName: IndustrialValley.UI.InputGlyphData
+- uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+  commentId: T:IndustrialValley.UI.InputGlyphData.GlyphEntry
+  href: IndustrialValley.UI.InputGlyphData.html
+  name: InputGlyphData.GlyphEntry
+  nameWithType: InputGlyphData.GlyphEntry
+  fullName: IndustrialValley.UI.InputGlyphData.GlyphEntry
+  spec.csharp:
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+  spec.vb:
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+- uid: IndustrialValley.UI.MainMenuUIManager
+  commentId: T:IndustrialValley.UI.MainMenuUIManager
+  href: IndustrialValley.UI.MainMenuUIManager.html
+  name: MainMenuUIManager
+  nameWithType: MainMenuUIManager
+  fullName: IndustrialValley.UI.MainMenuUIManager
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  href: IndustrialValley.html
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html

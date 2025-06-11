@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  id: IndustrialValley
+  children:
+  - IndustrialValley.Input
+  - IndustrialValley.InputManager
+  - IndustrialValley.InputManager.DeviceType
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Input
+  commentId: T:IndustrialValley.Input
+  href: IndustrialValley.Input.html
+  name: Input
+  nameWithType: Input
+  fullName: IndustrialValley.Input
+- uid: IndustrialValley.InputManager
+  commentId: T:IndustrialValley.InputManager
+  href: IndustrialValley.InputManager.html
+  name: InputManager
+  nameWithType: InputManager
+  fullName: IndustrialValley.InputManager
+- uid: IndustrialValley.InputManager.DeviceType
+  commentId: T:IndustrialValley.InputManager.DeviceType
+  parent: IndustrialValley
+  href: IndustrialValley.InputManager.html
+  name: InputManager.DeviceType
+  nameWithType: InputManager.DeviceType
+  fullName: IndustrialValley.InputManager.DeviceType
+  spec.csharp:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+  spec.vb:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  href: IndustrialValley.html
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley

@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  commentId: T:IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  id: FactoryGenerator.PlotDirection
+  parent: IndustrialValley.Factory
+  children:
+  - IndustrialValley.Factory.FactoryGenerator.PlotDirection.Back
+  - IndustrialValley.Factory.FactoryGenerator.PlotDirection.Forward
+  - IndustrialValley.Factory.FactoryGenerator.PlotDirection.Left
+  - IndustrialValley.Factory.FactoryGenerator.PlotDirection.Right
+  langs:
+  - csharp
+  - vb
+  name: FactoryGenerator.PlotDirection
+  nameWithType: FactoryGenerator.PlotDirection
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  type: Enum
+  source:
+    id: PlotDirection
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public enum FactoryGenerator.PlotDirection
+    content.vb: Public Enum FactoryGenerator.PlotDirection
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Left
+  commentId: F:IndustrialValley.Factory.FactoryGenerator.PlotDirection.Left
+  id: Left
+  parent: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: FactoryGenerator.PlotDirection.Left
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Left
+  type: Field
+  source:
+    id: Left
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: Left = 0
+    return:
+      type: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Right
+  commentId: F:IndustrialValley.Factory.FactoryGenerator.PlotDirection.Right
+  id: Right
+  parent: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: FactoryGenerator.PlotDirection.Right
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Right
+  type: Field
+  source:
+    id: Right
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: Right = 1
+    return:
+      type: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Forward
+  commentId: F:IndustrialValley.Factory.FactoryGenerator.PlotDirection.Forward
+  id: Forward
+  parent: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: FactoryGenerator.PlotDirection.Forward
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Forward
+  type: Field
+  source:
+    id: Forward
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: Forward = 2
+    return:
+      type: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Back
+  commentId: F:IndustrialValley.Factory.FactoryGenerator.PlotDirection.Back
+  id: Back
+  parent: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: FactoryGenerator.PlotDirection.Back
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection.Back
+  type: Field
+  source:
+    id: Back
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: Back = 3
+    return:
+      type: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+references:
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  href: IndustrialValley.html
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  commentId: T:IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.FactoryGenerator.html
+  name: FactoryGenerator.PlotDirection
+  nameWithType: FactoryGenerator.PlotDirection
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  spec.csharp:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: PlotDirection
+    href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: PlotDirection
+    href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html

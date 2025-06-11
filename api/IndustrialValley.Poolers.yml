@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Poolers
+  commentId: N:IndustrialValley.Poolers
+  id: IndustrialValley.Poolers
+  children:
+  - IndustrialValley.Poolers.ObjectPooler
+  - IndustrialValley.Poolers.ParticleObject
+  - IndustrialValley.Poolers.PoolingItem
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Poolers
+  nameWithType: IndustrialValley.Poolers
+  fullName: IndustrialValley.Poolers
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Poolers.ParticleObject
+  commentId: T:IndustrialValley.Poolers.ParticleObject
+  parent: IndustrialValley.Poolers
+  href: IndustrialValley.Poolers.ParticleObject.html
+  name: ParticleObject
+  nameWithType: ParticleObject
+  fullName: IndustrialValley.Poolers.ParticleObject
+- uid: IndustrialValley.Poolers.PoolingItem
+  commentId: T:IndustrialValley.Poolers.PoolingItem
+  href: IndustrialValley.Poolers.PoolingItem.html
+  name: PoolingItem
+  nameWithType: PoolingItem
+  fullName: IndustrialValley.Poolers.PoolingItem
+- uid: IndustrialValley.Poolers.ObjectPooler
+  commentId: T:IndustrialValley.Poolers.ObjectPooler
+  parent: IndustrialValley.Poolers
+  href: IndustrialValley.Poolers.ObjectPooler.html
+  name: ObjectPooler
+  nameWithType: ObjectPooler
+  fullName: IndustrialValley.Poolers.ObjectPooler
+- uid: IndustrialValley.Poolers
+  commentId: N:IndustrialValley.Poolers
+  href: IndustrialValley.html
+  name: IndustrialValley.Poolers
+  nameWithType: IndustrialValley.Poolers
+  fullName: IndustrialValley.Poolers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Poolers
+    name: Poolers
+    href: IndustrialValley.Poolers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Poolers
+    name: Poolers
+    href: IndustrialValley.Poolers.html

@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Game.Tiers.FactoryTier
+  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
+  id: Tiers.FactoryTier
+  parent: IndustrialValley.Game
+  children:
+  - IndustrialValley.Game.Tiers.FactoryTier.Tier1
+  - IndustrialValley.Game.Tiers.FactoryTier.Tier2
+  - IndustrialValley.Game.Tiers.FactoryTier.Tier3
+  - IndustrialValley.Game.Tiers.FactoryTier.Tier4
+  - IndustrialValley.Game.Tiers.FactoryTier.Tier5
+  langs:
+  - csharp
+  - vb
+  name: Tiers.FactoryTier
+  nameWithType: Tiers.FactoryTier
+  fullName: IndustrialValley.Game.Tiers.FactoryTier
+  type: Enum
+  source:
+    id: FactoryTier
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public enum Tiers.FactoryTier
+    content.vb: Public Enum Tiers.FactoryTier
+  extensionMethods:
+  - IndustrialValley.Game.Tiers.FactoryTier.IndustrialValley.Game.Tiers.DisplayName
+- uid: IndustrialValley.Game.Tiers.FactoryTier.Tier1
+  commentId: F:IndustrialValley.Game.Tiers.FactoryTier.Tier1
+  id: Tier1
+  parent: IndustrialValley.Game.Tiers.FactoryTier
+  langs:
+  - csharp
+  - vb
+  name: Tier1
+  nameWithType: Tiers.FactoryTier.Tier1
+  fullName: IndustrialValley.Game.Tiers.FactoryTier.Tier1
+  type: Field
+  source:
+    id: Tier1
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: Tier1 = 0
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+- uid: IndustrialValley.Game.Tiers.FactoryTier.Tier2
+  commentId: F:IndustrialValley.Game.Tiers.FactoryTier.Tier2
+  id: Tier2
+  parent: IndustrialValley.Game.Tiers.FactoryTier
+  langs:
+  - csharp
+  - vb
+  name: Tier2
+  nameWithType: Tiers.FactoryTier.Tier2
+  fullName: IndustrialValley.Game.Tiers.FactoryTier.Tier2
+  type: Field
+  source:
+    id: Tier2
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: Tier2 = 1
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+- uid: IndustrialValley.Game.Tiers.FactoryTier.Tier3
+  commentId: F:IndustrialValley.Game.Tiers.FactoryTier.Tier3
+  id: Tier3
+  parent: IndustrialValley.Game.Tiers.FactoryTier
+  langs:
+  - csharp
+  - vb
+  name: Tier3
+  nameWithType: Tiers.FactoryTier.Tier3
+  fullName: IndustrialValley.Game.Tiers.FactoryTier.Tier3
+  type: Field
+  source:
+    id: Tier3
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: Tier3 = 2
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+- uid: IndustrialValley.Game.Tiers.FactoryTier.Tier4
+  commentId: F:IndustrialValley.Game.Tiers.FactoryTier.Tier4
+  id: Tier4
+  parent: IndustrialValley.Game.Tiers.FactoryTier
+  langs:
+  - csharp
+  - vb
+  name: Tier4
+  nameWithType: Tiers.FactoryTier.Tier4
+  fullName: IndustrialValley.Game.Tiers.FactoryTier.Tier4
+  type: Field
+  source:
+    id: Tier4
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: Tier4 = 3
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+- uid: IndustrialValley.Game.Tiers.FactoryTier.Tier5
+  commentId: F:IndustrialValley.Game.Tiers.FactoryTier.Tier5
+  id: Tier5
+  parent: IndustrialValley.Game.Tiers.FactoryTier
+  langs:
+  - csharp
+  - vb
+  name: Tier5
+  nameWithType: Tiers.FactoryTier.Tier5
+  fullName: IndustrialValley.Game.Tiers.FactoryTier.Tier5
+  type: Field
+  source:
+    id: Tier5
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: Tier5 = 4
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+references:
+- uid: IndustrialValley.Game
+  commentId: N:IndustrialValley.Game
+  href: IndustrialValley.html
+  name: IndustrialValley.Game
+  nameWithType: IndustrialValley.Game
+  fullName: IndustrialValley.Game
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+- uid: IndustrialValley.Game.Tiers.FactoryTier.IndustrialValley.Game.Tiers.DisplayName
+  commentId: M:IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  parent: IndustrialValley.Game.Tiers
+  definition: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  name: DisplayName(FactoryTier)
+  nameWithType: Tiers.DisplayName(Tiers.FactoryTier)
+  fullName: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  spec.csharp:
+  - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+    name: DisplayName
+    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  - name: (
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+    name: DisplayName
+    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  - name: (
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  - name: )
+- uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  commentId: M:IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  name: DisplayName(FactoryTier)
+  nameWithType: Tiers.DisplayName(Tiers.FactoryTier)
+  fullName: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+  spec.csharp:
+  - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+    name: DisplayName
+    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  - name: (
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
+    name: DisplayName
+    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  - name: (
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  - name: )
+- uid: IndustrialValley.Game.Tiers
+  commentId: T:IndustrialValley.Game.Tiers
+  parent: IndustrialValley.Game
+  href: IndustrialValley.Game.Tiers.html
+  name: Tiers
+  nameWithType: Tiers
+  fullName: IndustrialValley.Game.Tiers
+- uid: IndustrialValley.Game.Tiers.FactoryTier
+  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
+  parent: IndustrialValley.Game
+  href: IndustrialValley.Game.Tiers.html
+  name: Tiers.FactoryTier
+  nameWithType: Tiers.FactoryTier
+  fullName: IndustrialValley.Game.Tiers.FactoryTier
+  spec.csharp:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  spec.vb:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html

@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Factory.PlotData
+  commentId: T:IndustrialValley.Factory.PlotData
+  id: PlotData
+  parent: IndustrialValley.Factory
+  children:
+  - IndustrialValley.Factory.PlotData.Details
+  - IndustrialValley.Factory.PlotData.Ores
+  langs:
+  - csharp
+  - vb
+  name: PlotData
+  nameWithType: PlotData
+  fullName: IndustrialValley.Factory.PlotData
+  type: Class
+  source:
+    id: PlotData
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "PlotData", menuName = "IndustrialValley/Factory/PlotData", order = 1)]
+
+      public class PlotData : ScriptableObject
+    content.vb: >-
+      <CreateAssetMenu(fileName:="PlotData", menuName:="IndustrialValley/Factory/PlotData", order:=1)>
+
+      Public Class PlotData Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: PlotData
+    - name: menuName
+      type: System.String
+      value: IndustrialValley/Factory/PlotData
+    - name: order
+      type: System.Int32
+      value: 1
+- uid: IndustrialValley.Factory.PlotData.Details
+  commentId: F:IndustrialValley.Factory.PlotData.Details
+  id: Details
+  parent: IndustrialValley.Factory.PlotData
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: PlotData.Details
+  fullName: IndustrialValley.Factory.PlotData.Details
+  type: Field
+  source:
+    id: Details
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public PlotData.DetailsData Details
+    return:
+      type: IndustrialValley.Factory.PlotData.DetailsData
+    content.vb: Public Details As PlotData.DetailsData
+- uid: IndustrialValley.Factory.PlotData.Ores
+  commentId: F:IndustrialValley.Factory.PlotData.Ores
+  id: Ores
+  parent: IndustrialValley.Factory.PlotData
+  langs:
+  - csharp
+  - vb
+  name: Ores
+  nameWithType: PlotData.Ores
+  fullName: IndustrialValley.Factory.PlotData.Ores
+  type: Field
+  source:
+    id: Ores
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public PlotData.OreData Ores
+    return:
+      type: IndustrialValley.Factory.PlotData.OreData
+    content.vb: Public Ores As PlotData.OreData
+references:
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  href: IndustrialValley.html
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Factory.PlotData.DetailsData
+  commentId: T:IndustrialValley.Factory.PlotData.DetailsData
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData.DetailsData
+  nameWithType: PlotData.DetailsData
+  fullName: IndustrialValley.Factory.PlotData.DetailsData
+  spec.csharp:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: DetailsData
+    href: IndustrialValley.Factory.PlotData.DetailsData.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: DetailsData
+    href: IndustrialValley.Factory.PlotData.DetailsData.html
+- uid: IndustrialValley.Factory.PlotData.OreData
+  commentId: T:IndustrialValley.Factory.PlotData.OreData
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData.OreData
+  nameWithType: PlotData.OreData
+  fullName: IndustrialValley.Factory.PlotData.OreData
+  spec.csharp:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: OreData
+    href: IndustrialValley.Factory.PlotData.OreData.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: OreData
+    href: IndustrialValley.Factory.PlotData.OreData.html

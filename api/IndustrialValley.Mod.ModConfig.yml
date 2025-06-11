@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Mod.ModConfig
+  commentId: T:IndustrialValley.Mod.ModConfig
+  id: ModConfig
+  parent: IndustrialValley.Mod
+  children:
+  - IndustrialValley.Mod.ModConfig.Author
+  - IndustrialValley.Mod.ModConfig.Description
+  - IndustrialValley.Mod.ModConfig.Name
+  - IndustrialValley.Mod.ModConfig.Version
+  langs:
+  - csharp
+  - vb
+  name: ModConfig
+  nameWithType: ModConfig
+  fullName: IndustrialValley.Mod.ModConfig
+  type: Class
+  source:
+    id: ModConfig
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModConfig.cs
+    startLine: 2
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public class ModConfig
+    content.vb: Public Class ModConfig
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Mod.ModConfig.Name
+  commentId: F:IndustrialValley.Mod.ModConfig.Name
+  id: Name
+  parent: IndustrialValley.Mod.ModConfig
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ModConfig.Name
+  fullName: IndustrialValley.Mod.ModConfig.Name
+  type: Field
+  source:
+    id: Name
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModConfig.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: IndustrialValley.Mod.ModConfig.Description
+  commentId: F:IndustrialValley.Mod.ModConfig.Description
+  id: Description
+  parent: IndustrialValley.Mod.ModConfig
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ModConfig.Description
+  fullName: IndustrialValley.Mod.ModConfig.Description
+  type: Field
+  source:
+    id: Description
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModConfig.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+- uid: IndustrialValley.Mod.ModConfig.Version
+  commentId: F:IndustrialValley.Mod.ModConfig.Version
+  id: Version
+  parent: IndustrialValley.Mod.ModConfig
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: ModConfig.Version
+  fullName: IndustrialValley.Mod.ModConfig.Version
+  type: Field
+  source:
+    id: Version
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModConfig.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public string Version
+    return:
+      type: System.String
+    content.vb: Public Version As String
+- uid: IndustrialValley.Mod.ModConfig.Author
+  commentId: F:IndustrialValley.Mod.ModConfig.Author
+  id: Author
+  parent: IndustrialValley.Mod.ModConfig
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: ModConfig.Author
+  fullName: IndustrialValley.Mod.ModConfig.Author
+  type: Field
+  source:
+    id: Author
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModConfig.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public string Author
+    return:
+      type: System.String
+    content.vb: Public Author As String
+references:
+- uid: IndustrialValley.Mod
+  commentId: N:IndustrialValley.Mod
+  href: IndustrialValley.html
+  name: IndustrialValley.Mod
+  nameWithType: IndustrialValley.Mod
+  fullName: IndustrialValley.Mod
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

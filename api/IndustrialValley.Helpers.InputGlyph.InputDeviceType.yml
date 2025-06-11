@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  commentId: T:IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  id: InputGlyph.InputDeviceType
+  parent: IndustrialValley.Helpers
+  children:
+  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
+  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
+  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
+  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
+  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
+  langs:
+  - csharp
+  - vb
+  name: InputGlyph.InputDeviceType
+  nameWithType: InputGlyph.InputDeviceType
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  type: Enum
+  source:
+    id: InputDeviceType
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public enum InputGlyph.InputDeviceType
+    content.vb: Public Enum InputGlyph.InputDeviceType
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
+  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
+  id: Keyboard
+  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  langs:
+  - csharp
+  - vb
+  name: Keyboard
+  nameWithType: InputGlyph.InputDeviceType.Keyboard
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
+  type: Field
+  source:
+    id: Keyboard
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: Keyboard = 0
+    return:
+      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
+  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
+  id: Mouse
+  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  langs:
+  - csharp
+  - vb
+  name: Mouse
+  nameWithType: InputGlyph.InputDeviceType.Mouse
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
+  type: Field
+  source:
+    id: Mouse
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: Mouse = 1
+    return:
+      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
+  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
+  id: Xbox
+  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  langs:
+  - csharp
+  - vb
+  name: Xbox
+  nameWithType: InputGlyph.InputDeviceType.Xbox
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
+  type: Field
+  source:
+    id: Xbox
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: Xbox = 2
+    return:
+      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
+  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
+  id: Playstation
+  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  langs:
+  - csharp
+  - vb
+  name: Playstation
+  nameWithType: InputGlyph.InputDeviceType.Playstation
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
+  type: Field
+  source:
+    id: Playstation
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: Playstation = 3
+    return:
+      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
+  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
+  id: SteamDeck
+  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  langs:
+  - csharp
+  - vb
+  name: SteamDeck
+  nameWithType: InputGlyph.InputDeviceType.SteamDeck
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
+  type: Field
+  source:
+    id: SteamDeck
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 15
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: SteamDeck = 4
+    return:
+      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+references:
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  commentId: T:IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  parent: IndustrialValley.Helpers
+  href: IndustrialValley.Helpers.InputGlyph.html
+  name: InputGlyph.InputDeviceType
+  nameWithType: InputGlyph.InputDeviceType
+  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.InputGlyph
+    name: InputGlyph
+    href: IndustrialValley.Helpers.InputGlyph.html
+  - name: .
+  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+    name: InputDeviceType
+    href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html
+  spec.vb:
+  - uid: IndustrialValley.Helpers.InputGlyph
+    name: InputGlyph
+    href: IndustrialValley.Helpers.InputGlyph.html
+  - name: .
+  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+    name: InputDeviceType
+    href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html

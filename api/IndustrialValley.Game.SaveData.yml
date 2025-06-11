@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Game.SaveData
+  commentId: T:IndustrialValley.Game.SaveData
+  id: SaveData
+  parent: IndustrialValley.Game
+  children:
+  - IndustrialValley.Game.SaveData.Balance
+  - IndustrialValley.Game.SaveData.CurrentTier
+  - IndustrialValley.Game.SaveData.FactoryFloorColor
+  - IndustrialValley.Game.SaveData.FactoryName
+  - IndustrialValley.Game.SaveData.FactoryWallColor
+  - IndustrialValley.Game.SaveData.PlayTime
+  - IndustrialValley.Game.SaveData.SaveTime
+  langs:
+  - csharp
+  - vb
+  name: SaveData
+  nameWithType: SaveData
+  fullName: IndustrialValley.Game.SaveData
+  type: Class
+  source:
+    id: SaveData
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 93
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public class SaveData
+    content.vb: Public Class SaveData
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Game.SaveData.FactoryName
+  commentId: P:IndustrialValley.Game.SaveData.FactoryName
+  id: FactoryName
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FactoryName
+  nameWithType: SaveData.FactoryName
+  fullName: IndustrialValley.Game.SaveData.FactoryName
+  type: Property
+  source:
+    id: FactoryName
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 96
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string FactoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FactoryName As String
+  overload: IndustrialValley.Game.SaveData.FactoryName*
+- uid: IndustrialValley.Game.SaveData.FactoryWallColor
+  commentId: P:IndustrialValley.Game.SaveData.FactoryWallColor
+  id: FactoryWallColor
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FactoryWallColor
+  nameWithType: SaveData.FactoryWallColor
+  fullName: IndustrialValley.Game.SaveData.FactoryWallColor
+  type: Property
+  source:
+    id: FactoryWallColor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 97
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public Color FactoryWallColor { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Property FactoryWallColor As Color
+  overload: IndustrialValley.Game.SaveData.FactoryWallColor*
+- uid: IndustrialValley.Game.SaveData.FactoryFloorColor
+  commentId: P:IndustrialValley.Game.SaveData.FactoryFloorColor
+  id: FactoryFloorColor
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FactoryFloorColor
+  nameWithType: SaveData.FactoryFloorColor
+  fullName: IndustrialValley.Game.SaveData.FactoryFloorColor
+  type: Property
+  source:
+    id: FactoryFloorColor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 98
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public Color FactoryFloorColor { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Property FactoryFloorColor As Color
+  overload: IndustrialValley.Game.SaveData.FactoryFloorColor*
+- uid: IndustrialValley.Game.SaveData.Balance
+  commentId: P:IndustrialValley.Game.SaveData.Balance
+  id: Balance
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: SaveData.Balance
+  fullName: IndustrialValley.Game.SaveData.Balance
+  type: Property
+  source:
+    id: Balance
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 99
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public long Balance { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Balance As Long
+  overload: IndustrialValley.Game.SaveData.Balance*
+- uid: IndustrialValley.Game.SaveData.CurrentTier
+  commentId: P:IndustrialValley.Game.SaveData.CurrentTier
+  id: CurrentTier
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: CurrentTier
+  nameWithType: SaveData.CurrentTier
+  fullName: IndustrialValley.Game.SaveData.CurrentTier
+  type: Property
+  source:
+    id: CurrentTier
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 100
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public Tiers.FactoryTier CurrentTier { get; set; }
+    parameters: []
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+    content.vb: Public Property CurrentTier As Tiers.FactoryTier
+  overload: IndustrialValley.Game.SaveData.CurrentTier*
+- uid: IndustrialValley.Game.SaveData.SaveTime
+  commentId: P:IndustrialValley.Game.SaveData.SaveTime
+  id: SaveTime
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: SaveTime
+  nameWithType: SaveData.SaveTime
+  fullName: IndustrialValley.Game.SaveData.SaveTime
+  type: Property
+  source:
+    id: SaveTime
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 101
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public DateTime SaveTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SaveTime As Date
+  overload: IndustrialValley.Game.SaveData.SaveTime*
+- uid: IndustrialValley.Game.SaveData.PlayTime
+  commentId: P:IndustrialValley.Game.SaveData.PlayTime
+  id: PlayTime
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: PlayTime
+  nameWithType: SaveData.PlayTime
+  fullName: IndustrialValley.Game.SaveData.PlayTime
+  type: Property
+  source:
+    id: PlayTime
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 102
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public TimeSpan PlayTime { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property PlayTime As TimeSpan
+  overload: IndustrialValley.Game.SaveData.PlayTime*
+references:
+- uid: IndustrialValley.Game
+  commentId: N:IndustrialValley.Game
+  href: IndustrialValley.html
+  name: IndustrialValley.Game
+  nameWithType: IndustrialValley.Game
+  fullName: IndustrialValley.Game
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Game.SaveData.FactoryName*
+  commentId: Overload:IndustrialValley.Game.SaveData.FactoryName
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryName
+  name: FactoryName
+  nameWithType: SaveData.FactoryName
+  fullName: IndustrialValley.Game.SaveData.FactoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Game.SaveData.FactoryWallColor*
+  commentId: Overload:IndustrialValley.Game.SaveData.FactoryWallColor
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryWallColor
+  name: FactoryWallColor
+  nameWithType: SaveData.FactoryWallColor
+  fullName: IndustrialValley.Game.SaveData.FactoryWallColor
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Game.SaveData.FactoryFloorColor*
+  commentId: Overload:IndustrialValley.Game.SaveData.FactoryFloorColor
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryFloorColor
+  name: FactoryFloorColor
+  nameWithType: SaveData.FactoryFloorColor
+  fullName: IndustrialValley.Game.SaveData.FactoryFloorColor
+- uid: IndustrialValley.Game.SaveData.Balance*
+  commentId: Overload:IndustrialValley.Game.SaveData.Balance
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_Balance
+  name: Balance
+  nameWithType: SaveData.Balance
+  fullName: IndustrialValley.Game.SaveData.Balance
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: IndustrialValley.Game.SaveData.CurrentTier*
+  commentId: Overload:IndustrialValley.Game.SaveData.CurrentTier
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_CurrentTier
+  name: CurrentTier
+  nameWithType: SaveData.CurrentTier
+  fullName: IndustrialValley.Game.SaveData.CurrentTier
+- uid: IndustrialValley.Game.Tiers.FactoryTier
+  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
+  parent: IndustrialValley.Game
+  href: IndustrialValley.Game.Tiers.html
+  name: Tiers.FactoryTier
+  nameWithType: Tiers.FactoryTier
+  fullName: IndustrialValley.Game.Tiers.FactoryTier
+  spec.csharp:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  spec.vb:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+- uid: IndustrialValley.Game.SaveData.SaveTime*
+  commentId: Overload:IndustrialValley.Game.SaveData.SaveTime
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_SaveTime
+  name: SaveTime
+  nameWithType: SaveData.SaveTime
+  fullName: IndustrialValley.Game.SaveData.SaveTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: IndustrialValley.Game.SaveData.PlayTime*
+  commentId: Overload:IndustrialValley.Game.SaveData.PlayTime
+  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_PlayTime
+  name: PlayTime
+  nameWithType: SaveData.PlayTime
+  fullName: IndustrialValley.Game.SaveData.PlayTime
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

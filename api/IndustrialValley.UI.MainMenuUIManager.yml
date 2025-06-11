@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.UI.MainMenuUIManager
+  commentId: T:IndustrialValley.UI.MainMenuUIManager
+  id: MainMenuUIManager
+  parent: IndustrialValley.UI
+  children:
+  - IndustrialValley.UI.MainMenuUIManager.uiDocument
+  langs:
+  - csharp
+  - vb
+  name: MainMenuUIManager
+  nameWithType: MainMenuUIManager
+  fullName: IndustrialValley.UI.MainMenuUIManager
+  type: Class
+  source:
+    id: MainMenuUIManager
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\MainMenuUIManager.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: 'public class MainMenuUIManager : MonoBehaviour'
+    content.vb: Public Class MainMenuUIManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: IndustrialValley.UI.MainMenuUIManager.uiDocument
+  commentId: F:IndustrialValley.UI.MainMenuUIManager.uiDocument
+  id: uiDocument
+  parent: IndustrialValley.UI.MainMenuUIManager
+  langs:
+  - csharp
+  - vb
+  name: uiDocument
+  nameWithType: MainMenuUIManager.uiDocument
+  fullName: IndustrialValley.UI.MainMenuUIManager.uiDocument
+  type: Field
+  source:
+    id: uiDocument
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\MainMenuUIManager.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public UIDocument uiDocument
+    return:
+      type: UnityEngine.UIElements.UIDocument
+    content.vb: Public uiDocument As UIDocument
+references:
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  href: IndustrialValley.html
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UIElements.UIDocument
+  commentId: T:UnityEngine.UIElements.UIDocument
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UIDocument
+  nameWithType: UIDocument
+  fullName: UnityEngine.UIElements.UIDocument
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true

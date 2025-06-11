@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Mod.ModData
+  commentId: T:IndustrialValley.Mod.ModData
+  id: ModData
+  parent: IndustrialValley.Mod
+  children:
+  - IndustrialValley.Mod.ModData.Directory
+  - IndustrialValley.Mod.ModData.GetBundle(System.String,System.String)
+  - IndustrialValley.Mod.ModData.IsLocal
+  - IndustrialValley.Mod.ModData.IsValid
+  - IndustrialValley.Mod.ModData.Mod
+  langs:
+  - csharp
+  - vb
+  name: ModData
+  nameWithType: ModData
+  fullName: IndustrialValley.Mod.ModData
+  type: Class
+  source:
+    id: ModData
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public class ModData
+    content.vb: Public Class ModData
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Mod.ModData.Directory
+  commentId: F:IndustrialValley.Mod.ModData.Directory
+  id: Directory
+  parent: IndustrialValley.Mod.ModData
+  langs:
+  - csharp
+  - vb
+  name: Directory
+  nameWithType: ModData.Directory
+  fullName: IndustrialValley.Mod.ModData.Directory
+  type: Field
+  source:
+    id: Directory
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public string Directory
+    return:
+      type: System.String
+    content.vb: Public Directory As String
+- uid: IndustrialValley.Mod.ModData.IsValid
+  commentId: F:IndustrialValley.Mod.ModData.IsValid
+  id: IsValid
+  parent: IndustrialValley.Mod.ModData
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: ModData.IsValid
+  fullName: IndustrialValley.Mod.ModData.IsValid
+  type: Field
+  source:
+    id: IsValid
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public bool IsValid
+    return:
+      type: System.Boolean
+    content.vb: Public IsValid As Boolean
+- uid: IndustrialValley.Mod.ModData.IsLocal
+  commentId: F:IndustrialValley.Mod.ModData.IsLocal
+  id: IsLocal
+  parent: IndustrialValley.Mod.ModData
+  langs:
+  - csharp
+  - vb
+  name: IsLocal
+  nameWithType: ModData.IsLocal
+  fullName: IndustrialValley.Mod.ModData.IsLocal
+  type: Field
+  source:
+    id: IsLocal
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public bool IsLocal
+    return:
+      type: System.Boolean
+    content.vb: Public IsLocal As Boolean
+- uid: IndustrialValley.Mod.ModData.Mod
+  commentId: F:IndustrialValley.Mod.ModData.Mod
+  id: Mod
+  parent: IndustrialValley.Mod.ModData
+  langs:
+  - csharp
+  - vb
+  name: Mod
+  nameWithType: ModData.Mod
+  fullName: IndustrialValley.Mod.ModData.Mod
+  type: Field
+  source:
+    id: Mod
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public Mod Mod
+    return:
+      type: IndustrialValley.Mod.Mod
+    content.vb: Public [Mod] As [Mod]
+- uid: IndustrialValley.Mod.ModData.GetBundle(System.String,System.String)
+  commentId: M:IndustrialValley.Mod.ModData.GetBundle(System.String,System.String)
+  id: GetBundle(System.String,System.String)
+  parent: IndustrialValley.Mod.ModData
+  langs:
+  - csharp
+  - vb
+  name: GetBundle(string, string)
+  nameWithType: ModData.GetBundle(string, string)
+  fullName: IndustrialValley.Mod.ModData.GetBundle(string, string)
+  type: Method
+  source:
+    id: GetBundle
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ModData.cs
+    startLine: 25
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public static AssetBundle GetBundle(string modName, string path)
+    parameters:
+    - id: modName
+      type: System.String
+    - id: path
+      type: System.String
+    return:
+      type: UnityEngine.AssetBundle
+    content.vb: Public Shared Function GetBundle(modName As String, path As String) As AssetBundle
+  overload: IndustrialValley.Mod.ModData.GetBundle*
+  nameWithType.vb: ModData.GetBundle(String, String)
+  fullName.vb: IndustrialValley.Mod.ModData.GetBundle(String, String)
+  name.vb: GetBundle(String, String)
+references:
+- uid: IndustrialValley.Mod
+  commentId: N:IndustrialValley.Mod
+  href: IndustrialValley.html
+  name: IndustrialValley.Mod
+  nameWithType: IndustrialValley.Mod
+  fullName: IndustrialValley.Mod
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.Mod.Mod
+  commentId: T:IndustrialValley.Mod.Mod
+  parent: IndustrialValley.Mod
+  href: IndustrialValley.Mod.Mod.html
+  name: Mod
+  nameWithType: Mod
+  fullName: IndustrialValley.Mod.Mod
+- uid: IndustrialValley.Mod.ModData.GetBundle*
+  commentId: Overload:IndustrialValley.Mod.ModData.GetBundle
+  href: IndustrialValley.Mod.ModData.html#IndustrialValley_Mod_ModData_GetBundle_System_String_System_String_
+  name: GetBundle
+  nameWithType: ModData.GetBundle
+  fullName: IndustrialValley.Mod.ModData.GetBundle
+- uid: UnityEngine.AssetBundle
+  commentId: T:UnityEngine.AssetBundle
+  parent: UnityEngine
+  isExternal: true
+  name: AssetBundle
+  nameWithType: AssetBundle
+  fullName: UnityEngine.AssetBundle
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

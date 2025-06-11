@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.SDK
+  commentId: N:IndustrialValley.SDK
+  id: IndustrialValley.SDK
+  children:
+  - IndustrialValley.SDK.ItemData
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.SDK
+  nameWithType: IndustrialValley.SDK
+  fullName: IndustrialValley.SDK
+  type: Namespace
+  assemblies:
+  - IndustrialValley.SDK
+references:
+- uid: IndustrialValley.SDK.ItemData
+  commentId: T:IndustrialValley.SDK.ItemData
+  href: IndustrialValley.SDK.ItemData.html
+  name: ItemData
+  nameWithType: ItemData
+  fullName: IndustrialValley.SDK.ItemData

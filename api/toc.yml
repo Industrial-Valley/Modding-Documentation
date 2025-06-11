@@ -1,0 +1,206 @@
+### YamlMime:TableOfContent
+items:
+- uid: IndustrialValley
+  name: IndustrialValley
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Input
+    name: Input
+    type: Class
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    type: Class
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: InputManager.DeviceType
+    type: Enum
+- uid: IndustrialValley.Factory
+  name: IndustrialValley.Factory
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    type: Class
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: FactoryGenerator.PlotDirection
+    type: Enum
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
+    name: FactoryGenerator.PlotItem
+    type: Class
+  - uid: IndustrialValley.Factory.FactoryPlot
+    name: FactoryPlot
+    type: Class
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    type: Class
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: PlotData.DetailsData
+    type: Class
+  - uid: IndustrialValley.Factory.PlotData.Ore
+    name: PlotData.Ore
+    type: Class
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: PlotData.OreData
+    type: Class
+- uid: IndustrialValley.FactoryMovement
+  name: IndustrialValley.FactoryMovement
+  type: Namespace
+  items:
+  - uid: IndustrialValley.FactoryMovement.BaseMovement
+    name: BaseMovement
+    type: Class
+  - uid: IndustrialValley.FactoryMovement.ConveyorItem
+    name: ConveyorItem
+    type: Class
+  - uid: IndustrialValley.FactoryMovement.IConveyor
+    name: IConveyor
+    type: Interface
+  - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor
+    name: SmartSplitterConveyor
+    type: Class
+- uid: IndustrialValley.Game
+  name: IndustrialValley.Game
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Game.BuildableTypes
+    name: BuildableTypes
+    type: Class
+  - uid: IndustrialValley.Game.Buildables
+    name: Buildables
+    type: Class
+  - uid: IndustrialValley.Game.Buildables.BuildableType
+    name: Buildables.BuildableType
+    type: Enum
+  - uid: IndustrialValley.Game.FactoryManager
+    name: FactoryManager
+    type: Class
+  - uid: IndustrialValley.Game.FactorySaveData
+    name: FactorySaveData
+    type: Class
+  - uid: IndustrialValley.Game.Game
+    name: Game
+    type: Class
+  - uid: IndustrialValley.Game.GameManager
+    name: GameManager
+    type: Class
+  - uid: IndustrialValley.Game.Ore
+    name: Ore
+    type: Class
+  - uid: IndustrialValley.Game.SaveData
+    name: SaveData
+    type: Class
+  - uid: IndustrialValley.Game.SaveSystem
+    name: SaveSystem
+    type: Class
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    type: Class
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: Tiers.FactoryTier
+    type: Enum
+  - uid: IndustrialValley.Game.Tiers.TierData
+    name: Tiers.TierData
+    type: Class
+- uid: IndustrialValley.Helpers
+  name: IndustrialValley.Helpers
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Helpers.Cursor
+    name: Cursor
+    type: Class
+  - uid: IndustrialValley.Helpers.Cursor.CursorType
+    name: Cursor.CursorType
+    type: Enum
+  - uid: IndustrialValley.Helpers.InputGlyph
+    name: InputGlyph
+    type: Class
+  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+    name: InputGlyph.InputDeviceType
+    type: Enum
+  - uid: IndustrialValley.Helpers.Mouse
+    name: Mouse
+    type: Class
+  - uid: IndustrialValley.Helpers.UI
+    name: UI
+    type: Class
+- uid: IndustrialValley.Machines
+  name: IndustrialValley.Machines
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Machines.BaseMachine
+    name: BaseMachine
+    type: Class
+  - uid: IndustrialValley.Machines.StorageMachine
+    name: StorageMachine
+    type: Class
+  - uid: IndustrialValley.Machines.StorageMachine.StoredItem
+    name: StorageMachine.StoredItem
+    type: Class
+- uid: IndustrialValley.Mod
+  name: IndustrialValley.Mod
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Mod.Mod
+    name: Mod
+    type: Class
+  - uid: IndustrialValley.Mod.ModData
+    name: ModData
+    type: Class
+- uid: IndustrialValley.Poolers
+  name: IndustrialValley.Poolers
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Poolers.ObjectPooler
+    name: ObjectPooler
+    type: Class
+  - uid: IndustrialValley.Poolers.ParticleObject
+    name: ParticleObject
+    type: Class
+  - uid: IndustrialValley.Poolers.PoolingItem
+    name: PoolingItem
+    type: Class
+- uid: IndustrialValley.SDK
+  name: IndustrialValley.SDK
+  type: Namespace
+  items:
+  - uid: IndustrialValley.SDK.ItemData
+    name: ItemData
+    type: Class
+- uid: IndustrialValley.UI
+  name: IndustrialValley.UI
+  type: Namespace
+  items:
+  - uid: IndustrialValley.UI.DraggableManipulator
+    name: DraggableManipulator
+    type: Class
+  - uid: IndustrialValley.UI.GameUIManager
+    name: GameUIManager
+    type: Class
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+    type: Class
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: GlyphLabel.UxmlSerializedData
+    type: Class
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    type: Class
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: InputGlyphData.GlyphEntry
+    type: Struct
+  - uid: IndustrialValley.UI.MainMenuUIManager
+    name: MainMenuUIManager
+    type: Class
+- uid: IndustrialValley.Utility
+  name: IndustrialValley.Utility
+  type: Namespace
+  items:
+  - uid: IndustrialValley.Utility.AudioManager
+    name: AudioManager
+    type: Class
+  - uid: IndustrialValley.Utility.BuildableData
+    name: BuildableData
+    type: Class
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton<T>
+    type: Class
+memberLayout: SamePage

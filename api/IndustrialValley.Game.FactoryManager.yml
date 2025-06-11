@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Game.FactoryManager
+  commentId: T:IndustrialValley.Game.FactoryManager
+  id: FactoryManager
+  parent: IndustrialValley.Game
+  children:
+  - IndustrialValley.Game.FactoryManager.Instance
+  - IndustrialValley.Game.FactoryManager.currentTier
+  - IndustrialValley.Game.FactoryManager.factoryName
+  - IndustrialValley.Game.FactoryManager.warningMessage
+  - IndustrialValley.Game.FactoryManager.warningVisibility
+  langs:
+  - csharp
+  - vb
+  name: FactoryManager
+  nameWithType: FactoryManager
+  fullName: IndustrialValley.Game.FactoryManager
+  type: Class
+  source:
+    id: FactoryManager
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: 'public class FactoryManager : MonoBehaviour'
+    content.vb: Public Class FactoryManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Game.FactoryManager.factoryName
+  commentId: F:IndustrialValley.Game.FactoryManager.factoryName
+  id: factoryName
+  parent: IndustrialValley.Game.FactoryManager
+  langs:
+  - csharp
+  - vb
+  name: factoryName
+  nameWithType: FactoryManager.factoryName
+  fullName: IndustrialValley.Game.FactoryManager.factoryName
+  type: Field
+  source:
+    id: factoryName
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string factoryName
+    return:
+      type: System.String
+    content.vb: Public factoryName As String
+- uid: IndustrialValley.Game.FactoryManager.warningMessage
+  commentId: F:IndustrialValley.Game.FactoryManager.warningMessage
+  id: warningMessage
+  parent: IndustrialValley.Game.FactoryManager
+  langs:
+  - csharp
+  - vb
+  name: warningMessage
+  nameWithType: FactoryManager.warningMessage
+  fullName: IndustrialValley.Game.FactoryManager.warningMessage
+  type: Field
+  source:
+    id: warningMessage
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string warningMessage
+    return:
+      type: System.String
+    content.vb: Public warningMessage As String
+- uid: IndustrialValley.Game.FactoryManager.currentTier
+  commentId: F:IndustrialValley.Game.FactoryManager.currentTier
+  id: currentTier
+  parent: IndustrialValley.Game.FactoryManager
+  langs:
+  - csharp
+  - vb
+  name: currentTier
+  nameWithType: FactoryManager.currentTier
+  fullName: IndustrialValley.Game.FactoryManager.currentTier
+  type: Field
+  source:
+    id: currentTier
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public Tiers.FactoryTier currentTier
+    return:
+      type: IndustrialValley.Game.Tiers.FactoryTier
+    content.vb: Public currentTier As Tiers.FactoryTier
+- uid: IndustrialValley.Game.FactoryManager.warningVisibility
+  commentId: P:IndustrialValley.Game.FactoryManager.warningVisibility
+  id: warningVisibility
+  parent: IndustrialValley.Game.FactoryManager
+  langs:
+  - csharp
+  - vb
+  name: warningVisibility
+  nameWithType: FactoryManager.warningVisibility
+  fullName: IndustrialValley.Game.FactoryManager.warningVisibility
+  type: Property
+  source:
+    id: warningVisibility
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public StyleFloat warningVisibility { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.StyleFloat
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property warningVisibility As StyleFloat
+  overload: IndustrialValley.Game.FactoryManager.warningVisibility*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.FactoryManager.Instance
+  commentId: P:IndustrialValley.Game.FactoryManager.Instance
+  id: Instance
+  parent: IndustrialValley.Game.FactoryManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: FactoryManager.Instance
+  fullName: IndustrialValley.Game.FactoryManager.Instance
+  type: Property
+  source:
+    id: Instance
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 16
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public static FactoryManager Instance { get; }
+    parameters: []
+    return:
+      type: IndustrialValley.Game.FactoryManager
+    content.vb: Public Shared Property Instance As FactoryManager
+  overload: IndustrialValley.Game.FactoryManager.Instance*
+references:
+- uid: IndustrialValley.Game
+  commentId: N:IndustrialValley.Game
+  href: IndustrialValley.html
+  name: IndustrialValley.Game
+  nameWithType: IndustrialValley.Game
+  fullName: IndustrialValley.Game
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Game.Tiers.FactoryTier
+  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
+  parent: IndustrialValley.Game
+  href: IndustrialValley.Game.Tiers.html
+  name: Tiers.FactoryTier
+  nameWithType: Tiers.FactoryTier
+  fullName: IndustrialValley.Game.Tiers.FactoryTier
+  spec.csharp:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+  spec.vb:
+  - uid: IndustrialValley.Game.Tiers
+    name: Tiers
+    href: IndustrialValley.Game.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Game.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Game.Tiers.FactoryTier.html
+- uid: IndustrialValley.Game.FactoryManager.warningVisibility*
+  commentId: Overload:IndustrialValley.Game.FactoryManager.warningVisibility
+  href: IndustrialValley.Game.FactoryManager.html#IndustrialValley_Game_FactoryManager_warningVisibility
+  name: warningVisibility
+  nameWithType: FactoryManager.warningVisibility
+  fullName: IndustrialValley.Game.FactoryManager.warningVisibility
+- uid: UnityEngine.UIElements.StyleFloat
+  commentId: T:UnityEngine.UIElements.StyleFloat
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: StyleFloat
+  nameWithType: StyleFloat
+  fullName: UnityEngine.UIElements.StyleFloat
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: IndustrialValley.Game.FactoryManager.Instance*
+  commentId: Overload:IndustrialValley.Game.FactoryManager.Instance
+  href: IndustrialValley.Game.FactoryManager.html#IndustrialValley_Game_FactoryManager_Instance
+  name: Instance
+  nameWithType: FactoryManager.Instance
+  fullName: IndustrialValley.Game.FactoryManager.Instance
+- uid: IndustrialValley.Game.FactoryManager
+  commentId: T:IndustrialValley.Game.FactoryManager
+  parent: IndustrialValley.Game
+  href: IndustrialValley.Game.FactoryManager.html
+  name: FactoryManager
+  nameWithType: FactoryManager
+  fullName: IndustrialValley.Game.FactoryManager

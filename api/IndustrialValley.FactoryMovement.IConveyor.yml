@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.FactoryMovement.IConveyor
+  commentId: T:IndustrialValley.FactoryMovement.IConveyor
+  id: IConveyor
+  parent: IndustrialValley.FactoryMovement
+  children:
+  - IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
+  - IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
+  - IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
+  - IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  langs:
+  - csharp
+  - vb
+  name: IConveyor
+  nameWithType: IConveyor
+  fullName: IndustrialValley.FactoryMovement.IConveyor
+  type: Interface
+  source:
+    id: IConveyor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: >-
+    Any “conveyor‐like” object (straight belt, curved belt, splitter, clicker, seller, etc.)
+
+    should implement this interface.  It must be able to:
+
+    1) Report whether it can currently accept a new ConveyorItem (CanAcceptItem).
+
+    2) Insert a ConveyorItem onto itself (InsertItem).
+
+    3) Expose one or more “input gizmo” positions (GetInputPositions).
+
+    4) Expose one or more “output gizmo” positions (GetOutputPositions).
+  example: []
+  syntax:
+    content: public interface IConveyor
+    content.vb: Public Interface IConveyor
+- uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
+  commentId: M:IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
+  id: CanAcceptItem
+  parent: IndustrialValley.FactoryMovement.IConveyor
+  langs:
+  - csharp
+  - vb
+  name: CanAcceptItem()
+  nameWithType: IConveyor.CanAcceptItem()
+  fullName: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem()
+  type: Method
+  source:
+    id: CanAcceptItem
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: Return true if this conveyor/machine has room to accept one more ConveyorItem.
+  example: []
+  syntax:
+    content: bool CanAcceptItem()
+    return:
+      type: System.Boolean
+    content.vb: Function CanAcceptItem() As Boolean
+  overload: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem*
+- uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  commentId: M:IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  id: InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  parent: IndustrialValley.FactoryMovement.IConveyor
+  langs:
+  - csharp
+  - vb
+  name: InsertItem(ConveyorItem)
+  nameWithType: IConveyor.InsertItem(ConveyorItem)
+  fullName: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  type: Method
+  source:
+    id: InsertItem
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: >-
+    Insert a new ConveyorItem onto this conveyor/machine.  The implementing class
+
+    should position the item’s visual at its “input” and begin moving/processing it.
+  example: []
+  syntax:
+    content: void InsertItem(ConveyorItem item)
+    parameters:
+    - id: item
+      type: IndustrialValley.FactoryMovement.ConveyorItem
+      description: The ConveyorItem (including its prefab) to place here.
+    content.vb: Sub InsertItem(item As ConveyorItem)
+  overload: IndustrialValley.FactoryMovement.IConveyor.InsertItem*
+- uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
+  commentId: M:IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
+  id: GetInputPositions
+  parent: IndustrialValley.FactoryMovement.IConveyor
+  langs:
+  - csharp
+  - vb
+  name: GetInputPositions()
+  nameWithType: IConveyor.GetInputPositions()
+  fullName: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions()
+  type: Method
+  source:
+    id: GetInputPositions
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 31
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: >-
+    Return all world‐space positions where upstream conveyors should align their
+
+    “output gizmos” (red spheres).  If any such upstream gizmo lies within the detection
+
+    radius of one of these positions, that upstream conveyor can push an item here.
+  example: []
+  syntax:
+    content: Vector3[] GetInputPositions()
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Function GetInputPositions() As Vector3()
+  overload: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions*
+- uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
+  commentId: M:IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
+  id: GetOutputPositions
+  parent: IndustrialValley.FactoryMovement.IConveyor
+  langs:
+  - csharp
+  - vb
+  name: GetOutputPositions()
+  nameWithType: IConveyor.GetOutputPositions()
+  fullName: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions()
+  type: Method
+  source:
+    id: GetOutputPositions
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 38
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: >-
+    Return all world‐space positions where downstream conveyors should align their
+
+    “input gizmos” (green spheres).  If any such downstream gizmo lies within the handoff
+
+    radius of one of these positions, this conveyor will push its front item there.
+  example: []
+  syntax:
+    content: Vector3[] GetOutputPositions()
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Function GetOutputPositions() As Vector3()
+  overload: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions*
+references:
+- uid: IndustrialValley.FactoryMovement
+  commentId: N:IndustrialValley.FactoryMovement
+  href: IndustrialValley.html
+  name: IndustrialValley.FactoryMovement
+  nameWithType: IndustrialValley.FactoryMovement
+  fullName: IndustrialValley.FactoryMovement
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.FactoryMovement
+    name: FactoryMovement
+    href: IndustrialValley.FactoryMovement.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.FactoryMovement
+    name: FactoryMovement
+    href: IndustrialValley.FactoryMovement.html
+- uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem*
+  commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
+  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
+  name: CanAcceptItem
+  nameWithType: IConveyor.CanAcceptItem
+  fullName: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem*
+  commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.InsertItem
+  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  name: InsertItem
+  nameWithType: IConveyor.InsertItem
+  fullName: IndustrialValley.FactoryMovement.IConveyor.InsertItem
+- uid: IndustrialValley.FactoryMovement.ConveyorItem
+  commentId: T:IndustrialValley.FactoryMovement.ConveyorItem
+  parent: IndustrialValley.FactoryMovement
+  href: IndustrialValley.FactoryMovement.ConveyorItem.html
+  name: ConveyorItem
+  nameWithType: ConveyorItem
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem
+- uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions*
+  commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
+  name: GetInputPositions
+  nameWithType: IConveyor.GetInputPositions
+  fullName: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: (
+  - name: )
+- uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions*
+  commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
+  name: GetOutputPositions
+  nameWithType: IConveyor.GetOutputPositions
+  fullName: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions

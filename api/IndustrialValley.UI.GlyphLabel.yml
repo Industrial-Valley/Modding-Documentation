@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.UI.GlyphLabel
+  commentId: T:IndustrialValley.UI.GlyphLabel
+  id: GlyphLabel
+  parent: IndustrialValley.UI
+  children:
+  - IndustrialValley.UI.GlyphLabel.#ctor
+  - IndustrialValley.UI.GlyphLabel.text
+  langs:
+  - csharp
+  - vb
+  name: GlyphLabel
+  nameWithType: GlyphLabel
+  fullName: IndustrialValley.UI.GlyphLabel
+  type: Class
+  source:
+    id: GlyphLabel
+    path: Unity.UIToolkit.SourceGenerator\Unity.UIToolkit.SourceGenerator.UxmlSerializedDataGenerator\IndustrialValley.UI.GlyphLabel.gen.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: >-
+      [UxmlElement]
+
+      public class GlyphLabel : VisualElement
+    content.vb: >-
+      <UxmlElement>
+
+      Public Class GlyphLabel Inherits VisualElement
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  extensionMethods:
+  - UnityEngine.UIElements.VisualElement.IndustrialValley.Helpers.UI.AddUISounds
+  attributes:
+  - type: UnityEngine.UIElements.UxmlElementAttribute
+    ctor: UnityEngine.UIElements.UxmlElementAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.UI.GlyphLabel.#ctor
+  commentId: M:IndustrialValley.UI.GlyphLabel.#ctor
+  id: '#ctor'
+  parent: IndustrialValley.UI.GlyphLabel
+  langs:
+  - csharp
+  - vb
+  name: GlyphLabel()
+  nameWithType: GlyphLabel.GlyphLabel()
+  fullName: IndustrialValley.UI.GlyphLabel.GlyphLabel()
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public GlyphLabel()
+    content.vb: Public Sub New()
+  overload: IndustrialValley.UI.GlyphLabel.#ctor*
+  nameWithType.vb: GlyphLabel.New()
+  fullName.vb: IndustrialValley.UI.GlyphLabel.New()
+  name.vb: New()
+- uid: IndustrialValley.UI.GlyphLabel.text
+  commentId: P:IndustrialValley.UI.GlyphLabel.text
+  id: text
+  parent: IndustrialValley.UI.GlyphLabel
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: GlyphLabel.text
+  fullName: IndustrialValley.UI.GlyphLabel.text
+  type: Property
+  source:
+    id: text
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 28
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: >-
+      [UxmlAttribute]
+
+      public string text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <UxmlAttribute>
+
+      Public Property text As String
+  overload: IndustrialValley.UI.GlyphLabel.text*
+  attributes:
+  - type: UnityEngine.UIElements.UxmlAttributeAttribute
+    ctor: UnityEngine.UIElements.UxmlAttributeAttribute.#ctor
+    arguments: []
+references:
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  href: IndustrialValley.html
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.VisualElement.IndustrialValley.Helpers.UI.AddUISounds
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  parent: IndustrialValley.Helpers.UI
+  definition: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  name: AddUISounds(VisualElement)
+  nameWithType: UI.AddUISounds(VisualElement)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+    name: AddUISounds
+    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+    name: AddUISounds
+    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  name: AddUISounds(VisualElement)
+  nameWithType: UI.AddUISounds(VisualElement)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+    name: AddUISounds
+    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+    name: AddUISounds
+    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: IndustrialValley.Helpers.UI
+  commentId: T:IndustrialValley.Helpers.UI
+  parent: IndustrialValley.Helpers
+  href: IndustrialValley.Helpers.UI.html
+  name: UI
+  nameWithType: UI
+  fullName: IndustrialValley.Helpers.UI
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: IndustrialValley.UI.GlyphLabel.#ctor*
+  commentId: Overload:IndustrialValley.UI.GlyphLabel.#ctor
+  href: IndustrialValley.UI.GlyphLabel.html#IndustrialValley_UI_GlyphLabel__ctor
+  name: GlyphLabel
+  nameWithType: GlyphLabel.GlyphLabel
+  fullName: IndustrialValley.UI.GlyphLabel.GlyphLabel
+  nameWithType.vb: GlyphLabel.New
+  fullName.vb: IndustrialValley.UI.GlyphLabel.New
+  name.vb: New
+- uid: IndustrialValley.UI.GlyphLabel.text*
+  commentId: Overload:IndustrialValley.UI.GlyphLabel.text
+  href: IndustrialValley.UI.GlyphLabel.html#IndustrialValley_UI_GlyphLabel_text
+  name: text
+  nameWithType: GlyphLabel.text
+  fullName: IndustrialValley.UI.GlyphLabel.text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

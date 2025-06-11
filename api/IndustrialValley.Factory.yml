@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  id: IndustrialValley.Factory
+  children:
+  - IndustrialValley.Factory.FactoryGenerator
+  - IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  - IndustrialValley.Factory.FactoryGenerator.PlotItem
+  - IndustrialValley.Factory.FactoryPlot
+  - IndustrialValley.Factory.PlotData
+  - IndustrialValley.Factory.PlotData.DetailsData
+  - IndustrialValley.Factory.PlotData.Ore
+  - IndustrialValley.Factory.PlotData.OreData
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Factory.FactoryGenerator
+  commentId: T:IndustrialValley.Factory.FactoryGenerator
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.FactoryGenerator.html
+  name: FactoryGenerator
+  nameWithType: FactoryGenerator
+  fullName: IndustrialValley.Factory.FactoryGenerator
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  commentId: T:IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.FactoryGenerator.html
+  name: FactoryGenerator.PlotDirection
+  nameWithType: FactoryGenerator.PlotDirection
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+  spec.csharp:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: PlotDirection
+    href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: PlotDirection
+    href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html
+- uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
+  commentId: T:IndustrialValley.Factory.FactoryGenerator.PlotItem
+  href: IndustrialValley.Factory.FactoryGenerator.html
+  name: FactoryGenerator.PlotItem
+  nameWithType: FactoryGenerator.PlotItem
+  fullName: IndustrialValley.Factory.FactoryGenerator.PlotItem
+  spec.csharp:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
+    name: PlotItem
+    href: IndustrialValley.Factory.FactoryGenerator.PlotItem.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+    href: IndustrialValley.Factory.FactoryGenerator.html
+  - name: .
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
+    name: PlotItem
+    href: IndustrialValley.Factory.FactoryGenerator.PlotItem.html
+- uid: IndustrialValley.Factory.FactoryPlot
+  commentId: T:IndustrialValley.Factory.FactoryPlot
+  href: IndustrialValley.Factory.FactoryPlot.html
+  name: FactoryPlot
+  nameWithType: FactoryPlot
+  fullName: IndustrialValley.Factory.FactoryPlot
+- uid: IndustrialValley.Factory.PlotData
+  commentId: T:IndustrialValley.Factory.PlotData
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData
+  nameWithType: PlotData
+  fullName: IndustrialValley.Factory.PlotData
+- uid: IndustrialValley.Factory.PlotData.DetailsData
+  commentId: T:IndustrialValley.Factory.PlotData.DetailsData
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData.DetailsData
+  nameWithType: PlotData.DetailsData
+  fullName: IndustrialValley.Factory.PlotData.DetailsData
+  spec.csharp:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: DetailsData
+    href: IndustrialValley.Factory.PlotData.DetailsData.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: DetailsData
+    href: IndustrialValley.Factory.PlotData.DetailsData.html
+- uid: IndustrialValley.Factory.PlotData.OreData
+  commentId: T:IndustrialValley.Factory.PlotData.OreData
+  parent: IndustrialValley.Factory
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData.OreData
+  nameWithType: PlotData.OreData
+  fullName: IndustrialValley.Factory.PlotData.OreData
+  spec.csharp:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: OreData
+    href: IndustrialValley.Factory.PlotData.OreData.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: OreData
+    href: IndustrialValley.Factory.PlotData.OreData.html
+- uid: IndustrialValley.Factory.PlotData.Ore
+  commentId: T:IndustrialValley.Factory.PlotData.Ore
+  href: IndustrialValley.Factory.PlotData.html
+  name: PlotData.Ore
+  nameWithType: PlotData.Ore
+  fullName: IndustrialValley.Factory.PlotData.Ore
+  spec.csharp:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.Ore
+    name: Ore
+    href: IndustrialValley.Factory.PlotData.Ore.html
+  spec.vb:
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+    href: IndustrialValley.Factory.PlotData.html
+  - name: .
+  - uid: IndustrialValley.Factory.PlotData.Ore
+    name: Ore
+    href: IndustrialValley.Factory.PlotData.Ore.html
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  href: IndustrialValley.html
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html

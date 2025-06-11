@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.FactoryMovement.ConveyorItem
+  commentId: T:IndustrialValley.FactoryMovement.ConveyorItem
+  id: ConveyorItem
+  parent: IndustrialValley.FactoryMovement
+  children:
+  - IndustrialValley.FactoryMovement.ConveyorItem.#ctor(ItemData)
+  - IndustrialValley.FactoryMovement.ConveyorItem.Duplicate(IndustrialValley.FactoryMovement.ConveyorItem)
+  - IndustrialValley.FactoryMovement.ConveyorItem.data
+  - IndustrialValley.FactoryMovement.ConveyorItem.instance
+  - IndustrialValley.FactoryMovement.ConveyorItem.progress
+  langs:
+  - csharp
+  - vb
+  name: ConveyorItem
+  nameWithType: ConveyorItem
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem
+  type: Class
+  source:
+    id: ConveyorItem
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public class ConveyorItem
+    content.vb: Public Class ConveyorItem
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.data
+  commentId: F:IndustrialValley.FactoryMovement.ConveyorItem.data
+  id: data
+  parent: IndustrialValley.FactoryMovement.ConveyorItem
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: ConveyorItem.data
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.data
+  type: Field
+  source:
+    id: data
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public ItemData data
+    return:
+      type: ItemData
+    content.vb: Public data As ItemData
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.instance
+  commentId: F:IndustrialValley.FactoryMovement.ConveyorItem.instance
+  id: instance
+  parent: IndustrialValley.FactoryMovement.ConveyorItem
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: ConveyorItem.instance
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.instance
+  type: Field
+  source:
+    id: instance
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public GameObject instance
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public instance As GameObject
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.progress
+  commentId: F:IndustrialValley.FactoryMovement.ConveyorItem.progress
+  id: progress
+  parent: IndustrialValley.FactoryMovement.ConveyorItem
+  langs:
+  - csharp
+  - vb
+  name: progress
+  nameWithType: ConveyorItem.progress
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.progress
+  type: Field
+  source:
+    id: progress
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public float progress
+    return:
+      type: System.Single
+    content.vb: Public progress As Single
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.#ctor(ItemData)
+  commentId: M:IndustrialValley.FactoryMovement.ConveyorItem.#ctor(ItemData)
+  id: '#ctor(ItemData)'
+  parent: IndustrialValley.FactoryMovement.ConveyorItem
+  langs:
+  - csharp
+  - vb
+  name: ConveyorItem(ItemData)
+  nameWithType: ConveyorItem.ConveyorItem(ItemData)
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.ConveyorItem(ItemData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public ConveyorItem(ItemData data)
+    parameters:
+    - id: data
+      type: ItemData
+    content.vb: Public Sub New(data As ItemData)
+  overload: IndustrialValley.FactoryMovement.ConveyorItem.#ctor*
+  nameWithType.vb: ConveyorItem.New(ItemData)
+  fullName.vb: IndustrialValley.FactoryMovement.ConveyorItem.New(ItemData)
+  name.vb: New(ItemData)
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate(IndustrialValley.FactoryMovement.ConveyorItem)
+  commentId: M:IndustrialValley.FactoryMovement.ConveyorItem.Duplicate(IndustrialValley.FactoryMovement.ConveyorItem)
+  id: Duplicate(IndustrialValley.FactoryMovement.ConveyorItem)
+  parent: IndustrialValley.FactoryMovement.ConveyorItem
+  langs:
+  - csharp
+  - vb
+  name: Duplicate(ConveyorItem)
+  nameWithType: ConveyorItem.Duplicate(ConveyorItem)
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate(IndustrialValley.FactoryMovement.ConveyorItem)
+  type: Method
+  source:
+    id: Duplicate
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    startLine: 15
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  syntax:
+    content: public static ConveyorItem Duplicate(ConveyorItem original)
+    parameters:
+    - id: original
+      type: IndustrialValley.FactoryMovement.ConveyorItem
+    return:
+      type: IndustrialValley.FactoryMovement.ConveyorItem
+    content.vb: Public Shared Function Duplicate(original As ConveyorItem) As ConveyorItem
+  overload: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate*
+references:
+- uid: IndustrialValley.FactoryMovement
+  commentId: N:IndustrialValley.FactoryMovement
+  href: IndustrialValley.html
+  name: IndustrialValley.FactoryMovement
+  nameWithType: IndustrialValley.FactoryMovement
+  fullName: IndustrialValley.FactoryMovement
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.FactoryMovement
+    name: FactoryMovement
+    href: IndustrialValley.FactoryMovement.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.FactoryMovement
+    name: FactoryMovement
+    href: IndustrialValley.FactoryMovement.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ItemData
+  commentId: T:ItemData
+  href: ItemData.html
+  name: ItemData
+  nameWithType: ItemData
+  fullName: ItemData
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.#ctor*
+  commentId: Overload:IndustrialValley.FactoryMovement.ConveyorItem.#ctor
+  href: IndustrialValley.FactoryMovement.ConveyorItem.html#IndustrialValley_FactoryMovement_ConveyorItem__ctor_ItemData_
+  name: ConveyorItem
+  nameWithType: ConveyorItem.ConveyorItem
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.ConveyorItem
+  nameWithType.vb: ConveyorItem.New
+  fullName.vb: IndustrialValley.FactoryMovement.ConveyorItem.New
+  name.vb: New
+- uid: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate*
+  commentId: Overload:IndustrialValley.FactoryMovement.ConveyorItem.Duplicate
+  href: IndustrialValley.FactoryMovement.ConveyorItem.html#IndustrialValley_FactoryMovement_ConveyorItem_Duplicate_IndustrialValley_FactoryMovement_ConveyorItem_
+  name: Duplicate
+  nameWithType: ConveyorItem.Duplicate
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate
+- uid: IndustrialValley.FactoryMovement.ConveyorItem
+  commentId: T:IndustrialValley.FactoryMovement.ConveyorItem
+  parent: IndustrialValley.FactoryMovement
+  href: IndustrialValley.FactoryMovement.ConveyorItem.html
+  name: ConveyorItem
+  nameWithType: ConveyorItem
+  fullName: IndustrialValley.FactoryMovement.ConveyorItem

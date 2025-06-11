@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Game.SaveSystem
+  commentId: T:IndustrialValley.Game.SaveSystem
+  id: SaveSystem
+  parent: IndustrialValley.Game
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SaveSystem
+  nameWithType: SaveSystem
+  fullName: IndustrialValley.Game.SaveSystem
+  type: Class
+  source:
+    id: SaveSystem
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public class SaveSystem
+    content.vb: Public Class SaveSystem
+  inheritance:
+  - System.Object
+references:
+- uid: IndustrialValley.Game
+  commentId: N:IndustrialValley.Game
+  href: IndustrialValley.html
+  name: IndustrialValley.Game
+  nameWithType: IndustrialValley.Game
+  fullName: IndustrialValley.Game
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

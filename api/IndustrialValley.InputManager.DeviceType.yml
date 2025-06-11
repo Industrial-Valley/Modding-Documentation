@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.InputManager.DeviceType
+  commentId: T:IndustrialValley.InputManager.DeviceType
+  id: InputManager.DeviceType
+  parent: IndustrialValley
+  children:
+  - IndustrialValley.InputManager.DeviceType.Controller
+  - IndustrialValley.InputManager.DeviceType.MouseAndKeyboard
+  langs:
+  - csharp
+  - vb
+  name: InputManager.DeviceType
+  nameWithType: InputManager.DeviceType
+  fullName: IndustrialValley.InputManager.DeviceType
+  type: Enum
+  source:
+    id: DeviceType
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  syntax:
+    content: public enum InputManager.DeviceType
+    content.vb: Public Enum InputManager.DeviceType
+- uid: IndustrialValley.InputManager.DeviceType.MouseAndKeyboard
+  commentId: F:IndustrialValley.InputManager.DeviceType.MouseAndKeyboard
+  id: MouseAndKeyboard
+  parent: IndustrialValley.InputManager.DeviceType
+  langs:
+  - csharp
+  - vb
+  name: MouseAndKeyboard
+  nameWithType: InputManager.DeviceType.MouseAndKeyboard
+  fullName: IndustrialValley.InputManager.DeviceType.MouseAndKeyboard
+  type: Field
+  source:
+    id: MouseAndKeyboard
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  syntax:
+    content: MouseAndKeyboard = 0
+    return:
+      type: IndustrialValley.InputManager.DeviceType
+- uid: IndustrialValley.InputManager.DeviceType.Controller
+  commentId: F:IndustrialValley.InputManager.DeviceType.Controller
+  id: Controller
+  parent: IndustrialValley.InputManager.DeviceType
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: InputManager.DeviceType.Controller
+  fullName: IndustrialValley.InputManager.DeviceType.Controller
+  type: Field
+  source:
+    id: Controller
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  syntax:
+    content: Controller = 1
+    return:
+      type: IndustrialValley.InputManager.DeviceType
+references:
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  href: IndustrialValley.html
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley
+- uid: IndustrialValley.InputManager.DeviceType
+  commentId: T:IndustrialValley.InputManager.DeviceType
+  parent: IndustrialValley
+  href: IndustrialValley.InputManager.html
+  name: InputManager.DeviceType
+  nameWithType: InputManager.DeviceType
+  fullName: IndustrialValley.InputManager.DeviceType
+  spec.csharp:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+  spec.vb:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html

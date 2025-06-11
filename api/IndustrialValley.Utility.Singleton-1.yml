@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.Singleton`1
+  commentId: T:IndustrialValley.Utility.Singleton`1
+  id: Singleton`1
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.Singleton`1.Awake
+  - IndustrialValley.Utility.Singleton`1.Instance
+  langs:
+  - csharp
+  - vb
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: IndustrialValley.Utility.Singleton<T>
+  type: Class
+  source:
+    id: Singleton
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: 'public class Singleton<T> : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: Public Class Singleton(Of T) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - IndustrialValley.Utility.AudioManager
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T)
+  name.vb: Singleton(Of T)
+- uid: IndustrialValley.Utility.Singleton`1.Instance
+  commentId: P:IndustrialValley.Utility.Singleton`1.Instance
+  id: Instance
+  parent: IndustrialValley.Utility.Singleton`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: IndustrialValley.Utility.Singleton<T>.Instance
+  type: Property
+  source:
+    id: Instance
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public static T Instance { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared Property Instance As T
+  overload: IndustrialValley.Utility.Singleton`1.Instance*
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Instance
+- uid: IndustrialValley.Utility.Singleton`1.Awake
+  commentId: M:IndustrialValley.Utility.Singleton`1.Awake
+  id: Awake
+  parent: IndustrialValley.Utility.Singleton`1
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: IndustrialValley.Utility.Singleton<T>.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake()
+  overload: IndustrialValley.Utility.Singleton`1.Awake*
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Awake()
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Utility.Singleton`1.Instance*
+  commentId: Overload:IndustrialValley.Utility.Singleton`1.Instance
+  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: IndustrialValley.Utility.Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Instance
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: IndustrialValley.Utility.Singleton`1.Awake*
+  commentId: Overload:IndustrialValley.Utility.Singleton`1.Awake
+  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+  name: Awake
+  nameWithType: Singleton<T>.Awake
+  fullName: IndustrialValley.Utility.Singleton<T>.Awake
+  nameWithType.vb: Singleton(Of T).Awake
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Awake

@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Factory.FactoryPlot
+  commentId: T:IndustrialValley.Factory.FactoryPlot
+  id: FactoryPlot
+  parent: IndustrialValley.Factory
+  children:
+  - IndustrialValley.Factory.FactoryPlot.Bounds
+  - IndustrialValley.Factory.FactoryPlot.Plot
+  langs:
+  - csharp
+  - vb
+  name: FactoryPlot
+  nameWithType: FactoryPlot
+  fullName: IndustrialValley.Factory.FactoryPlot
+  type: Class
+  source:
+    id: FactoryPlot
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 241
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public class FactoryPlot
+    content.vb: Public Class FactoryPlot
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Factory.FactoryPlot.Bounds
+  commentId: F:IndustrialValley.Factory.FactoryPlot.Bounds
+  id: Bounds
+  parent: IndustrialValley.Factory.FactoryPlot
+  langs:
+  - csharp
+  - vb
+  name: Bounds
+  nameWithType: FactoryPlot.Bounds
+  fullName: IndustrialValley.Factory.FactoryPlot.Bounds
+  type: Field
+  source:
+    id: Bounds
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 243
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public Bounds Bounds
+    return:
+      type: UnityEngine.Bounds
+    content.vb: Public Bounds As Bounds
+- uid: IndustrialValley.Factory.FactoryPlot.Plot
+  commentId: F:IndustrialValley.Factory.FactoryPlot.Plot
+  id: Plot
+  parent: IndustrialValley.Factory.FactoryPlot
+  langs:
+  - csharp
+  - vb
+  name: Plot
+  nameWithType: FactoryPlot.Plot
+  fullName: IndustrialValley.Factory.FactoryPlot.Plot
+  type: Field
+  source:
+    id: Plot
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 244
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public GameObject Plot
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Plot As GameObject
+references:
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  href: IndustrialValley.html
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Bounds
+  commentId: T:UnityEngine.Bounds
+  parent: UnityEngine
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: UnityEngine.Bounds
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject

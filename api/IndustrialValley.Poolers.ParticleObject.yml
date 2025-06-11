@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Poolers.ParticleObject
+  commentId: T:IndustrialValley.Poolers.ParticleObject
+  id: ParticleObject
+  parent: IndustrialValley.Poolers
+  children:
+  - IndustrialValley.Poolers.ParticleObject.Play
+  - IndustrialValley.Poolers.ParticleObject.Reset
+  - IndustrialValley.Poolers.ParticleObject.particleSystem
+  langs:
+  - csharp
+  - vb
+  name: ParticleObject
+  nameWithType: ParticleObject
+  fullName: IndustrialValley.Poolers.ParticleObject
+  type: Class
+  source:
+    id: ParticleObject
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Poolers
+  syntax:
+    content: 'public class ParticleObject : MonoBehaviour'
+    content.vb: Public Class ParticleObject Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Poolers.ParticleObject.particleSystem
+  commentId: F:IndustrialValley.Poolers.ParticleObject.particleSystem
+  id: particleSystem
+  parent: IndustrialValley.Poolers.ParticleObject
+  langs:
+  - csharp
+  - vb
+  name: particleSystem
+  nameWithType: ParticleObject.particleSystem
+  fullName: IndustrialValley.Poolers.ParticleObject.particleSystem
+  type: Field
+  source:
+    id: particleSystem
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Poolers
+  syntax:
+    content: public ParticleSystem particleSystem
+    return:
+      type: UnityEngine.ParticleSystem
+    content.vb: Public particleSystem As ParticleSystem
+- uid: IndustrialValley.Poolers.ParticleObject.Reset
+  commentId: M:IndustrialValley.Poolers.ParticleObject.Reset
+  id: Reset
+  parent: IndustrialValley.Poolers.ParticleObject
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: ParticleObject.Reset()
+  fullName: IndustrialValley.Poolers.ParticleObject.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Poolers
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: IndustrialValley.Poolers.ParticleObject.Reset*
+- uid: IndustrialValley.Poolers.ParticleObject.Play
+  commentId: M:IndustrialValley.Poolers.ParticleObject.Play
+  id: Play
+  parent: IndustrialValley.Poolers.ParticleObject
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: ParticleObject.Play()
+  fullName: IndustrialValley.Poolers.ParticleObject.Play()
+  type: Method
+  source:
+    id: Play
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    startLine: 18
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Poolers
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play()
+  overload: IndustrialValley.Poolers.ParticleObject.Play*
+references:
+- uid: IndustrialValley.Poolers
+  commentId: N:IndustrialValley.Poolers
+  href: IndustrialValley.html
+  name: IndustrialValley.Poolers
+  nameWithType: IndustrialValley.Poolers
+  fullName: IndustrialValley.Poolers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Poolers
+    name: Poolers
+    href: IndustrialValley.Poolers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Poolers
+    name: Poolers
+    href: IndustrialValley.Poolers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.ParticleSystem
+  commentId: T:UnityEngine.ParticleSystem
+  parent: UnityEngine
+  isExternal: true
+  name: ParticleSystem
+  nameWithType: ParticleSystem
+  fullName: UnityEngine.ParticleSystem
+- uid: IndustrialValley.Poolers.ParticleObject.Reset*
+  commentId: Overload:IndustrialValley.Poolers.ParticleObject.Reset
+  href: IndustrialValley.Poolers.ParticleObject.html#IndustrialValley_Poolers_ParticleObject_Reset
+  name: Reset
+  nameWithType: ParticleObject.Reset
+  fullName: IndustrialValley.Poolers.ParticleObject.Reset
+- uid: IndustrialValley.Poolers.ParticleObject.Play*
+  commentId: Overload:IndustrialValley.Poolers.ParticleObject.Play
+  href: IndustrialValley.Poolers.ParticleObject.html#IndustrialValley_Poolers_ParticleObject_Play
+  name: Play
+  nameWithType: ParticleObject.Play
+  fullName: IndustrialValley.Poolers.ParticleObject.Play

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "F:\\Unity Games\\ClickerFactory\\ClickerFactory",
+          "files": [
+            "**/IndustrialValley.csproj",
+            "**/IndustrialValley.SDK.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": ["default", "templates/singulinkfx"],
+    "globalMetadata": {
+      "_appName": "Documentation",
+      "_appTitle": "Documentation",
+      "_appLogoPath": "images/factoryicon.png",
+      "_enableSearch": true,
+      "pdf": true
+    },
+    "xref": [
+      "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+    ]
+  }
+}

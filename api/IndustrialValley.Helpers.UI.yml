@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.UI
+  commentId: T:IndustrialValley.Helpers.UI
+  id: UI
+  parent: IndustrialValley.Helpers
+  children:
+  - IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  - IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: UI
+  nameWithType: UI
+  fullName: IndustrialValley.Helpers.UI
+  type: Class
+  source:
+    id: UI
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public static class UI
+    content.vb: Public Module UI
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  id: AddUISounds(UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddUISounds(VisualElement)
+  nameWithType: UI.AddUISounds(VisualElement)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    id: AddUISounds
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public static void AddUISounds(this VisualElement elem)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub AddUISounds(elem As VisualElement)
+  overload: IndustrialValley.Helpers.UI.AddUISounds*
+- uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  id: AddUISounds(UnityEngine.UIElements.Button)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddUISounds(Button)
+  nameWithType: UI.AddUISounds(Button)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  type: Method
+  source:
+    id: AddUISounds
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 15
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public static void AddUISounds(this Button button)
+    parameters:
+    - id: button
+      type: UnityEngine.UIElements.Button
+    content.vb: Public Shared Sub AddUISounds(button As Button)
+  overload: IndustrialValley.Helpers.UI.AddUISounds*
+references:
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Helpers.UI.AddUISounds*
+  commentId: Overload:IndustrialValley.Helpers.UI.AddUISounds
+  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  name: AddUISounds
+  nameWithType: UI.AddUISounds
+  fullName: IndustrialValley.Helpers.UI.AddUISounds
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button

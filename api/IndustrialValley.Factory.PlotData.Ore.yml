@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Factory.PlotData.Ore
+  commentId: T:IndustrialValley.Factory.PlotData.Ore
+  id: PlotData.Ore
+  parent: IndustrialValley.Factory
+  children:
+  - IndustrialValley.Factory.PlotData.Ore.MaxSpawnCount
+  - IndustrialValley.Factory.PlotData.Ore.MinSpawnCount
+  - IndustrialValley.Factory.PlotData.Ore.Prefab
+  - IndustrialValley.Factory.PlotData.Ore.SpawnChance
+  langs:
+  - csharp
+  - vb
+  name: PlotData.Ore
+  nameWithType: PlotData.Ore
+  fullName: IndustrialValley.Factory.PlotData.Ore
+  type: Class
+  source:
+    id: Ore
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 26
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PlotData.Ore
+    content.vb: >-
+      <Serializable>
+
+      Public Class PlotData.Ore
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Factory.PlotData.Ore.MaxSpawnCount
+  commentId: F:IndustrialValley.Factory.PlotData.Ore.MaxSpawnCount
+  id: MaxSpawnCount
+  parent: IndustrialValley.Factory.PlotData.Ore
+  langs:
+  - csharp
+  - vb
+  name: MaxSpawnCount
+  nameWithType: PlotData.Ore.MaxSpawnCount
+  fullName: IndustrialValley.Factory.PlotData.Ore.MaxSpawnCount
+  type: Field
+  source:
+    id: MaxSpawnCount
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 29
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public int MaxSpawnCount
+    return:
+      type: System.Int32
+    content.vb: Public MaxSpawnCount As Integer
+- uid: IndustrialValley.Factory.PlotData.Ore.MinSpawnCount
+  commentId: F:IndustrialValley.Factory.PlotData.Ore.MinSpawnCount
+  id: MinSpawnCount
+  parent: IndustrialValley.Factory.PlotData.Ore
+  langs:
+  - csharp
+  - vb
+  name: MinSpawnCount
+  nameWithType: PlotData.Ore.MinSpawnCount
+  fullName: IndustrialValley.Factory.PlotData.Ore.MinSpawnCount
+  type: Field
+  source:
+    id: MinSpawnCount
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 30
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public int MinSpawnCount
+    return:
+      type: System.Int32
+    content.vb: Public MinSpawnCount As Integer
+- uid: IndustrialValley.Factory.PlotData.Ore.Prefab
+  commentId: F:IndustrialValley.Factory.PlotData.Ore.Prefab
+  id: Prefab
+  parent: IndustrialValley.Factory.PlotData.Ore
+  langs:
+  - csharp
+  - vb
+  name: Prefab
+  nameWithType: PlotData.Ore.Prefab
+  fullName: IndustrialValley.Factory.PlotData.Ore.Prefab
+  type: Field
+  source:
+    id: Prefab
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 31
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public List<GameObject> Prefab
+    return:
+      type: System.Collections.Generic.List{UnityEngine.GameObject}
+    content.vb: Public Prefab As List(Of GameObject)
+- uid: IndustrialValley.Factory.PlotData.Ore.SpawnChance
+  commentId: F:IndustrialValley.Factory.PlotData.Ore.SpawnChance
+  id: SpawnChance
+  parent: IndustrialValley.Factory.PlotData.Ore
+  langs:
+  - csharp
+  - vb
+  name: SpawnChance
+  nameWithType: PlotData.Ore.SpawnChance
+  fullName: IndustrialValley.Factory.PlotData.Ore.SpawnChance
+  type: Field
+  source:
+    id: SpawnChance
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    startLine: 32
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public float SpawnChance
+    return:
+      type: System.Single
+    content.vb: Public SpawnChance As Single
+references:
+- uid: IndustrialValley.Factory
+  commentId: N:IndustrialValley.Factory
+  href: IndustrialValley.html
+  name: IndustrialValley.Factory
+  nameWithType: IndustrialValley.Factory
+  fullName: IndustrialValley.Factory
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Factory
+    name: Factory
+    href: IndustrialValley.Factory.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{UnityEngine.GameObject}
+  commentId: T:System.Collections.Generic.List{UnityEngine.GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<UnityEngine.GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

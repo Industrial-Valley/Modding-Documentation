@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Game.Tiers.TierData
+  commentId: T:IndustrialValley.Game.Tiers.TierData
+  id: Tiers.TierData
+  parent: IndustrialValley.Game
+  children:
+  - IndustrialValley.Game.Tiers.TierData.#ctor(System.String,System.String)
+  - IndustrialValley.Game.Tiers.TierData.Name
+  - IndustrialValley.Game.Tiers.TierData.ShortName
+  - IndustrialValley.Game.Tiers.TierData.ToString
+  langs:
+  - csharp
+  - vb
+  name: Tiers.TierData
+  nameWithType: Tiers.TierData
+  fullName: IndustrialValley.Game.Tiers.TierData
+  type: Class
+  source:
+    id: TierData
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 73
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Tiers.TierData
+    content.vb: >-
+      <Serializable>
+
+      Public Class Tiers.TierData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.Tiers.TierData.Name
+  commentId: F:IndustrialValley.Game.Tiers.TierData.Name
+  id: Name
+  parent: IndustrialValley.Game.Tiers.TierData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Tiers.TierData.Name
+  fullName: IndustrialValley.Game.Tiers.TierData.Name
+  type: Field
+  source:
+    id: Name
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 76
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: IndustrialValley.Game.Tiers.TierData.ShortName
+  commentId: F:IndustrialValley.Game.Tiers.TierData.ShortName
+  id: ShortName
+  parent: IndustrialValley.Game.Tiers.TierData
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: Tiers.TierData.ShortName
+  fullName: IndustrialValley.Game.Tiers.TierData.ShortName
+  type: Field
+  source:
+    id: ShortName
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 77
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string ShortName
+    return:
+      type: System.String
+    content.vb: Public ShortName As String
+- uid: IndustrialValley.Game.Tiers.TierData.#ctor(System.String,System.String)
+  commentId: M:IndustrialValley.Game.Tiers.TierData.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: IndustrialValley.Game.Tiers.TierData
+  langs:
+  - csharp
+  - vb
+  name: TierData(string, string)
+  nameWithType: Tiers.TierData.TierData(string, string)
+  fullName: IndustrialValley.Game.Tiers.TierData.TierData(string, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 79
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public TierData(string name, string shortName)
+    parameters:
+    - id: name
+      type: System.String
+    - id: shortName
+      type: System.String
+    content.vb: Public Sub New(name As String, shortName As String)
+  overload: IndustrialValley.Game.Tiers.TierData.#ctor*
+  nameWithType.vb: Tiers.TierData.New(String, String)
+  fullName.vb: IndustrialValley.Game.Tiers.TierData.New(String, String)
+  name.vb: New(String, String)
+- uid: IndustrialValley.Game.Tiers.TierData.ToString
+  commentId: M:IndustrialValley.Game.Tiers.TierData.ToString
+  id: ToString
+  parent: IndustrialValley.Game.Tiers.TierData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Tiers.TierData.ToString()
+  fullName: IndustrialValley.Game.Tiers.TierData.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    startLine: 85
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: IndustrialValley.Game.Tiers.TierData.ToString*
+references:
+- uid: IndustrialValley.Game
+  commentId: N:IndustrialValley.Game
+  href: IndustrialValley.html
+  name: IndustrialValley.Game
+  nameWithType: IndustrialValley.Game
+  fullName: IndustrialValley.Game
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Game
+    name: Game
+    href: IndustrialValley.Game.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Game.Tiers.TierData.#ctor*
+  commentId: Overload:IndustrialValley.Game.Tiers.TierData.#ctor
+  href: IndustrialValley.Game.Tiers.TierData.html#IndustrialValley_Game_Tiers_TierData__ctor_System_String_System_String_
+  name: TierData
+  nameWithType: Tiers.TierData.TierData
+  fullName: IndustrialValley.Game.Tiers.TierData.TierData
+  nameWithType.vb: Tiers.TierData.New
+  fullName.vb: IndustrialValley.Game.Tiers.TierData.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: IndustrialValley.Game.Tiers.TierData.ToString*
+  commentId: Overload:IndustrialValley.Game.Tiers.TierData.ToString
+  href: IndustrialValley.Game.Tiers.TierData.html#IndustrialValley_Game_Tiers_TierData_ToString
+  name: ToString
+  nameWithType: Tiers.TierData.ToString
+  fullName: IndustrialValley.Game.Tiers.TierData.ToString
