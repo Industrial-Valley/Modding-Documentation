@@ -145,6 +145,9 @@ items:
   - uid: IndustrialValley.Mod.ModData
     name: ModData
     type: Class
+  - uid: IndustrialValley.Mod.ProfileMod
+    name: ProfileMod
+    type: Class
 - uid: IndustrialValley.Poolers
   name: IndustrialValley.Poolers
   type: Namespace

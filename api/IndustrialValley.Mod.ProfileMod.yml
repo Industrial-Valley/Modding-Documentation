@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Mod.ProfileMod
+  commentId: T:IndustrialValley.Mod.ProfileMod
+  id: ProfileMod
+  parent: IndustrialValley.Mod
+  children:
+  - IndustrialValley.Mod.ProfileMod.Name
+  - IndustrialValley.Mod.ProfileMod.OnStart
+  - IndustrialValley.Mod.ProfileMod.ProfileId
+  langs:
+  - csharp
+  - vb
+  name: ProfileMod
+  nameWithType: ProfileMod
+  fullName: IndustrialValley.Mod.ProfileMod
+  type: Class
+  source:
+    id: ProfileMod
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    startLine: 2
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public class ProfileMod
+    content.vb: Public Class ProfileMod
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Mod.ProfileMod.ProfileId
+  commentId: P:IndustrialValley.Mod.ProfileMod.ProfileId
+  id: ProfileId
+  parent: IndustrialValley.Mod.ProfileMod
+  langs:
+  - csharp
+  - vb
+  name: ProfileId
+  nameWithType: ProfileMod.ProfileId
+  fullName: IndustrialValley.Mod.ProfileMod.ProfileId
+  type: Property
+  source:
+    id: ProfileId
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public virtual string ProfileId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ProfileId As String
+  overload: IndustrialValley.Mod.ProfileMod.ProfileId*
+- uid: IndustrialValley.Mod.ProfileMod.Name
+  commentId: P:IndustrialValley.Mod.ProfileMod.Name
+  id: Name
+  parent: IndustrialValley.Mod.ProfileMod
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProfileMod.Name
+  fullName: IndustrialValley.Mod.ProfileMod.Name
+  type: Property
+  source:
+    id: Name
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public virtual string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property Name As String
+  overload: IndustrialValley.Mod.ProfileMod.Name*
+- uid: IndustrialValley.Mod.ProfileMod.OnStart
+  commentId: M:IndustrialValley.Mod.ProfileMod.OnStart
+  id: OnStart
+  parent: IndustrialValley.Mod.ProfileMod
+  langs:
+  - csharp
+  - vb
+  name: OnStart()
+  nameWithType: ProfileMod.OnStart()
+  fullName: IndustrialValley.Mod.ProfileMod.OnStart()
+  type: Method
+  source:
+    id: OnStart
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Mod
+  syntax:
+    content: public virtual void OnStart()
+    content.vb: Public Overridable Sub OnStart()
+  overload: IndustrialValley.Mod.ProfileMod.OnStart*
+references:
+- uid: IndustrialValley.Mod
+  commentId: N:IndustrialValley.Mod
+  href: IndustrialValley.html
+  name: IndustrialValley.Mod
+  nameWithType: IndustrialValley.Mod
+  fullName: IndustrialValley.Mod
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Mod
+    name: Mod
+    href: IndustrialValley.Mod.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Mod.ProfileMod.ProfileId*
+  commentId: Overload:IndustrialValley.Mod.ProfileMod.ProfileId
+  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_ProfileId
+  name: ProfileId
+  nameWithType: ProfileMod.ProfileId
+  fullName: IndustrialValley.Mod.ProfileMod.ProfileId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Mod.ProfileMod.Name*
+  commentId: Overload:IndustrialValley.Mod.ProfileMod.Name
+  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_Name
+  name: Name
+  nameWithType: ProfileMod.Name
+  fullName: IndustrialValley.Mod.ProfileMod.Name
+- uid: IndustrialValley.Mod.ProfileMod.OnStart*
+  commentId: Overload:IndustrialValley.Mod.ProfileMod.OnStart
+  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_OnStart
+  name: OnStart
+  nameWithType: ProfileMod.OnStart
+  fullName: IndustrialValley.Mod.ProfileMod.OnStart

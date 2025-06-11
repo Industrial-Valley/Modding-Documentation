@@ -6,6 +6,7 @@ items:
   children:
   - IndustrialValley.Mod.Mod
   - IndustrialValley.Mod.ModData
+  - IndustrialValley.Mod.ProfileMod
   langs:
   - csharp
   - vb
@@ -16,6 +17,12 @@ items:
   assemblies:
   - IndustrialValley
 references:
+- uid: IndustrialValley.Mod.ProfileMod
+  commentId: T:IndustrialValley.Mod.ProfileMod
+  href: IndustrialValley.Mod.ProfileMod.html
+  name: ProfileMod
+  nameWithType: ProfileMod
+  fullName: IndustrialValley.Mod.ProfileMod
 - uid: IndustrialValley.Mod.Mod
   commentId: T:IndustrialValley.Mod.Mod
   parent: IndustrialValley.Mod
