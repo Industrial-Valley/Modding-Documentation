@@ -351,6 +351,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -360,12 +361,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Input.IsUsingController*
   commentId: Overload:IndustrialValley.Input.IsUsingController
-  href: IndustrialValley.Input.html#IndustrialValley_Input_IsUsingController
+  href: IndustrialValley.Input.IsUsingController.html#IndustrialValley_Input_IsUsingController
   name: IsUsingController
   nameWithType: Input.IsUsingController
   fullName: IndustrialValley.Input.IsUsingController
@@ -373,6 +375,7 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -381,7 +384,7 @@ references:
   name.vb: Boolean
 - uid: IndustrialValley.Input.Player*
   commentId: Overload:IndustrialValley.Input.Player
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Player
+  href: IndustrialValley.Input.Player.html#IndustrialValley_Input_Player
   name: Player
   nameWithType: Input.Player
   fullName: IndustrialValley.Input.Player
@@ -409,7 +412,7 @@ references:
     href: InputActions.PlayerActions.html
 - uid: IndustrialValley.Input.MousePosition*
   commentId: Overload:IndustrialValley.Input.MousePosition
-  href: IndustrialValley.Input.html#IndustrialValley_Input_MousePosition
+  href: IndustrialValley.Input.MousePosition.html#IndustrialValley_Input_MousePosition
   name: MousePosition
   nameWithType: Input.MousePosition
   fullName: IndustrialValley.Input.MousePosition
@@ -428,43 +431,43 @@ references:
   fullName: UnityEngine
 - uid: IndustrialValley.Input.Movement*
   commentId: Overload:IndustrialValley.Input.Movement
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Movement
+  href: IndustrialValley.Input.Movement.html#IndustrialValley_Input_Movement
   name: Movement
   nameWithType: Input.Movement
   fullName: IndustrialValley.Input.Movement
 - uid: IndustrialValley.Input.Place*
   commentId: Overload:IndustrialValley.Input.Place
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Place
+  href: IndustrialValley.Input.Place.html#IndustrialValley_Input_Place
   name: Place
   nameWithType: Input.Place
   fullName: IndustrialValley.Input.Place
 - uid: IndustrialValley.Input.PlaceDown*
   commentId: Overload:IndustrialValley.Input.PlaceDown
-  href: IndustrialValley.Input.html#IndustrialValley_Input_PlaceDown
+  href: IndustrialValley.Input.PlaceDown.html#IndustrialValley_Input_PlaceDown
   name: PlaceDown
   nameWithType: Input.PlaceDown
   fullName: IndustrialValley.Input.PlaceDown
 - uid: IndustrialValley.Input.PlaceUp*
   commentId: Overload:IndustrialValley.Input.PlaceUp
-  href: IndustrialValley.Input.html#IndustrialValley_Input_PlaceUp
+  href: IndustrialValley.Input.PlaceUp.html#IndustrialValley_Input_PlaceUp
   name: PlaceUp
   nameWithType: Input.PlaceUp
   fullName: IndustrialValley.Input.PlaceUp
 - uid: IndustrialValley.Input.Cancel*
   commentId: Overload:IndustrialValley.Input.Cancel
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Cancel
+  href: IndustrialValley.Input.Cancel.html#IndustrialValley_Input_Cancel
   name: Cancel
   nameWithType: Input.Cancel
   fullName: IndustrialValley.Input.Cancel
 - uid: IndustrialValley.Input.Rotate*
   commentId: Overload:IndustrialValley.Input.Rotate
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Rotate
+  href: IndustrialValley.Input.Rotate.html#IndustrialValley_Input_Rotate
   name: Rotate
   nameWithType: Input.Rotate
   fullName: IndustrialValley.Input.Rotate
 - uid: IndustrialValley.Input.Scroll*
   commentId: Overload:IndustrialValley.Input.Scroll
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Scroll
+  href: IndustrialValley.Input.Scroll.html#IndustrialValley_Input_Scroll
   name: Scroll
   nameWithType: Input.Scroll
   fullName: IndustrialValley.Input.Scroll
@@ -472,6 +475,7 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
   name: float
   nameWithType: float
   fullName: float
@@ -480,13 +484,14 @@ references:
   name.vb: Single
 - uid: IndustrialValley.Input.Escape*
   commentId: Overload:IndustrialValley.Input.Escape
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Escape
+  href: IndustrialValley.Input.Escape.html#IndustrialValley_Input_Escape
   name: Escape
   nameWithType: Input.Escape
   fullName: IndustrialValley.Input.Escape
 - uid: IndustrialValley.Input.Duplicate*
   commentId: Overload:IndustrialValley.Input.Duplicate
-  href: IndustrialValley.Input.html#IndustrialValley_Input_Duplicate
+  href: IndustrialValley.Input.Duplicate.html#IndustrialValley_Input_Duplicate
   name: Duplicate
   nameWithType: Input.Duplicate
   fullName: IndustrialValley.Input.Duplicate
+memberLayout: SeparatePages

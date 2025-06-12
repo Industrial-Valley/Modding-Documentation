@@ -180,6 +180,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -189,6 +190,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -215,6 +217,7 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
   name: float
   nameWithType: float
   fullName: float
@@ -223,7 +226,7 @@ references:
   name.vb: Single
 - uid: IndustrialValley.FactoryMovement.ConveyorItem.#ctor*
   commentId: Overload:IndustrialValley.FactoryMovement.ConveyorItem.#ctor
-  href: IndustrialValley.FactoryMovement.ConveyorItem.html#IndustrialValley_FactoryMovement_ConveyorItem__ctor_ItemData_
+  href: IndustrialValley.FactoryMovement.ConveyorItem.-ctor.html#IndustrialValley_FactoryMovement_ConveyorItem__ctor_ItemData_
   name: ConveyorItem
   nameWithType: ConveyorItem.ConveyorItem
   fullName: IndustrialValley.FactoryMovement.ConveyorItem.ConveyorItem
@@ -232,7 +235,7 @@ references:
   name.vb: New
 - uid: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate*
   commentId: Overload:IndustrialValley.FactoryMovement.ConveyorItem.Duplicate
-  href: IndustrialValley.FactoryMovement.ConveyorItem.html#IndustrialValley_FactoryMovement_ConveyorItem_Duplicate_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate.html#IndustrialValley_FactoryMovement_ConveyorItem_Duplicate_IndustrialValley_FactoryMovement_ConveyorItem_
   name: Duplicate
   nameWithType: ConveyorItem.Duplicate
   fullName: IndustrialValley.FactoryMovement.ConveyorItem.Duplicate
@@ -243,3 +246,4 @@ references:
   name: ConveyorItem
   nameWithType: ConveyorItem
   fullName: IndustrialValley.FactoryMovement.ConveyorItem
+memberLayout: SeparatePages

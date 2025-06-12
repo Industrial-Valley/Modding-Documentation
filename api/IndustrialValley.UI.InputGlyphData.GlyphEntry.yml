@@ -138,6 +138,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -147,6 +148,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -165,10 +167,11 @@ references:
   fullName: UnityEngine
 - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry.#ctor*
   commentId: Overload:IndustrialValley.UI.InputGlyphData.GlyphEntry.#ctor
-  href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html#IndustrialValley_UI_InputGlyphData_GlyphEntry__ctor_System_String_UnityEngine_Texture2D_
+  href: IndustrialValley.UI.InputGlyphData.GlyphEntry.-ctor.html#IndustrialValley_UI_InputGlyphData_GlyphEntry__ctor_System_String_UnityEngine_Texture2D_
   name: GlyphEntry
   nameWithType: InputGlyphData.GlyphEntry.GlyphEntry
   fullName: IndustrialValley.UI.InputGlyphData.GlyphEntry.GlyphEntry
   nameWithType.vb: InputGlyphData.GlyphEntry.New
   fullName.vb: IndustrialValley.UI.InputGlyphData.GlyphEntry.New
   name.vb: New
+memberLayout: SeparatePages

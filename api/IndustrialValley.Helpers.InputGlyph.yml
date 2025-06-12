@@ -118,6 +118,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -127,12 +128,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Helpers.InputGlyph.GetGlyph*
   commentId: Overload:IndustrialValley.Helpers.InputGlyph.GetGlyph
-  href: IndustrialValley.Helpers.InputGlyph.html#IndustrialValley_Helpers_InputGlyph_GetGlyph_UnityEngine_InputSystem_InputAction_
+  href: IndustrialValley.Helpers.InputGlyph.GetGlyph.html#IndustrialValley_Helpers_InputGlyph_GetGlyph_UnityEngine_InputSystem_InputAction_
   name: GetGlyph
   nameWithType: InputGlyph.GetGlyph
   fullName: IndustrialValley.Helpers.InputGlyph.GetGlyph
@@ -201,3 +203,4 @@ references:
   - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
     name: InputDeviceType
     href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html
+memberLayout: SeparatePages

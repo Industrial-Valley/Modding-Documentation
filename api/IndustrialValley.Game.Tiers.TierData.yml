@@ -167,6 +167,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -176,6 +177,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -183,6 +185,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -191,7 +194,7 @@ references:
   name.vb: String
 - uid: IndustrialValley.Game.Tiers.TierData.#ctor*
   commentId: Overload:IndustrialValley.Game.Tiers.TierData.#ctor
-  href: IndustrialValley.Game.Tiers.TierData.html#IndustrialValley_Game_Tiers_TierData__ctor_System_String_System_String_
+  href: IndustrialValley.Game.Tiers.TierData.-ctor.html#IndustrialValley_Game_Tiers_TierData__ctor_System_String_System_String_
   name: TierData
   nameWithType: Tiers.TierData.TierData
   fullName: IndustrialValley.Game.Tiers.TierData.TierData
@@ -202,6 +205,7 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
   nameWithType: object.ToString()
   fullName: object.ToString()
@@ -211,17 +215,20 @@ references:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
 - uid: IndustrialValley.Game.Tiers.TierData.ToString*
   commentId: Overload:IndustrialValley.Game.Tiers.TierData.ToString
-  href: IndustrialValley.Game.Tiers.TierData.html#IndustrialValley_Game_Tiers_TierData_ToString
+  href: IndustrialValley.Game.Tiers.TierData.ToString.html#IndustrialValley_Game_Tiers_TierData_ToString
   name: ToString
   nameWithType: Tiers.TierData.ToString
   fullName: IndustrialValley.Game.Tiers.TierData.ToString
+memberLayout: SeparatePages

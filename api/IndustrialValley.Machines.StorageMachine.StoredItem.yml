@@ -134,6 +134,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -143,12 +144,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Machines.StorageMachine.StoredItem.#ctor*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.StoredItem.#ctor
-  href: IndustrialValley.Machines.StorageMachine.StoredItem.html#IndustrialValley_Machines_StorageMachine_StoredItem__ctor_IndustrialValley_FactoryMovement_ConveyorItem_System_Int32_
+  href: IndustrialValley.Machines.StorageMachine.StoredItem.-ctor.html#IndustrialValley_Machines_StorageMachine_StoredItem__ctor_IndustrialValley_FactoryMovement_ConveyorItem_System_Int32_
   name: StoredItem
   nameWithType: StorageMachine.StoredItem.StoredItem
   fullName: IndustrialValley.Machines.StorageMachine.StoredItem.StoredItem
@@ -166,6 +168,7 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -196,13 +199,14 @@ references:
     href: IndustrialValley.FactoryMovement.html
 - uid: IndustrialValley.Machines.StorageMachine.StoredItem.Item*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.StoredItem.Item
-  href: IndustrialValley.Machines.StorageMachine.StoredItem.html#IndustrialValley_Machines_StorageMachine_StoredItem_Item
+  href: IndustrialValley.Machines.StorageMachine.StoredItem.Item.html#IndustrialValley_Machines_StorageMachine_StoredItem_Item
   name: Item
   nameWithType: StorageMachine.StoredItem.Item
   fullName: IndustrialValley.Machines.StorageMachine.StoredItem.Item
 - uid: IndustrialValley.Machines.StorageMachine.StoredItem.Quantity*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.StoredItem.Quantity
-  href: IndustrialValley.Machines.StorageMachine.StoredItem.html#IndustrialValley_Machines_StorageMachine_StoredItem_Quantity
+  href: IndustrialValley.Machines.StorageMachine.StoredItem.Quantity.html#IndustrialValley_Machines_StorageMachine_StoredItem_Quantity
   name: Quantity
   nameWithType: StorageMachine.StoredItem.Quantity
   fullName: IndustrialValley.Machines.StorageMachine.StoredItem.Quantity
+memberLayout: SeparatePages

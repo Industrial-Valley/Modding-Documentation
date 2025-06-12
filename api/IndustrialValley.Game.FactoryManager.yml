@@ -189,6 +189,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -226,6 +227,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -239,6 +241,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -270,7 +273,7 @@ references:
     href: IndustrialValley.Game.Tiers.FactoryTier.html
 - uid: IndustrialValley.Game.FactoryManager.warningVisibility*
   commentId: Overload:IndustrialValley.Game.FactoryManager.warningVisibility
-  href: IndustrialValley.Game.FactoryManager.html#IndustrialValley_Game_FactoryManager_warningVisibility
+  href: IndustrialValley.Game.FactoryManager.warningVisibility.html#IndustrialValley_Game_FactoryManager_warningVisibility
   name: warningVisibility
   nameWithType: FactoryManager.warningVisibility
   fullName: IndustrialValley.Game.FactoryManager.warningVisibility
@@ -305,7 +308,7 @@ references:
     isExternal: true
 - uid: IndustrialValley.Game.FactoryManager.Instance*
   commentId: Overload:IndustrialValley.Game.FactoryManager.Instance
-  href: IndustrialValley.Game.FactoryManager.html#IndustrialValley_Game_FactoryManager_Instance
+  href: IndustrialValley.Game.FactoryManager.Instance.html#IndustrialValley_Game_FactoryManager_Instance
   name: Instance
   nameWithType: FactoryManager.Instance
   fullName: IndustrialValley.Game.FactoryManager.Instance
@@ -316,3 +319,4 @@ references:
   name: FactoryManager
   nameWithType: FactoryManager
   fullName: IndustrialValley.Game.FactoryManager
+memberLayout: SeparatePages

@@ -233,6 +233,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -242,12 +243,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Game.SaveData.FactoryName*
   commentId: Overload:IndustrialValley.Game.SaveData.FactoryName
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryName
+  href: IndustrialValley.Game.SaveData.FactoryName.html#IndustrialValley_Game_SaveData_FactoryName
   name: FactoryName
   nameWithType: SaveData.FactoryName
   fullName: IndustrialValley.Game.SaveData.FactoryName
@@ -255,6 +257,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -263,7 +266,7 @@ references:
   name.vb: String
 - uid: IndustrialValley.Game.SaveData.FactoryWallColor*
   commentId: Overload:IndustrialValley.Game.SaveData.FactoryWallColor
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryWallColor
+  href: IndustrialValley.Game.SaveData.FactoryWallColor.html#IndustrialValley_Game_SaveData_FactoryWallColor
   name: FactoryWallColor
   nameWithType: SaveData.FactoryWallColor
   fullName: IndustrialValley.Game.SaveData.FactoryWallColor
@@ -282,13 +285,13 @@ references:
   fullName: UnityEngine
 - uid: IndustrialValley.Game.SaveData.FactoryFloorColor*
   commentId: Overload:IndustrialValley.Game.SaveData.FactoryFloorColor
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_FactoryFloorColor
+  href: IndustrialValley.Game.SaveData.FactoryFloorColor.html#IndustrialValley_Game_SaveData_FactoryFloorColor
   name: FactoryFloorColor
   nameWithType: SaveData.FactoryFloorColor
   fullName: IndustrialValley.Game.SaveData.FactoryFloorColor
 - uid: IndustrialValley.Game.SaveData.Balance*
   commentId: Overload:IndustrialValley.Game.SaveData.Balance
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_Balance
+  href: IndustrialValley.Game.SaveData.Balance.html#IndustrialValley_Game_SaveData_Balance
   name: Balance
   nameWithType: SaveData.Balance
   fullName: IndustrialValley.Game.SaveData.Balance
@@ -296,6 +299,7 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
   name: long
   nameWithType: long
   fullName: long
@@ -304,7 +308,7 @@ references:
   name.vb: Long
 - uid: IndustrialValley.Game.SaveData.CurrentTier*
   commentId: Overload:IndustrialValley.Game.SaveData.CurrentTier
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_CurrentTier
+  href: IndustrialValley.Game.SaveData.CurrentTier.html#IndustrialValley_Game_SaveData_CurrentTier
   name: CurrentTier
   nameWithType: SaveData.CurrentTier
   fullName: IndustrialValley.Game.SaveData.CurrentTier
@@ -333,7 +337,7 @@ references:
     href: IndustrialValley.Game.Tiers.FactoryTier.html
 - uid: IndustrialValley.Game.SaveData.SaveTime*
   commentId: Overload:IndustrialValley.Game.SaveData.SaveTime
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_SaveTime
+  href: IndustrialValley.Game.SaveData.SaveTime.html#IndustrialValley_Game_SaveData_SaveTime
   name: SaveTime
   nameWithType: SaveData.SaveTime
   fullName: IndustrialValley.Game.SaveData.SaveTime
@@ -341,6 +345,7 @@ references:
   commentId: T:System.DateTime
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
@@ -349,7 +354,7 @@ references:
   name.vb: Date
 - uid: IndustrialValley.Game.SaveData.PlayTime*
   commentId: Overload:IndustrialValley.Game.SaveData.PlayTime
-  href: IndustrialValley.Game.SaveData.html#IndustrialValley_Game_SaveData_PlayTime
+  href: IndustrialValley.Game.SaveData.PlayTime.html#IndustrialValley_Game_SaveData_PlayTime
   name: PlayTime
   nameWithType: SaveData.PlayTime
   fullName: IndustrialValley.Game.SaveData.PlayTime
@@ -357,6 +362,8 @@ references:
   commentId: T:System.TimeSpan
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
+memberLayout: SeparatePages

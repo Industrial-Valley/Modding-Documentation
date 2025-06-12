@@ -129,6 +129,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -138,12 +139,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Game.Buildables.All*
   commentId: Overload:IndustrialValley.Game.Buildables.All
-  href: IndustrialValley.Game.Buildables.html#IndustrialValley_Game_Buildables_All
+  href: IndustrialValley.Game.Buildables.All.html#IndustrialValley_Game_Buildables_All
   name: All
   nameWithType: Buildables.All
   fullName: IndustrialValley.Game.Buildables.All
@@ -151,7 +153,7 @@ references:
   commentId: T:System.Collections.Generic.List{IndustrialValley.Utility.BuildableData}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  href: IndustrialValley.Utility.BuildableData.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<BuildableData>
   nameWithType: List<BuildableData>
   fullName: System.Collections.Generic.List<IndustrialValley.Utility.BuildableData>
@@ -162,6 +164,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: IndustrialValley.Utility.BuildableData
     name: BuildableData
@@ -171,6 +174,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -181,6 +185,7 @@ references:
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<T>
   nameWithType: List<T>
   fullName: System.Collections.Generic.List<T>
@@ -191,6 +196,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - name: T
   - name: '>'
@@ -198,6 +204,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -206,6 +213,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -213,29 +221,35 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.Game.Buildables.Types*
   commentId: Overload:IndustrialValley.Game.Buildables.Types
-  href: IndustrialValley.Game.Buildables.html#IndustrialValley_Game_Buildables_Types
+  href: IndustrialValley.Game.Buildables.Types.html#IndustrialValley_Game_Buildables_Types
   name: Types
   nameWithType: Buildables.Types
   fullName: IndustrialValley.Game.Buildables.Types
@@ -248,7 +262,7 @@ references:
   fullName: IndustrialValley.Game.BuildableTypes
 - uid: IndustrialValley.Game.Buildables.Add*
   commentId: Overload:IndustrialValley.Game.Buildables.Add
-  href: IndustrialValley.Game.Buildables.html#IndustrialValley_Game_Buildables_Add_IndustrialValley_Utility_BuildableData_
+  href: IndustrialValley.Game.Buildables.Add.html#IndustrialValley_Game_Buildables_Add_IndustrialValley_Utility_BuildableData_
   name: Add
   nameWithType: Buildables.Add
   fullName: IndustrialValley.Game.Buildables.Add
@@ -281,3 +295,4 @@ references:
   - uid: IndustrialValley.Utility
     name: Utility
     href: IndustrialValley.Utility.html
+memberLayout: SeparatePages

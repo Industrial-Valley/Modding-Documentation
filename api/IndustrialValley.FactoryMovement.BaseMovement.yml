@@ -71,10 +71,12 @@ items:
   source:
     id: OnSell
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
+  summary: Called when the buildable has been sold.
+  example: []
   syntax:
     content: public virtual void OnSell()
     content.vb: Public Overridable Sub OnSell()
@@ -93,7 +95,7 @@ items:
   source:
     id: OnUpdate
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -115,7 +117,7 @@ items:
   source:
     id: CanAcceptItem
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
-    startLine: 25
+    startLine: 28
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -152,6 +154,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -189,6 +192,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -202,7 +206,7 @@ references:
   commentId: T:System.Collections.Generic.List{IndustrialValley.FactoryMovement.ConveyorItem}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  href: IndustrialValley.FactoryMovement.ConveyorItem.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ConveyorItem>
   nameWithType: List<ConveyorItem>
   fullName: System.Collections.Generic.List<IndustrialValley.FactoryMovement.ConveyorItem>
@@ -213,6 +217,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -222,6 +227,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -232,6 +238,7 @@ references:
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<T>
   nameWithType: List<T>
   fullName: System.Collections.Generic.List<T>
@@ -242,6 +249,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - name: T
   - name: '>'
@@ -249,6 +257,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -257,6 +266,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -264,41 +274,47 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnSell*
   commentId: Overload:IndustrialValley.FactoryMovement.BaseMovement.OnSell
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnSell.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
   name: OnSell
   nameWithType: BaseMovement.OnSell
   fullName: IndustrialValley.FactoryMovement.BaseMovement.OnSell
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate*
   commentId: Overload:IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
   name: OnUpdate
   nameWithType: BaseMovement.OnUpdate
   fullName: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
 - uid: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem*
   commentId: Overload:IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
+  href: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
   name: CanAcceptItem
   nameWithType: BaseMovement.CanAcceptItem
   fullName: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
@@ -306,9 +322,11 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+memberLayout: SeparatePages

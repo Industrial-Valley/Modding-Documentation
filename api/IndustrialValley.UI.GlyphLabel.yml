@@ -128,6 +128,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -159,14 +160,14 @@ references:
   commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
   parent: IndustrialValley.Helpers.UI
   definition: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
-  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   name: AddUISounds(VisualElement)
   nameWithType: UI.AddUISounds(VisualElement)
   fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
   spec.csharp:
   - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
     name: AddUISounds
-    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+    href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   - name: (
   - uid: UnityEngine.UIElements.VisualElement
     name: VisualElement
@@ -175,7 +176,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
     name: AddUISounds
-    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+    href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   - name: (
   - uid: UnityEngine.UIElements.VisualElement
     name: VisualElement
@@ -184,6 +185,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -212,14 +214,14 @@ references:
 - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
   commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
   isExternal: true
-  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   name: AddUISounds(VisualElement)
   nameWithType: UI.AddUISounds(VisualElement)
   fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
   spec.csharp:
   - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
     name: AddUISounds
-    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+    href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   - name: (
   - uid: UnityEngine.UIElements.VisualElement
     name: VisualElement
@@ -228,7 +230,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
     name: AddUISounds
-    href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+    href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   - name: (
   - uid: UnityEngine.UIElements.VisualElement
     name: VisualElement
@@ -265,7 +267,7 @@ references:
     href: IndustrialValley.Helpers.html
 - uid: IndustrialValley.UI.GlyphLabel.#ctor*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.#ctor
-  href: IndustrialValley.UI.GlyphLabel.html#IndustrialValley_UI_GlyphLabel__ctor
+  href: IndustrialValley.UI.GlyphLabel.-ctor.html#IndustrialValley_UI_GlyphLabel__ctor
   name: GlyphLabel
   nameWithType: GlyphLabel.GlyphLabel
   fullName: IndustrialValley.UI.GlyphLabel.GlyphLabel
@@ -274,7 +276,7 @@ references:
   name.vb: New
 - uid: IndustrialValley.UI.GlyphLabel.text*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.text
-  href: IndustrialValley.UI.GlyphLabel.html#IndustrialValley_UI_GlyphLabel_text
+  href: IndustrialValley.UI.GlyphLabel.text.html#IndustrialValley_UI_GlyphLabel_text
   name: text
   nameWithType: GlyphLabel.text
   fullName: IndustrialValley.UI.GlyphLabel.text
@@ -282,9 +284,11 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+memberLayout: SeparatePages

@@ -76,7 +76,7 @@ items:
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
-  summary: "       <p>\r\nCalled to register event callbacks on the target element.\r\n</p>"
+  summary: "   <p>\r\nCalled to register event callbacks on the target element.\r\n</p>"
   example: []
   syntax:
     content: protected override void RegisterCallbacksOnTarget()
@@ -101,7 +101,7 @@ items:
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
-  summary: "       <p>\r\nCalled to unregister event callbacks from the target element.\r\n</p>"
+  summary: "   <p>\r\nCalled to unregister event callbacks from the target element.\r\n</p>"
   example: []
   syntax:
     content: protected override void UnregisterCallbacksFromTarget()
@@ -135,6 +135,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -165,6 +166,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -192,7 +194,7 @@ references:
     isExternal: true
 - uid: IndustrialValley.UI.DraggableManipulator.#ctor*
   commentId: Overload:IndustrialValley.UI.DraggableManipulator.#ctor
-  href: IndustrialValley.UI.DraggableManipulator.html#IndustrialValley_UI_DraggableManipulator__ctor_UnityEngine_UIElements_VisualElement_
+  href: IndustrialValley.UI.DraggableManipulator.-ctor.html#IndustrialValley_UI_DraggableManipulator__ctor_UnityEngine_UIElements_VisualElement_
   name: DraggableManipulator
   nameWithType: DraggableManipulator.DraggableManipulator
   fullName: IndustrialValley.UI.DraggableManipulator.DraggableManipulator
@@ -227,7 +229,7 @@ references:
   - name: )
 - uid: IndustrialValley.UI.DraggableManipulator.RegisterCallbacksOnTarget*
   commentId: Overload:IndustrialValley.UI.DraggableManipulator.RegisterCallbacksOnTarget
-  href: IndustrialValley.UI.DraggableManipulator.html#IndustrialValley_UI_DraggableManipulator_RegisterCallbacksOnTarget
+  href: IndustrialValley.UI.DraggableManipulator.RegisterCallbacksOnTarget.html#IndustrialValley_UI_DraggableManipulator_RegisterCallbacksOnTarget
   name: RegisterCallbacksOnTarget
   nameWithType: DraggableManipulator.RegisterCallbacksOnTarget
   fullName: IndustrialValley.UI.DraggableManipulator.RegisterCallbacksOnTarget
@@ -252,7 +254,8 @@ references:
   - name: )
 - uid: IndustrialValley.UI.DraggableManipulator.UnregisterCallbacksFromTarget*
   commentId: Overload:IndustrialValley.UI.DraggableManipulator.UnregisterCallbacksFromTarget
-  href: IndustrialValley.UI.DraggableManipulator.html#IndustrialValley_UI_DraggableManipulator_UnregisterCallbacksFromTarget
+  href: IndustrialValley.UI.DraggableManipulator.UnregisterCallbacksFromTarget.html#IndustrialValley_UI_DraggableManipulator_UnregisterCallbacksFromTarget
   name: UnregisterCallbacksFromTarget
   nameWithType: DraggableManipulator.UnregisterCallbacksFromTarget
   fullName: IndustrialValley.UI.DraggableManipulator.UnregisterCallbacksFromTarget
+memberLayout: SeparatePages

@@ -126,6 +126,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -135,12 +136,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Mod.ProfileMod.ProfileId*
   commentId: Overload:IndustrialValley.Mod.ProfileMod.ProfileId
-  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_ProfileId
+  href: IndustrialValley.Mod.ProfileMod.ProfileId.html#IndustrialValley_Mod_ProfileMod_ProfileId
   name: ProfileId
   nameWithType: ProfileMod.ProfileId
   fullName: IndustrialValley.Mod.ProfileMod.ProfileId
@@ -148,6 +150,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -156,13 +159,14 @@ references:
   name.vb: String
 - uid: IndustrialValley.Mod.ProfileMod.Name*
   commentId: Overload:IndustrialValley.Mod.ProfileMod.Name
-  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_Name
+  href: IndustrialValley.Mod.ProfileMod.Name.html#IndustrialValley_Mod_ProfileMod_Name
   name: Name
   nameWithType: ProfileMod.Name
   fullName: IndustrialValley.Mod.ProfileMod.Name
 - uid: IndustrialValley.Mod.ProfileMod.OnStart*
   commentId: Overload:IndustrialValley.Mod.ProfileMod.OnStart
-  href: IndustrialValley.Mod.ProfileMod.html#IndustrialValley_Mod_ProfileMod_OnStart
+  href: IndustrialValley.Mod.ProfileMod.OnStart.html#IndustrialValley_Mod_ProfileMod_OnStart
   name: OnStart
   nameWithType: ProfileMod.OnStart
   fullName: IndustrialValley.Mod.ProfileMod.OnStart
+memberLayout: SeparatePages

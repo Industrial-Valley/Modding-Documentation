@@ -180,6 +180,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -189,6 +190,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -196,6 +198,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -206,6 +209,7 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -221,7 +225,7 @@ references:
   fullName: IndustrialValley.Mod.Mod
 - uid: IndustrialValley.Mod.ModData.GetBundle*
   commentId: Overload:IndustrialValley.Mod.ModData.GetBundle
-  href: IndustrialValley.Mod.ModData.html#IndustrialValley_Mod_ModData_GetBundle_System_String_System_String_
+  href: IndustrialValley.Mod.ModData.GetBundle.html#IndustrialValley_Mod_ModData_GetBundle_System_String_System_String_
   name: GetBundle
   nameWithType: ModData.GetBundle
   fullName: IndustrialValley.Mod.ModData.GetBundle
@@ -238,3 +242,4 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
+memberLayout: SeparatePages

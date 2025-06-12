@@ -105,6 +105,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -114,12 +115,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Helpers.UI.AddUISounds*
   commentId: Overload:IndustrialValley.Helpers.UI.AddUISounds
-  href: IndustrialValley.Helpers.UI.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
   name: AddUISounds
   nameWithType: UI.AddUISounds
   fullName: IndustrialValley.Helpers.UI.AddUISounds
@@ -159,3 +161,4 @@ references:
   name: Button
   nameWithType: Button
   fullName: UnityEngine.UIElements.Button
+memberLayout: SeparatePages

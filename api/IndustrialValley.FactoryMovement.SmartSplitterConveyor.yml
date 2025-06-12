@@ -585,6 +585,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -636,32 +637,33 @@ references:
 - uid: IndustrialValley.FactoryMovement.BaseMovement.items
   commentId: F:IndustrialValley.FactoryMovement.BaseMovement.items
   parent: IndustrialValley.FactoryMovement.BaseMovement
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_items
+  href: IndustrialValley.FactoryMovement.BaseMovement.items.html#IndustrialValley_FactoryMovement_BaseMovement_items
   name: items
   nameWithType: BaseMovement.items
   fullName: IndustrialValley.FactoryMovement.BaseMovement.items
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnSell
   commentId: M:IndustrialValley.FactoryMovement.BaseMovement.OnSell
   parent: IndustrialValley.FactoryMovement.BaseMovement
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnSell.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
   name: OnSell()
   nameWithType: BaseMovement.OnSell()
   fullName: IndustrialValley.FactoryMovement.BaseMovement.OnSell()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.OnSell
     name: OnSell
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnSell.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.OnSell
     name: OnSell
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnSell.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
   - name: (
   - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -675,6 +677,7 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
   name: float
   nameWithType: float
   fullName: float
@@ -705,6 +708,7 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -714,51 +718,52 @@ references:
 - uid: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
   commentId: M:IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
   parent: IndustrialValley.FactoryMovement.BaseMovement
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
+  href: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
   name: CanAcceptItem()
   nameWithType: BaseMovement.CanAcceptItem()
   fullName: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
+    href: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
+    href: IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem.html#IndustrialValley_FactoryMovement_BaseMovement_CanAcceptItem
   - name: (
   - name: )
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.CanAcceptItem*
   commentId: Overload:IndustrialValley.FactoryMovement.SmartSplitterConveyor.CanAcceptItem
-  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_CanAcceptItem
+  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.CanAcceptItem.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_CanAcceptItem
   name: CanAcceptItem
   nameWithType: SmartSplitterConveyor.CanAcceptItem
   fullName: IndustrialValley.FactoryMovement.SmartSplitterConveyor.CanAcceptItem
 - uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
   commentId: M:IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
   parent: IndustrialValley.FactoryMovement.IConveyor
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
+  href: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
   name: CanAcceptItem()
   nameWithType: IConveyor.CanAcceptItem()
   fullName: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
+    href: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
+    href: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
   - name: (
   - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -767,21 +772,21 @@ references:
   name.vb: Boolean
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.InsertItem*
   commentId: Overload:IndustrialValley.FactoryMovement.SmartSplitterConveyor.InsertItem
-  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.InsertItem.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   name: InsertItem
   nameWithType: SmartSplitterConveyor.InsertItem
   fullName: IndustrialValley.FactoryMovement.SmartSplitterConveyor.InsertItem
 - uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   commentId: M:IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   parent: IndustrialValley.FactoryMovement.IConveyor
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.FactoryMovement.IConveyor.InsertItem.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   name: InsertItem(ConveyorItem)
   nameWithType: IConveyor.InsertItem(ConveyorItem)
   fullName: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: InsertItem
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.FactoryMovement.IConveyor.InsertItem.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -790,7 +795,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: InsertItem
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.FactoryMovement.IConveyor.InsertItem.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -805,76 +810,77 @@ references:
   fullName: IndustrialValley.FactoryMovement.ConveyorItem
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetInputPositions*
   commentId: Overload:IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetInputPositions
-  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_GetInputPositions
+  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetInputPositions.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_GetInputPositions
   name: GetInputPositions
   nameWithType: SmartSplitterConveyor.GetInputPositions
   fullName: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetInputPositions
 - uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
   commentId: M:IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
   parent: IndustrialValley.FactoryMovement.IConveyor
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
   name: GetInputPositions()
   nameWithType: IConveyor.GetInputPositions()
   fullName: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
     name: GetInputPositions
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
+    href: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
     name: GetInputPositions
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
+    href: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
   - name: (
   - name: )
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetOutputPositions*
   commentId: Overload:IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetOutputPositions
-  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_GetOutputPositions
+  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetOutputPositions.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_GetOutputPositions
   name: GetOutputPositions
   nameWithType: SmartSplitterConveyor.GetOutputPositions
   fullName: IndustrialValley.FactoryMovement.SmartSplitterConveyor.GetOutputPositions
 - uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
   commentId: M:IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
   parent: IndustrialValley.FactoryMovement.IConveyor
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
   name: GetOutputPositions()
   nameWithType: IConveyor.GetOutputPositions()
   fullName: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
     name: GetOutputPositions
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
+    href: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
     name: GetOutputPositions
-    href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
+    href: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
   - name: (
   - name: )
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   commentId: M:IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   parent: IndustrialValley.FactoryMovement.BaseMovement
-  href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
   name: OnUpdate()
   nameWithType: BaseMovement.OnUpdate()
   fullName: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate()
   spec.csharp:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
     name: OnUpdate
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
     name: OnUpdate
-    href: IndustrialValley.FactoryMovement.BaseMovement.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate
   - name: (
   - name: )
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.OnUpdate*
   commentId: Overload:IndustrialValley.FactoryMovement.SmartSplitterConveyor.OnUpdate
-  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_OnUpdate
+  href: IndustrialValley.FactoryMovement.SmartSplitterConveyor.OnUpdate.html#IndustrialValley_FactoryMovement_SmartSplitterConveyor_OnUpdate
   name: OnUpdate
   nameWithType: SmartSplitterConveyor.OnUpdate
   fullName: IndustrialValley.FactoryMovement.SmartSplitterConveyor.OnUpdate
+memberLayout: SeparatePages

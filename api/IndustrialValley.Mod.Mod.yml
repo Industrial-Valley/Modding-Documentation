@@ -97,6 +97,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -106,18 +107,20 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Mod.Mod.OnStart*
   commentId: Overload:IndustrialValley.Mod.Mod.OnStart
-  href: IndustrialValley.Mod.Mod.html#IndustrialValley_Mod_Mod_OnStart
+  href: IndustrialValley.Mod.Mod.OnStart.html#IndustrialValley_Mod_Mod_OnStart
   name: OnStart
   nameWithType: Mod.OnStart
   fullName: IndustrialValley.Mod.Mod.OnStart
 - uid: IndustrialValley.Mod.Mod.OnUpdate*
   commentId: Overload:IndustrialValley.Mod.Mod.OnUpdate
-  href: IndustrialValley.Mod.Mod.html#IndustrialValley_Mod_Mod_OnUpdate
+  href: IndustrialValley.Mod.Mod.OnUpdate.html#IndustrialValley_Mod_Mod_OnUpdate
   name: OnUpdate
   nameWithType: Mod.OnUpdate
   fullName: IndustrialValley.Mod.Mod.OnUpdate
+memberLayout: SeparatePages

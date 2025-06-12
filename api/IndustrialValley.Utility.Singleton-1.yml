@@ -115,6 +115,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -152,6 +153,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -163,7 +165,7 @@ references:
   fullName: UnityEngine
 - uid: IndustrialValley.Utility.Singleton`1.Instance*
   commentId: Overload:IndustrialValley.Utility.Singleton`1.Instance
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Instance
+  href: IndustrialValley.Utility.Singleton-1.Instance.html#IndustrialValley_Utility_Singleton_1_Instance
   name: Instance
   nameWithType: Singleton<T>.Instance
   fullName: IndustrialValley.Utility.Singleton<T>.Instance
@@ -181,9 +183,10 @@ references:
   fullName: T
 - uid: IndustrialValley.Utility.Singleton`1.Awake*
   commentId: Overload:IndustrialValley.Utility.Singleton`1.Awake
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+  href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   name: Awake
   nameWithType: Singleton<T>.Awake
   fullName: IndustrialValley.Utility.Singleton<T>.Awake
   nameWithType.vb: Singleton(Of T).Awake
   fullName.vb: IndustrialValley.Utility.Singleton(Of T).Awake
+memberLayout: SeparatePages

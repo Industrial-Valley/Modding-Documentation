@@ -491,6 +491,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -528,6 +529,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -541,7 +543,7 @@ references:
   commentId: T:System.Collections.Generic.List{IndustrialValley.Poolers.PoolingItem}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  href: IndustrialValley.Poolers.PoolingItem.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<PoolingItem>
   nameWithType: List<PoolingItem>
   fullName: System.Collections.Generic.List<IndustrialValley.Poolers.PoolingItem>
@@ -552,6 +554,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: IndustrialValley.Poolers.PoolingItem
     name: PoolingItem
@@ -561,6 +564,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -571,6 +575,7 @@ references:
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<T>
   nameWithType: List<T>
   fullName: System.Collections.Generic.List<T>
@@ -581,6 +586,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - name: T
   - name: '>'
@@ -588,6 +594,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -596,6 +603,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -603,29 +611,35 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.Poolers.ObjectPooler.Instance*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.Instance
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_Instance
+  href: IndustrialValley.Poolers.ObjectPooler.Instance.html#IndustrialValley_Poolers_ObjectPooler_Instance
   name: Instance
   nameWithType: ObjectPooler.Instance
   fullName: IndustrialValley.Poolers.ObjectPooler.Instance
@@ -638,13 +652,13 @@ references:
   fullName: IndustrialValley.Poolers.ObjectPooler
 - uid: IndustrialValley.Poolers.ObjectPooler.Initialized*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.Initialized
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_Initialized
+  href: IndustrialValley.Poolers.ObjectPooler.Initialized.html#IndustrialValley_Poolers_ObjectPooler_Initialized
   name: Initialized
   nameWithType: ObjectPooler.Initialized
   fullName: IndustrialValley.Poolers.ObjectPooler.Initialized
 - uid: IndustrialValley.Poolers.ObjectPooler.Get*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.Get
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_Get__1_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
+  href: IndustrialValley.Poolers.ObjectPooler.Get.html#IndustrialValley_Poolers_ObjectPooler_Get__1_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
   name: Get
   nameWithType: ObjectPooler.Get
   fullName: IndustrialValley.Poolers.ObjectPooler.Get
@@ -681,7 +695,7 @@ references:
   fullName: T
 - uid: IndustrialValley.Poolers.ObjectPooler.PutParticle*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.PutParticle
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_PutParticle_IndustrialValley_Poolers_ParticleObject_
+  href: IndustrialValley.Poolers.ObjectPooler.PutParticle.html#IndustrialValley_Poolers_ObjectPooler_PutParticle_IndustrialValley_Poolers_ParticleObject_
   name: PutParticle
   nameWithType: ObjectPooler.PutParticle
   fullName: IndustrialValley.Poolers.ObjectPooler.PutParticle
@@ -694,19 +708,19 @@ references:
   fullName: IndustrialValley.Poolers.ParticleObject
 - uid: IndustrialValley.Poolers.ObjectPooler.GetParticle*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.GetParticle
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_GetParticle_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
+  href: IndustrialValley.Poolers.ObjectPooler.GetParticle.html#IndustrialValley_Poolers_ObjectPooler_GetParticle_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
   name: GetParticle
   nameWithType: ObjectPooler.GetParticle
   fullName: IndustrialValley.Poolers.ObjectPooler.GetParticle
 - uid: IndustrialValley.Poolers.ObjectPooler.GetAndPlayParticle*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.GetAndPlayParticle
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_GetAndPlayParticle_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
+  href: IndustrialValley.Poolers.ObjectPooler.GetAndPlayParticle.html#IndustrialValley_Poolers_ObjectPooler_GetAndPlayParticle_UnityEngine_GameObject_UnityEngine_Vector3_UnityEngine_Quaternion_
   name: GetAndPlayParticle
   nameWithType: ObjectPooler.GetAndPlayParticle
   fullName: IndustrialValley.Poolers.ObjectPooler.GetAndPlayParticle
 - uid: IndustrialValley.Poolers.ObjectPooler.Put*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.Put
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_Put_UnityEngine_GameObject_
+  href: IndustrialValley.Poolers.ObjectPooler.Put.html#IndustrialValley_Poolers_ObjectPooler_Put_UnityEngine_GameObject_
   name: Put
   nameWithType: ObjectPooler.Put
   fullName: IndustrialValley.Poolers.ObjectPooler.Put
@@ -714,6 +728,7 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -724,6 +739,7 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
   name: float
   nameWithType: float
   fullName: float
@@ -732,13 +748,14 @@ references:
   name.vb: Single
 - uid: IndustrialValley.Poolers.ObjectPooler.DelayDespawn*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.DelayDespawn
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_DelayDespawn_UnityEngine_GameObject_System_Single_
+  href: IndustrialValley.Poolers.ObjectPooler.DelayDespawn.html#IndustrialValley_Poolers_ObjectPooler_DelayDespawn_UnityEngine_GameObject_System_Single_
   name: DelayDespawn
   nameWithType: ObjectPooler.DelayDespawn
   fullName: IndustrialValley.Poolers.ObjectPooler.DelayDespawn
 - uid: IndustrialValley.Poolers.ObjectPooler.NewItem*
   commentId: Overload:IndustrialValley.Poolers.ObjectPooler.NewItem
-  href: IndustrialValley.Poolers.ObjectPooler.html#IndustrialValley_Poolers_ObjectPooler_NewItem_UnityEngine_GameObject_System_Int32_
+  href: IndustrialValley.Poolers.ObjectPooler.NewItem.html#IndustrialValley_Poolers_ObjectPooler_NewItem_UnityEngine_GameObject_System_Int32_
   name: NewItem
   nameWithType: ObjectPooler.NewItem
   fullName: IndustrialValley.Poolers.ObjectPooler.NewItem
+memberLayout: SeparatePages

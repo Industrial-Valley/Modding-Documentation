@@ -174,6 +174,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -183,12 +184,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.Game.Tiers.All*
   commentId: Overload:IndustrialValley.Game.Tiers.All
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_All
+  href: IndustrialValley.Game.Tiers.All.html#IndustrialValley_Game_Tiers_All
   name: All
   nameWithType: Tiers.All
   fullName: IndustrialValley.Game.Tiers.All
@@ -196,7 +198,7 @@ references:
   commentId: T:System.Collections.Generic.Dictionary{System.String,IndustrialValley.Game.Tiers.TierData}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
-  href: IndustrialValley.Game.Tiers.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<string, Tiers.TierData>
   nameWithType: Dictionary<string, Tiers.TierData>
   fullName: System.Collections.Generic.Dictionary<string, IndustrialValley.Game.Tiers.TierData>
@@ -207,10 +209,12 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - uid: System.String
     name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: IndustrialValley.Game.Tiers
@@ -225,12 +229,14 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
   - uid: System.String
     name: String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: IndustrialValley.Game.Tiers
@@ -244,6 +250,7 @@ references:
 - uid: System.Collections.Generic.Dictionary`2
   commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<TKey, TValue>
   nameWithType: Dictionary<TKey, TValue>
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>
@@ -254,6 +261,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - name: TKey
   - name: ','
@@ -264,6 +272,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
@@ -275,6 +284,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -282,29 +292,35 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.Game.Tiers.AddTier*
   commentId: Overload:IndustrialValley.Game.Tiers.AddTier
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_AddTier_System_String_System_String_
+  href: IndustrialValley.Game.Tiers.AddTier.html#IndustrialValley_Game_Tiers_AddTier_System_String_System_String_
   name: AddTier
   nameWithType: Tiers.AddTier
   fullName: IndustrialValley.Game.Tiers.AddTier
@@ -312,6 +328,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -320,7 +337,7 @@ references:
   name.vb: String
 - uid: IndustrialValley.Game.Tiers.GetTier*
   commentId: Overload:IndustrialValley.Game.Tiers.GetTier
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_GetTier_System_String_
+  href: IndustrialValley.Game.Tiers.GetTier.html#IndustrialValley_Game_Tiers_GetTier_System_String_
   name: GetTier
   nameWithType: Tiers.GetTier
   fullName: IndustrialValley.Game.Tiers.GetTier
@@ -349,7 +366,7 @@ references:
     href: IndustrialValley.Game.Tiers.TierData.html
 - uid: IndustrialValley.Game.Tiers.DisplayName*
   commentId: Overload:IndustrialValley.Game.Tiers.DisplayName
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   name: DisplayName
   nameWithType: Tiers.DisplayName
   fullName: IndustrialValley.Game.Tiers.DisplayName
@@ -376,3 +393,4 @@ references:
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
     href: IndustrialValley.Game.Tiers.FactoryTier.html
+memberLayout: SeparatePages

@@ -259,6 +259,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -310,108 +311,108 @@ references:
 - uid: IndustrialValley.Machines.BaseMachine.handoffDetectRadius
   commentId: F:IndustrialValley.Machines.BaseMachine.handoffDetectRadius
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_handoffDetectRadius
+  href: IndustrialValley.Machines.BaseMachine.handoffDetectRadius.html#IndustrialValley_Machines_BaseMachine_handoffDetectRadius
   name: handoffDetectRadius
   nameWithType: BaseMachine.handoffDetectRadius
   fullName: IndustrialValley.Machines.BaseMachine.handoffDetectRadius
 - uid: IndustrialValley.Machines.BaseMachine.handoffFallbackDistance
   commentId: F:IndustrialValley.Machines.BaseMachine.handoffFallbackDistance
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_handoffFallbackDistance
+  href: IndustrialValley.Machines.BaseMachine.handoffFallbackDistance.html#IndustrialValley_Machines_BaseMachine_handoffFallbackDistance
   name: handoffFallbackDistance
   nameWithType: BaseMachine.handoffFallbackDistance
   fullName: IndustrialValley.Machines.BaseMachine.handoffFallbackDistance
 - uid: IndustrialValley.Machines.BaseMachine.handoffOffsets
   commentId: F:IndustrialValley.Machines.BaseMachine.handoffOffsets
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_handoffOffsets
+  href: IndustrialValley.Machines.BaseMachine.handoffOffsets.html#IndustrialValley_Machines_BaseMachine_handoffOffsets
   name: handoffOffsets
   nameWithType: BaseMachine.handoffOffsets
   fullName: IndustrialValley.Machines.BaseMachine.handoffOffsets
 - uid: IndustrialValley.Machines.BaseMachine.inputDetectRadius
   commentId: F:IndustrialValley.Machines.BaseMachine.inputDetectRadius
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_inputDetectRadius
+  href: IndustrialValley.Machines.BaseMachine.inputDetectRadius.html#IndustrialValley_Machines_BaseMachine_inputDetectRadius
   name: inputDetectRadius
   nameWithType: BaseMachine.inputDetectRadius
   fullName: IndustrialValley.Machines.BaseMachine.inputDetectRadius
 - uid: IndustrialValley.Machines.BaseMachine.inputFallbackDistance
   commentId: F:IndustrialValley.Machines.BaseMachine.inputFallbackDistance
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_inputFallbackDistance
+  href: IndustrialValley.Machines.BaseMachine.inputFallbackDistance.html#IndustrialValley_Machines_BaseMachine_inputFallbackDistance
   name: inputFallbackDistance
   nameWithType: BaseMachine.inputFallbackDistance
   fullName: IndustrialValley.Machines.BaseMachine.inputFallbackDistance
 - uid: IndustrialValley.Machines.BaseMachine.inputOffsets
   commentId: F:IndustrialValley.Machines.BaseMachine.inputOffsets
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_inputOffsets
+  href: IndustrialValley.Machines.BaseMachine.inputOffsets.html#IndustrialValley_Machines_BaseMachine_inputOffsets
   name: inputOffsets
   nameWithType: BaseMachine.inputOffsets
   fullName: IndustrialValley.Machines.BaseMachine.inputOffsets
 - uid: IndustrialValley.Machines.BaseMachine.outputSpeed
   commentId: F:IndustrialValley.Machines.BaseMachine.outputSpeed
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_outputSpeed
+  href: IndustrialValley.Machines.BaseMachine.outputSpeed.html#IndustrialValley_Machines_BaseMachine_outputSpeed
   name: outputSpeed
   nameWithType: BaseMachine.outputSpeed
   fullName: IndustrialValley.Machines.BaseMachine.outputSpeed
 - uid: IndustrialValley.Machines.BaseMachine.lastOutputTime
   commentId: F:IndustrialValley.Machines.BaseMachine.lastOutputTime
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_lastOutputTime
+  href: IndustrialValley.Machines.BaseMachine.lastOutputTime.html#IndustrialValley_Machines_BaseMachine_lastOutputTime
   name: lastOutputTime
   nameWithType: BaseMachine.lastOutputTime
   fullName: IndustrialValley.Machines.BaseMachine.lastOutputTime
 - uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
   commentId: M:IndustrialValley.Machines.BaseMachine.GetInputPositions
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+  href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
   name: GetInputPositions()
   nameWithType: BaseMachine.GetInputPositions()
   fullName: IndustrialValley.Machines.BaseMachine.GetInputPositions()
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
     name: GetInputPositions
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
     name: GetInputPositions
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
   - name: (
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
   commentId: M:IndustrialValley.Machines.BaseMachine.GetOutputPositions
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+  href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
   name: GetOutputPositions()
   nameWithType: BaseMachine.GetOutputPositions()
   fullName: IndustrialValley.Machines.BaseMachine.GetOutputPositions()
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
     name: GetOutputPositions
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
     name: GetOutputPositions
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
   - name: (
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   commentId: M:IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   name: InsertItem(ConveyorItem)
   nameWithType: BaseMachine.InsertItem(ConveyorItem)
   fullName: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: InsertItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -420,7 +421,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: InsertItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -429,27 +430,27 @@ references:
 - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   commentId: M:IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
+  href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
   name: FindClosestDownstreamConveyor()
   nameWithType: BaseMachine.FindClosestDownstreamConveyor()
   fullName: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor()
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
     name: FindClosestDownstreamConveyor
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
+    href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
     name: FindClosestDownstreamConveyor
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
+    href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor
   - name: (
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3,System.Single)
   commentId: M:IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3,System.Single)
   parent: IndustrialValley.Machines.BaseMachine
   isExternal: true
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
+  href: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
   name: FindConveyorViaOverlap(Vector3, float)
   nameWithType: BaseMachine.FindConveyorViaOverlap(Vector3, float)
   fullName: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3, float)
@@ -459,7 +460,7 @@ references:
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3,System.Single)
     name: FindConveyorViaOverlap
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
+    href: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
   - name: (
   - uid: UnityEngine.Vector3
     name: Vector3
@@ -469,11 +470,12 @@ references:
   - uid: System.Single
     name: float
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3,System.Single)
     name: FindConveyorViaOverlap
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
+    href: IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaOverlap_UnityEngine_Vector3_System_Single_
   - name: (
   - uid: UnityEngine.Vector3
     name: Vector3
@@ -483,12 +485,13 @@ references:
   - uid: System.Single
     name: Single
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3,System.Single)
   commentId: M:IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3,System.Single)
   parent: IndustrialValley.Machines.BaseMachine
   isExternal: true
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
+  href: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
   name: FindConveyorViaDistance(Vector3, float)
   nameWithType: BaseMachine.FindConveyorViaDistance(Vector3, float)
   fullName: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3, float)
@@ -498,7 +501,7 @@ references:
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3,System.Single)
     name: FindConveyorViaDistance
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
+    href: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
   - name: (
   - uid: UnityEngine.Vector3
     name: Vector3
@@ -508,11 +511,12 @@ references:
   - uid: System.Single
     name: float
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3,System.Single)
     name: FindConveyorViaDistance
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
+    href: IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance.html#IndustrialValley_Machines_BaseMachine_FindConveyorViaDistance_UnityEngine_Vector3_System_Single_
   - name: (
   - uid: UnityEngine.Vector3
     name: Vector3
@@ -522,18 +526,19 @@ references:
   - uid: System.Single
     name: Single
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
   commentId: M:IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
   name: OutputItem(ConveyorItem)
   nameWithType: BaseMachine.OutputItem(ConveyorItem)
   fullName: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: OutputItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -542,7 +547,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
     name: OutputItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -551,6 +556,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -584,7 +590,7 @@ references:
     href: IndustrialValley.FactoryMovement.html
 - uid: IndustrialValley.Machines.StorageMachine.MaxStorage*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.MaxStorage
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_MaxStorage
+  href: IndustrialValley.Machines.StorageMachine.MaxStorage.html#IndustrialValley_Machines_StorageMachine_MaxStorage
   name: MaxStorage
   nameWithType: StorageMachine.MaxStorage
   fullName: IndustrialValley.Machines.StorageMachine.MaxStorage
@@ -592,6 +598,7 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -600,7 +607,7 @@ references:
   name.vb: Integer
 - uid: IndustrialValley.Machines.StorageMachine.StoredItems*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.StoredItems
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_StoredItems
+  href: IndustrialValley.Machines.StorageMachine.StoredItems.html#IndustrialValley_Machines_StorageMachine_StoredItems
   name: StoredItems
   nameWithType: StorageMachine.StoredItems
   fullName: IndustrialValley.Machines.StorageMachine.StoredItems
@@ -608,7 +615,7 @@ references:
   commentId: T:System.Collections.Generic.Dictionary{System.String,IndustrialValley.Machines.StorageMachine.StoredItem}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
-  href: IndustrialValley.Machines.StorageMachine.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<string, StorageMachine.StoredItem>
   nameWithType: Dictionary<string, StorageMachine.StoredItem>
   fullName: System.Collections.Generic.Dictionary<string, IndustrialValley.Machines.StorageMachine.StoredItem>
@@ -619,10 +626,12 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - uid: System.String
     name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: IndustrialValley.Machines.StorageMachine
@@ -637,12 +646,14 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
   - uid: System.String
     name: String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: IndustrialValley.Machines.StorageMachine
@@ -656,6 +667,7 @@ references:
 - uid: System.Collections.Generic.Dictionary`2
   commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<TKey, TValue>
   nameWithType: Dictionary<TKey, TValue>
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>
@@ -666,6 +678,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - name: TKey
   - name: ','
@@ -676,6 +689,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
@@ -687,6 +701,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -694,35 +709,41 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.Machines.StorageMachine.StorageLeft*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.StorageLeft
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_StorageLeft
+  href: IndustrialValley.Machines.StorageMachine.StorageLeft.html#IndustrialValley_Machines_StorageMachine_StorageLeft
   name: StorageLeft
   nameWithType: StorageMachine.StorageLeft
   fullName: IndustrialValley.Machines.StorageMachine.StorageLeft
 - uid: IndustrialValley.Machines.StorageMachine.IsFull*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.IsFull
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_IsFull
+  href: IndustrialValley.Machines.StorageMachine.IsFull.html#IndustrialValley_Machines_StorageMachine_IsFull
   name: IsFull
   nameWithType: StorageMachine.IsFull
   fullName: IndustrialValley.Machines.StorageMachine.IsFull
@@ -730,6 +751,7 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -739,39 +761,39 @@ references:
 - uid: IndustrialValley.Machines.BaseMachine.CanAcceptItem
   commentId: M:IndustrialValley.Machines.BaseMachine.CanAcceptItem
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
+  href: IndustrialValley.Machines.BaseMachine.CanAcceptItem.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
   name: CanAcceptItem()
   nameWithType: BaseMachine.CanAcceptItem()
   fullName: IndustrialValley.Machines.BaseMachine.CanAcceptItem()
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
+    href: IndustrialValley.Machines.BaseMachine.CanAcceptItem.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.CanAcceptItem
     name: CanAcceptItem
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
+    href: IndustrialValley.Machines.BaseMachine.CanAcceptItem.html#IndustrialValley_Machines_BaseMachine_CanAcceptItem
   - name: (
   - name: )
 - uid: IndustrialValley.Machines.StorageMachine.CanAcceptItem*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.CanAcceptItem
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_CanAcceptItem
+  href: IndustrialValley.Machines.StorageMachine.CanAcceptItem.html#IndustrialValley_Machines_StorageMachine_CanAcceptItem
   name: CanAcceptItem
   nameWithType: StorageMachine.CanAcceptItem
   fullName: IndustrialValley.Machines.StorageMachine.CanAcceptItem
 - uid: IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
   commentId: M:IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.Machines.BaseMachine.OnItemInserted.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
   name: OnItemInserted(ConveyorItem)
   nameWithType: BaseMachine.OnItemInserted(ConveyorItem)
   fullName: IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
     name: OnItemInserted
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.OnItemInserted.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -780,7 +802,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
     name: OnItemInserted
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
+    href: IndustrialValley.Machines.BaseMachine.OnItemInserted.html#IndustrialValley_Machines_BaseMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
   - name: (
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
@@ -788,7 +810,7 @@ references:
   - name: )
 - uid: IndustrialValley.Machines.StorageMachine.OnItemInserted*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.OnItemInserted
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.Machines.StorageMachine.OnItemInserted.html#IndustrialValley_Machines_StorageMachine_OnItemInserted_IndustrialValley_FactoryMovement_ConveyorItem_
   name: OnItemInserted
   nameWithType: StorageMachine.OnItemInserted
   fullName: IndustrialValley.Machines.StorageMachine.OnItemInserted
@@ -802,25 +824,26 @@ references:
 - uid: IndustrialValley.Machines.BaseMachine.OnUpdate
   commentId: M:IndustrialValley.Machines.BaseMachine.OnUpdate
   parent: IndustrialValley.Machines.BaseMachine
-  href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnUpdate
+  href: IndustrialValley.Machines.BaseMachine.OnUpdate.html#IndustrialValley_Machines_BaseMachine_OnUpdate
   name: OnUpdate()
   nameWithType: BaseMachine.OnUpdate()
   fullName: IndustrialValley.Machines.BaseMachine.OnUpdate()
   spec.csharp:
   - uid: IndustrialValley.Machines.BaseMachine.OnUpdate
     name: OnUpdate
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnUpdate
+    href: IndustrialValley.Machines.BaseMachine.OnUpdate.html#IndustrialValley_Machines_BaseMachine_OnUpdate
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Machines.BaseMachine.OnUpdate
     name: OnUpdate
-    href: IndustrialValley.Machines.BaseMachine.html#IndustrialValley_Machines_BaseMachine_OnUpdate
+    href: IndustrialValley.Machines.BaseMachine.OnUpdate.html#IndustrialValley_Machines_BaseMachine_OnUpdate
   - name: (
   - name: )
 - uid: IndustrialValley.Machines.StorageMachine.OnUpdate*
   commentId: Overload:IndustrialValley.Machines.StorageMachine.OnUpdate
-  href: IndustrialValley.Machines.StorageMachine.html#IndustrialValley_Machines_StorageMachine_OnUpdate
+  href: IndustrialValley.Machines.StorageMachine.OnUpdate.html#IndustrialValley_Machines_StorageMachine_OnUpdate
   name: OnUpdate
   nameWithType: StorageMachine.OnUpdate
   fullName: IndustrialValley.Machines.StorageMachine.OnUpdate
+memberLayout: SeparatePages

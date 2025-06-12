@@ -183,7 +183,7 @@ references:
     href: IndustrialValley.FactoryMovement.html
 - uid: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem*
   commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
+  href: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem.html#IndustrialValley_FactoryMovement_IConveyor_CanAcceptItem
   name: CanAcceptItem
   nameWithType: IConveyor.CanAcceptItem
   fullName: IndustrialValley.FactoryMovement.IConveyor.CanAcceptItem
@@ -191,6 +191,7 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -200,12 +201,13 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: IndustrialValley.FactoryMovement.IConveyor.InsertItem*
   commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.InsertItem
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
+  href: IndustrialValley.FactoryMovement.IConveyor.InsertItem.html#IndustrialValley_FactoryMovement_IConveyor_InsertItem_IndustrialValley_FactoryMovement_ConveyorItem_
   name: InsertItem
   nameWithType: IConveyor.InsertItem
   fullName: IndustrialValley.FactoryMovement.IConveyor.InsertItem
@@ -218,7 +220,7 @@ references:
   fullName: IndustrialValley.FactoryMovement.ConveyorItem
 - uid: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions*
   commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetInputPositions
   name: GetInputPositions
   nameWithType: IConveyor.GetInputPositions
   fullName: IndustrialValley.FactoryMovement.IConveyor.GetInputPositions
@@ -244,7 +246,8 @@ references:
   - name: )
 - uid: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions*
   commentId: Overload:IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
-  href: IndustrialValley.FactoryMovement.IConveyor.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
+  href: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions.html#IndustrialValley_FactoryMovement_IConveyor_GetOutputPositions
   name: GetOutputPositions
   nameWithType: IConveyor.GetOutputPositions
   fullName: IndustrialValley.FactoryMovement.IConveyor.GetOutputPositions
+memberLayout: SeparatePages

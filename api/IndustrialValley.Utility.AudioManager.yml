@@ -164,6 +164,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -233,7 +234,7 @@ references:
   commentId: P:IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Instance
   parent: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
   definition: IndustrialValley.Utility.Singleton`1.Instance
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Instance
+  href: IndustrialValley.Utility.Singleton-1.Instance.html#IndustrialValley_Utility_Singleton_1_Instance
   name: Instance
   nameWithType: Singleton<AudioManager>.Instance
   fullName: IndustrialValley.Utility.Singleton<IndustrialValley.Utility.AudioManager>.Instance
@@ -242,6 +243,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -278,7 +280,7 @@ references:
   - name: )
 - uid: IndustrialValley.Utility.Singleton`1.Instance
   commentId: P:IndustrialValley.Utility.Singleton`1.Instance
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Instance
+  href: IndustrialValley.Utility.Singleton-1.Instance.html#IndustrialValley_Utility_Singleton_1_Instance
   name: Instance
   nameWithType: Singleton<T>.Instance
   fullName: IndustrialValley.Utility.Singleton<T>.Instance
@@ -288,7 +290,7 @@ references:
   commentId: M:IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
   parent: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
   definition: IndustrialValley.Utility.Singleton`1.Awake
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+  href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   name: Awake()
   nameWithType: Singleton<AudioManager>.Awake()
   fullName: IndustrialValley.Utility.Singleton<IndustrialValley.Utility.AudioManager>.Awake()
@@ -297,24 +299,24 @@ references:
   spec.csharp:
   - uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
     name: Awake
-    href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
     name: Awake
-    href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   - name: (
   - name: )
 - uid: IndustrialValley.Utility.AudioManager.Awake*
   commentId: Overload:IndustrialValley.Utility.AudioManager.Awake
-  href: IndustrialValley.Utility.AudioManager.html#IndustrialValley_Utility_AudioManager_Awake
+  href: IndustrialValley.Utility.AudioManager.Awake.html#IndustrialValley_Utility_AudioManager_Awake
   name: Awake
   nameWithType: AudioManager.Awake
   fullName: IndustrialValley.Utility.AudioManager.Awake
 - uid: IndustrialValley.Utility.Singleton`1.Awake
   commentId: M:IndustrialValley.Utility.Singleton`1.Awake
-  href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+  href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   name: Awake()
   nameWithType: Singleton<T>.Awake()
   fullName: IndustrialValley.Utility.Singleton<T>.Awake()
@@ -323,18 +325,18 @@ references:
   spec.csharp:
   - uid: IndustrialValley.Utility.Singleton`1.Awake
     name: Awake
-    href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   - name: (
   - name: )
   spec.vb:
   - uid: IndustrialValley.Utility.Singleton`1.Awake
     name: Awake
-    href: IndustrialValley.Utility.Singleton-1.html#IndustrialValley_Utility_Singleton_1_Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
   - name: (
   - name: )
 - uid: IndustrialValley.Utility.AudioManager.PlayUISound*
   commentId: Overload:IndustrialValley.Utility.AudioManager.PlayUISound
-  href: IndustrialValley.Utility.AudioManager.html#IndustrialValley_Utility_AudioManager_PlayUISound_System_String_
+  href: IndustrialValley.Utility.AudioManager.PlayUISound.html#IndustrialValley_Utility_AudioManager_PlayUISound_System_String_
   name: PlayUISound
   nameWithType: AudioManager.PlayUISound
   fullName: IndustrialValley.Utility.AudioManager.PlayUISound
@@ -342,6 +344,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -350,13 +353,14 @@ references:
   name.vb: String
 - uid: IndustrialValley.Utility.AudioManager.PlaySound*
   commentId: Overload:IndustrialValley.Utility.AudioManager.PlaySound
-  href: IndustrialValley.Utility.AudioManager.html#IndustrialValley_Utility_AudioManager_PlaySound_System_String_
+  href: IndustrialValley.Utility.AudioManager.PlaySound.html#IndustrialValley_Utility_AudioManager_PlaySound_System_String_
   name: PlaySound
   nameWithType: AudioManager.PlaySound
   fullName: IndustrialValley.Utility.AudioManager.PlaySound
 - uid: IndustrialValley.Utility.AudioManager.StopAllSounds*
   commentId: Overload:IndustrialValley.Utility.AudioManager.StopAllSounds
-  href: IndustrialValley.Utility.AudioManager.html#IndustrialValley_Utility_AudioManager_StopAllSounds
+  href: IndustrialValley.Utility.AudioManager.StopAllSounds.html#IndustrialValley_Utility_AudioManager_StopAllSounds
   name: StopAllSounds
   nameWithType: AudioManager.StopAllSounds
   fullName: IndustrialValley.Utility.AudioManager.StopAllSounds
+memberLayout: SeparatePages

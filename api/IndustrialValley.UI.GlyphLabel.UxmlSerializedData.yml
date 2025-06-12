@@ -98,7 +98,7 @@ items:
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
-  summary: "       <p>\r\nReturns an instance of the declaring element.\r\n</p>"
+  summary: "   <p>\r\nReturns an instance of the declaring element.\r\n</p>"
   example: []
   syntax:
     content: public override object CreateInstance()
@@ -126,7 +126,7 @@ items:
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
-  summary: "       <p>\r\nApplies serialized field values to a compatible visual element.\r\n</p>"
+  summary: "   <p>\r\nApplies serialized field values to a compatible visual element.\r\n</p>"
   example: []
   syntax:
     content: public override void Deserialize(object obj)
@@ -167,6 +167,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -206,6 +207,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -233,7 +235,7 @@ references:
     isExternal: true
 - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Register*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Register
-  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_Register
+  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Register.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_Register
   name: Register
   nameWithType: GlyphLabel.UxmlSerializedData.Register
   fullName: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Register
@@ -258,7 +260,7 @@ references:
   - name: )
 - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.CreateInstance*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.UxmlSerializedData.CreateInstance
-  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_CreateInstance
+  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.CreateInstance.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_CreateInstance
   name: CreateInstance
   nameWithType: GlyphLabel.UxmlSerializedData.CreateInstance
   fullName: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.CreateInstance
@@ -266,6 +268,7 @@ references:
   commentId: M:UnityEngine.UIElements.VisualElement.UxmlSerializedData.Deserialize(System.Object)
   parent: UnityEngine.UIElements.VisualElement.UxmlSerializedData
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: Deserialize(object)
   nameWithType: VisualElement.UxmlSerializedData.Deserialize(object)
   fullName: UnityEngine.UIElements.VisualElement.UxmlSerializedData.Deserialize(object)
@@ -280,6 +283,7 @@ references:
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData.Deserialize(System.Object)
@@ -289,10 +293,12 @@ references:
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Deserialize*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Deserialize
-  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_Deserialize_System_Object_
+  href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Deserialize.html#IndustrialValley_UI_GlyphLabel_UxmlSerializedData_Deserialize_System_Object_
   name: Deserialize
   nameWithType: GlyphLabel.UxmlSerializedData.Deserialize
   fullName: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.Deserialize
+memberLayout: SeparatePages

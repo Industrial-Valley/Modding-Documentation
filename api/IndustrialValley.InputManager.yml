@@ -97,6 +97,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -134,6 +135,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -145,7 +147,7 @@ references:
   fullName: UnityEngine
 - uid: IndustrialValley.InputManager.CurrentDeviceType*
   commentId: Overload:IndustrialValley.InputManager.CurrentDeviceType
-  href: IndustrialValley.InputManager.html#IndustrialValley_InputManager_CurrentDeviceType
+  href: IndustrialValley.InputManager.CurrentDeviceType.html#IndustrialValley_InputManager_CurrentDeviceType
   name: CurrentDeviceType
   nameWithType: InputManager.CurrentDeviceType
   fullName: IndustrialValley.InputManager.CurrentDeviceType
@@ -174,7 +176,7 @@ references:
     href: IndustrialValley.InputManager.DeviceType.html
 - uid: IndustrialValley.InputManager.CurrentInputDeviceType*
   commentId: Overload:IndustrialValley.InputManager.CurrentInputDeviceType
-  href: IndustrialValley.InputManager.html#IndustrialValley_InputManager_CurrentInputDeviceType
+  href: IndustrialValley.InputManager.CurrentInputDeviceType.html#IndustrialValley_InputManager_CurrentInputDeviceType
   name: CurrentInputDeviceType
   nameWithType: InputManager.CurrentInputDeviceType
   fullName: IndustrialValley.InputManager.CurrentInputDeviceType
@@ -223,3 +225,4 @@ references:
   - uid: IndustrialValley.Helpers
     name: Helpers
     href: IndustrialValley.Helpers.html
+memberLayout: SeparatePages

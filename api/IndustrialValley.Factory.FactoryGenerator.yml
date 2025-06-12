@@ -7,6 +7,7 @@ items:
   children:
   - IndustrialValley.Factory.FactoryGenerator.GenerateTiles(UnityEngine.GameObject)
   - IndustrialValley.Factory.FactoryGenerator.GetBounds(UnityEngine.GameObject)
+  - IndustrialValley.Factory.FactoryGenerator.GetTileAt(UnityEngine.Vector3)
   - IndustrialValley.Factory.FactoryGenerator.Instance
   - IndustrialValley.Factory.FactoryGenerator.SpawnPlot(UnityEngine.Vector3)
   - IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent(UnityEngine.GameObject,IndustrialValley.Factory.FactoryGenerator.PlotDirection)
@@ -119,7 +120,7 @@ items:
   source:
     id: Instance
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -130,6 +131,33 @@ items:
       type: IndustrialValley.Factory.FactoryGenerator
     content.vb: Public Shared Property Instance As FactoryGenerator
   overload: IndustrialValley.Factory.FactoryGenerator.Instance*
+- uid: IndustrialValley.Factory.FactoryGenerator.GetTileAt(UnityEngine.Vector3)
+  commentId: M:IndustrialValley.Factory.FactoryGenerator.GetTileAt(UnityEngine.Vector3)
+  id: GetTileAt(UnityEngine.Vector3)
+  parent: IndustrialValley.Factory.FactoryGenerator
+  langs:
+  - csharp
+  - vb
+  name: GetTileAt(Vector3)
+  nameWithType: FactoryGenerator.GetTileAt(Vector3)
+  fullName: IndustrialValley.Factory.FactoryGenerator.GetTileAt(UnityEngine.Vector3)
+  type: Method
+  source:
+    id: GetTileAt
+    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 61
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Factory
+  syntax:
+    content: public GameObject GetTileAt(Vector3 position)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function GetTileAt(position As Vector3) As GameObject
+  overload: IndustrialValley.Factory.FactoryGenerator.GetTileAt*
 - uid: IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent(UnityEngine.GameObject,IndustrialValley.Factory.FactoryGenerator.PlotDirection)
   commentId: M:IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent(UnityEngine.GameObject,IndustrialValley.Factory.FactoryGenerator.PlotDirection)
   id: SpawnPlotAdjacent(UnityEngine.GameObject,IndustrialValley.Factory.FactoryGenerator.PlotDirection)
@@ -144,7 +172,7 @@ items:
   source:
     id: SpawnPlotAdjacent
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 58
+    startLine: 69
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -171,7 +199,7 @@ items:
   source:
     id: SpawnPlot
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 92
+    startLine: 104
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -196,7 +224,7 @@ items:
   source:
     id: GetBounds
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 214
+    startLine: 208
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -223,7 +251,7 @@ items:
   source:
     id: GenerateTiles
     path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 221
+    startLine: 215
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -261,6 +289,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -298,6 +327,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -330,7 +360,7 @@ references:
   fullName: IndustrialValley.Factory.PlotData
 - uid: IndustrialValley.Factory.FactoryGenerator.Instance*
   commentId: Overload:IndustrialValley.Factory.FactoryGenerator.Instance
-  href: IndustrialValley.Factory.FactoryGenerator.html#IndustrialValley_Factory_FactoryGenerator_Instance
+  href: IndustrialValley.Factory.FactoryGenerator.Instance.html#IndustrialValley_Factory_FactoryGenerator_Instance
   name: Instance
   nameWithType: FactoryGenerator.Instance
   fullName: IndustrialValley.Factory.FactoryGenerator.Instance
@@ -341,9 +371,22 @@ references:
   name: FactoryGenerator
   nameWithType: FactoryGenerator
   fullName: IndustrialValley.Factory.FactoryGenerator
+- uid: IndustrialValley.Factory.FactoryGenerator.GetTileAt*
+  commentId: Overload:IndustrialValley.Factory.FactoryGenerator.GetTileAt
+  href: IndustrialValley.Factory.FactoryGenerator.GetTileAt.html#IndustrialValley_Factory_FactoryGenerator_GetTileAt_UnityEngine_Vector3_
+  name: GetTileAt
+  nameWithType: FactoryGenerator.GetTileAt
+  fullName: IndustrialValley.Factory.FactoryGenerator.GetTileAt
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
 - uid: IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent*
   commentId: Overload:IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent
-  href: IndustrialValley.Factory.FactoryGenerator.html#IndustrialValley_Factory_FactoryGenerator_SpawnPlotAdjacent_UnityEngine_GameObject_IndustrialValley_Factory_FactoryGenerator_PlotDirection_
+  href: IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent.html#IndustrialValley_Factory_FactoryGenerator_SpawnPlotAdjacent_UnityEngine_GameObject_IndustrialValley_Factory_FactoryGenerator_PlotDirection_
   name: SpawnPlotAdjacent
   nameWithType: FactoryGenerator.SpawnPlotAdjacent
   fullName: IndustrialValley.Factory.FactoryGenerator.SpawnPlotAdjacent
@@ -372,20 +415,13 @@ references:
     href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html
 - uid: IndustrialValley.Factory.FactoryGenerator.SpawnPlot*
   commentId: Overload:IndustrialValley.Factory.FactoryGenerator.SpawnPlot
-  href: IndustrialValley.Factory.FactoryGenerator.html#IndustrialValley_Factory_FactoryGenerator_SpawnPlot_UnityEngine_Vector3_
+  href: IndustrialValley.Factory.FactoryGenerator.SpawnPlot.html#IndustrialValley_Factory_FactoryGenerator_SpawnPlot_UnityEngine_Vector3_
   name: SpawnPlot
   nameWithType: FactoryGenerator.SpawnPlot
   fullName: IndustrialValley.Factory.FactoryGenerator.SpawnPlot
-- uid: UnityEngine.Vector3
-  commentId: T:UnityEngine.Vector3
-  parent: UnityEngine
-  isExternal: true
-  name: Vector3
-  nameWithType: Vector3
-  fullName: UnityEngine.Vector3
 - uid: IndustrialValley.Factory.FactoryGenerator.GetBounds*
   commentId: Overload:IndustrialValley.Factory.FactoryGenerator.GetBounds
-  href: IndustrialValley.Factory.FactoryGenerator.html#IndustrialValley_Factory_FactoryGenerator_GetBounds_UnityEngine_GameObject_
+  href: IndustrialValley.Factory.FactoryGenerator.GetBounds.html#IndustrialValley_Factory_FactoryGenerator_GetBounds_UnityEngine_GameObject_
   name: GetBounds
   nameWithType: FactoryGenerator.GetBounds
   fullName: IndustrialValley.Factory.FactoryGenerator.GetBounds
@@ -398,7 +434,8 @@ references:
   fullName: UnityEngine.Bounds
 - uid: IndustrialValley.Factory.FactoryGenerator.GenerateTiles*
   commentId: Overload:IndustrialValley.Factory.FactoryGenerator.GenerateTiles
-  href: IndustrialValley.Factory.FactoryGenerator.html#IndustrialValley_Factory_FactoryGenerator_GenerateTiles_UnityEngine_GameObject_
+  href: IndustrialValley.Factory.FactoryGenerator.GenerateTiles.html#IndustrialValley_Factory_FactoryGenerator_GenerateTiles_UnityEngine_GameObject_
   name: GenerateTiles
   nameWithType: FactoryGenerator.GenerateTiles
   fullName: IndustrialValley.Factory.FactoryGenerator.GenerateTiles
+memberLayout: SeparatePages

@@ -166,14 +166,14 @@ references:
   commentId: M:IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
   parent: IndustrialValley.Game.Tiers
   definition: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   name: DisplayName(FactoryTier)
   nameWithType: Tiers.DisplayName(Tiers.FactoryTier)
   fullName: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
   spec.csharp:
   - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
     name: DisplayName
-    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+    href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   - name: (
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
@@ -182,7 +182,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
     name: DisplayName
-    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+    href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   - name: (
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
@@ -190,14 +190,14 @@ references:
   - name: )
 - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
   commentId: M:IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
-  href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+  href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   name: DisplayName(FactoryTier)
   nameWithType: Tiers.DisplayName(Tiers.FactoryTier)
   fullName: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
   spec.csharp:
   - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
     name: DisplayName
-    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+    href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   - name: (
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
@@ -206,7 +206,7 @@ references:
   spec.vb:
   - uid: IndustrialValley.Game.Tiers.DisplayName(IndustrialValley.Game.Tiers.FactoryTier)
     name: DisplayName
-    href: IndustrialValley.Game.Tiers.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
+    href: IndustrialValley.Game.Tiers.DisplayName.html#IndustrialValley_Game_Tiers_DisplayName_IndustrialValley_Game_Tiers_FactoryTier_
   - name: (
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
@@ -242,3 +242,4 @@ references:
   - uid: IndustrialValley.Game.Tiers.FactoryTier
     name: FactoryTier
     href: IndustrialValley.Game.Tiers.FactoryTier.html
+memberLayout: SeparatePages

@@ -6,7 +6,6 @@ items:
   children:
   - IndustrialValley.Factory.FactoryGenerator
   - IndustrialValley.Factory.FactoryGenerator.PlotDirection
-  - IndustrialValley.Factory.FactoryGenerator.PlotItem
   - IndustrialValley.Factory.FactoryPlot
   - IndustrialValley.Factory.PlotData
   - IndustrialValley.Factory.PlotData.DetailsData
@@ -52,28 +51,6 @@ references:
   - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
     name: PlotDirection
     href: IndustrialValley.Factory.FactoryGenerator.PlotDirection.html
-- uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
-  commentId: T:IndustrialValley.Factory.FactoryGenerator.PlotItem
-  href: IndustrialValley.Factory.FactoryGenerator.html
-  name: FactoryGenerator.PlotItem
-  nameWithType: FactoryGenerator.PlotItem
-  fullName: IndustrialValley.Factory.FactoryGenerator.PlotItem
-  spec.csharp:
-  - uid: IndustrialValley.Factory.FactoryGenerator
-    name: FactoryGenerator
-    href: IndustrialValley.Factory.FactoryGenerator.html
-  - name: .
-  - uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
-    name: PlotItem
-    href: IndustrialValley.Factory.FactoryGenerator.PlotItem.html
-  spec.vb:
-  - uid: IndustrialValley.Factory.FactoryGenerator
-    name: FactoryGenerator
-    href: IndustrialValley.Factory.FactoryGenerator.html
-  - name: .
-  - uid: IndustrialValley.Factory.FactoryGenerator.PlotItem
-    name: PlotItem
-    href: IndustrialValley.Factory.FactoryGenerator.PlotItem.html
 - uid: IndustrialValley.Factory.FactoryPlot
   commentId: T:IndustrialValley.Factory.FactoryPlot
   href: IndustrialValley.Factory.FactoryPlot.html
@@ -177,3 +154,4 @@ references:
   - uid: IndustrialValley.Factory
     name: Factory
     href: IndustrialValley.Factory.html
+memberLayout: SeparatePages

@@ -123,6 +123,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -146,6 +147,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -159,7 +161,7 @@ references:
   commentId: T:System.Collections.Generic.List{IndustrialValley.UI.InputGlyphData.GlyphEntry}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  href: IndustrialValley.UI.InputGlyphData.html
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<InputGlyphData.GlyphEntry>
   nameWithType: List<InputGlyphData.GlyphEntry>
   fullName: System.Collections.Generic.List<IndustrialValley.UI.InputGlyphData.GlyphEntry>
@@ -170,6 +172,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: IndustrialValley.UI.InputGlyphData
     name: InputGlyphData
@@ -183,6 +186,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -197,6 +201,7 @@ references:
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<T>
   nameWithType: List<T>
   fullName: System.Collections.Generic.List<T>
@@ -207,6 +212,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - name: T
   - name: '>'
@@ -214,6 +220,7 @@ references:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
@@ -222,6 +229,7 @@ references:
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -229,29 +237,35 @@ references:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
   - name: .
   - uid: System.Collections
     name: Collections
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
   - uid: System.Collections.Generic
     name: Generic
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: IndustrialValley.UI.InputGlyphData.glyphs*
   commentId: Overload:IndustrialValley.UI.InputGlyphData.glyphs
-  href: IndustrialValley.UI.InputGlyphData.html#IndustrialValley_UI_InputGlyphData_glyphs
+  href: IndustrialValley.UI.InputGlyphData.glyphs.html#IndustrialValley_UI_InputGlyphData_glyphs
   name: glyphs
   nameWithType: InputGlyphData.glyphs
   fullName: IndustrialValley.UI.InputGlyphData.glyphs
@@ -259,6 +273,7 @@ references:
   commentId: T:System.Collections.Generic.Dictionary{System.String,UnityEngine.Texture2D}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<string, Texture2D>
   nameWithType: Dictionary<string, Texture2D>
   fullName: System.Collections.Generic.Dictionary<string, UnityEngine.Texture2D>
@@ -269,10 +284,12 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - uid: System.String
     name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: UnityEngine.Texture2D
@@ -283,12 +300,14 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
   - uid: System.String
     name: String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: UnityEngine.Texture2D
@@ -298,6 +317,7 @@ references:
 - uid: System.Collections.Generic.Dictionary`2
   commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<TKey, TValue>
   nameWithType: Dictionary<TKey, TValue>
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>
@@ -308,6 +328,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - name: TKey
   - name: ','
@@ -318,6 +339,7 @@ references:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
@@ -326,3 +348,4 @@ references:
   - name: " "
   - name: TValue
   - name: )
+memberLayout: SeparatePages

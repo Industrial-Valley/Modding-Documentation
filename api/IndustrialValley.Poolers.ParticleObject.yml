@@ -125,6 +125,7 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -162,6 +163,7 @@ references:
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -180,13 +182,14 @@ references:
   fullName: UnityEngine.ParticleSystem
 - uid: IndustrialValley.Poolers.ParticleObject.Reset*
   commentId: Overload:IndustrialValley.Poolers.ParticleObject.Reset
-  href: IndustrialValley.Poolers.ParticleObject.html#IndustrialValley_Poolers_ParticleObject_Reset
+  href: IndustrialValley.Poolers.ParticleObject.Reset.html#IndustrialValley_Poolers_ParticleObject_Reset
   name: Reset
   nameWithType: ParticleObject.Reset
   fullName: IndustrialValley.Poolers.ParticleObject.Reset
 - uid: IndustrialValley.Poolers.ParticleObject.Play*
   commentId: Overload:IndustrialValley.Poolers.ParticleObject.Play
-  href: IndustrialValley.Poolers.ParticleObject.html#IndustrialValley_Poolers_ParticleObject_Play
+  href: IndustrialValley.Poolers.ParticleObject.Play.html#IndustrialValley_Poolers_ParticleObject_Play
   name: Play
   nameWithType: ParticleObject.Play
   fullName: IndustrialValley.Poolers.ParticleObject.Play
+memberLayout: SeparatePages
