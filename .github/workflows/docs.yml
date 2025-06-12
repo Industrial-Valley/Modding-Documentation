@@ -28,7 +28,7 @@ jobs:
       with:
         dotnet-version: 8.x
 
-    - run: dotnet tool update -g docfx
+    - run: dotnet tool update -g docfx --version 2.77.0
     - run: docfx docfx.json
 
     - name: Upload artifact
