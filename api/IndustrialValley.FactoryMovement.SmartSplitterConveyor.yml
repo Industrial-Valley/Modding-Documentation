@@ -28,8 +28,8 @@ items:
   type: Class
   source:
     id: SmartSplitterConveyor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 11
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 5
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -54,6 +54,7 @@ items:
   inheritedMembers:
   - IndustrialValley.FactoryMovement.BaseMovement.items
   - IndustrialValley.FactoryMovement.BaseMovement.OnSell
+  - IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
 - uid: IndustrialValley.FactoryMovement.SmartSplitterConveyor.handoffDetectRadius
   commentId: F:IndustrialValley.FactoryMovement.SmartSplitterConveyor.handoffDetectRadius
   id: handoffDetectRadius
@@ -67,8 +68,8 @@ items:
   type: Field
   source:
     id: handoffDetectRadius
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 15
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 9
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -102,8 +103,8 @@ items:
   type: Field
   source:
     id: handoffFallbackDistance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 18
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 12
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -137,8 +138,8 @@ items:
   type: Field
   source:
     id: handoffOffsets
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 21
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 15
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -181,8 +182,8 @@ items:
   type: Field
   source:
     id: inputDetectRadius
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 24
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 18
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -216,8 +217,8 @@ items:
   type: Field
   source:
     id: inputFallbackDistance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 27
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 21
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -251,8 +252,8 @@ items:
   type: Field
   source:
     id: inputOffsets
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 30
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 24
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -295,8 +296,8 @@ items:
   type: Field
   source:
     id: maxCapacity
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 33
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 27
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -330,8 +331,8 @@ items:
   type: Field
   source:
     id: minSpacing
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 36
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 30
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -376,8 +377,8 @@ items:
   type: Field
   source:
     id: moveSpeed
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 39
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 33
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -420,8 +421,8 @@ items:
   type: Method
   source:
     id: CanAcceptItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 66
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 60
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -448,8 +449,8 @@ items:
   type: Method
   source:
     id: InsertItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 99
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 93
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -481,8 +482,8 @@ items:
   type: Method
   source:
     id: GetInputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 118
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 112
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -514,8 +515,8 @@ items:
   type: Method
   source:
     id: GetOutputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 133
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 127
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -547,8 +548,8 @@ items:
   type: Method
   source:
     id: OnUpdate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
-    startLine: 143
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\Splitter.cs
+    startLine: 137
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -658,6 +659,25 @@ references:
   - uid: IndustrialValley.FactoryMovement.BaseMovement.OnSell
     name: OnSell
     href: IndustrialValley.FactoryMovement.BaseMovement.OnSell.html#IndustrialValley_FactoryMovement_BaseMovement_OnSell
+  - name: (
+  - name: )
+- uid: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+  commentId: M:IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+  parent: IndustrialValley.FactoryMovement.BaseMovement
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded.html#IndustrialValley_FactoryMovement_BaseMovement_OnLoaded
+  name: OnLoaded()
+  nameWithType: BaseMovement.OnLoaded()
+  fullName: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded()
+  spec.csharp:
+  - uid: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+    name: OnLoaded
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded.html#IndustrialValley_FactoryMovement_BaseMovement_OnLoaded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+    name: OnLoaded
+    href: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded.html#IndustrialValley_FactoryMovement_BaseMovement_OnLoaded
   - name: (
   - name: )
 - uid: System

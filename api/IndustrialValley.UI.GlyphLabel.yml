@@ -6,6 +6,8 @@ items:
   parent: IndustrialValley.UI
   children:
   - IndustrialValley.UI.GlyphLabel.#ctor
+  - IndustrialValley.UI.GlyphLabel.GetGlyphDynamically
+  - IndustrialValley.UI.GlyphLabel.GlyphDeviceType
   - IndustrialValley.UI.GlyphLabel.text
   langs:
   - csharp
@@ -37,10 +39,57 @@ items:
   - UnityEngine.UIElements.VisualElement
   extensionMethods:
   - UnityEngine.UIElements.VisualElement.IndustrialValley.Helpers.UI.AddUISounds
+  - UnityEngine.UIElements.VisualElement.IndustrialValley.UI.ModalExtension.CreateModal(System.String,System.Action,System.Action)
   attributes:
   - type: UnityEngine.UIElements.UxmlElementAttribute
     ctor: UnityEngine.UIElements.UxmlElementAttribute.#ctor
     arguments: []
+- uid: IndustrialValley.UI.GlyphLabel.GetGlyphDynamically
+  commentId: F:IndustrialValley.UI.GlyphLabel.GetGlyphDynamically
+  id: GetGlyphDynamically
+  parent: IndustrialValley.UI.GlyphLabel
+  langs:
+  - csharp
+  - vb
+  name: GetGlyphDynamically
+  nameWithType: GlyphLabel.GetGlyphDynamically
+  fullName: IndustrialValley.UI.GlyphLabel.GetGlyphDynamically
+  type: Field
+  source:
+    id: GetGlyphDynamically
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public bool GetGlyphDynamically
+    return:
+      type: System.Boolean
+    content.vb: Public GetGlyphDynamically As Boolean
+- uid: IndustrialValley.UI.GlyphLabel.GlyphDeviceType
+  commentId: F:IndustrialValley.UI.GlyphLabel.GlyphDeviceType
+  id: GlyphDeviceType
+  parent: IndustrialValley.UI.GlyphLabel
+  langs:
+  - csharp
+  - vb
+  name: GlyphDeviceType
+  nameWithType: GlyphLabel.GlyphDeviceType
+  fullName: IndustrialValley.UI.GlyphLabel.GlyphDeviceType
+  type: Field
+  source:
+    id: GlyphDeviceType
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 21
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public InputManager.DeviceType GlyphDeviceType
+    return:
+      type: IndustrialValley.InputManager.DeviceType
+    content.vb: Public GlyphDeviceType As InputManager.DeviceType
 - uid: IndustrialValley.UI.GlyphLabel.#ctor
   commentId: M:IndustrialValley.UI.GlyphLabel.#ctor
   id: '#ctor'
@@ -54,8 +103,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 23
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -79,8 +128,8 @@ items:
   type: Property
   source:
     id: text
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
-    startLine: 28
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GlyphLabel.cs
+    startLine: 40
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -182,6 +231,71 @@ references:
     name: VisualElement
     isExternal: true
   - name: )
+- uid: UnityEngine.UIElements.VisualElement.IndustrialValley.UI.ModalExtension.CreateModal(System.String,System.Action,System.Action)
+  commentId: M:IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+  parent: IndustrialValley.UI.ModalExtension
+  definition: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+  href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  name: CreateModal(VisualElement, string, Action, Action)
+  nameWithType: ModalExtension.CreateModal(VisualElement, string, Action, Action)
+  fullName: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement, string, System.Action, System.Action)
+  nameWithType.vb: ModalExtension.CreateModal(VisualElement, String, Action, Action)
+  fullName.vb: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement, String, System.Action, System.Action)
+  name.vb: CreateModal(VisualElement, String, Action, Action)
+  spec.csharp:
+  - uid: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+    name: CreateModal
+    href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+    name: CreateModal
+    href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -243,6 +357,77 @@ references:
   name: UI
   nameWithType: UI
   fullName: IndustrialValley.Helpers.UI
+- uid: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+  commentId: M:IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+  isExternal: true
+  href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  name: CreateModal(VisualElement, string, Action, Action)
+  nameWithType: ModalExtension.CreateModal(VisualElement, string, Action, Action)
+  fullName: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement, string, System.Action, System.Action)
+  nameWithType.vb: ModalExtension.CreateModal(VisualElement, String, Action, Action)
+  fullName.vb: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement, String, System.Action, System.Action)
+  name.vb: CreateModal(VisualElement, String, Action, Action)
+  spec.csharp:
+  - uid: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+    name: CreateModal
+    href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.UI.ModalExtension.CreateModal(UnityEngine.UIElements.VisualElement,System.String,System.Action,System.Action)
+    name: CreateModal
+    href: IndustrialValley.UI.ModalExtension.CreateModal.html#IndustrialValley_UI_ModalExtension_CreateModal_UnityEngine_UIElements_VisualElement_System_String_System_Action_System_Action_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: IndustrialValley.UI.ModalExtension
+  commentId: T:IndustrialValley.UI.ModalExtension
+  parent: IndustrialValley.UI
+  href: IndustrialValley.UI.ModalExtension.html
+  name: ModalExtension
+  nameWithType: ModalExtension
+  fullName: IndustrialValley.UI.ModalExtension
 - uid: IndustrialValley.Helpers
   commentId: N:IndustrialValley.Helpers
   href: IndustrialValley.html
@@ -265,6 +450,46 @@ references:
   - uid: IndustrialValley.Helpers
     name: Helpers
     href: IndustrialValley.Helpers.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.InputManager.DeviceType
+  commentId: T:IndustrialValley.InputManager.DeviceType
+  parent: IndustrialValley
+  href: IndustrialValley.InputManager.html
+  name: InputManager.DeviceType
+  nameWithType: InputManager.DeviceType
+  fullName: IndustrialValley.InputManager.DeviceType
+  spec.csharp:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+  spec.vb:
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
+  - name: .
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  href: IndustrialValley.html
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley
 - uid: IndustrialValley.UI.GlyphLabel.#ctor*
   commentId: Overload:IndustrialValley.UI.GlyphLabel.#ctor
   href: IndustrialValley.UI.GlyphLabel.-ctor.html#IndustrialValley_UI_GlyphLabel__ctor

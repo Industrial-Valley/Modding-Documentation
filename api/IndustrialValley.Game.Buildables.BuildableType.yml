@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: BuildableType
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 9
   assemblies:
   - IndustrialValley
@@ -38,7 +38,7 @@ items:
   type: Field
   source:
     id: Transport
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 11
   assemblies:
   - IndustrialValley
@@ -60,7 +60,7 @@ items:
   type: Field
   source:
     id: Machines
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 12
   assemblies:
   - IndustrialValley
@@ -82,7 +82,7 @@ items:
   type: Field
   source:
     id: Utility
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 13
   assemblies:
   - IndustrialValley

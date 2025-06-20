@@ -4,7 +4,8 @@ items:
   commentId: T:IndustrialValley.Game.FactorySaveData
   id: FactorySaveData
   parent: IndustrialValley.Game
-  children: []
+  children:
+  - IndustrialValley.Game.FactorySaveData.Buildables
   langs:
   - csharp
   - vb
@@ -14,8 +15,8 @@ items:
   type: Class
   source:
     id: FactorySaveData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 105
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 410
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -24,6 +25,31 @@ items:
     content.vb: Public Class FactorySaveData
   inheritance:
   - System.Object
+- uid: IndustrialValley.Game.FactorySaveData.Buildables
+  commentId: P:IndustrialValley.Game.FactorySaveData.Buildables
+  id: Buildables
+  parent: IndustrialValley.Game.FactorySaveData
+  langs:
+  - csharp
+  - vb
+  name: Buildables
+  nameWithType: FactorySaveData.Buildables
+  fullName: IndustrialValley.Game.FactorySaveData.Buildables
+  type: Property
+  source:
+    id: Buildables
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 413
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public List<BuildableSaveData> Buildables { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{IndustrialValley.Game.BuildableSaveData}
+    content.vb: Public Property Buildables As List(Of BuildableSaveData)
+  overload: IndustrialValley.Game.FactorySaveData.Buildables*
 references:
 - uid: IndustrialValley.Game
   commentId: N:IndustrialValley.Game
@@ -65,4 +91,108 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: IndustrialValley.Game.FactorySaveData.Buildables*
+  commentId: Overload:IndustrialValley.Game.FactorySaveData.Buildables
+  href: IndustrialValley.Game.FactorySaveData.Buildables.html#IndustrialValley_Game_FactorySaveData_Buildables
+  name: Buildables
+  nameWithType: FactorySaveData.Buildables
+  fullName: IndustrialValley.Game.FactorySaveData.Buildables
+- uid: System.Collections.Generic.List{IndustrialValley.Game.BuildableSaveData}
+  commentId: T:System.Collections.Generic.List{IndustrialValley.Game.BuildableSaveData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<BuildableSaveData>
+  nameWithType: List<BuildableSaveData>
+  fullName: System.Collections.Generic.List<IndustrialValley.Game.BuildableSaveData>
+  nameWithType.vb: List(Of BuildableSaveData)
+  fullName.vb: System.Collections.Generic.List(Of IndustrialValley.Game.BuildableSaveData)
+  name.vb: List(Of BuildableSaveData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: IndustrialValley.Game.BuildableSaveData
+    name: BuildableSaveData
+    href: IndustrialValley.Game.BuildableSaveData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IndustrialValley.Game.BuildableSaveData
+    name: BuildableSaveData
+    href: IndustrialValley.Game.BuildableSaveData.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 memberLayout: SeparatePages

@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     id: DeviceType
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 11
   assemblies:
   - IndustrialValley
@@ -37,7 +37,7 @@ items:
   type: Field
   source:
     id: MouseAndKeyboard
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 13
   assemblies:
   - IndustrialValley
@@ -59,7 +59,7 @@ items:
   type: Field
   source:
     id: Controller
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 14
   assemblies:
   - IndustrialValley

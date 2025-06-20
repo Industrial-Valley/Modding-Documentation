@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: Buildables
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 7
   assemblies:
   - IndustrialValley
@@ -40,17 +40,17 @@ items:
   type: Property
   source:
     id: All
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 16
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
   syntax:
-    content: public static List<BuildableData> All { get; }
+    content: public static Dictionary<string, BuildableData> All { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{IndustrialValley.Utility.BuildableData}
-    content.vb: Public Shared ReadOnly Property All As List(Of BuildableData)
+      type: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Utility.BuildableData}
+    content.vb: Public Shared ReadOnly Property All As Dictionary(Of String, BuildableData)
   overload: IndustrialValley.Game.Buildables.All*
 - uid: IndustrialValley.Game.Buildables.Types
   commentId: P:IndustrialValley.Game.Buildables.Types
@@ -65,7 +65,7 @@ items:
   type: Property
   source:
     id: Types
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 17
   assemblies:
   - IndustrialValley
@@ -90,7 +90,7 @@ items:
   type: Method
   source:
     id: Add
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Buildables.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Buildables.cs
     startLine: 19
   assemblies:
   - IndustrialValley
@@ -149,66 +149,84 @@ references:
   name: All
   nameWithType: Buildables.All
   fullName: IndustrialValley.Game.Buildables.All
-- uid: System.Collections.Generic.List{IndustrialValley.Utility.BuildableData}
-  commentId: T:System.Collections.Generic.List{IndustrialValley.Utility.BuildableData}
+- uid: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Utility.BuildableData}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,IndustrialValley.Utility.BuildableData}
   parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<BuildableData>
-  nameWithType: List<BuildableData>
-  fullName: System.Collections.Generic.List<IndustrialValley.Utility.BuildableData>
-  nameWithType.vb: List(Of BuildableData)
-  fullName.vb: System.Collections.Generic.List(Of IndustrialValley.Utility.BuildableData)
-  name.vb: List(Of BuildableData)
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, BuildableData>
+  nameWithType: Dictionary<string, BuildableData>
+  fullName: System.Collections.Generic.Dictionary<string, IndustrialValley.Utility.BuildableData>
+  nameWithType.vb: Dictionary(Of String, BuildableData)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, IndustrialValley.Utility.BuildableData)
+  name.vb: Dictionary(Of String, BuildableData)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: IndustrialValley.Utility.BuildableData
     name: BuildableData
     href: IndustrialValley.Utility.BuildableData.html
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
   - name: " "
   - uid: IndustrialValley.Utility.BuildableData
     name: BuildableData
     href: IndustrialValley.Utility.BuildableData.html
   - name: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: T
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
   - name: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic

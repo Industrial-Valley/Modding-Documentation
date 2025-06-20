@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: TierData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 73
   assemblies:
   - IndustrialValley
@@ -51,7 +51,7 @@ items:
   type: Field
   source:
     id: Name
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 76
   assemblies:
   - IndustrialValley
@@ -74,7 +74,7 @@ items:
   type: Field
   source:
     id: ShortName
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 77
   assemblies:
   - IndustrialValley
@@ -97,7 +97,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 79
   assemblies:
   - IndustrialValley
@@ -127,7 +127,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 85
   assemblies:
   - IndustrialValley

@@ -4,16 +4,19 @@ items:
   commentId: N:IndustrialValley.Game
   id: IndustrialValley.Game
   children:
+  - IndustrialValley.Game.BoolSettingData
+  - IndustrialValley.Game.BuildableSaveData
   - IndustrialValley.Game.BuildableTypes
   - IndustrialValley.Game.Buildables
   - IndustrialValley.Game.Buildables.BuildableType
+  - IndustrialValley.Game.DropdownSettingData
   - IndustrialValley.Game.FactoryManager
   - IndustrialValley.Game.FactorySaveData
-  - IndustrialValley.Game.Game
-  - IndustrialValley.Game.GameManager
+  - IndustrialValley.Game.FloatSettingData
   - IndustrialValley.Game.Ore
   - IndustrialValley.Game.SaveData
-  - IndustrialValley.Game.SaveSystem
+  - IndustrialValley.Game.SaveInfo
+  - IndustrialValley.Game.SettingsData
   - IndustrialValley.Game.Tiers
   - IndustrialValley.Game.Tiers.FactoryTier
   - IndustrialValley.Game.Tiers.TierData
@@ -80,26 +83,21 @@ references:
   - uid: IndustrialValley.Game.Tiers.TierData
     name: TierData
     href: IndustrialValley.Game.Tiers.TierData.html
-- uid: IndustrialValley.Game.GameManager
-  commentId: T:IndustrialValley.Game.GameManager
-  href: IndustrialValley.Game.GameManager.html
-  name: GameManager
-  nameWithType: GameManager
-  fullName: IndustrialValley.Game.GameManager
 - uid: IndustrialValley.Game.Ore
   commentId: T:IndustrialValley.Game.Ore
   href: IndustrialValley.Game.Ore.html
   name: Ore
   nameWithType: Ore
   fullName: IndustrialValley.Game.Ore
-- uid: IndustrialValley.Game.SaveSystem
-  commentId: T:IndustrialValley.Game.SaveSystem
-  href: IndustrialValley.Game.SaveSystem.html
-  name: SaveSystem
-  nameWithType: SaveSystem
-  fullName: IndustrialValley.Game.SaveSystem
+- uid: IndustrialValley.Game.SaveInfo
+  commentId: T:IndustrialValley.Game.SaveInfo
+  href: IndustrialValley.Game.SaveInfo.html
+  name: SaveInfo
+  nameWithType: SaveInfo
+  fullName: IndustrialValley.Game.SaveInfo
 - uid: IndustrialValley.Game.SaveData
   commentId: T:IndustrialValley.Game.SaveData
+  parent: IndustrialValley.Game
   href: IndustrialValley.Game.SaveData.html
   name: SaveData
   nameWithType: SaveData
@@ -110,6 +108,36 @@ references:
   name: FactorySaveData
   nameWithType: FactorySaveData
   fullName: IndustrialValley.Game.FactorySaveData
+- uid: IndustrialValley.Game.BuildableSaveData
+  commentId: T:IndustrialValley.Game.BuildableSaveData
+  href: IndustrialValley.Game.BuildableSaveData.html
+  name: BuildableSaveData
+  nameWithType: BuildableSaveData
+  fullName: IndustrialValley.Game.BuildableSaveData
+- uid: IndustrialValley.Game.SettingsData
+  commentId: T:IndustrialValley.Game.SettingsData
+  href: IndustrialValley.Game.SettingsData.html
+  name: SettingsData
+  nameWithType: SettingsData
+  fullName: IndustrialValley.Game.SettingsData
+- uid: IndustrialValley.Game.FloatSettingData
+  commentId: T:IndustrialValley.Game.FloatSettingData
+  href: IndustrialValley.Game.FloatSettingData.html
+  name: FloatSettingData
+  nameWithType: FloatSettingData
+  fullName: IndustrialValley.Game.FloatSettingData
+- uid: IndustrialValley.Game.DropdownSettingData
+  commentId: T:IndustrialValley.Game.DropdownSettingData
+  href: IndustrialValley.Game.DropdownSettingData.html
+  name: DropdownSettingData
+  nameWithType: DropdownSettingData
+  fullName: IndustrialValley.Game.DropdownSettingData
+- uid: IndustrialValley.Game.BoolSettingData
+  commentId: T:IndustrialValley.Game.BoolSettingData
+  href: IndustrialValley.Game.BoolSettingData.html
+  name: BoolSettingData
+  nameWithType: BoolSettingData
+  fullName: IndustrialValley.Game.BoolSettingData
 - uid: IndustrialValley.Game.BuildableTypes
   commentId: T:IndustrialValley.Game.BuildableTypes
   parent: IndustrialValley.Game
@@ -117,12 +145,6 @@ references:
   name: BuildableTypes
   nameWithType: BuildableTypes
   fullName: IndustrialValley.Game.BuildableTypes
-- uid: IndustrialValley.Game.Game
-  commentId: T:IndustrialValley.Game.Game
-  href: IndustrialValley.Game.Game.html
-  name: Game
-  nameWithType: Game
-  fullName: IndustrialValley.Game.Game
 - uid: IndustrialValley.Game.FactoryManager
   commentId: T:IndustrialValley.Game.FactoryManager
   parent: IndustrialValley.Game

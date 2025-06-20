@@ -5,8 +5,6 @@ items:
   id: InputGlyph.InputDeviceType
   parent: IndustrialValley.Helpers
   children:
-  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
-  - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
   - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
   - IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
   - IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
@@ -19,7 +17,7 @@ items:
   type: Enum
   source:
     id: InputDeviceType
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
     startLine: 9
   assemblies:
   - IndustrialValley
@@ -27,50 +25,6 @@ items:
   syntax:
     content: public enum InputGlyph.InputDeviceType
     content.vb: Public Enum InputGlyph.InputDeviceType
-- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
-  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
-  id: Keyboard
-  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-  langs:
-  - csharp
-  - vb
-  name: Keyboard
-  nameWithType: InputGlyph.InputDeviceType.Keyboard
-  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Keyboard
-  type: Field
-  source:
-    id: Keyboard
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 11
-  assemblies:
-  - IndustrialValley
-  namespace: IndustrialValley.Helpers
-  syntax:
-    content: Keyboard = 0
-    return:
-      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
-  commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
-  id: Mouse
-  parent: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-  langs:
-  - csharp
-  - vb
-  name: Mouse
-  nameWithType: InputGlyph.InputDeviceType.Mouse
-  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Mouse
-  type: Field
-  source:
-    id: Mouse
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 12
-  assemblies:
-  - IndustrialValley
-  namespace: IndustrialValley.Helpers
-  syntax:
-    content: Mouse = 1
-    return:
-      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
 - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
   commentId: F:IndustrialValley.Helpers.InputGlyph.InputDeviceType.Xbox
   id: Xbox
@@ -84,13 +38,13 @@ items:
   type: Field
   source:
     id: Xbox
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 13
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 11
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
   syntax:
-    content: Xbox = 2
+    content: Xbox = 0
     return:
       type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
 - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.Playstation
@@ -106,13 +60,13 @@ items:
   type: Field
   source:
     id: Playstation
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 12
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
   syntax:
-    content: Playstation = 3
+    content: Playstation = 1
     return:
       type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
 - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType.SteamDeck
@@ -128,13 +82,13 @@ items:
   type: Field
   source:
     id: SteamDeck
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 15
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 13
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
   syntax:
-    content: SteamDeck = 4
+    content: SteamDeck = 2
     return:
       type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
 references:

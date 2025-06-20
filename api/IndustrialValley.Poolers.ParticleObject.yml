@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: ParticleObject
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
     startLine: 6
   assemblies:
   - IndustrialValley
@@ -44,7 +44,7 @@ items:
   type: Field
   source:
     id: particleSystem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -67,7 +67,7 @@ items:
   type: Method
   source:
     id: Reset
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -89,7 +89,7 @@ items:
   type: Method
   source:
     id: Play
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ParticleObject.cs
     startLine: 18
   assemblies:
   - IndustrialValley

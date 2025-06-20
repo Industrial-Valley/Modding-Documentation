@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: Ore
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Ore.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Ore.cs
     startLine: 4
   assemblies:
   - IndustrialValley
@@ -42,7 +42,7 @@ items:
   type: Field
   source:
     id: itemData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Ore.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Ore.cs
     startLine: 6
   assemblies:
   - IndustrialValley

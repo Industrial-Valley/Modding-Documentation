@@ -18,8 +18,8 @@ items:
   type: Enum
   source:
     id: PlotDirection
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 9
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 10
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -39,8 +39,8 @@ items:
   type: Field
   source:
     id: Left
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 11
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 12
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -61,8 +61,8 @@ items:
   type: Field
   source:
     id: Right
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 12
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 13
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -83,8 +83,8 @@ items:
   type: Field
   source:
     id: Forward
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 13
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 14
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -105,8 +105,8 @@ items:
   type: Field
   source:
     id: Back
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 15
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory

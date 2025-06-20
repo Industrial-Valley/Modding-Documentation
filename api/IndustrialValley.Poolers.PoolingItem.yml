@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: PoolingItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -49,7 +49,7 @@ items:
   type: Field
   source:
     id: Prefab
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 11
   assemblies:
   - IndustrialValley
@@ -72,7 +72,7 @@ items:
   type: Field
   source:
     id: PoolSize
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 12
   assemblies:
   - IndustrialValley

@@ -21,7 +21,7 @@ items:
   type: Class
   source:
     id: StorageMachine
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -50,6 +50,7 @@ items:
   - IndustrialValley.Machines.BaseMachine.GetInputPositions
   - IndustrialValley.Machines.BaseMachine.GetOutputPositions
   - IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+  - IndustrialValley.Machines.BaseMachine.OnLoaded
   - IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   - IndustrialValley.Machines.BaseMachine.FindConveyorViaOverlap(UnityEngine.Vector3,System.Single)
   - IndustrialValley.Machines.BaseMachine.FindConveyorViaDistance(UnityEngine.Vector3,System.Single)
@@ -67,7 +68,7 @@ items:
   type: Property
   source:
     id: MaxStorage
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -92,7 +93,7 @@ items:
   type: Property
   source:
     id: StoredItems
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 12
   assemblies:
   - IndustrialValley
@@ -117,7 +118,7 @@ items:
   type: Property
   source:
     id: StorageLeft
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 14
   assemblies:
   - IndustrialValley
@@ -142,7 +143,7 @@ items:
   type: Property
   source:
     id: IsFull
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 16
   assemblies:
   - IndustrialValley
@@ -167,7 +168,7 @@ items:
   type: Method
   source:
     id: CanAcceptItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 18
   assemblies:
   - IndustrialValley
@@ -194,7 +195,7 @@ items:
   type: Method
   source:
     id: OnItemInserted
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 23
   assemblies:
   - IndustrialValley
@@ -221,7 +222,7 @@ items:
   type: Method
   source:
     id: OnUpdate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\StorageMachine.cs
     startLine: 41
   assemblies:
   - IndustrialValley
@@ -426,6 +427,25 @@ references:
   - uid: IndustrialValley.FactoryMovement.ConveyorItem
     name: ConveyorItem
     href: IndustrialValley.FactoryMovement.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.OnLoaded
+  commentId: M:IndustrialValley.Machines.BaseMachine.OnLoaded
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.OnLoaded.html#IndustrialValley_Machines_BaseMachine_OnLoaded
+  name: OnLoaded()
+  nameWithType: BaseMachine.OnLoaded()
+  fullName: IndustrialValley.Machines.BaseMachine.OnLoaded()
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.OnLoaded
+    name: OnLoaded
+    href: IndustrialValley.Machines.BaseMachine.OnLoaded.html#IndustrialValley_Machines_BaseMachine_OnLoaded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.OnLoaded
+    name: OnLoaded
+    href: IndustrialValley.Machines.BaseMachine.OnLoaded.html#IndustrialValley_Machines_BaseMachine_OnLoaded
+  - name: (
   - name: )
 - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   commentId: M:IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor

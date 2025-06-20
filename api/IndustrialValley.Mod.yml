@@ -4,7 +4,7 @@ items:
   commentId: N:IndustrialValley.Mod
   id: IndustrialValley.Mod
   children:
-  - IndustrialValley.Mod.Mod
+  - IndustrialValley.Mod.GameMod
   - IndustrialValley.Mod.ModData
   - IndustrialValley.Mod.ProfileMod
   langs:
@@ -23,39 +23,16 @@ references:
   name: ProfileMod
   nameWithType: ProfileMod
   fullName: IndustrialValley.Mod.ProfileMod
-- uid: IndustrialValley.Mod.Mod
-  commentId: T:IndustrialValley.Mod.Mod
-  parent: IndustrialValley.Mod
-  href: IndustrialValley.Mod.Mod.html
-  name: Mod
-  nameWithType: Mod
-  fullName: IndustrialValley.Mod.Mod
+- uid: IndustrialValley.Mod.GameMod
+  commentId: T:IndustrialValley.Mod.GameMod
+  href: IndustrialValley.Mod.GameMod.html
+  name: GameMod
+  nameWithType: GameMod
+  fullName: IndustrialValley.Mod.GameMod
 - uid: IndustrialValley.Mod.ModData
   commentId: T:IndustrialValley.Mod.ModData
   href: IndustrialValley.Mod.ModData.html
   name: ModData
   nameWithType: ModData
   fullName: IndustrialValley.Mod.ModData
-- uid: IndustrialValley.Mod
-  commentId: N:IndustrialValley.Mod
-  href: IndustrialValley.html
-  name: IndustrialValley.Mod
-  nameWithType: IndustrialValley.Mod
-  fullName: IndustrialValley.Mod
-  spec.csharp:
-  - uid: IndustrialValley
-    name: IndustrialValley
-    href: IndustrialValley.html
-  - name: .
-  - uid: IndustrialValley.Mod
-    name: Mod
-    href: IndustrialValley.Mod.html
-  spec.vb:
-  - uid: IndustrialValley
-    name: IndustrialValley
-    href: IndustrialValley.html
-  - name: .
-  - uid: IndustrialValley.Mod
-    name: Mod
-    href: IndustrialValley.Mod.html
 memberLayout: SeparatePages

@@ -23,7 +23,6 @@ items:
 references:
 - uid: IndustrialValley.Factory.FactoryGenerator
   commentId: T:IndustrialValley.Factory.FactoryGenerator
-  parent: IndustrialValley.Factory
   href: IndustrialValley.Factory.FactoryGenerator.html
   name: FactoryGenerator
   nameWithType: FactoryGenerator

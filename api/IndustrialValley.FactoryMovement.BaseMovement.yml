@@ -6,6 +6,7 @@ items:
   parent: IndustrialValley.FactoryMovement
   children:
   - IndustrialValley.FactoryMovement.BaseMovement.CanAcceptItem
+  - IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
   - IndustrialValley.FactoryMovement.BaseMovement.OnSell
   - IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   - IndustrialValley.FactoryMovement.BaseMovement.items
@@ -18,7 +19,7 @@ items:
   type: Class
   source:
     id: BaseMovement
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
     startLine: 6
   assemblies:
   - IndustrialValley
@@ -47,7 +48,7 @@ items:
   type: Field
   source:
     id: items
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -70,7 +71,7 @@ items:
   type: Method
   source:
     id: OnSell
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
     startLine: 18
   assemblies:
   - IndustrialValley
@@ -81,6 +82,30 @@ items:
     content: public virtual void OnSell()
     content.vb: Public Overridable Sub OnSell()
   overload: IndustrialValley.FactoryMovement.BaseMovement.OnSell*
+- uid: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+  commentId: M:IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+  id: OnLoaded
+  parent: IndustrialValley.FactoryMovement.BaseMovement
+  langs:
+  - csharp
+  - vb
+  name: OnLoaded()
+  nameWithType: BaseMovement.OnLoaded()
+  fullName: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded()
+  type: Method
+  source:
+    id: OnLoaded
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    startLine: 27
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.FactoryMovement
+  summary: Called when the buildable is loaded from a save.
+  example: []
+  syntax:
+    content: protected virtual void OnLoaded()
+    content.vb: Protected Overridable Sub OnLoaded()
+  overload: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded*
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   commentId: M:IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   id: OnUpdate
@@ -94,8 +119,8 @@ items:
   type: Method
   source:
     id: OnUpdate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
-    startLine: 24
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    startLine: 31
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -116,8 +141,8 @@ items:
   type: Method
   source:
     id: CanAcceptItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
-    startLine: 28
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\BaseMovement.cs
+    startLine: 35
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -306,6 +331,12 @@ references:
   name: OnSell
   nameWithType: BaseMovement.OnSell
   fullName: IndustrialValley.FactoryMovement.BaseMovement.OnSell
+- uid: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded*
+  commentId: Overload:IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
+  href: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded.html#IndustrialValley_FactoryMovement_BaseMovement_OnLoaded
+  name: OnLoaded
+  nameWithType: BaseMovement.OnLoaded
+  fullName: IndustrialValley.FactoryMovement.BaseMovement.OnLoaded
 - uid: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate*
   commentId: Overload:IndustrialValley.FactoryMovement.BaseMovement.OnUpdate
   href: IndustrialValley.FactoryMovement.BaseMovement.OnUpdate.html#IndustrialValley_FactoryMovement_BaseMovement_OnUpdate

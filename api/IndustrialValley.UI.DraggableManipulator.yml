@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: DraggableManipulator
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
     startLine: 5
   assemblies:
   - IndustrialValley
@@ -43,7 +43,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -71,7 +71,7 @@ items:
   type: Method
   source:
     id: RegisterCallbacksOnTarget
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
     startLine: 17
   assemblies:
   - IndustrialValley
@@ -96,7 +96,7 @@ items:
   type: Method
   source:
     id: UnregisterCallbacksFromTarget
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\DraggableManipulator.cs
     startLine: 25
   assemblies:
   - IndustrialValley

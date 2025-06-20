@@ -10,7 +10,8 @@ items:
   - IndustrialValley.UI.GlyphLabel.UxmlSerializedData
   - IndustrialValley.UI.InputGlyphData
   - IndustrialValley.UI.InputGlyphData.GlyphEntry
-  - IndustrialValley.UI.MainMenuUIManager
+  - IndustrialValley.UI.ModalExtension
+  - IndustrialValley.UI.ModalUI
   langs:
   - csharp
   - vb
@@ -90,12 +91,19 @@ references:
   - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
     name: GlyphEntry
     href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
-- uid: IndustrialValley.UI.MainMenuUIManager
-  commentId: T:IndustrialValley.UI.MainMenuUIManager
-  href: IndustrialValley.UI.MainMenuUIManager.html
-  name: MainMenuUIManager
-  nameWithType: MainMenuUIManager
-  fullName: IndustrialValley.UI.MainMenuUIManager
+- uid: IndustrialValley.UI.ModalUI
+  commentId: T:IndustrialValley.UI.ModalUI
+  href: IndustrialValley.UI.ModalUI.html
+  name: ModalUI
+  nameWithType: ModalUI
+  fullName: IndustrialValley.UI.ModalUI
+- uid: IndustrialValley.UI.ModalExtension
+  commentId: T:IndustrialValley.UI.ModalExtension
+  parent: IndustrialValley.UI
+  href: IndustrialValley.UI.ModalExtension.html
+  name: ModalExtension
+  nameWithType: ModalExtension
+  fullName: IndustrialValley.UI.ModalExtension
 - uid: IndustrialValley.UI
   commentId: N:IndustrialValley.UI
   href: IndustrialValley.html

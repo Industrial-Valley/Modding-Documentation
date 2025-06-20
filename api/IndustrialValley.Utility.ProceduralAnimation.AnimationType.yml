@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  id: ProceduralAnimation.AnimationType
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationType.Move
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationType.Rotate
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationType.Scale
+  langs:
+  - csharp
+  - vb
+  name: ProceduralAnimation.AnimationType
+  nameWithType: ProceduralAnimation.AnimationType
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  type: Enum
+  source:
+    id: AnimationType
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 16
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public enum ProceduralAnimation.AnimationType
+    content.vb: Public Enum ProceduralAnimation.AnimationType
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Move
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationType.Move
+  id: Move
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: ProceduralAnimation.AnimationType.Move
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Move
+  type: Field
+  source:
+    id: Move
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 18
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: Move = 0
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Rotate
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationType.Rotate
+  id: Rotate
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: ProceduralAnimation.AnimationType.Rotate
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Rotate
+  type: Field
+  source:
+    id: Rotate
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 19
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: Rotate = 1
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Scale
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationType.Scale
+  id: Scale
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: ProceduralAnimation.AnimationType.Scale
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType.Scale
+  type: Field
+  source:
+    id: Scale
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: Scale = 2
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationType
+  nameWithType: ProceduralAnimation.AnimationType
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: AnimationType
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationType.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: AnimationType
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationType.html
+memberLayout: SeparatePages

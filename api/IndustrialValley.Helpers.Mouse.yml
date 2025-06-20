@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: Mouse
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
     startLine: 4
   assemblies:
   - IndustrialValley
@@ -39,7 +39,7 @@ items:
   type: Method
   source:
     id: FireRay
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -66,7 +66,7 @@ items:
   type: Method
   source:
     id: ClickAll
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Mouse.cs
     startLine: 23
   assemblies:
   - IndustrialValley

@@ -13,6 +13,7 @@ items:
   - IndustrialValley.Machines.BaseMachine.GetOutputPositions
   - IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
   - IndustrialValley.Machines.BaseMachine.OnItemInserted(IndustrialValley.FactoryMovement.ConveyorItem)
+  - IndustrialValley.Machines.BaseMachine.OnLoaded
   - IndustrialValley.Machines.BaseMachine.OnUpdate
   - IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.FactoryMovement.ConveyorItem)
   - IndustrialValley.Machines.BaseMachine.handoffDetectRadius
@@ -32,7 +33,7 @@ items:
   type: Class
   source:
     id: BaseMachine
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 6
   assemblies:
   - IndustrialValley
@@ -63,7 +64,7 @@ items:
   type: Field
   source:
     id: handoffDetectRadius
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 9
   assemblies:
   - IndustrialValley
@@ -98,7 +99,7 @@ items:
   type: Field
   source:
     id: handoffFallbackDistance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 12
   assemblies:
   - IndustrialValley
@@ -133,7 +134,7 @@ items:
   type: Field
   source:
     id: handoffOffsets
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 15
   assemblies:
   - IndustrialValley
@@ -177,7 +178,7 @@ items:
   type: Field
   source:
     id: inputDetectRadius
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 18
   assemblies:
   - IndustrialValley
@@ -212,7 +213,7 @@ items:
   type: Field
   source:
     id: inputFallbackDistance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 21
   assemblies:
   - IndustrialValley
@@ -247,7 +248,7 @@ items:
   type: Field
   source:
     id: inputOffsets
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 24
   assemblies:
   - IndustrialValley
@@ -291,7 +292,7 @@ items:
   type: Field
   source:
     id: outputSpeed
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 27
   assemblies:
   - IndustrialValley
@@ -335,7 +336,7 @@ items:
   type: Field
   source:
     id: lastOutputTime
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 29
   assemblies:
   - IndustrialValley
@@ -358,7 +359,7 @@ items:
   type: Method
   source:
     id: GetInputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 57
   assemblies:
   - IndustrialValley
@@ -391,7 +392,7 @@ items:
   type: Method
   source:
     id: GetOutputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 75
   assemblies:
   - IndustrialValley
@@ -424,7 +425,7 @@ items:
   type: Method
   source:
     id: CanAcceptItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 88
   assemblies:
   - IndustrialValley
@@ -452,7 +453,7 @@ items:
   type: Method
   source:
     id: InsertItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
     startLine: 118
   assemblies:
   - IndustrialValley
@@ -472,6 +473,30 @@ items:
   overload: IndustrialValley.Machines.BaseMachine.InsertItem*
   implements:
   - IndustrialValley.FactoryMovement.IConveyor.InsertItem(IndustrialValley.FactoryMovement.ConveyorItem)
+- uid: IndustrialValley.Machines.BaseMachine.OnLoaded
+  commentId: M:IndustrialValley.Machines.BaseMachine.OnLoaded
+  id: OnLoaded
+  parent: IndustrialValley.Machines.BaseMachine
+  langs:
+  - csharp
+  - vb
+  name: OnLoaded()
+  nameWithType: BaseMachine.OnLoaded()
+  fullName: IndustrialValley.Machines.BaseMachine.OnLoaded()
+  type: Method
+  source:
+    id: OnLoaded
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 135
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  summary: Called when the buildable is loaded from a save.
+  example: []
+  syntax:
+    content: protected virtual void OnLoaded()
+    content.vb: Protected Overridable Sub OnLoaded()
+  overload: IndustrialValley.Machines.BaseMachine.OnLoaded*
 - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   commentId: M:IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   id: FindClosestDownstreamConveyor
@@ -485,8 +510,8 @@ items:
   type: Method
   source:
     id: FindClosestDownstreamConveyor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 138
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 145
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -518,8 +543,8 @@ items:
   type: Method
   source:
     id: FindConveyorViaOverlap
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 175
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 182
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -552,8 +577,8 @@ items:
   type: Method
   source:
     id: FindConveyorViaDistance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 202
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 209
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -589,8 +614,8 @@ items:
   type: Method
   source:
     id: OnItemInserted
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 229
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 236
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -614,8 +639,8 @@ items:
   type: Method
   source:
     id: OutputItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 235
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 242
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -641,8 +666,8 @@ items:
   type: Method
   source:
     id: OnUpdate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
-    startLine: 253
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\BaseMachine.cs
+    startLine: 260
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Machines
@@ -909,6 +934,12 @@ references:
   name: ConveyorItem
   nameWithType: ConveyorItem
   fullName: IndustrialValley.FactoryMovement.ConveyorItem
+- uid: IndustrialValley.Machines.BaseMachine.OnLoaded*
+  commentId: Overload:IndustrialValley.Machines.BaseMachine.OnLoaded
+  href: IndustrialValley.Machines.BaseMachine.OnLoaded.html#IndustrialValley_Machines_BaseMachine_OnLoaded
+  name: OnLoaded
+  nameWithType: BaseMachine.OnLoaded
+  fullName: IndustrialValley.Machines.BaseMachine.OnLoaded
 - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor*
   commentId: Overload:IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor
   href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor

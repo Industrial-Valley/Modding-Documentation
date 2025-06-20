@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.Setting`1
+  commentId: T:IndustrialValley.Utility.Setting`1
+  id: Setting`1
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.Setting`1.#ctor(System.String,`0,System.Action{`0})
+  - IndustrialValley.Utility.Setting`1.OnValueChanged
+  - IndustrialValley.Utility.Setting`1.Value
+  langs:
+  - csharp
+  - vb
+  name: Setting<T>
+  nameWithType: Setting<T>
+  fullName: IndustrialValley.Utility.Setting<T>
+  type: Class
+  source:
+    id: Setting
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 99
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: 'public class Setting<T> : BaseSetting'
+    typeParameters:
+    - id: T
+    content.vb: Public Class Setting(Of T) Inherits BaseSetting
+  inheritance:
+  - System.Object
+  - IndustrialValley.Utility.BaseSetting
+  derivedClasses:
+  - IndustrialValley.Utility.BoolSetting
+  - IndustrialValley.Utility.DropdownSetting
+  - IndustrialValley.Utility.FloatSetting
+  - IndustrialValley.Utility.KeySetting
+  inheritedMembers:
+  - IndustrialValley.Utility.BaseSetting.Name
+  nameWithType.vb: Setting(Of T)
+  fullName.vb: IndustrialValley.Utility.Setting(Of T)
+  name.vb: Setting(Of T)
+- uid: IndustrialValley.Utility.Setting`1.#ctor(System.String,`0,System.Action{`0})
+  commentId: M:IndustrialValley.Utility.Setting`1.#ctor(System.String,`0,System.Action{`0})
+  id: '#ctor(System.String,`0,System.Action{`0})'
+  parent: IndustrialValley.Utility.Setting`1
+  langs:
+  - csharp
+  - vb
+  name: Setting(string, T, Action<T>)
+  nameWithType: Setting<T>.Setting(string, T, Action<T>)
+  fullName: IndustrialValley.Utility.Setting<T>.Setting(string, T, System.Action<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 103
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public Setting(string name, T value = default, Action<T> onValueChanged = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: '{T}'
+    - id: onValueChanged
+      type: System.Action{{T}}
+    content.vb: Public Sub New(name As String, value As T = Nothing, onValueChanged As Action(Of T) = Nothing)
+  overload: IndustrialValley.Utility.Setting`1.#ctor*
+  nameWithType.vb: Setting(Of T).New(String, T, Action(Of T))
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).New(String, T, System.Action(Of T))
+  name.vb: New(String, T, Action(Of T))
+- uid: IndustrialValley.Utility.Setting`1.Value
+  commentId: P:IndustrialValley.Utility.Setting`1.Value
+  id: Value
+  parent: IndustrialValley.Utility.Setting`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Setting<T>.Value
+  fullName: IndustrialValley.Utility.Setting<T>.Value
+  type: Property
+  source:
+    id: Value
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 111
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public T Value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: >-
+      <CreateProperty>
+
+      Public Property Value As T
+  overload: IndustrialValley.Utility.Setting`1.Value*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+  nameWithType.vb: Setting(Of T).Value
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).Value
+- uid: IndustrialValley.Utility.Setting`1.OnValueChanged
+  commentId: P:IndustrialValley.Utility.Setting`1.OnValueChanged
+  id: OnValueChanged
+  parent: IndustrialValley.Utility.Setting`1
+  langs:
+  - csharp
+  - vb
+  name: OnValueChanged
+  nameWithType: Setting<T>.OnValueChanged
+  fullName: IndustrialValley.Utility.Setting<T>.OnValueChanged
+  type: Property
+  source:
+    id: OnValueChanged
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 123
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public Action<T> OnValueChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action{{T}}
+    content.vb: Public Property OnValueChanged As Action(Of T)
+  overload: IndustrialValley.Utility.Setting`1.OnValueChanged*
+  nameWithType.vb: Setting(Of T).OnValueChanged
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).OnValueChanged
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: IndustrialValley.Utility.BaseSetting
+  commentId: T:IndustrialValley.Utility.BaseSetting
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.BaseSetting.html
+  name: BaseSetting
+  nameWithType: BaseSetting
+  fullName: IndustrialValley.Utility.BaseSetting
+- uid: IndustrialValley.Utility.BaseSetting.Name
+  commentId: P:IndustrialValley.Utility.BaseSetting.Name
+  parent: IndustrialValley.Utility.BaseSetting
+  href: IndustrialValley.Utility.BaseSetting.Name.html#IndustrialValley_Utility_BaseSetting_Name
+  name: Name
+  nameWithType: BaseSetting.Name
+  fullName: IndustrialValley.Utility.BaseSetting.Name
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Utility.Setting`1.#ctor*
+  commentId: Overload:IndustrialValley.Utility.Setting`1.#ctor
+  href: IndustrialValley.Utility.Setting-1.-ctor.html#IndustrialValley_Utility_Setting_1__ctor_System_String__0_System_Action__0__
+  name: Setting
+  nameWithType: Setting<T>.Setting
+  fullName: IndustrialValley.Utility.Setting<T>.Setting
+  nameWithType.vb: Setting(Of T).New
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Utility.Setting`1.Value*
+  commentId: Overload:IndustrialValley.Utility.Setting`1.Value
+  href: IndustrialValley.Utility.Setting-1.Value.html#IndustrialValley_Utility_Setting_1_Value
+  name: Value
+  nameWithType: Setting<T>.Value
+  fullName: IndustrialValley.Utility.Setting<T>.Value
+  nameWithType.vb: Setting(Of T).Value
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).Value
+- uid: IndustrialValley.Utility.Setting`1.OnValueChanged*
+  commentId: Overload:IndustrialValley.Utility.Setting`1.OnValueChanged
+  href: IndustrialValley.Utility.Setting-1.OnValueChanged.html#IndustrialValley_Utility_Setting_1_OnValueChanged
+  name: OnValueChanged
+  nameWithType: Setting<T>.OnValueChanged
+  fullName: IndustrialValley.Utility.Setting<T>.OnValueChanged
+  nameWithType.vb: Setting(Of T).OnValueChanged
+  fullName.vb: IndustrialValley.Utility.Setting(Of T).OnValueChanged
+memberLayout: SeparatePages

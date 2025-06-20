@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: Singleton
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
     startLine: 4
   assemblies:
   - IndustrialValley
@@ -33,6 +33,8 @@ items:
   - UnityEngine.Behaviour
   - UnityEngine.MonoBehaviour
   derivedClasses:
+  - IndustrialValley.Factory.FactoryGenerator
+  - IndustrialValley.UI.ModalUI
   - IndustrialValley.Utility.AudioManager
   nameWithType.vb: Singleton(Of T)
   fullName.vb: IndustrialValley.Utility.Singleton(Of T)
@@ -50,7 +52,7 @@ items:
   type: Property
   source:
     id: Instance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
     startLine: 6
   assemblies:
   - IndustrialValley
@@ -77,7 +79,7 @@ items:
   type: Method
   source:
     id: Awake
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Singleton.cs
     startLine: 8
   assemblies:
   - IndustrialValley

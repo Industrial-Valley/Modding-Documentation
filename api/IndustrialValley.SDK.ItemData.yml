@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: ItemData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
     startLine: 4
   assemblies:
   - IndustrialValley.SDK
@@ -45,7 +45,7 @@ items:
   type: Field
   source:
     id: itemName
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
     startLine: 6
   assemblies:
   - IndustrialValley.SDK
@@ -68,7 +68,7 @@ items:
   type: Field
   source:
     id: icon
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
     startLine: 7
   assemblies:
   - IndustrialValley.SDK
@@ -91,7 +91,7 @@ items:
   type: Field
   source:
     id: prefab
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
     startLine: 8
   assemblies:
   - IndustrialValley.SDK
@@ -114,7 +114,7 @@ items:
   type: Field
   source:
     id: value
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\SDK\ItemData.cs
     startLine: 9
   assemblies:
   - IndustrialValley.SDK

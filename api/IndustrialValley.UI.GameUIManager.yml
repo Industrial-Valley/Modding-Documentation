@@ -23,8 +23,8 @@ items:
   type: Class
   source:
     id: GameUIManager
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 11
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 12
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -50,8 +50,8 @@ items:
   type: Field
   source:
     id: gameUiDocument
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 13
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 14
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -73,8 +73,8 @@ items:
   type: Field
   source:
     id: buildItemTemplate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 15
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -96,8 +96,8 @@ items:
   type: Property
   source:
     id: Instance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 28
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 30
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -121,8 +121,8 @@ items:
   type: Property
   source:
     id: IsInUI
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 30
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 32
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -146,8 +146,8 @@ items:
   type: Property
   source:
     id: IsTyping
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 31
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 33
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -171,8 +171,8 @@ items:
   type: Property
   source:
     id: BuildMenuVisibility
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 33
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 35
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -206,8 +206,8 @@ items:
   type: Property
   source:
     id: PlacementCostVisibility
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 37
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 39
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -241,8 +241,8 @@ items:
   type: Method
   source:
     id: HideControls
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 110
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 113
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI
@@ -263,8 +263,8 @@ items:
   type: Method
   source:
     id: ShowControls
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
-    startLine: 118
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\GameUIManager.cs
+    startLine: 121
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.UI

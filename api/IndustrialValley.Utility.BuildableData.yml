@@ -10,6 +10,7 @@ items:
   - IndustrialValley.Utility.BuildableData.CostString
   - IndustrialValley.Utility.BuildableData.Description
   - IndustrialValley.Utility.BuildableData.Icon
+  - IndustrialValley.Utility.BuildableData.Id
   - IndustrialValley.Utility.BuildableData.Name
   - IndustrialValley.Utility.BuildableData.Prefab
   - IndustrialValley.Utility.BuildableData.PreviewPrefab
@@ -29,7 +30,7 @@ items:
   type: Class
   source:
     id: BuildableData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
     startLine: 7
   assemblies:
   - IndustrialValley
@@ -61,6 +62,31 @@ items:
     - name: order
       type: System.Int32
       value: 1
+- uid: IndustrialValley.Utility.BuildableData.Id
+  commentId: F:IndustrialValley.Utility.BuildableData.Id
+  id: Id
+  parent: IndustrialValley.Utility.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: BuildableData.Id
+  fullName: IndustrialValley.Utility.BuildableData.Id
+  type: Field
+  source:
+    id: Id
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  summary: 'A unique identifier for the buildable item. Suggested format is ModName.Name. IE: "IndustrialValley.ConveyorBelt"'
+  example: []
+  syntax:
+    content: public string Id
+    return:
+      type: System.String
+    content.vb: Public Id As String
 - uid: IndustrialValley.Utility.BuildableData.Name
   commentId: F:IndustrialValley.Utility.BuildableData.Name
   id: Name
@@ -74,8 +100,8 @@ items:
   type: Field
   source:
     id: Name
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 10
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 15
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -97,8 +123,8 @@ items:
   type: Field
   source:
     id: Description
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 11
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 16
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -130,8 +156,8 @@ items:
   type: Field
   source:
     id: Cost
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 13
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 18
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -153,8 +179,8 @@ items:
   type: Field
   source:
     id: Icon
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 19
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -176,8 +202,8 @@ items:
   type: Field
   source:
     id: Prefab
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 15
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 20
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -199,8 +225,8 @@ items:
   type: Field
   source:
     id: PreviewPrefab
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 16
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 21
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -222,8 +248,8 @@ items:
   type: Field
   source:
     id: Size
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 17
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 22
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -245,8 +271,8 @@ items:
   type: Field
   source:
     id: ValidPlacementTags
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 19
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 24
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -268,8 +294,8 @@ items:
   type: Field
   source:
     id: AllowedPlacementLayers
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 20
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 25
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -291,8 +317,8 @@ items:
   type: Property
   source:
     id: Tier
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 30
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 35
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -316,8 +342,8 @@ items:
   type: Property
   source:
     id: Type
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 41
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 46
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -341,8 +367,8 @@ items:
   type: Property
   source:
     id: PurchaseColor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 52
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 57
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -376,8 +402,8 @@ items:
   type: Property
   source:
     id: CostString
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 56
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 61
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -411,8 +437,8 @@ items:
   type: Property
   source:
     id: SizeString
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 58
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 63
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility
@@ -446,8 +472,8 @@ items:
   type: Property
   source:
     id: TierString
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
-    startLine: 60
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\BuildableData.cs
+    startLine: 65
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Utility

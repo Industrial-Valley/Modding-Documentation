@@ -19,8 +19,8 @@ items:
   type: Class
   source:
     id: FactoryManager
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 6
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 7
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -46,8 +46,8 @@ items:
   type: Field
   source:
     id: factoryName
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 8
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 9
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -69,8 +69,8 @@ items:
   type: Field
   source:
     id: warningMessage
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 10
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 11
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -92,16 +92,16 @@ items:
   type: Field
   source:
     id: currentTier
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 12
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 13
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
   syntax:
-    content: public Tiers.FactoryTier currentTier
+    content: public string currentTier
     return:
-      type: IndustrialValley.Game.Tiers.FactoryTier
-    content.vb: Public currentTier As Tiers.FactoryTier
+      type: System.String
+    content.vb: Public currentTier As String
 - uid: IndustrialValley.Game.FactoryManager.warningVisibility
   commentId: P:IndustrialValley.Game.FactoryManager.warningVisibility
   id: warningVisibility
@@ -115,8 +115,8 @@ items:
   type: Property
   source:
     id: warningVisibility
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 14
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 17
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -150,8 +150,8 @@ items:
   type: Property
   source:
     id: Instance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
-    startLine: 16
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\FactoryManager.cs
+    startLine: 19
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -248,29 +248,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: IndustrialValley.Game.Tiers.FactoryTier
-  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
-  parent: IndustrialValley.Game
-  href: IndustrialValley.Game.Tiers.html
-  name: Tiers.FactoryTier
-  nameWithType: Tiers.FactoryTier
-  fullName: IndustrialValley.Game.Tiers.FactoryTier
-  spec.csharp:
-  - uid: IndustrialValley.Game.Tiers
-    name: Tiers
-    href: IndustrialValley.Game.Tiers.html
-  - name: .
-  - uid: IndustrialValley.Game.Tiers.FactoryTier
-    name: FactoryTier
-    href: IndustrialValley.Game.Tiers.FactoryTier.html
-  spec.vb:
-  - uid: IndustrialValley.Game.Tiers
-    name: Tiers
-    href: IndustrialValley.Game.Tiers.html
-  - name: .
-  - uid: IndustrialValley.Game.Tiers.FactoryTier
-    name: FactoryTier
-    href: IndustrialValley.Game.Tiers.FactoryTier.html
 - uid: IndustrialValley.Game.FactoryManager.warningVisibility*
   commentId: Overload:IndustrialValley.Game.FactoryManager.warningVisibility
   href: IndustrialValley.Game.FactoryManager.warningVisibility.html#IndustrialValley_Game_FactoryManager_warningVisibility

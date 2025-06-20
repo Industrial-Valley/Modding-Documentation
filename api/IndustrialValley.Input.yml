@@ -14,7 +14,6 @@ items:
   - IndustrialValley.Input.Place
   - IndustrialValley.Input.PlaceDown
   - IndustrialValley.Input.PlaceUp
-  - IndustrialValley.Input.Player
   - IndustrialValley.Input.Rotate
   - IndustrialValley.Input.Scroll
   langs:
@@ -26,8 +25,8 @@ items:
   type: Class
   source:
     id: Input
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 5
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 8
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -49,8 +48,8 @@ items:
   type: Property
   source:
     id: IsUsingController
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 11
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 14
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -61,31 +60,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property IsUsingController As Boolean
   overload: IndustrialValley.Input.IsUsingController*
-- uid: IndustrialValley.Input.Player
-  commentId: P:IndustrialValley.Input.Player
-  id: Player
-  parent: IndustrialValley.Input
-  langs:
-  - csharp
-  - vb
-  name: Player
-  nameWithType: Input.Player
-  fullName: IndustrialValley.Input.Player
-  type: Property
-  source:
-    id: Player
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 12
-  assemblies:
-  - IndustrialValley
-  namespace: IndustrialValley
-  syntax:
-    content: public static InputActions.PlayerActions Player { get; }
-    parameters: []
-    return:
-      type: InputActions.PlayerActions
-    content.vb: Public Shared ReadOnly Property Player As InputActions.PlayerActions
-  overload: IndustrialValley.Input.Player*
 - uid: IndustrialValley.Input.MousePosition
   commentId: P:IndustrialValley.Input.MousePosition
   id: MousePosition
@@ -99,8 +73,8 @@ items:
   type: Property
   source:
     id: MousePosition
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 17
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 21
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -126,8 +100,8 @@ items:
   type: Property
   source:
     id: Movement
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 22
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 26
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -153,8 +127,8 @@ items:
   type: Property
   source:
     id: Place
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 24
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 28
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -178,8 +152,8 @@ items:
   type: Property
   source:
     id: PlaceDown
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 26
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 30
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -203,8 +177,8 @@ items:
   type: Property
   source:
     id: PlaceUp
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 27
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 31
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -228,8 +202,8 @@ items:
   type: Property
   source:
     id: Cancel
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 29
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 33
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -253,8 +227,8 @@ items:
   type: Property
   source:
     id: Rotate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 31
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 35
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -278,8 +252,8 @@ items:
   type: Property
   source:
     id: Scroll
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 33
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 37
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -303,8 +277,8 @@ items:
   type: Property
   source:
     id: Escape
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 35
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 39
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -328,8 +302,8 @@ items:
   type: Property
   source:
     id: Duplicate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Input.cs
-    startLine: 37
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 41
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley
@@ -382,34 +356,6 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: IndustrialValley.Input.Player*
-  commentId: Overload:IndustrialValley.Input.Player
-  href: IndustrialValley.Input.Player.html#IndustrialValley_Input_Player
-  name: Player
-  nameWithType: Input.Player
-  fullName: IndustrialValley.Input.Player
-- uid: InputActions.PlayerActions
-  commentId: T:InputActions.PlayerActions
-  href: InputActions.html
-  name: InputActions.PlayerActions
-  nameWithType: InputActions.PlayerActions
-  fullName: InputActions.PlayerActions
-  spec.csharp:
-  - uid: InputActions
-    name: InputActions
-    href: InputActions.html
-  - name: .
-  - uid: InputActions.PlayerActions
-    name: PlayerActions
-    href: InputActions.PlayerActions.html
-  spec.vb:
-  - uid: InputActions
-    name: InputActions
-    href: InputActions.html
-  - name: .
-  - uid: InputActions.PlayerActions
-    name: PlayerActions
-    href: InputActions.PlayerActions.html
 - uid: IndustrialValley.Input.MousePosition*
   commentId: Overload:IndustrialValley.Input.MousePosition
   href: IndustrialValley.Input.MousePosition.html#IndustrialValley_Input_MousePosition

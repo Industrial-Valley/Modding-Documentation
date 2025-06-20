@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  id: ProceduralAnimation.AnimationData
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.gameObject
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.items
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.name
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData.resetToBeginning
+  langs:
+  - csharp
+  - vb
+  name: ProceduralAnimation.AnimationData
+  nameWithType: ProceduralAnimation.AnimationData
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  type: Class
+  source:
+    id: AnimationData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 43
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ProceduralAnimation.AnimationData
+    content.vb: >-
+      <Serializable>
+
+      Public Class ProceduralAnimation.AnimationData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.name
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationData.name
+  id: name
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ProceduralAnimation.AnimationData.name
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.name
+  type: Field
+  source:
+    id: name
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 46
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.gameObject
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationData.gameObject
+  id: gameObject
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: gameObject
+  nameWithType: ProceduralAnimation.AnimationData.gameObject
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.gameObject
+  type: Field
+  source:
+    id: gameObject
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 47
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public GameObject gameObject
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public gameObject As GameObject
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.resetToBeginning
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationData.resetToBeginning
+  id: resetToBeginning
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: resetToBeginning
+  nameWithType: ProceduralAnimation.AnimationData.resetToBeginning
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.resetToBeginning
+  type: Field
+  source:
+    id: resetToBeginning
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 48
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public bool resetToBeginning
+    return:
+      type: System.Boolean
+    content.vb: Public resetToBeginning As Boolean
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.items
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationData.items
+  id: items
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: items
+  nameWithType: ProceduralAnimation.AnimationData.items
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.items
+  type: Field
+  source:
+    id: items
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 50
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public ProceduralAnimation.AnimationItem[] items
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationItem[]
+    content.vb: Public items As ProceduralAnimation.AnimationItem()
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play
+  commentId: M:IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play
+  id: Play
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: ProceduralAnimation.AnimationData.Play()
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play()
+  type: Method
+  source:
+    id: Play
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 57
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play()
+  overload: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play*
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop
+  commentId: M:IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop
+  id: Stop
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ProceduralAnimation.AnimationData.Stop()
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 138
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop*
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem[]
+  isExternal: true
+  href: IndustrialValley.Utility.ProceduralAnimation.AnimationItem.html
+  name: AnimationItem[]
+  nameWithType: ProceduralAnimation.AnimationItem[]
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationItem[]
+  nameWithType.vb: ProceduralAnimation.AnimationItem()
+  fullName.vb: IndustrialValley.Utility.ProceduralAnimation.AnimationItem()
+  name.vb: AnimationItem()
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: AnimationItem
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationItem.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: AnimationItem
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationItem.html
+  - name: (
+  - name: )
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play*
+  commentId: Overload:IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play
+  href: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play.html#IndustrialValley_Utility_ProceduralAnimation_AnimationData_Play
+  name: Play
+  nameWithType: ProceduralAnimation.AnimationData.Play
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Play
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop*
+  commentId: Overload:IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop
+  href: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop.html#IndustrialValley_Utility_ProceduralAnimation_AnimationData_Stop
+  name: Stop
+  nameWithType: ProceduralAnimation.AnimationData.Stop
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData.Stop
+memberLayout: SeparatePages

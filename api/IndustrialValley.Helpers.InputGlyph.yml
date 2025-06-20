@@ -5,7 +5,7 @@ items:
   id: InputGlyph
   parent: IndustrialValley.Helpers
   children:
-  - IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.Helpers.InputGlyph.InputDeviceType,UnityEngine.InputSystem.InputAction)
+  - IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.InputManager.DeviceType,UnityEngine.InputSystem.InputAction)
   - IndustrialValley.Helpers.InputGlyph.GetGlyph(UnityEngine.InputSystem.InputAction)
   langs:
   - csharp
@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: InputGlyph
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
     startLine: 7
   assemblies:
   - IndustrialValley
@@ -39,8 +39,8 @@ items:
   type: Method
   source:
     id: GetGlyph
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 33
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 31
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
@@ -57,31 +57,31 @@ items:
       description: ''
     content.vb: Public Shared Function GetGlyph(action As InputAction) As Texture2D
   overload: IndustrialValley.Helpers.InputGlyph.GetGlyph*
-- uid: IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.Helpers.InputGlyph.InputDeviceType,UnityEngine.InputSystem.InputAction)
-  commentId: M:IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.Helpers.InputGlyph.InputDeviceType,UnityEngine.InputSystem.InputAction)
-  id: GetGlyph(IndustrialValley.Helpers.InputGlyph.InputDeviceType,UnityEngine.InputSystem.InputAction)
+- uid: IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.InputManager.DeviceType,UnityEngine.InputSystem.InputAction)
+  commentId: M:IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.InputManager.DeviceType,UnityEngine.InputSystem.InputAction)
+  id: GetGlyph(IndustrialValley.InputManager.DeviceType,UnityEngine.InputSystem.InputAction)
   parent: IndustrialValley.Helpers.InputGlyph
   langs:
   - csharp
   - vb
-  name: GetGlyph(InputDeviceType, InputAction)
-  nameWithType: InputGlyph.GetGlyph(InputGlyph.InputDeviceType, InputAction)
-  fullName: IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.Helpers.InputGlyph.InputDeviceType, UnityEngine.InputSystem.InputAction)
+  name: GetGlyph(DeviceType, InputAction)
+  nameWithType: InputGlyph.GetGlyph(InputManager.DeviceType, InputAction)
+  fullName: IndustrialValley.Helpers.InputGlyph.GetGlyph(IndustrialValley.InputManager.DeviceType, UnityEngine.InputSystem.InputAction)
   type: Method
   source:
     id: GetGlyph
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
-    startLine: 54
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InputGlyph.cs
+    startLine: 52
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
   summary: Get the glyph for a specific action based on the specified input device.
   example: []
   syntax:
-    content: public static Texture2D GetGlyph(InputGlyph.InputDeviceType device, InputAction action)
+    content: public static Texture2D GetGlyph(InputManager.DeviceType deviceType, InputAction action)
     parameters:
-    - id: device
-      type: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+    - id: deviceType
+      type: IndustrialValley.InputManager.DeviceType
       description: ''
     - id: action
       type: UnityEngine.InputSystem.InputAction
@@ -89,7 +89,7 @@ items:
     return:
       type: UnityEngine.Texture2D
       description: ''
-    content.vb: Public Shared Function GetGlyph(device As InputGlyph.InputDeviceType, action As InputAction) As Texture2D
+    content.vb: Public Shared Function GetGlyph(deviceType As InputManager.DeviceType, action As InputAction) As Texture2D
   overload: IndustrialValley.Helpers.InputGlyph.GetGlyph*
 references:
 - uid: IndustrialValley.Helpers
@@ -180,27 +180,33 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
-- uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-  commentId: T:IndustrialValley.Helpers.InputGlyph.InputDeviceType
-  parent: IndustrialValley.Helpers
-  href: IndustrialValley.Helpers.InputGlyph.html
-  name: InputGlyph.InputDeviceType
-  nameWithType: InputGlyph.InputDeviceType
-  fullName: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+- uid: IndustrialValley.InputManager.DeviceType
+  commentId: T:IndustrialValley.InputManager.DeviceType
+  parent: IndustrialValley
+  href: IndustrialValley.InputManager.html
+  name: InputManager.DeviceType
+  nameWithType: InputManager.DeviceType
+  fullName: IndustrialValley.InputManager.DeviceType
   spec.csharp:
-  - uid: IndustrialValley.Helpers.InputGlyph
-    name: InputGlyph
-    href: IndustrialValley.Helpers.InputGlyph.html
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
   - name: .
-  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-    name: InputDeviceType
-    href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
   spec.vb:
-  - uid: IndustrialValley.Helpers.InputGlyph
-    name: InputGlyph
-    href: IndustrialValley.Helpers.InputGlyph.html
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+    href: IndustrialValley.InputManager.html
   - name: .
-  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
-    name: InputDeviceType
-    href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: DeviceType
+    href: IndustrialValley.InputManager.DeviceType.html
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  href: IndustrialValley.html
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley
 memberLayout: SeparatePages

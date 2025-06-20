@@ -19,7 +19,7 @@ items:
   type: Enum
   source:
     id: FactoryTier
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 7
   assemblies:
   - IndustrialValley
@@ -42,7 +42,7 @@ items:
   type: Field
   source:
     id: Tier1
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 9
   assemblies:
   - IndustrialValley
@@ -64,7 +64,7 @@ items:
   type: Field
   source:
     id: Tier2
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -86,7 +86,7 @@ items:
   type: Field
   source:
     id: Tier3
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 11
   assemblies:
   - IndustrialValley
@@ -108,7 +108,7 @@ items:
   type: Field
   source:
     id: Tier4
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 12
   assemblies:
   - IndustrialValley
@@ -130,7 +130,7 @@ items:
   type: Field
   source:
     id: Tier5
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\Tiers.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\Tiers.cs
     startLine: 13
   assemblies:
   - IndustrialValley

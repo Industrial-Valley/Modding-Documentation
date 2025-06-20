@@ -9,6 +9,7 @@ items:
   - IndustrialValley.Helpers.InputGlyph
   - IndustrialValley.Helpers.InputGlyph.InputDeviceType
   - IndustrialValley.Helpers.Mouse
+  - IndustrialValley.Helpers.Random
   - IndustrialValley.Helpers.UI
   langs:
   - csharp
@@ -49,6 +50,12 @@ references:
   - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
     name: InputDeviceType
     href: IndustrialValley.Helpers.InputGlyph.InputDeviceType.html
+- uid: IndustrialValley.Helpers.Random
+  commentId: T:IndustrialValley.Helpers.Random
+  href: IndustrialValley.Helpers.Random.html
+  name: Random
+  nameWithType: Random
+  fullName: IndustrialValley.Helpers.Random
 - uid: IndustrialValley.Helpers.UI
   commentId: T:IndustrialValley.Helpers.UI
   parent: IndustrialValley.Helpers

@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     id: ConveyorItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 4
   assemblies:
   - IndustrialValley
@@ -42,7 +42,7 @@ items:
   type: Field
   source:
     id: data
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 6
   assemblies:
   - IndustrialValley
@@ -65,7 +65,7 @@ items:
   type: Field
   source:
     id: instance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 7
   assemblies:
   - IndustrialValley
@@ -88,7 +88,7 @@ items:
   type: Field
   source:
     id: progress
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -111,7 +111,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 10
   assemblies:
   - IndustrialValley
@@ -139,7 +139,7 @@ items:
   type: Method
   source:
     id: Duplicate
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\ConveyorItem.cs
     startLine: 15
   assemblies:
   - IndustrialValley

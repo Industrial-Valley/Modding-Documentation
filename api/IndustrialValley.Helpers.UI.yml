@@ -16,8 +16,8 @@ items:
   type: Class
   source:
     id: UI
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
-    startLine: 5
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 7
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
@@ -40,8 +40,8 @@ items:
   type: Method
   source:
     id: AddUISounds
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
-    startLine: 7
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 11
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers
@@ -66,8 +66,8 @@ items:
   type: Method
   source:
     id: AddUISounds
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\UI.cs
-    startLine: 15
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 19
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Helpers

@@ -18,24 +18,11 @@ items:
   type: Interface
   source:
     id: IConveyor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
-    startLine: 12
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 4
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
-  summary: >-
-    Any “conveyor‐like” object (straight belt, curved belt, splitter, clicker, seller, etc.)
-
-    should implement this interface.  It must be able to:
-
-    1) Report whether it can currently accept a new ConveyorItem (CanAcceptItem).
-
-    2) Insert a ConveyorItem onto itself (InsertItem).
-
-    3) Expose one or more “input gizmo” positions (GetInputPositions).
-
-    4) Expose one or more “output gizmo” positions (GetOutputPositions).
-  example: []
   syntax:
     content: public interface IConveyor
     content.vb: Public Interface IConveyor
@@ -52,8 +39,8 @@ items:
   type: Method
   source:
     id: CanAcceptItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
-    startLine: 17
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 9
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -78,8 +65,8 @@ items:
   type: Method
   source:
     id: InsertItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
-    startLine: 24
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 16
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
@@ -109,17 +96,12 @@ items:
   type: Method
   source:
     id: GetInputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
-    startLine: 31
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 21
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
-  summary: >-
-    Return all world‐space positions where upstream conveyors should align their
-
-    “output gizmos” (red spheres).  If any such upstream gizmo lies within the detection
-
-    radius of one of these positions, that upstream conveyor can push an item here.
+  summary: Return all world‐space positions where this conveyor/machine should accept items.
   example: []
   syntax:
     content: Vector3[] GetInputPositions()
@@ -140,17 +122,12 @@ items:
   type: Method
   source:
     id: GetOutputPositions
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
-    startLine: 38
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\FactoryMovement\IConveyor.cs
+    startLine: 26
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.FactoryMovement
-  summary: >-
-    Return all world‐space positions where downstream conveyors should align their
-
-    “input gizmos” (green spheres).  If any such downstream gizmo lies within the handoff
-
-    radius of one of these positions, this conveyor will push its front item there.
+  summary: Return all world‐space positions where this conveyor/machine should output items.
   example: []
   syntax:
     content: Vector3[] GetOutputPositions()

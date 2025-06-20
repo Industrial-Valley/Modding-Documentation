@@ -5,7 +5,19 @@ items:
   id: IndustrialValley.Utility
   children:
   - IndustrialValley.Utility.AudioManager
+  - IndustrialValley.Utility.BaseSetting
+  - IndustrialValley.Utility.BoolSetting
   - IndustrialValley.Utility.BuildableData
+  - IndustrialValley.Utility.DropdownSetting
+  - IndustrialValley.Utility.FloatSetting
+  - IndustrialValley.Utility.KeySetting
+  - IndustrialValley.Utility.ProceduralAnimation
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  - IndustrialValley.Utility.Setting`1
+  - IndustrialValley.Utility.Settings
   - IndustrialValley.Utility.Singleton`1
   langs:
   - csharp
@@ -17,6 +29,69 @@ items:
   assemblies:
   - IndustrialValley
 references:
+- uid: IndustrialValley.Utility.Settings
+  commentId: T:IndustrialValley.Utility.Settings
+  href: IndustrialValley.Utility.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: IndustrialValley.Utility.Settings
+- uid: IndustrialValley.Utility.BaseSetting
+  commentId: T:IndustrialValley.Utility.BaseSetting
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.BaseSetting.html
+  name: BaseSetting
+  nameWithType: BaseSetting
+  fullName: IndustrialValley.Utility.BaseSetting
+- uid: IndustrialValley.Utility.Setting`1
+  commentId: T:IndustrialValley.Utility.Setting`1
+  href: IndustrialValley.Utility.Setting-1.html
+  name: Setting<T>
+  nameWithType: Setting<T>
+  fullName: IndustrialValley.Utility.Setting<T>
+  nameWithType.vb: Setting(Of T)
+  fullName.vb: IndustrialValley.Utility.Setting(Of T)
+  name.vb: Setting(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Utility.Setting`1
+    name: Setting
+    href: IndustrialValley.Utility.Setting-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Utility.Setting`1
+    name: Setting
+    href: IndustrialValley.Utility.Setting-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Utility.BoolSetting
+  commentId: T:IndustrialValley.Utility.BoolSetting
+  href: IndustrialValley.Utility.BoolSetting.html
+  name: BoolSetting
+  nameWithType: BoolSetting
+  fullName: IndustrialValley.Utility.BoolSetting
+- uid: IndustrialValley.Utility.FloatSetting
+  commentId: T:IndustrialValley.Utility.FloatSetting
+  href: IndustrialValley.Utility.FloatSetting.html
+  name: FloatSetting
+  nameWithType: FloatSetting
+  fullName: IndustrialValley.Utility.FloatSetting
+- uid: IndustrialValley.Utility.KeySetting
+  commentId: T:IndustrialValley.Utility.KeySetting
+  href: IndustrialValley.Utility.KeySetting.html
+  name: KeySetting
+  nameWithType: KeySetting
+  fullName: IndustrialValley.Utility.KeySetting
+- uid: IndustrialValley.Utility.DropdownSetting
+  commentId: T:IndustrialValley.Utility.DropdownSetting
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.DropdownSetting.html
+  name: DropdownSetting
+  nameWithType: DropdownSetting
+  fullName: IndustrialValley.Utility.DropdownSetting
 - uid: IndustrialValley.Utility.BuildableData
   commentId: T:IndustrialValley.Utility.BuildableData
   parent: IndustrialValley.Utility
@@ -30,6 +105,102 @@ references:
   name: AudioManager
   nameWithType: AudioManager
   fullName: IndustrialValley.Utility.AudioManager
+- uid: IndustrialValley.Utility.ProceduralAnimation
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation
+  nameWithType: ProceduralAnimation
+  fullName: IndustrialValley.Utility.ProceduralAnimation
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationSpace
+  nameWithType: ProceduralAnimation.AnimationSpace
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: AnimationSpace
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: AnimationSpace
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.html
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationType
+  nameWithType: ProceduralAnimation.AnimationType
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: AnimationType
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationType.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: AnimationType
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationType.html
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationData
+  nameWithType: ProceduralAnimation.AnimationData
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+    name: AnimationData
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationData.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+    name: AnimationData
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationData.html
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationItem
+  nameWithType: ProceduralAnimation.AnimationItem
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: AnimationItem
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationItem.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: AnimationItem
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationItem.html
 - uid: IndustrialValley.Utility.Singleton`1
   commentId: T:IndustrialValley.Utility.Singleton`1
   href: IndustrialValley.Utility.Singleton-1.html

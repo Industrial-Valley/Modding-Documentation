@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: DetailsData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 12
   assemblies:
   - IndustrialValley
@@ -50,7 +50,7 @@ items:
   type: Field
   source:
     id: MaxDetailsPerPlot
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 15
   assemblies:
   - IndustrialValley
@@ -73,7 +73,7 @@ items:
   type: Field
   source:
     id: RandomRotationDetails
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 16
   assemblies:
   - IndustrialValley
@@ -96,7 +96,7 @@ items:
   type: Field
   source:
     id: RandomFixedDetails
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 17
   assemblies:
   - IndustrialValley

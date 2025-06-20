@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: Cursor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 5
   assemblies:
   - IndustrialValley
@@ -43,7 +43,7 @@ items:
   type: Property
   source:
     id: IsCursorLocked
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 16
   assemblies:
   - IndustrialValley
@@ -68,7 +68,7 @@ items:
   type: Property
   source:
     id: IsCursorVisible
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 17
   assemblies:
   - IndustrialValley
@@ -93,7 +93,7 @@ items:
   type: Method
   source:
     id: SetCursor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 19
   assemblies:
   - IndustrialValley
@@ -122,7 +122,7 @@ items:
   type: Method
   source:
     id: ResetCursor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 30
   assemblies:
   - IndustrialValley
@@ -144,7 +144,7 @@ items:
   type: Method
   source:
     id: LockCursor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 35
   assemblies:
   - IndustrialValley
@@ -172,7 +172,7 @@ items:
   type: Method
   source:
     id: SetCursor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Cursor.cs
     startLine: 49
   assemblies:
   - IndustrialValley

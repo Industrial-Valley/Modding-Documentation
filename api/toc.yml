@@ -40,26 +40,32 @@ items:
 - uid: IndustrialValley.Game
   name: IndustrialValley.Game
   items:
+  - uid: IndustrialValley.Game.BoolSettingData
+    name: BoolSettingData
+  - uid: IndustrialValley.Game.BuildableSaveData
+    name: BuildableSaveData
   - uid: IndustrialValley.Game.BuildableTypes
     name: BuildableTypes
   - uid: IndustrialValley.Game.Buildables
     name: Buildables
   - uid: IndustrialValley.Game.Buildables.BuildableType
     name: Buildables.BuildableType
+  - uid: IndustrialValley.Game.DropdownSettingData
+    name: DropdownSettingData
   - uid: IndustrialValley.Game.FactoryManager
     name: FactoryManager
   - uid: IndustrialValley.Game.FactorySaveData
     name: FactorySaveData
-  - uid: IndustrialValley.Game.Game
-    name: Game
-  - uid: IndustrialValley.Game.GameManager
-    name: GameManager
+  - uid: IndustrialValley.Game.FloatSettingData
+    name: FloatSettingData
   - uid: IndustrialValley.Game.Ore
     name: Ore
   - uid: IndustrialValley.Game.SaveData
     name: SaveData
-  - uid: IndustrialValley.Game.SaveSystem
-    name: SaveSystem
+  - uid: IndustrialValley.Game.SaveInfo
+    name: SaveInfo
+  - uid: IndustrialValley.Game.SettingsData
+    name: SettingsData
   - uid: IndustrialValley.Game.Tiers
     name: Tiers
   - uid: IndustrialValley.Game.Tiers.FactoryTier
@@ -79,6 +85,8 @@ items:
     name: InputGlyph.InputDeviceType
   - uid: IndustrialValley.Helpers.Mouse
     name: Mouse
+  - uid: IndustrialValley.Helpers.Random
+    name: Random
   - uid: IndustrialValley.Helpers.UI
     name: UI
 - uid: IndustrialValley.Machines
@@ -93,8 +101,8 @@ items:
 - uid: IndustrialValley.Mod
   name: IndustrialValley.Mod
   items:
-  - uid: IndustrialValley.Mod.Mod
-    name: Mod
+  - uid: IndustrialValley.Mod.GameMod
+    name: GameMod
   - uid: IndustrialValley.Mod.ModData
     name: ModData
   - uid: IndustrialValley.Mod.ProfileMod
@@ -128,15 +136,41 @@ items:
     name: InputGlyphData
   - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
     name: InputGlyphData.GlyphEntry
-  - uid: IndustrialValley.UI.MainMenuUIManager
-    name: MainMenuUIManager
+  - uid: IndustrialValley.UI.ModalExtension
+    name: ModalExtension
+  - uid: IndustrialValley.UI.ModalUI
+    name: ModalUI
 - uid: IndustrialValley.Utility
   name: IndustrialValley.Utility
   items:
   - uid: IndustrialValley.Utility.AudioManager
     name: AudioManager
+  - uid: IndustrialValley.Utility.BaseSetting
+    name: BaseSetting
+  - uid: IndustrialValley.Utility.BoolSetting
+    name: BoolSetting
   - uid: IndustrialValley.Utility.BuildableData
     name: BuildableData
+  - uid: IndustrialValley.Utility.DropdownSetting
+    name: DropdownSetting
+  - uid: IndustrialValley.Utility.FloatSetting
+    name: FloatSetting
+  - uid: IndustrialValley.Utility.KeySetting
+    name: KeySetting
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+    name: ProceduralAnimation.AnimationData
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: ProceduralAnimation.AnimationItem
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: ProceduralAnimation.AnimationSpace
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: ProceduralAnimation.AnimationType
+  - uid: IndustrialValley.Utility.Setting`1
+    name: Setting<T>
+  - uid: IndustrialValley.Utility.Settings
+    name: Settings
   - uid: IndustrialValley.Utility.Singleton`1
     name: Singleton<T>
 memberLayout: SeparatePages

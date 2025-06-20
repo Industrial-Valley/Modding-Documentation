@@ -29,7 +29,7 @@ items:
   type: Class
   source:
     id: ObjectPooler
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 15
   assemblies:
   - IndustrialValley
@@ -56,7 +56,7 @@ items:
   type: Field
   source:
     id: PoolItems
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 17
   assemblies:
   - IndustrialValley
@@ -79,7 +79,7 @@ items:
   type: Property
   source:
     id: Instance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
     startLine: 20
   assemblies:
   - IndustrialValley
@@ -104,8 +104,8 @@ items:
   type: Method
   source:
     id: Initialized
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 49
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 53
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -126,8 +126,8 @@ items:
   type: Method
   source:
     id: Get
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 55
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 59
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -162,8 +162,8 @@ items:
   type: Method
   source:
     id: PutParticle
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 68
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 72
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -187,8 +187,8 @@ items:
   type: Method
   source:
     id: PutParticle
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 76
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 80
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -212,8 +212,8 @@ items:
   type: Method
   source:
     id: GetParticle
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 84
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 88
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -243,8 +243,8 @@ items:
   type: Method
   source:
     id: GetAndPlayParticle
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 90
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 94
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -274,8 +274,8 @@ items:
   type: Method
   source:
     id: Get
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 98
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 102
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -305,8 +305,8 @@ items:
   type: Method
   source:
     id: Get
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 109
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 113
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -332,8 +332,8 @@ items:
   type: Method
   source:
     id: Put
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 125
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 131
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -357,8 +357,8 @@ items:
   type: Method
   source:
     id: Put
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 130
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 136
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -387,8 +387,8 @@ items:
   type: Method
   source:
     id: Put
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 135
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 141
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -417,8 +417,8 @@ items:
   type: Method
   source:
     id: DelayDespawn
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 140
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 146
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers
@@ -447,8 +447,8 @@ items:
   type: Method
   source:
     id: NewItem
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
-    startLine: 159
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Pooling\ObjectPooler.cs
+    startLine: 165
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Poolers

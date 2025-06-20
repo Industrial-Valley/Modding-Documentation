@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: Ore
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 26
   assemblies:
   - IndustrialValley
@@ -51,7 +51,7 @@ items:
   type: Field
   source:
     id: MaxSpawnCount
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 29
   assemblies:
   - IndustrialValley
@@ -74,7 +74,7 @@ items:
   type: Field
   source:
     id: MinSpawnCount
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 30
   assemblies:
   - IndustrialValley
@@ -97,7 +97,7 @@ items:
   type: Field
   source:
     id: Prefab
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 31
   assemblies:
   - IndustrialValley
@@ -120,7 +120,7 @@ items:
   type: Field
   source:
     id: SpawnChance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\PlotData.cs
     startLine: 32
   assemblies:
   - IndustrialValley

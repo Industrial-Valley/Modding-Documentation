@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: InputManager
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 8
   assemblies:
   - IndustrialValley
@@ -49,7 +49,7 @@ items:
   type: Property
   source:
     id: CurrentDeviceType
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 20
   assemblies:
   - IndustrialValley
@@ -74,7 +74,7 @@ items:
   type: Property
   source:
     id: CurrentInputDeviceType
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\InputManager.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\InputManager.cs
     startLine: 23
   assemblies:
   - IndustrialValley

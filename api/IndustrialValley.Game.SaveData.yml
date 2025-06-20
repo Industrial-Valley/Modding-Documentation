@@ -6,12 +6,16 @@ items:
   parent: IndustrialValley.Game
   children:
   - IndustrialValley.Game.SaveData.Balance
+  - IndustrialValley.Game.SaveData.BankBalanceDisplay
   - IndustrialValley.Game.SaveData.CurrentTier
-  - IndustrialValley.Game.SaveData.FactoryFloorColor
   - IndustrialValley.Game.SaveData.FactoryName
-  - IndustrialValley.Game.SaveData.FactoryWallColor
+  - IndustrialValley.Game.SaveData.FactoryNameDisplay
+  - IndustrialValley.Game.SaveData.FactoryTierDisplay
   - IndustrialValley.Game.SaveData.PlayTime
+  - IndustrialValley.Game.SaveData.PlayTimeDisplay
   - IndustrialValley.Game.SaveData.SaveTime
+  - IndustrialValley.Game.SaveData.SaveTimeDisplay
+  - IndustrialValley.Game.SaveData.Seed
   langs:
   - csharp
   - vb
@@ -21,8 +25,8 @@ items:
   type: Class
   source:
     id: SaveData
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 93
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 371
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -44,8 +48,8 @@ items:
   type: Property
   source:
     id: FactoryName
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 96
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 374
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -56,56 +60,6 @@ items:
       type: System.String
     content.vb: Public Property FactoryName As String
   overload: IndustrialValley.Game.SaveData.FactoryName*
-- uid: IndustrialValley.Game.SaveData.FactoryWallColor
-  commentId: P:IndustrialValley.Game.SaveData.FactoryWallColor
-  id: FactoryWallColor
-  parent: IndustrialValley.Game.SaveData
-  langs:
-  - csharp
-  - vb
-  name: FactoryWallColor
-  nameWithType: SaveData.FactoryWallColor
-  fullName: IndustrialValley.Game.SaveData.FactoryWallColor
-  type: Property
-  source:
-    id: FactoryWallColor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 97
-  assemblies:
-  - IndustrialValley
-  namespace: IndustrialValley.Game
-  syntax:
-    content: public Color FactoryWallColor { get; set; }
-    parameters: []
-    return:
-      type: UnityEngine.Color
-    content.vb: Public Property FactoryWallColor As Color
-  overload: IndustrialValley.Game.SaveData.FactoryWallColor*
-- uid: IndustrialValley.Game.SaveData.FactoryFloorColor
-  commentId: P:IndustrialValley.Game.SaveData.FactoryFloorColor
-  id: FactoryFloorColor
-  parent: IndustrialValley.Game.SaveData
-  langs:
-  - csharp
-  - vb
-  name: FactoryFloorColor
-  nameWithType: SaveData.FactoryFloorColor
-  fullName: IndustrialValley.Game.SaveData.FactoryFloorColor
-  type: Property
-  source:
-    id: FactoryFloorColor
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 98
-  assemblies:
-  - IndustrialValley
-  namespace: IndustrialValley.Game
-  syntax:
-    content: public Color FactoryFloorColor { get; set; }
-    parameters: []
-    return:
-      type: UnityEngine.Color
-    content.vb: Public Property FactoryFloorColor As Color
-  overload: IndustrialValley.Game.SaveData.FactoryFloorColor*
 - uid: IndustrialValley.Game.SaveData.Balance
   commentId: P:IndustrialValley.Game.SaveData.Balance
   id: Balance
@@ -119,8 +73,8 @@ items:
   type: Property
   source:
     id: Balance
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 99
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 375
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -144,17 +98,17 @@ items:
   type: Property
   source:
     id: CurrentTier
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 100
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 376
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
   syntax:
-    content: public Tiers.FactoryTier CurrentTier { get; set; }
+    content: public string CurrentTier { get; set; }
     parameters: []
     return:
-      type: IndustrialValley.Game.Tiers.FactoryTier
-    content.vb: Public Property CurrentTier As Tiers.FactoryTier
+      type: System.String
+    content.vb: Public Property CurrentTier As String
   overload: IndustrialValley.Game.SaveData.CurrentTier*
 - uid: IndustrialValley.Game.SaveData.SaveTime
   commentId: P:IndustrialValley.Game.SaveData.SaveTime
@@ -169,8 +123,8 @@ items:
   type: Property
   source:
     id: SaveTime
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 101
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 377
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -194,8 +148,8 @@ items:
   type: Property
   source:
     id: PlayTime
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
-    startLine: 102
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 378
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Game
@@ -206,6 +160,206 @@ items:
       type: System.TimeSpan
     content.vb: Public Property PlayTime As TimeSpan
   overload: IndustrialValley.Game.SaveData.PlayTime*
+- uid: IndustrialValley.Game.SaveData.Seed
+  commentId: P:IndustrialValley.Game.SaveData.Seed
+  id: Seed
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: Seed
+  nameWithType: SaveData.Seed
+  fullName: IndustrialValley.Game.SaveData.Seed
+  type: Property
+  source:
+    id: Seed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 379
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: public string Seed { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Seed As String
+  overload: IndustrialValley.Game.SaveData.Seed*
+- uid: IndustrialValley.Game.SaveData.FactoryNameDisplay
+  commentId: P:IndustrialValley.Game.SaveData.FactoryNameDisplay
+  id: FactoryNameDisplay
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FactoryNameDisplay
+  nameWithType: SaveData.FactoryNameDisplay
+  fullName: IndustrialValley.Game.SaveData.FactoryNameDisplay
+  type: Property
+  source:
+    id: FactoryNameDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 381
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string FactoryNameDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property FactoryNameDisplay As String
+  overload: IndustrialValley.Game.SaveData.FactoryNameDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.SaveData.FactoryTierDisplay
+  commentId: P:IndustrialValley.Game.SaveData.FactoryTierDisplay
+  id: FactoryTierDisplay
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FactoryTierDisplay
+  nameWithType: SaveData.FactoryTierDisplay
+  fullName: IndustrialValley.Game.SaveData.FactoryTierDisplay
+  type: Property
+  source:
+    id: FactoryTierDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 383
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string FactoryTierDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property FactoryTierDisplay As String
+  overload: IndustrialValley.Game.SaveData.FactoryTierDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.SaveData.BankBalanceDisplay
+  commentId: P:IndustrialValley.Game.SaveData.BankBalanceDisplay
+  id: BankBalanceDisplay
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: BankBalanceDisplay
+  nameWithType: SaveData.BankBalanceDisplay
+  fullName: IndustrialValley.Game.SaveData.BankBalanceDisplay
+  type: Property
+  source:
+    id: BankBalanceDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 385
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string BankBalanceDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property BankBalanceDisplay As String
+  overload: IndustrialValley.Game.SaveData.BankBalanceDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.SaveData.SaveTimeDisplay
+  commentId: P:IndustrialValley.Game.SaveData.SaveTimeDisplay
+  id: SaveTimeDisplay
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: SaveTimeDisplay
+  nameWithType: SaveData.SaveTimeDisplay
+  fullName: IndustrialValley.Game.SaveData.SaveTimeDisplay
+  type: Property
+  source:
+    id: SaveTimeDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 387
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string SaveTimeDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property SaveTimeDisplay As String
+  overload: IndustrialValley.Game.SaveData.SaveTimeDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Game.SaveData.PlayTimeDisplay
+  commentId: P:IndustrialValley.Game.SaveData.PlayTimeDisplay
+  id: PlayTimeDisplay
+  parent: IndustrialValley.Game.SaveData
+  langs:
+  - csharp
+  - vb
+  name: PlayTimeDisplay
+  nameWithType: SaveData.PlayTimeDisplay
+  fullName: IndustrialValley.Game.SaveData.PlayTimeDisplay
+  type: Property
+  source:
+    id: PlayTimeDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Game\SaveSystem.cs
+    startLine: 389
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Game
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string PlayTimeDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property PlayTimeDisplay As String
+  overload: IndustrialValley.Game.SaveData.PlayTimeDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
 references:
 - uid: IndustrialValley.Game
   commentId: N:IndustrialValley.Game
@@ -264,31 +418,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: IndustrialValley.Game.SaveData.FactoryWallColor*
-  commentId: Overload:IndustrialValley.Game.SaveData.FactoryWallColor
-  href: IndustrialValley.Game.SaveData.FactoryWallColor.html#IndustrialValley_Game_SaveData_FactoryWallColor
-  name: FactoryWallColor
-  nameWithType: SaveData.FactoryWallColor
-  fullName: IndustrialValley.Game.SaveData.FactoryWallColor
-- uid: UnityEngine.Color
-  commentId: T:UnityEngine.Color
-  parent: UnityEngine
-  isExternal: true
-  name: Color
-  nameWithType: Color
-  fullName: UnityEngine.Color
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
-- uid: IndustrialValley.Game.SaveData.FactoryFloorColor*
-  commentId: Overload:IndustrialValley.Game.SaveData.FactoryFloorColor
-  href: IndustrialValley.Game.SaveData.FactoryFloorColor.html#IndustrialValley_Game_SaveData_FactoryFloorColor
-  name: FactoryFloorColor
-  nameWithType: SaveData.FactoryFloorColor
-  fullName: IndustrialValley.Game.SaveData.FactoryFloorColor
 - uid: IndustrialValley.Game.SaveData.Balance*
   commentId: Overload:IndustrialValley.Game.SaveData.Balance
   href: IndustrialValley.Game.SaveData.Balance.html#IndustrialValley_Game_SaveData_Balance
@@ -312,29 +441,6 @@ references:
   name: CurrentTier
   nameWithType: SaveData.CurrentTier
   fullName: IndustrialValley.Game.SaveData.CurrentTier
-- uid: IndustrialValley.Game.Tiers.FactoryTier
-  commentId: T:IndustrialValley.Game.Tiers.FactoryTier
-  parent: IndustrialValley.Game
-  href: IndustrialValley.Game.Tiers.html
-  name: Tiers.FactoryTier
-  nameWithType: Tiers.FactoryTier
-  fullName: IndustrialValley.Game.Tiers.FactoryTier
-  spec.csharp:
-  - uid: IndustrialValley.Game.Tiers
-    name: Tiers
-    href: IndustrialValley.Game.Tiers.html
-  - name: .
-  - uid: IndustrialValley.Game.Tiers.FactoryTier
-    name: FactoryTier
-    href: IndustrialValley.Game.Tiers.FactoryTier.html
-  spec.vb:
-  - uid: IndustrialValley.Game.Tiers
-    name: Tiers
-    href: IndustrialValley.Game.Tiers.html
-  - name: .
-  - uid: IndustrialValley.Game.Tiers.FactoryTier
-    name: FactoryTier
-    href: IndustrialValley.Game.Tiers.FactoryTier.html
 - uid: IndustrialValley.Game.SaveData.SaveTime*
   commentId: Overload:IndustrialValley.Game.SaveData.SaveTime
   href: IndustrialValley.Game.SaveData.SaveTime.html#IndustrialValley_Game_SaveData_SaveTime
@@ -366,4 +472,40 @@ references:
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
+- uid: IndustrialValley.Game.SaveData.Seed*
+  commentId: Overload:IndustrialValley.Game.SaveData.Seed
+  href: IndustrialValley.Game.SaveData.Seed.html#IndustrialValley_Game_SaveData_Seed
+  name: Seed
+  nameWithType: SaveData.Seed
+  fullName: IndustrialValley.Game.SaveData.Seed
+- uid: IndustrialValley.Game.SaveData.FactoryNameDisplay*
+  commentId: Overload:IndustrialValley.Game.SaveData.FactoryNameDisplay
+  href: IndustrialValley.Game.SaveData.FactoryNameDisplay.html#IndustrialValley_Game_SaveData_FactoryNameDisplay
+  name: FactoryNameDisplay
+  nameWithType: SaveData.FactoryNameDisplay
+  fullName: IndustrialValley.Game.SaveData.FactoryNameDisplay
+- uid: IndustrialValley.Game.SaveData.FactoryTierDisplay*
+  commentId: Overload:IndustrialValley.Game.SaveData.FactoryTierDisplay
+  href: IndustrialValley.Game.SaveData.FactoryTierDisplay.html#IndustrialValley_Game_SaveData_FactoryTierDisplay
+  name: FactoryTierDisplay
+  nameWithType: SaveData.FactoryTierDisplay
+  fullName: IndustrialValley.Game.SaveData.FactoryTierDisplay
+- uid: IndustrialValley.Game.SaveData.BankBalanceDisplay*
+  commentId: Overload:IndustrialValley.Game.SaveData.BankBalanceDisplay
+  href: IndustrialValley.Game.SaveData.BankBalanceDisplay.html#IndustrialValley_Game_SaveData_BankBalanceDisplay
+  name: BankBalanceDisplay
+  nameWithType: SaveData.BankBalanceDisplay
+  fullName: IndustrialValley.Game.SaveData.BankBalanceDisplay
+- uid: IndustrialValley.Game.SaveData.SaveTimeDisplay*
+  commentId: Overload:IndustrialValley.Game.SaveData.SaveTimeDisplay
+  href: IndustrialValley.Game.SaveData.SaveTimeDisplay.html#IndustrialValley_Game_SaveData_SaveTimeDisplay
+  name: SaveTimeDisplay
+  nameWithType: SaveData.SaveTimeDisplay
+  fullName: IndustrialValley.Game.SaveData.SaveTimeDisplay
+- uid: IndustrialValley.Game.SaveData.PlayTimeDisplay*
+  commentId: Overload:IndustrialValley.Game.SaveData.PlayTimeDisplay
+  href: IndustrialValley.Game.SaveData.PlayTimeDisplay.html#IndustrialValley_Game_SaveData_PlayTimeDisplay
+  name: PlayTimeDisplay
+  nameWithType: SaveData.PlayTimeDisplay
+  fullName: IndustrialValley.Game.SaveData.PlayTimeDisplay
 memberLayout: SeparatePages

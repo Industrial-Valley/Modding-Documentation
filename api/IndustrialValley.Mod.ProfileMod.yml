@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: ProfileMod
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
     startLine: 2
   assemblies:
   - IndustrialValley
@@ -40,7 +40,7 @@ items:
   type: Property
   source:
     id: ProfileId
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
     startLine: 4
   assemblies:
   - IndustrialValley
@@ -65,7 +65,7 @@ items:
   type: Property
   source:
     id: Name
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
     startLine: 5
   assemblies:
   - IndustrialValley
@@ -90,7 +90,7 @@ items:
   type: Method
   source:
     id: OnStart
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Mod\ProfileMod.cs
     startLine: 7
   assemblies:
   - IndustrialValley

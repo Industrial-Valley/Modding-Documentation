@@ -16,8 +16,8 @@ items:
   type: Class
   source:
     id: FactoryPlot
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 232
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 226
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -39,8 +39,8 @@ items:
   type: Field
   source:
     id: Bounds
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 234
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 228
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory
@@ -62,8 +62,8 @@ items:
   type: Field
   source:
     id: Plot
-    path: F:\Unity Games\ClickerFactory\ClickerFactory\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
-    startLine: 235
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Factory\FactoryGenerator.cs
+    startLine: 229
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Factory

@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  id: ProceduralAnimation.AnimationSpace
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.Local
+  - IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.World
+  langs:
+  - csharp
+  - vb
+  name: ProceduralAnimation.AnimationSpace
+  nameWithType: ProceduralAnimation.AnimationSpace
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  type: Enum
+  source:
+    id: AnimationSpace
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public enum ProceduralAnimation.AnimationSpace
+    content.vb: Public Enum ProceduralAnimation.AnimationSpace
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.Local
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.Local
+  id: Local
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: ProceduralAnimation.AnimationSpace.Local
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.Local
+  type: Field
+  source:
+    id: Local
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: Local = 0
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.World
+  commentId: F:IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.World
+  id: World
+  parent: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  langs:
+  - csharp
+  - vb
+  name: World
+  nameWithType: ProceduralAnimation.AnimationSpace.World
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.World
+  type: Field
+  source:
+    id: World
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\ProceduralAnimation.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: World = 1
+    return:
+      type: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  commentId: T:IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.ProceduralAnimation.html
+  name: ProceduralAnimation.AnimationSpace
+  nameWithType: ProceduralAnimation.AnimationSpace
+  fullName: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+  spec.csharp:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: AnimationSpace
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.html
+  spec.vb:
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+    href: IndustrialValley.Utility.ProceduralAnimation.html
+  - name: .
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: AnimationSpace
+    href: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace.html
+memberLayout: SeparatePages
