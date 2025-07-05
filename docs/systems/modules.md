@@ -89,7 +89,7 @@ GameManager.RegisterModule<T>(); // Registers a module
 GameManager.DeleteModule<T>(); // Deletes a module
 GameManager.GetModule<T>(); // Gets a module
 GameManager.HasModule<T>(); // Checks if a module exists
-GameManager.ReplaceModule<T, T>(); // Replaces a module with another one
+GameManager.ReplaceModule<TOld, TNew>(); // Replaces a module with another one
 ```
 
 ## Module Lifecycle
