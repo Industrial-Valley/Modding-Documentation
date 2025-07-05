@@ -36,13 +36,16 @@
       }
     ],
     "output": "_site",
-    "template": ["default", "templates/singulinkfx"],
+    "template": [
+      "default",
+      "templates/singulinkfx"
+    ],
     "globalMetadata": {
       "_appTitle": "Industrial Valley Modding Documentation",
       "_appLogoPath": "images/factoryicon.png",
       "_appFaviconPath": "images/factoryicon.ico",
-      "_enableSearch": true,
-       "_enableNewTab": true,
+      "_enableSearch": false,
+      "_enableNewTab": true,
       "_appFooter": "Industrial Valley"
     },
     "xref": [
@@ -50,6 +53,8 @@
     ],
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "postProcessors": ["ExtractSearchIndex"]
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ]
   }
 }
