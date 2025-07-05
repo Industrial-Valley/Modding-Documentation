@@ -23,29 +23,36 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+
+    # DocFX build
     - name: Dotnet Setup
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.x
-
     - run: dotnet tool update -g docfx --version 2.77.0
     - name: Build DocFX API docs
       run: docfx api/docfx.json --output api/_site/api
 
+    # Docsify build (just copy docs, since docsify serves markdown directly)
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '20.x'
     - name: Install Docsify CLI
       run: npm install -g docsify-cli
-    - name: Build Docsify site
+
+    # Combine DocFX and Docsify output
+    - name: Combine outputs
       run: |
-        cp -r docs/* /
+        mkdir -p site/api
+        cp -r api/_site/api/* site/api/
+        cp -r docs/* site/
+        # Optionally, copy index.html or README.md as site/index.html if needed
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'api/_site'
+        path: 'site'
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
