@@ -16,7 +16,7 @@ items:
   source:
     id: Module
     path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Module.cs
-    startLine: 91
+    startLine: 100
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Modules
@@ -39,6 +39,7 @@ items:
   - IndustrialValley.Modules.Module.OnFixedUpdate
   - IndustrialValley.Modules.Module.OnSave
   - IndustrialValley.Modules.Module.OnLoad
+  - IndustrialValley.Modules.Module.OnDestroy
   nameWithType.vb: Module(Of T)
   fullName.vb: IndustrialValley.Modules.Module(Of T)
   name.vb: Module(Of T)
@@ -56,7 +57,7 @@ items:
   source:
     id: Data
     path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Module.cs
-    startLine: 93
+    startLine: 102
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Modules
@@ -222,6 +223,25 @@ references:
   - uid: IndustrialValley.Modules.Module.OnLoad
     name: OnLoad
     href: IndustrialValley.Modules.Module.OnLoad.html#IndustrialValley_Modules_Module_OnLoad
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.Module.OnDestroy
+  commentId: M:IndustrialValley.Modules.Module.OnDestroy
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnDestroy.html#IndustrialValley_Modules_Module_OnDestroy
+  name: OnDestroy()
+  nameWithType: Module.OnDestroy()
+  fullName: IndustrialValley.Modules.Module.OnDestroy()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnDestroy
+    name: OnDestroy
+    href: IndustrialValley.Modules.Module.OnDestroy.html#IndustrialValley_Modules_Module_OnDestroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnDestroy
+    name: OnDestroy
+    href: IndustrialValley.Modules.Module.OnDestroy.html#IndustrialValley_Modules_Module_OnDestroy
   - name: (
   - name: )
 - uid: System

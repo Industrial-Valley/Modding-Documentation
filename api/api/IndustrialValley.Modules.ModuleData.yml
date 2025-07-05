@@ -15,7 +15,7 @@ items:
   source:
     id: ModuleData
     path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Module.cs
-    startLine: 87
+    startLine: 96
   assemblies:
   - IndustrialValley
   namespace: IndustrialValley.Modules

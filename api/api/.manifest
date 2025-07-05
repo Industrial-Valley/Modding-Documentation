@@ -634,6 +634,7 @@
   "IndustrialValley.Modules.GameUI.GameUIModule.Root": "IndustrialValley.Modules.GameUI.GameUIModule.yml",
   "IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List{System.String})": "IndustrialValley.Modules.GameUI.GameUIModule.yml",
   "IndustrialValley.Modules.Module": "IndustrialValley.Modules.Module.yml",
+  "IndustrialValley.Modules.Module.OnDestroy": "IndustrialValley.Modules.Module.yml",
   "IndustrialValley.Modules.Module.OnFixedUpdate": "IndustrialValley.Modules.Module.yml",
   "IndustrialValley.Modules.Module.OnInitialize": "IndustrialValley.Modules.Module.yml",
   "IndustrialValley.Modules.Module.OnLoad": "IndustrialValley.Modules.Module.yml",
