@@ -1,0 +1,500 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving.BuildableSaveData
+  commentId: T:IndustrialValley.Saving.BuildableSaveData
+  id: BuildableSaveData
+  parent: IndustrialValley.Saving
+  children:
+  - IndustrialValley.Saving.BuildableSaveData.CustomData
+  - IndustrialValley.Saving.BuildableSaveData.Id
+  - IndustrialValley.Saving.BuildableSaveData.Position
+  - IndustrialValley.Saving.BuildableSaveData.PrefabId
+  - IndustrialValley.Saving.BuildableSaveData.Rotation
+  langs:
+  - csharp
+  - vb
+  name: BuildableSaveData
+  nameWithType: BuildableSaveData
+  fullName: IndustrialValley.Saving.BuildableSaveData
+  type: Class
+  source:
+    id: BuildableSaveData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 403
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Table("buildables")]
+
+      public class BuildableSaveData
+    content.vb: >-
+      <Table("buildables")>
+
+      Public Class BuildableSaveData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: buildables
+- uid: IndustrialValley.Saving.BuildableSaveData.Id
+  commentId: P:IndustrialValley.Saving.BuildableSaveData.Id
+  id: Id
+  parent: IndustrialValley.Saving.BuildableSaveData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: BuildableSaveData.Id
+  fullName: IndustrialValley.Saving.BuildableSaveData.Id
+  type: Property
+  source:
+    id: Id
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 406
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Column("id")]
+
+      public long? Id { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: >-
+      <Column("id")>
+
+      Public Property Id As Long?
+  overload: IndustrialValley.Saving.BuildableSaveData.Id*
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: id
+- uid: IndustrialValley.Saving.BuildableSaveData.PrefabId
+  commentId: P:IndustrialValley.Saving.BuildableSaveData.PrefabId
+  id: PrefabId
+  parent: IndustrialValley.Saving.BuildableSaveData
+  langs:
+  - csharp
+  - vb
+  name: PrefabId
+  nameWithType: BuildableSaveData.PrefabId
+  fullName: IndustrialValley.Saving.BuildableSaveData.PrefabId
+  type: Property
+  source:
+    id: PrefabId
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 408
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Column("prefabId")]
+
+      public string PrefabId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Column("prefabId")>
+
+      Public Property PrefabId As String
+  overload: IndustrialValley.Saving.BuildableSaveData.PrefabId*
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: prefabId
+- uid: IndustrialValley.Saving.BuildableSaveData.Position
+  commentId: P:IndustrialValley.Saving.BuildableSaveData.Position
+  id: Position
+  parent: IndustrialValley.Saving.BuildableSaveData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: BuildableSaveData.Position
+  fullName: IndustrialValley.Saving.BuildableSaveData.Position
+  type: Property
+  source:
+    id: Position
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 410
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Column("position")]
+
+      public Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <Column("position")>
+
+      Public Property Position As Vector3
+  overload: IndustrialValley.Saving.BuildableSaveData.Position*
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: position
+- uid: IndustrialValley.Saving.BuildableSaveData.Rotation
+  commentId: P:IndustrialValley.Saving.BuildableSaveData.Rotation
+  id: Rotation
+  parent: IndustrialValley.Saving.BuildableSaveData
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: BuildableSaveData.Rotation
+  fullName: IndustrialValley.Saving.BuildableSaveData.Rotation
+  type: Property
+  source:
+    id: Rotation
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 412
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Column("rotation")]
+
+      public Quaternion Rotation { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Quaternion
+    content.vb: >-
+      <Column("rotation")>
+
+      Public Property Rotation As Quaternion
+  overload: IndustrialValley.Saving.BuildableSaveData.Rotation*
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: rotation
+- uid: IndustrialValley.Saving.BuildableSaveData.CustomData
+  commentId: P:IndustrialValley.Saving.BuildableSaveData.CustomData
+  id: CustomData
+  parent: IndustrialValley.Saving.BuildableSaveData
+  langs:
+  - csharp
+  - vb
+  name: CustomData
+  nameWithType: BuildableSaveData.CustomData
+  fullName: IndustrialValley.Saving.BuildableSaveData.CustomData
+  type: Property
+  source:
+    id: CustomData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 414
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: >-
+      [Column("custom_data")]
+
+      public Dictionary<string, object> CustomData { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: >-
+      <Column("custom_data")>
+
+      Public Property CustomData As Dictionary(Of String, Object)
+  overload: IndustrialValley.Saving.BuildableSaveData.CustomData*
+  attributes:
+  - type: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    ctor: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: custom_data
+references:
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Saving.BuildableSaveData.Id*
+  commentId: Overload:IndustrialValley.Saving.BuildableSaveData.Id
+  href: IndustrialValley.Saving.BuildableSaveData.Id.html#IndustrialValley_Saving_BuildableSaveData_Id
+  name: Id
+  nameWithType: BuildableSaveData.Id
+  fullName: IndustrialValley.Saving.BuildableSaveData.Id
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long?
+  nameWithType: long?
+  fullName: long?
+  nameWithType.vb: Long?
+  fullName.vb: Long?
+  name.vb: Long?
+  spec.csharp:
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: '?'
+  spec.vb:
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Saving.BuildableSaveData.PrefabId*
+  commentId: Overload:IndustrialValley.Saving.BuildableSaveData.PrefabId
+  href: IndustrialValley.Saving.BuildableSaveData.PrefabId.html#IndustrialValley_Saving_BuildableSaveData_PrefabId
+  name: PrefabId
+  nameWithType: BuildableSaveData.PrefabId
+  fullName: IndustrialValley.Saving.BuildableSaveData.PrefabId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Saving.BuildableSaveData.Position*
+  commentId: Overload:IndustrialValley.Saving.BuildableSaveData.Position
+  href: IndustrialValley.Saving.BuildableSaveData.Position.html#IndustrialValley_Saving_BuildableSaveData_Position
+  name: Position
+  nameWithType: BuildableSaveData.Position
+  fullName: IndustrialValley.Saving.BuildableSaveData.Position
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Saving.BuildableSaveData.Rotation*
+  commentId: Overload:IndustrialValley.Saving.BuildableSaveData.Rotation
+  href: IndustrialValley.Saving.BuildableSaveData.Rotation.html#IndustrialValley_Saving_BuildableSaveData_Rotation
+  name: Rotation
+  nameWithType: BuildableSaveData.Rotation
+  fullName: IndustrialValley.Saving.BuildableSaveData.Rotation
+- uid: UnityEngine.Quaternion
+  commentId: T:UnityEngine.Quaternion
+  parent: UnityEngine
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: UnityEngine.Quaternion
+- uid: IndustrialValley.Saving.BuildableSaveData.CustomData*
+  commentId: Overload:IndustrialValley.Saving.BuildableSaveData.CustomData
+  href: IndustrialValley.Saving.BuildableSaveData.CustomData.html#IndustrialValley_Saving_BuildableSaveData_CustomData
+  name: CustomData
+  nameWithType: BuildableSaveData.CustomData
+  fullName: IndustrialValley.Saving.BuildableSaveData.CustomData
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+memberLayout: SeparatePages

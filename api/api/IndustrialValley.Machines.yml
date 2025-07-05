@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  id: IndustrialValley.Machines
+  children:
+  - IndustrialValley.Machines.BaseMachine
+  - IndustrialValley.Machines.ClickerMachine
+  - IndustrialValley.Machines.Inventory
+  - IndustrialValley.Machines.Inventory.InventorySlot
+  - IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  - IndustrialValley.Machines.InventoryUpdateHandler
+  - IndustrialValley.Machines.InventoryUpdateType
+  - IndustrialValley.Machines.RecipeMachine
+  - IndustrialValley.Machines.SellingMachine
+  - IndustrialValley.Machines.SmelterMachine
+  - IndustrialValley.Machines.StorageMachine
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Machines.ClickerMachine
+  commentId: T:IndustrialValley.Machines.ClickerMachine
+  href: IndustrialValley.Machines.ClickerMachine.html
+  name: ClickerMachine
+  nameWithType: ClickerMachine
+  fullName: IndustrialValley.Machines.ClickerMachine
+- uid: IndustrialValley.Machines.InventoryUpdateHandler
+  commentId: T:IndustrialValley.Machines.InventoryUpdateHandler
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.InventoryUpdateHandler.html
+  name: InventoryUpdateHandler
+  nameWithType: InventoryUpdateHandler
+  fullName: IndustrialValley.Machines.InventoryUpdateHandler
+- uid: IndustrialValley.Machines.InventoryUpdateType
+  commentId: T:IndustrialValley.Machines.InventoryUpdateType
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.InventoryUpdateType.html
+  name: InventoryUpdateType
+  nameWithType: InventoryUpdateType
+  fullName: IndustrialValley.Machines.InventoryUpdateType
+- uid: IndustrialValley.Machines.Inventory
+  commentId: T:IndustrialValley.Machines.Inventory
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.Inventory.html
+  name: Inventory
+  nameWithType: Inventory
+  fullName: IndustrialValley.Machines.Inventory
+- uid: IndustrialValley.Machines.Inventory.InventorySlot
+  commentId: T:IndustrialValley.Machines.Inventory.InventorySlot
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.Inventory.html
+  name: Inventory.InventorySlot
+  nameWithType: Inventory.InventorySlot
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot
+  spec.csharp:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlot
+    name: InventorySlot
+    href: IndustrialValley.Machines.Inventory.InventorySlot.html
+  spec.vb:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlot
+    name: InventorySlot
+    href: IndustrialValley.Machines.Inventory.InventorySlot.html
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  commentId: T:IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  href: IndustrialValley.Machines.Inventory.html
+  name: Inventory.InventorySlotSaveData
+  nameWithType: Inventory.InventorySlotSaveData
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  spec.csharp:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+    name: InventorySlotSaveData
+    href: IndustrialValley.Machines.Inventory.InventorySlotSaveData.html
+  spec.vb:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+    name: InventorySlotSaveData
+    href: IndustrialValley.Machines.Inventory.InventorySlotSaveData.html
+- uid: IndustrialValley.Machines.SellingMachine
+  commentId: T:IndustrialValley.Machines.SellingMachine
+  href: IndustrialValley.Machines.SellingMachine.html
+  name: SellingMachine
+  nameWithType: SellingMachine
+  fullName: IndustrialValley.Machines.SellingMachine
+- uid: IndustrialValley.Machines.StorageMachine
+  commentId: T:IndustrialValley.Machines.StorageMachine
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.StorageMachine.html
+  name: StorageMachine
+  nameWithType: StorageMachine
+  fullName: IndustrialValley.Machines.StorageMachine
+- uid: IndustrialValley.Machines.BaseMachine
+  commentId: T:IndustrialValley.Machines.BaseMachine
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.BaseMachine.html
+  name: BaseMachine
+  nameWithType: BaseMachine
+  fullName: IndustrialValley.Machines.BaseMachine
+- uid: IndustrialValley.Machines.SmelterMachine
+  commentId: T:IndustrialValley.Machines.SmelterMachine
+  href: IndustrialValley.Machines.SmelterMachine.html
+  name: SmelterMachine
+  nameWithType: SmelterMachine
+  fullName: IndustrialValley.Machines.SmelterMachine
+- uid: IndustrialValley.Machines.RecipeMachine
+  commentId: T:IndustrialValley.Machines.RecipeMachine
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.RecipeMachine.html
+  name: RecipeMachine
+  nameWithType: RecipeMachine
+  fullName: IndustrialValley.Machines.RecipeMachine
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  href: IndustrialValley.html
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+memberLayout: SeparatePages

@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Machines.InventoryUpdateType
+  commentId: T:IndustrialValley.Machines.InventoryUpdateType
+  id: InventoryUpdateType
+  parent: IndustrialValley.Machines
+  children:
+  - IndustrialValley.Machines.InventoryUpdateType.Added
+  - IndustrialValley.Machines.InventoryUpdateType.Removed
+  langs:
+  - csharp
+  - vb
+  name: InventoryUpdateType
+  nameWithType: InventoryUpdateType
+  fullName: IndustrialValley.Machines.InventoryUpdateType
+  type: Enum
+  source:
+    id: InventoryUpdateType
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public enum InventoryUpdateType
+    content.vb: Public Enum InventoryUpdateType
+- uid: IndustrialValley.Machines.InventoryUpdateType.Added
+  commentId: F:IndustrialValley.Machines.InventoryUpdateType.Added
+  id: Added
+  parent: IndustrialValley.Machines.InventoryUpdateType
+  langs:
+  - csharp
+  - vb
+  name: Added
+  nameWithType: InventoryUpdateType.Added
+  fullName: IndustrialValley.Machines.InventoryUpdateType.Added
+  type: Field
+  source:
+    id: Added
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: Added = 0
+    return:
+      type: IndustrialValley.Machines.InventoryUpdateType
+- uid: IndustrialValley.Machines.InventoryUpdateType.Removed
+  commentId: F:IndustrialValley.Machines.InventoryUpdateType.Removed
+  id: Removed
+  parent: IndustrialValley.Machines.InventoryUpdateType
+  langs:
+  - csharp
+  - vb
+  name: Removed
+  nameWithType: InventoryUpdateType.Removed
+  fullName: IndustrialValley.Machines.InventoryUpdateType.Removed
+  type: Field
+  source:
+    id: Removed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: Removed = 1
+    return:
+      type: IndustrialValley.Machines.InventoryUpdateType
+references:
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  href: IndustrialValley.html
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+- uid: IndustrialValley.Machines.InventoryUpdateType
+  commentId: T:IndustrialValley.Machines.InventoryUpdateType
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.InventoryUpdateType.html
+  name: InventoryUpdateType
+  nameWithType: InventoryUpdateType
+  fullName: IndustrialValley.Machines.InventoryUpdateType
+memberLayout: SeparatePages

@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Machines.Inventory.InventorySlot
+  commentId: T:IndustrialValley.Machines.Inventory.InventorySlot
+  id: Inventory.InventorySlot
+  parent: IndustrialValley.Machines
+  children:
+  - IndustrialValley.Machines.Inventory.InventorySlot.Item
+  - IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+  - IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+  langs:
+  - csharp
+  - vb
+  name: Inventory.InventorySlot
+  nameWithType: Inventory.InventorySlot
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot
+  type: Class
+  source:
+    id: InventorySlot
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 122
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public class Inventory.InventorySlot
+    content.vb: Public Class Inventory.InventorySlot
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.Item
+  commentId: P:IndustrialValley.Machines.Inventory.InventorySlot.Item
+  id: Item
+  parent: IndustrialValley.Machines.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: Inventory.InventorySlot.Item
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.Item
+  type: Property
+  source:
+    id: Item
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 124
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public ItemData Item { get; set; }
+    parameters: []
+    return:
+      type: ItemData
+    content.vb: Public Property Item As ItemData
+  overload: IndustrialValley.Machines.Inventory.InventorySlot.Item*
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+  commentId: P:IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+  id: Quantity
+  parent: IndustrialValley.Machines.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: Inventory.InventorySlot.Quantity
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+  type: Property
+  source:
+    id: Quantity
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 125
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: IndustrialValley.Machines.Inventory.InventorySlot.Quantity*
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+  commentId: P:IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+  id: QuantityDisplay
+  parent: IndustrialValley.Machines.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: QuantityDisplay
+  nameWithType: Inventory.InventorySlot.QuantityDisplay
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+  type: Property
+  source:
+    id: QuantityDisplay
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 127
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string QuantityDisplay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property QuantityDisplay As String
+  overload: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+references:
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  href: IndustrialValley.html
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.Item*
+  commentId: Overload:IndustrialValley.Machines.Inventory.InventorySlot.Item
+  href: IndustrialValley.Machines.Inventory.InventorySlot.Item.html#IndustrialValley_Machines_Inventory_InventorySlot_Item
+  name: Item
+  nameWithType: Inventory.InventorySlot.Item
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.Item
+- uid: ItemData
+  commentId: T:ItemData
+  href: ItemData.html
+  name: ItemData
+  nameWithType: ItemData
+  fullName: ItemData
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.Quantity*
+  commentId: Overload:IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+  href: IndustrialValley.Machines.Inventory.InventorySlot.Quantity.html#IndustrialValley_Machines_Inventory_InventorySlot_Quantity
+  name: Quantity
+  nameWithType: Inventory.InventorySlot.Quantity
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.Quantity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay*
+  commentId: Overload:IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+  href: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay.html#IndustrialValley_Machines_Inventory_InventorySlot_QuantityDisplay
+  name: QuantityDisplay
+  nameWithType: Inventory.InventorySlot.QuantityDisplay
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot.QuantityDisplay
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+memberLayout: SeparatePages

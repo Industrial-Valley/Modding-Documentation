@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Conveyors
+  commentId: N:IndustrialValley.Conveyors
+  id: IndustrialValley.Conveyors
+  children:
+  - IndustrialValley.Conveyors.BaseMovement
+  - IndustrialValley.Conveyors.Conveyor
+  - IndustrialValley.Conveyors.ConveyorItem
+  - IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+  - IndustrialValley.Conveyors.IConveyor
+  - IndustrialValley.Conveyors.SmartSplitterConveyor
+  - IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Conveyors
+  nameWithType: IndustrialValley.Conveyors
+  fullName: IndustrialValley.Conveyors
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Conveyors.UndergroundConveyor
+  commentId: T:IndustrialValley.Conveyors.UndergroundConveyor
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.UndergroundConveyor.html
+  name: UndergroundConveyor
+  nameWithType: UndergroundConveyor
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor
+- uid: IndustrialValley.Conveyors.SmartSplitterConveyor
+  commentId: T:IndustrialValley.Conveyors.SmartSplitterConveyor
+  href: IndustrialValley.Conveyors.SmartSplitterConveyor.html
+  name: SmartSplitterConveyor
+  nameWithType: SmartSplitterConveyor
+  fullName: IndustrialValley.Conveyors.SmartSplitterConveyor
+- uid: IndustrialValley.Conveyors.Conveyor
+  commentId: T:IndustrialValley.Conveyors.Conveyor
+  href: IndustrialValley.Conveyors.Conveyor.html
+  name: Conveyor
+  nameWithType: Conveyor
+  fullName: IndustrialValley.Conveyors.Conveyor
+- uid: IndustrialValley.Conveyors.BaseMovement
+  commentId: T:IndustrialValley.Conveyors.BaseMovement
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.BaseMovement.html
+  name: BaseMovement
+  nameWithType: BaseMovement
+  fullName: IndustrialValley.Conveyors.BaseMovement
+- uid: IndustrialValley.Conveyors.IConveyor
+  commentId: T:IndustrialValley.Conveyors.IConveyor
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.IConveyor.html
+  name: IConveyor
+  nameWithType: IConveyor
+  fullName: IndustrialValley.Conveyors.IConveyor
+- uid: IndustrialValley.Conveyors.ConveyorItem
+  commentId: T:IndustrialValley.Conveyors.ConveyorItem
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.ConveyorItem.html
+  name: ConveyorItem
+  nameWithType: ConveyorItem
+  fullName: IndustrialValley.Conveyors.ConveyorItem
+- uid: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+  commentId: T:IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.ConveyorItem.html
+  name: ConveyorItem.ConveyorSaveData
+  nameWithType: ConveyorItem.ConveyorSaveData
+  fullName: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: .
+  - uid: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+    name: ConveyorSaveData
+    href: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData.html
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: .
+  - uid: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+    name: ConveyorSaveData
+    href: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData.html
+- uid: IndustrialValley.Conveyors
+  commentId: N:IndustrialValley.Conveyors
+  href: IndustrialValley.html
+  name: IndustrialValley.Conveyors
+  nameWithType: IndustrialValley.Conveyors
+  fullName: IndustrialValley.Conveyors
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+memberLayout: SeparatePages

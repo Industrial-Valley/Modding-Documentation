@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Data.BuildableData
+  commentId: T:IndustrialValley.Data.BuildableData
+  id: BuildableData
+  parent: IndustrialValley.Data
+  children:
+  - IndustrialValley.Data.BuildableData.CostString
+  - IndustrialValley.Data.BuildableData.PurchaseColor
+  - IndustrialValley.Data.BuildableData.SizeString
+  - IndustrialValley.Data.BuildableData.Tier
+  - IndustrialValley.Data.BuildableData.TierString
+  - IndustrialValley.Data.BuildableData.Type
+  - IndustrialValley.Data.BuildableData.allowedPlacementLayers
+  - IndustrialValley.Data.BuildableData.canBeDragPlaced
+  - IndustrialValley.Data.BuildableData.cancelPlacementOnPlace
+  - IndustrialValley.Data.BuildableData.cost
+  - IndustrialValley.Data.BuildableData.description
+  - IndustrialValley.Data.BuildableData.icon
+  - IndustrialValley.Data.BuildableData.id
+  - IndustrialValley.Data.BuildableData.isHidden
+  - IndustrialValley.Data.BuildableData.maxGridDistance
+  - IndustrialValley.Data.BuildableData.mirrorBuildable
+  - IndustrialValley.Data.BuildableData.name
+  - IndustrialValley.Data.BuildableData.prefab
+  - IndustrialValley.Data.BuildableData.previewPrefab
+  - IndustrialValley.Data.BuildableData.selectOnPlacement
+  - IndustrialValley.Data.BuildableData.size
+  - IndustrialValley.Data.BuildableData.validPlacementTags
+  langs:
+  - csharp
+  - vb
+  name: BuildableData
+  nameWithType: BuildableData
+  fullName: IndustrialValley.Data.BuildableData
+  type: Class
+  source:
+    id: BuildableData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "NewBuildableData", menuName = "Factory/Buildable Data", order = 1)]
+
+      public class BuildableData : ScriptableObject
+    content.vb: >-
+      <CreateAssetMenu(fileName:="NewBuildableData", menuName:="Factory/Buildable Data", order:=1)>
+
+      Public Class BuildableData Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: NewBuildableData
+    - name: menuName
+      type: System.String
+      value: Factory/Buildable Data
+    - name: order
+      type: System.Int32
+      value: 1
+- uid: IndustrialValley.Data.BuildableData.id
+  commentId: F:IndustrialValley.Data.BuildableData.id
+  id: id
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: BuildableData.id
+  fullName: IndustrialValley.Data.BuildableData.id
+  type: Field
+  source:
+    id: id
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: 'A unique identifier for the buildable item. Suggested format is ModName.Name. IE: "IndustrialValley.ConveyorBelt"'
+  example: []
+  syntax:
+    content: public string id
+    return:
+      type: System.String
+    content.vb: Public id As String
+- uid: IndustrialValley.Data.BuildableData.name
+  commentId: F:IndustrialValley.Data.BuildableData.name
+  id: name
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: BuildableData.name
+  fullName: IndustrialValley.Data.BuildableData.name
+  type: Field
+  source:
+    id: name
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 16
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+- uid: IndustrialValley.Data.BuildableData.description
+  commentId: F:IndustrialValley.Data.BuildableData.description
+  id: description
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: BuildableData.description
+  fullName: IndustrialValley.Data.BuildableData.description
+  type: Field
+  source:
+    id: description
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [TextArea]
+
+      public string description
+    return:
+      type: System.String
+    content.vb: >-
+      <TextArea>
+
+      Public description As String
+  attributes:
+  - type: UnityEngine.TextAreaAttribute
+    ctor: UnityEngine.TextAreaAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Data.BuildableData.cost
+  commentId: F:IndustrialValley.Data.BuildableData.cost
+  id: cost
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: cost
+  nameWithType: BuildableData.cost
+  fullName: IndustrialValley.Data.BuildableData.cost
+  type: Field
+  source:
+    id: cost
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 19
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public int cost
+    return:
+      type: System.Int32
+    content.vb: Public cost As Integer
+- uid: IndustrialValley.Data.BuildableData.icon
+  commentId: F:IndustrialValley.Data.BuildableData.icon
+  id: icon
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: icon
+  nameWithType: BuildableData.icon
+  fullName: IndustrialValley.Data.BuildableData.icon
+  type: Field
+  source:
+    id: icon
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public Texture2D icon
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Public icon As Texture2D
+- uid: IndustrialValley.Data.BuildableData.prefab
+  commentId: F:IndustrialValley.Data.BuildableData.prefab
+  id: prefab
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: BuildableData.prefab
+  fullName: IndustrialValley.Data.BuildableData.prefab
+  type: Field
+  source:
+    id: prefab
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 22
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [Header("Prefab Settings")]
+
+      public GameObject prefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Prefab Settings")>
+
+      Public prefab As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Prefab Settings
+- uid: IndustrialValley.Data.BuildableData.previewPrefab
+  commentId: F:IndustrialValley.Data.BuildableData.previewPrefab
+  id: previewPrefab
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: previewPrefab
+  nameWithType: BuildableData.previewPrefab
+  fullName: IndustrialValley.Data.BuildableData.previewPrefab
+  type: Field
+  source:
+    id: previewPrefab
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public GameObject previewPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public previewPrefab As GameObject
+- uid: IndustrialValley.Data.BuildableData.mirrorBuildable
+  commentId: F:IndustrialValley.Data.BuildableData.mirrorBuildable
+  id: mirrorBuildable
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: mirrorBuildable
+  nameWithType: BuildableData.mirrorBuildable
+  fullName: IndustrialValley.Data.BuildableData.mirrorBuildable
+  type: Field
+  source:
+    id: mirrorBuildable
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 25
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public BuildableData mirrorBuildable
+    return:
+      type: IndustrialValley.Data.BuildableData
+    content.vb: Public mirrorBuildable As BuildableData
+- uid: IndustrialValley.Data.BuildableData.size
+  commentId: F:IndustrialValley.Data.BuildableData.size
+  id: size
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: size
+  nameWithType: BuildableData.size
+  fullName: IndustrialValley.Data.BuildableData.size
+  type: Field
+  source:
+    id: size
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 27
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public Vector2 size
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public size As Vector2
+- uid: IndustrialValley.Data.BuildableData.validPlacementTags
+  commentId: F:IndustrialValley.Data.BuildableData.validPlacementTags
+  id: validPlacementTags
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: validPlacementTags
+  nameWithType: BuildableData.validPlacementTags
+  fullName: IndustrialValley.Data.BuildableData.validPlacementTags
+  type: Field
+  source:
+    id: validPlacementTags
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 29
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public string[] validPlacementTags
+    return:
+      type: System.String[]
+    content.vb: Public validPlacementTags As String()
+- uid: IndustrialValley.Data.BuildableData.allowedPlacementLayers
+  commentId: F:IndustrialValley.Data.BuildableData.allowedPlacementLayers
+  id: allowedPlacementLayers
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: allowedPlacementLayers
+  nameWithType: BuildableData.allowedPlacementLayers
+  fullName: IndustrialValley.Data.BuildableData.allowedPlacementLayers
+  type: Field
+  source:
+    id: allowedPlacementLayers
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 30
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public LayerMask allowedPlacementLayers
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public allowedPlacementLayers As LayerMask
+- uid: IndustrialValley.Data.BuildableData.isHidden
+  commentId: F:IndustrialValley.Data.BuildableData.isHidden
+  id: isHidden
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: isHidden
+  nameWithType: BuildableData.isHidden
+  fullName: IndustrialValley.Data.BuildableData.isHidden
+  type: Field
+  source:
+    id: isHidden
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 31
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public bool isHidden
+    return:
+      type: System.Boolean
+    content.vb: Public isHidden As Boolean
+- uid: IndustrialValley.Data.BuildableData.canBeDragPlaced
+  commentId: F:IndustrialValley.Data.BuildableData.canBeDragPlaced
+  id: canBeDragPlaced
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: canBeDragPlaced
+  nameWithType: BuildableData.canBeDragPlaced
+  fullName: IndustrialValley.Data.BuildableData.canBeDragPlaced
+  type: Field
+  source:
+    id: canBeDragPlaced
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 32
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public bool canBeDragPlaced
+    return:
+      type: System.Boolean
+    content.vb: Public canBeDragPlaced As Boolean
+- uid: IndustrialValley.Data.BuildableData.cancelPlacementOnPlace
+  commentId: F:IndustrialValley.Data.BuildableData.cancelPlacementOnPlace
+  id: cancelPlacementOnPlace
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: cancelPlacementOnPlace
+  nameWithType: BuildableData.cancelPlacementOnPlace
+  fullName: IndustrialValley.Data.BuildableData.cancelPlacementOnPlace
+  type: Field
+  source:
+    id: cancelPlacementOnPlace
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 33
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public bool cancelPlacementOnPlace
+    return:
+      type: System.Boolean
+    content.vb: Public cancelPlacementOnPlace As Boolean
+- uid: IndustrialValley.Data.BuildableData.selectOnPlacement
+  commentId: F:IndustrialValley.Data.BuildableData.selectOnPlacement
+  id: selectOnPlacement
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: selectOnPlacement
+  nameWithType: BuildableData.selectOnPlacement
+  fullName: IndustrialValley.Data.BuildableData.selectOnPlacement
+  type: Field
+  source:
+    id: selectOnPlacement
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 35
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public BuildableData selectOnPlacement
+    return:
+      type: IndustrialValley.Data.BuildableData
+    content.vb: Public selectOnPlacement As BuildableData
+- uid: IndustrialValley.Data.BuildableData.maxGridDistance
+  commentId: F:IndustrialValley.Data.BuildableData.maxGridDistance
+  id: maxGridDistance
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: maxGridDistance
+  nameWithType: BuildableData.maxGridDistance
+  fullName: IndustrialValley.Data.BuildableData.maxGridDistance
+  type: Field
+  source:
+    id: maxGridDistance
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 36
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public int maxGridDistance
+    return:
+      type: System.Int32
+    content.vb: Public maxGridDistance As Integer
+- uid: IndustrialValley.Data.BuildableData.Tier
+  commentId: P:IndustrialValley.Data.BuildableData.Tier
+  id: Tier
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: Tier
+  nameWithType: BuildableData.Tier
+  fullName: IndustrialValley.Data.BuildableData.Tier
+  type: Property
+  source:
+    id: Tier
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 46
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public string Tier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tier As String
+  overload: IndustrialValley.Data.BuildableData.Tier*
+- uid: IndustrialValley.Data.BuildableData.Type
+  commentId: P:IndustrialValley.Data.BuildableData.Type
+  id: Type
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: BuildableData.Type
+  fullName: IndustrialValley.Data.BuildableData.Type
+  type: Property
+  source:
+    id: Type
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 57
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: IndustrialValley.Data.BuildableData.Type*
+- uid: IndustrialValley.Data.BuildableData.PurchaseColor
+  commentId: P:IndustrialValley.Data.BuildableData.PurchaseColor
+  id: PurchaseColor
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: PurchaseColor
+  nameWithType: BuildableData.PurchaseColor
+  fullName: IndustrialValley.Data.BuildableData.PurchaseColor
+  type: Property
+  source:
+    id: PurchaseColor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 68
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public Color PurchaseColor { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property PurchaseColor As Color
+  overload: IndustrialValley.Data.BuildableData.PurchaseColor*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Data.BuildableData.CostString
+  commentId: P:IndustrialValley.Data.BuildableData.CostString
+  id: CostString
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: CostString
+  nameWithType: BuildableData.CostString
+  fullName: IndustrialValley.Data.BuildableData.CostString
+  type: Property
+  source:
+    id: CostString
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 74
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string CostString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property CostString As String
+  overload: IndustrialValley.Data.BuildableData.CostString*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Data.BuildableData.SizeString
+  commentId: P:IndustrialValley.Data.BuildableData.SizeString
+  id: SizeString
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: SizeString
+  nameWithType: BuildableData.SizeString
+  fullName: IndustrialValley.Data.BuildableData.SizeString
+  type: Property
+  source:
+    id: SizeString
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 76
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string SizeString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property SizeString As String
+  overload: IndustrialValley.Data.BuildableData.SizeString*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Data.BuildableData.TierString
+  commentId: P:IndustrialValley.Data.BuildableData.TierString
+  id: TierString
+  parent: IndustrialValley.Data.BuildableData
+  langs:
+  - csharp
+  - vb
+  name: TierString
+  nameWithType: BuildableData.TierString
+  fullName: IndustrialValley.Data.BuildableData.TierString
+  type: Property
+  source:
+    id: TierString
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\BuildableData.cs
+    startLine: 78
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public string TierString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property TierString As String
+  overload: IndustrialValley.Data.BuildableData.TierString*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+references:
+- uid: IndustrialValley.Data
+  commentId: N:IndustrialValley.Data
+  href: IndustrialValley.html
+  name: IndustrialValley.Data
+  nameWithType: IndustrialValley.Data
+  fullName: IndustrialValley.Data
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: IndustrialValley.Data.BuildableData
+  commentId: T:IndustrialValley.Data.BuildableData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.BuildableData.html
+  name: BuildableData
+  nameWithType: BuildableData
+  fullName: IndustrialValley.Data.BuildableData
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: UnityEngine.LayerMask
+  commentId: T:UnityEngine.LayerMask
+  parent: UnityEngine
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: UnityEngine.LayerMask
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.Data.BuildableData.Tier*
+  commentId: Overload:IndustrialValley.Data.BuildableData.Tier
+  href: IndustrialValley.Data.BuildableData.Tier.html#IndustrialValley_Data_BuildableData_Tier
+  name: Tier
+  nameWithType: BuildableData.Tier
+  fullName: IndustrialValley.Data.BuildableData.Tier
+- uid: IndustrialValley.Data.BuildableData.Type*
+  commentId: Overload:IndustrialValley.Data.BuildableData.Type
+  href: IndustrialValley.Data.BuildableData.Type.html#IndustrialValley_Data_BuildableData_Type
+  name: Type
+  nameWithType: BuildableData.Type
+  fullName: IndustrialValley.Data.BuildableData.Type
+- uid: IndustrialValley.Data.BuildableData.PurchaseColor*
+  commentId: Overload:IndustrialValley.Data.BuildableData.PurchaseColor
+  href: IndustrialValley.Data.BuildableData.PurchaseColor.html#IndustrialValley_Data_BuildableData_PurchaseColor
+  name: PurchaseColor
+  nameWithType: BuildableData.PurchaseColor
+  fullName: IndustrialValley.Data.BuildableData.PurchaseColor
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: IndustrialValley.Data.BuildableData.CostString*
+  commentId: Overload:IndustrialValley.Data.BuildableData.CostString
+  href: IndustrialValley.Data.BuildableData.CostString.html#IndustrialValley_Data_BuildableData_CostString
+  name: CostString
+  nameWithType: BuildableData.CostString
+  fullName: IndustrialValley.Data.BuildableData.CostString
+- uid: IndustrialValley.Data.BuildableData.SizeString*
+  commentId: Overload:IndustrialValley.Data.BuildableData.SizeString
+  href: IndustrialValley.Data.BuildableData.SizeString.html#IndustrialValley_Data_BuildableData_SizeString
+  name: SizeString
+  nameWithType: BuildableData.SizeString
+  fullName: IndustrialValley.Data.BuildableData.SizeString
+- uid: IndustrialValley.Data.BuildableData.TierString*
+  commentId: Overload:IndustrialValley.Data.BuildableData.TierString
+  href: IndustrialValley.Data.BuildableData.TierString.html#IndustrialValley_Data_BuildableData_TierString
+  name: TierString
+  nameWithType: BuildableData.TierString
+  fullName: IndustrialValley.Data.BuildableData.TierString
+memberLayout: SeparatePages

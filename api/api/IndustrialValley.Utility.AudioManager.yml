@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.AudioManager
+  commentId: T:IndustrialValley.Utility.AudioManager
+  id: AudioManager
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.AudioManager.Awake
+  - IndustrialValley.Utility.AudioManager.PlaySound(System.String)
+  - IndustrialValley.Utility.AudioManager.PlayUISound(System.String)
+  - IndustrialValley.Utility.AudioManager.StopAllSounds
+  langs:
+  - csharp
+  - vb
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: IndustrialValley.Utility.AudioManager
+  type: Class
+  source:
+    id: AudioManager
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\AudioManager.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: 'public sealed class AudioManager : Singleton<AudioManager>'
+    content.vb: Public NotInheritable Class AudioManager Inherits Singleton(Of AudioManager)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
+  inheritedMembers:
+  - IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Instance
+- uid: IndustrialValley.Utility.AudioManager.Awake
+  commentId: M:IndustrialValley.Utility.AudioManager.Awake
+  id: Awake
+  parent: IndustrialValley.Utility.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: AudioManager.Awake()
+  fullName: IndustrialValley.Utility.AudioManager.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\AudioManager.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  example: []
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake()
+  overridden: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
+  overload: IndustrialValley.Utility.AudioManager.Awake*
+- uid: IndustrialValley.Utility.AudioManager.PlayUISound(System.String)
+  commentId: M:IndustrialValley.Utility.AudioManager.PlayUISound(System.String)
+  id: PlayUISound(System.String)
+  parent: IndustrialValley.Utility.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: PlayUISound(string)
+  nameWithType: AudioManager.PlayUISound(string)
+  fullName: IndustrialValley.Utility.AudioManager.PlayUISound(string)
+  type: Method
+  source:
+    id: PlayUISound
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\AudioManager.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public static void PlayUISound(string soundName)
+    parameters:
+    - id: soundName
+      type: System.String
+    content.vb: Public Shared Sub PlayUISound(soundName As String)
+  overload: IndustrialValley.Utility.AudioManager.PlayUISound*
+  nameWithType.vb: AudioManager.PlayUISound(String)
+  fullName.vb: IndustrialValley.Utility.AudioManager.PlayUISound(String)
+  name.vb: PlayUISound(String)
+- uid: IndustrialValley.Utility.AudioManager.PlaySound(System.String)
+  commentId: M:IndustrialValley.Utility.AudioManager.PlaySound(System.String)
+  id: PlaySound(System.String)
+  parent: IndustrialValley.Utility.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: PlaySound(string)
+  nameWithType: AudioManager.PlaySound(string)
+  fullName: IndustrialValley.Utility.AudioManager.PlaySound(string)
+  type: Method
+  source:
+    id: PlaySound
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\AudioManager.cs
+    startLine: 32
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public void PlaySound(string soundName)
+    parameters:
+    - id: soundName
+      type: System.String
+    content.vb: Public Sub PlaySound(soundName As String)
+  overload: IndustrialValley.Utility.AudioManager.PlaySound*
+  nameWithType.vb: AudioManager.PlaySound(String)
+  fullName.vb: IndustrialValley.Utility.AudioManager.PlaySound(String)
+  name.vb: PlaySound(String)
+- uid: IndustrialValley.Utility.AudioManager.StopAllSounds
+  commentId: M:IndustrialValley.Utility.AudioManager.StopAllSounds
+  id: StopAllSounds
+  parent: IndustrialValley.Utility.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: StopAllSounds()
+  nameWithType: AudioManager.StopAllSounds()
+  fullName: IndustrialValley.Utility.AudioManager.StopAllSounds()
+  type: Method
+  source:
+    id: StopAllSounds
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\AudioManager.cs
+    startLine: 72
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public void StopAllSounds()
+    content.vb: Public Sub StopAllSounds()
+  overload: IndustrialValley.Utility.AudioManager.StopAllSounds*
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
+  commentId: T:IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
+  parent: IndustrialValley.Utility
+  definition: IndustrialValley.Utility.Singleton`1
+  href: IndustrialValley.Utility.Singleton-1.html
+  name: Singleton<AudioManager>
+  nameWithType: Singleton<AudioManager>
+  fullName: IndustrialValley.Utility.Singleton<IndustrialValley.Utility.AudioManager>
+  nameWithType.vb: Singleton(Of AudioManager)
+  fullName.vb: IndustrialValley.Utility.Singleton(Of IndustrialValley.Utility.AudioManager)
+  name.vb: Singleton(Of AudioManager)
+  spec.csharp:
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton
+    href: IndustrialValley.Utility.Singleton-1.html
+  - name: <
+  - uid: IndustrialValley.Utility.AudioManager
+    name: AudioManager
+    href: IndustrialValley.Utility.AudioManager.html
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton
+    href: IndustrialValley.Utility.Singleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IndustrialValley.Utility.AudioManager
+    name: AudioManager
+    href: IndustrialValley.Utility.AudioManager.html
+  - name: )
+- uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Instance
+  commentId: P:IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Instance
+  parent: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
+  definition: IndustrialValley.Utility.Singleton`1.Instance
+  href: IndustrialValley.Utility.Singleton-1.Instance.html#IndustrialValley_Utility_Singleton_1_Instance
+  name: Instance
+  nameWithType: Singleton<AudioManager>.Instance
+  fullName: IndustrialValley.Utility.Singleton<IndustrialValley.Utility.AudioManager>.Instance
+  nameWithType.vb: Singleton(Of AudioManager).Instance
+  fullName.vb: IndustrialValley.Utility.Singleton(Of IndustrialValley.Utility.AudioManager).Instance
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Utility.Singleton`1
+  commentId: T:IndustrialValley.Utility.Singleton`1
+  href: IndustrialValley.Utility.Singleton-1.html
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: IndustrialValley.Utility.Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton
+    href: IndustrialValley.Utility.Singleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton
+    href: IndustrialValley.Utility.Singleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Utility.Singleton`1.Instance
+  commentId: P:IndustrialValley.Utility.Singleton`1.Instance
+  href: IndustrialValley.Utility.Singleton-1.Instance.html#IndustrialValley_Utility_Singleton_1_Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: IndustrialValley.Utility.Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Instance
+- uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
+  commentId: M:IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
+  parent: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}
+  definition: IndustrialValley.Utility.Singleton`1.Awake
+  href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  name: Awake()
+  nameWithType: Singleton<AudioManager>.Awake()
+  fullName: IndustrialValley.Utility.Singleton<IndustrialValley.Utility.AudioManager>.Awake()
+  nameWithType.vb: Singleton(Of AudioManager).Awake()
+  fullName.vb: IndustrialValley.Utility.Singleton(Of IndustrialValley.Utility.AudioManager).Awake()
+  spec.csharp:
+  - uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
+    name: Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Utility.Singleton{IndustrialValley.Utility.AudioManager}.Awake
+    name: Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  - name: (
+  - name: )
+- uid: IndustrialValley.Utility.AudioManager.Awake*
+  commentId: Overload:IndustrialValley.Utility.AudioManager.Awake
+  href: IndustrialValley.Utility.AudioManager.Awake.html#IndustrialValley_Utility_AudioManager_Awake
+  name: Awake
+  nameWithType: AudioManager.Awake
+  fullName: IndustrialValley.Utility.AudioManager.Awake
+- uid: IndustrialValley.Utility.Singleton`1.Awake
+  commentId: M:IndustrialValley.Utility.Singleton`1.Awake
+  href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: IndustrialValley.Utility.Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: IndustrialValley.Utility.Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: IndustrialValley.Utility.Singleton`1.Awake
+    name: Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Utility.Singleton`1.Awake
+    name: Awake
+    href: IndustrialValley.Utility.Singleton-1.Awake.html#IndustrialValley_Utility_Singleton_1_Awake
+  - name: (
+  - name: )
+- uid: IndustrialValley.Utility.AudioManager.PlayUISound*
+  commentId: Overload:IndustrialValley.Utility.AudioManager.PlayUISound
+  href: IndustrialValley.Utility.AudioManager.PlayUISound.html#IndustrialValley_Utility_AudioManager_PlayUISound_System_String_
+  name: PlayUISound
+  nameWithType: AudioManager.PlayUISound
+  fullName: IndustrialValley.Utility.AudioManager.PlayUISound
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Utility.AudioManager.PlaySound*
+  commentId: Overload:IndustrialValley.Utility.AudioManager.PlaySound
+  href: IndustrialValley.Utility.AudioManager.PlaySound.html#IndustrialValley_Utility_AudioManager_PlaySound_System_String_
+  name: PlaySound
+  nameWithType: AudioManager.PlaySound
+  fullName: IndustrialValley.Utility.AudioManager.PlaySound
+- uid: IndustrialValley.Utility.AudioManager.StopAllSounds*
+  commentId: Overload:IndustrialValley.Utility.AudioManager.StopAllSounds
+  href: IndustrialValley.Utility.AudioManager.StopAllSounds.html#IndustrialValley_Utility_AudioManager_StopAllSounds
+  name: StopAllSounds
+  nameWithType: AudioManager.StopAllSounds
+  fullName: IndustrialValley.Utility.AudioManager.StopAllSounds
+memberLayout: SeparatePages

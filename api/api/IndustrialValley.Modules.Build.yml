@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Build
+  commentId: N:IndustrialValley.Modules.Build
+  id: IndustrialValley.Modules.Build
+  children:
+  - IndustrialValley.Modules.Build.BuildModule
+  - IndustrialValley.Modules.Build.BuildModule.DragAxis
+  - IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+  - IndustrialValley.Modules.Build.BuildModuleData
+  - IndustrialValley.Modules.Build.BuildModuleUI
+  - IndustrialValley.Modules.Build.BuildModuleUIData
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Modules.Build
+  nameWithType: IndustrialValley.Modules.Build
+  fullName: IndustrialValley.Modules.Build
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Modules.Build.BuildModuleUI
+  commentId: T:IndustrialValley.Modules.Build.BuildModuleUI
+  href: IndustrialValley.Modules.Build.BuildModuleUI.html
+  name: BuildModuleUI
+  nameWithType: BuildModuleUI
+  fullName: IndustrialValley.Modules.Build.BuildModuleUI
+- uid: IndustrialValley.Modules.Build.BuildModule
+  commentId: T:IndustrialValley.Modules.Build.BuildModule
+  parent: IndustrialValley.Modules.Build
+  href: IndustrialValley.Modules.Build.BuildModule.html
+  name: BuildModule
+  nameWithType: BuildModule
+  fullName: IndustrialValley.Modules.Build.BuildModule
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  commentId: T:IndustrialValley.Modules.Build.BuildModule.DragAxis
+  parent: IndustrialValley.Modules.Build
+  href: IndustrialValley.Modules.Build.BuildModule.html
+  name: BuildModule.DragAxis
+  nameWithType: BuildModule.DragAxis
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+    name: DragAxis
+    href: IndustrialValley.Modules.Build.BuildModule.DragAxis.html
+  spec.vb:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+    name: DragAxis
+    href: IndustrialValley.Modules.Build.BuildModule.DragAxis.html
+- uid: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+  commentId: T:IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+  href: IndustrialValley.Modules.Build.BuildModule.html
+  name: BuildModule.FactoryBuildable
+  nameWithType: BuildModule.FactoryBuildable
+  fullName: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+    name: FactoryBuildable
+    href: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable.html
+  spec.vb:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+    name: FactoryBuildable
+    href: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable.html
+- uid: IndustrialValley.Modules.Build.BuildModuleUIData
+  commentId: T:IndustrialValley.Modules.Build.BuildModuleUIData
+  href: IndustrialValley.Modules.Build.BuildModuleUIData.html
+  name: BuildModuleUIData
+  nameWithType: BuildModuleUIData
+  fullName: IndustrialValley.Modules.Build.BuildModuleUIData
+- uid: IndustrialValley.Modules.Build.BuildModuleData
+  commentId: T:IndustrialValley.Modules.Build.BuildModuleData
+  href: IndustrialValley.Modules.Build.BuildModuleData.html
+  name: BuildModuleData
+  nameWithType: BuildModuleData
+  fullName: IndustrialValley.Modules.Build.BuildModuleData
+- uid: IndustrialValley.Modules.Build
+  commentId: N:IndustrialValley.Modules.Build
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Build
+  nameWithType: IndustrialValley.Modules.Build
+  fullName: IndustrialValley.Modules.Build
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+memberLayout: SeparatePages

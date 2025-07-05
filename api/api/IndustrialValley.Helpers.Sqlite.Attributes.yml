@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.Sqlite.Attributes
+  commentId: N:IndustrialValley.Helpers.Sqlite.Attributes
+  id: IndustrialValley.Helpers.Sqlite.Attributes
+  children:
+  - IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute
+  - IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+  - IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Helpers.Sqlite.Attributes
+  nameWithType: IndustrialValley.Helpers.Sqlite.Attributes
+  fullName: IndustrialValley.Helpers.Sqlite.Attributes
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+  commentId: T:IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+  parent: IndustrialValley.Helpers.Sqlite.Attributes
+  href: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute.html
+  name: TableAttribute
+  nameWithType: TableAttribute
+  fullName: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+- uid: IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute
+  commentId: T:IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute
+  href: IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute.html
+  name: AutoIncrementAttribute
+  nameWithType: AutoIncrementAttribute
+  fullName: IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute
+- uid: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+  commentId: T:IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+  parent: IndustrialValley.Helpers.Sqlite.Attributes
+  href: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute.html
+  name: ColumnAttribute
+  nameWithType: ColumnAttribute
+  fullName: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+- uid: IndustrialValley.Helpers.Sqlite.Attributes
+  commentId: N:IndustrialValley.Helpers.Sqlite.Attributes
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers.Sqlite.Attributes
+  nameWithType: IndustrialValley.Helpers.Sqlite.Attributes
+  fullName: IndustrialValley.Helpers.Sqlite.Attributes
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.Attributes
+    name: Attributes
+    href: IndustrialValley.Helpers.Sqlite.Attributes.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.Attributes
+    name: Attributes
+    href: IndustrialValley.Helpers.Sqlite.Attributes.html
+memberLayout: SeparatePages

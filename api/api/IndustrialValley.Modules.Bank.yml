@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Bank
+  commentId: N:IndustrialValley.Modules.Bank
+  id: IndustrialValley.Modules.Bank
+  children:
+  - IndustrialValley.Modules.Bank.BankModule
+  - IndustrialValley.Modules.Bank.BankModuleUI
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Modules.Bank
+  nameWithType: IndustrialValley.Modules.Bank
+  fullName: IndustrialValley.Modules.Bank
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Modules.Bank.BankModule
+  commentId: T:IndustrialValley.Modules.Bank.BankModule
+  parent: IndustrialValley.Modules.Bank
+  href: IndustrialValley.Modules.Bank.BankModule.html
+  name: BankModule
+  nameWithType: BankModule
+  fullName: IndustrialValley.Modules.Bank.BankModule
+- uid: IndustrialValley.Modules.Bank.BankModuleUI
+  commentId: T:IndustrialValley.Modules.Bank.BankModuleUI
+  href: IndustrialValley.Modules.Bank.BankModuleUI.html
+  name: BankModuleUI
+  nameWithType: BankModuleUI
+  fullName: IndustrialValley.Modules.Bank.BankModuleUI
+- uid: IndustrialValley.Modules.Bank
+  commentId: N:IndustrialValley.Modules.Bank
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Bank
+  nameWithType: IndustrialValley.Modules.Bank
+  fullName: IndustrialValley.Modules.Bank
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Bank
+    name: Bank
+    href: IndustrialValley.Modules.Bank.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Bank
+    name: Bank
+    href: IndustrialValley.Modules.Bank.html
+memberLayout: SeparatePages

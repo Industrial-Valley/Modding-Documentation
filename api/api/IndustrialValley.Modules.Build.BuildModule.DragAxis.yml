@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  commentId: T:IndustrialValley.Modules.Build.BuildModule.DragAxis
+  id: BuildModule.DragAxis
+  parent: IndustrialValley.Modules.Build
+  children:
+  - IndustrialValley.Modules.Build.BuildModule.DragAxis.None
+  - IndustrialValley.Modules.Build.BuildModule.DragAxis.X
+  - IndustrialValley.Modules.Build.BuildModule.DragAxis.Z
+  langs:
+  - csharp
+  - vb
+  name: BuildModule.DragAxis
+  nameWithType: BuildModule.DragAxis
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  type: Enum
+  source:
+    id: DragAxis
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModule.cs
+    startLine: 745
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: protected enum BuildModule.DragAxis
+    content.vb: Protected Enum BuildModule.DragAxis
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis.None
+  commentId: F:IndustrialValley.Modules.Build.BuildModule.DragAxis.None
+  id: None
+  parent: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BuildModule.DragAxis.None
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis.None
+  type: Field
+  source:
+    id: None
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModule.cs
+    startLine: 747
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: None = 0
+    return:
+      type: IndustrialValley.Modules.Build.BuildModule.DragAxis
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis.X
+  commentId: F:IndustrialValley.Modules.Build.BuildModule.DragAxis.X
+  id: X
+  parent: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: BuildModule.DragAxis.X
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis.X
+  type: Field
+  source:
+    id: X
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModule.cs
+    startLine: 748
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: X = 1
+    return:
+      type: IndustrialValley.Modules.Build.BuildModule.DragAxis
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis.Z
+  commentId: F:IndustrialValley.Modules.Build.BuildModule.DragAxis.Z
+  id: Z
+  parent: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: BuildModule.DragAxis.Z
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis.Z
+  type: Field
+  source:
+    id: Z
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModule.cs
+    startLine: 749
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: Z = 2
+    return:
+      type: IndustrialValley.Modules.Build.BuildModule.DragAxis
+references:
+- uid: IndustrialValley.Modules.Build
+  commentId: N:IndustrialValley.Modules.Build
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Build
+  nameWithType: IndustrialValley.Modules.Build
+  fullName: IndustrialValley.Modules.Build
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+- uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  commentId: T:IndustrialValley.Modules.Build.BuildModule.DragAxis
+  parent: IndustrialValley.Modules.Build
+  href: IndustrialValley.Modules.Build.BuildModule.html
+  name: BuildModule.DragAxis
+  nameWithType: BuildModule.DragAxis
+  fullName: IndustrialValley.Modules.Build.BuildModule.DragAxis
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+    name: DragAxis
+    href: IndustrialValley.Modules.Build.BuildModule.DragAxis.html
+  spec.vb:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+    href: IndustrialValley.Modules.Build.BuildModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+    name: DragAxis
+    href: IndustrialValley.Modules.Build.BuildModule.DragAxis.html
+memberLayout: SeparatePages

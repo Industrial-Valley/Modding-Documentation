@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Machines.SmelterMachine
+  commentId: T:IndustrialValley.Machines.SmelterMachine
+  id: SmelterMachine
+  parent: IndustrialValley.Machines
+  children:
+  - IndustrialValley.Machines.SmelterMachine.OnUpdate
+  - IndustrialValley.Machines.SmelterMachine.smokeEffect
+  langs:
+  - csharp
+  - vb
+  name: SmelterMachine
+  nameWithType: SmelterMachine
+  fullName: IndustrialValley.Machines.SmelterMachine
+  type: Class
+  source:
+    id: SmelterMachine
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\SmelterMachine.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: 'public class SmelterMachine : RecipeMachine, IConveyor, ISavable'
+    content.vb: Public Class SmelterMachine Inherits RecipeMachine Implements IConveyor, ISavable
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - IndustrialValley.Machines.BaseMachine
+  - IndustrialValley.Machines.RecipeMachine
+  implements:
+  - IndustrialValley.Conveyors.IConveyor
+  - IndustrialValley.Saving.ISavable
+  inheritedMembers:
+  - IndustrialValley.Machines.RecipeMachine.recipeType
+  - IndustrialValley.Machines.RecipeMachine.InputInventory
+  - IndustrialValley.Machines.RecipeMachine.OutputInventory
+  - IndustrialValley.Machines.RecipeMachine.IsCrafting
+  - IndustrialValley.Machines.RecipeMachine.CraftingProgress
+  - IndustrialValley.Machines.RecipeMachine.CraftingProgressStyleLength
+  - IndustrialValley.Machines.RecipeMachine.CraftingProgressText
+  - IndustrialValley.Machines.RecipeMachine.RecipeName
+  - IndustrialValley.Machines.RecipeMachine.AssemblyTime
+  - IndustrialValley.Machines.RecipeMachine.CurrentRecipe
+  - IndustrialValley.Machines.RecipeMachine.Recipes
+  - IndustrialValley.Machines.RecipeMachine.OnSave
+  - IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+  - IndustrialValley.Machines.RecipeMachine.CraftItem(System.Single)
+  - IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Machines.BaseMachine.handoffDetectRadius
+  - IndustrialValley.Machines.BaseMachine.handoffOffsets
+  - IndustrialValley.Machines.BaseMachine.inputDetectRadius
+  - IndustrialValley.Machines.BaseMachine.inputOffsets
+  - IndustrialValley.Machines.BaseMachine.outputSpeed
+  - IndustrialValley.Machines.BaseMachine.lastOutputTime
+  - IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Machines.BaseMachine.GetInputPositions
+  - IndustrialValley.Machines.BaseMachine.GetOutputPositions
+  - IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+- uid: IndustrialValley.Machines.SmelterMachine.smokeEffect
+  commentId: F:IndustrialValley.Machines.SmelterMachine.smokeEffect
+  id: smokeEffect
+  parent: IndustrialValley.Machines.SmelterMachine
+  langs:
+  - csharp
+  - vb
+  name: smokeEffect
+  nameWithType: SmelterMachine.smokeEffect
+  fullName: IndustrialValley.Machines.SmelterMachine.smokeEffect
+  type: Field
+  source:
+    id: smokeEffect
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\SmelterMachine.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public ParticleSystem smokeEffect
+    return:
+      type: UnityEngine.ParticleSystem
+    content.vb: Public smokeEffect As ParticleSystem
+- uid: IndustrialValley.Machines.SmelterMachine.OnUpdate
+  commentId: M:IndustrialValley.Machines.SmelterMachine.OnUpdate
+  id: OnUpdate
+  parent: IndustrialValley.Machines.SmelterMachine
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate()
+  nameWithType: SmelterMachine.OnUpdate()
+  fullName: IndustrialValley.Machines.SmelterMachine.OnUpdate()
+  type: Method
+  source:
+    id: OnUpdate
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\SmelterMachine.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  example: []
+  syntax:
+    content: protected override void OnUpdate()
+    content.vb: Protected Overrides Sub OnUpdate()
+  overridden: IndustrialValley.Machines.RecipeMachine.OnUpdate
+  overload: IndustrialValley.Machines.SmelterMachine.OnUpdate*
+references:
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  href: IndustrialValley.html
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Machines.BaseMachine
+  commentId: T:IndustrialValley.Machines.BaseMachine
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.BaseMachine.html
+  name: BaseMachine
+  nameWithType: BaseMachine
+  fullName: IndustrialValley.Machines.BaseMachine
+- uid: IndustrialValley.Machines.RecipeMachine
+  commentId: T:IndustrialValley.Machines.RecipeMachine
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.RecipeMachine.html
+  name: RecipeMachine
+  nameWithType: RecipeMachine
+  fullName: IndustrialValley.Machines.RecipeMachine
+- uid: IndustrialValley.Conveyors.IConveyor
+  commentId: T:IndustrialValley.Conveyors.IConveyor
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.IConveyor.html
+  name: IConveyor
+  nameWithType: IConveyor
+  fullName: IndustrialValley.Conveyors.IConveyor
+- uid: IndustrialValley.Saving.ISavable
+  commentId: T:IndustrialValley.Saving.ISavable
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.ISavable.html
+  name: ISavable
+  nameWithType: ISavable
+  fullName: IndustrialValley.Saving.ISavable
+- uid: IndustrialValley.Machines.RecipeMachine.recipeType
+  commentId: F:IndustrialValley.Machines.RecipeMachine.recipeType
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.recipeType.html#IndustrialValley_Machines_RecipeMachine_recipeType
+  name: recipeType
+  nameWithType: RecipeMachine.recipeType
+  fullName: IndustrialValley.Machines.RecipeMachine.recipeType
+- uid: IndustrialValley.Machines.RecipeMachine.InputInventory
+  commentId: F:IndustrialValley.Machines.RecipeMachine.InputInventory
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.InputInventory.html#IndustrialValley_Machines_RecipeMachine_InputInventory
+  name: InputInventory
+  nameWithType: RecipeMachine.InputInventory
+  fullName: IndustrialValley.Machines.RecipeMachine.InputInventory
+- uid: IndustrialValley.Machines.RecipeMachine.OutputInventory
+  commentId: F:IndustrialValley.Machines.RecipeMachine.OutputInventory
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.OutputInventory.html#IndustrialValley_Machines_RecipeMachine_OutputInventory
+  name: OutputInventory
+  nameWithType: RecipeMachine.OutputInventory
+  fullName: IndustrialValley.Machines.RecipeMachine.OutputInventory
+- uid: IndustrialValley.Machines.RecipeMachine.IsCrafting
+  commentId: P:IndustrialValley.Machines.RecipeMachine.IsCrafting
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.IsCrafting.html#IndustrialValley_Machines_RecipeMachine_IsCrafting
+  name: IsCrafting
+  nameWithType: RecipeMachine.IsCrafting
+  fullName: IndustrialValley.Machines.RecipeMachine.IsCrafting
+- uid: IndustrialValley.Machines.RecipeMachine.CraftingProgress
+  commentId: P:IndustrialValley.Machines.RecipeMachine.CraftingProgress
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.CraftingProgress.html#IndustrialValley_Machines_RecipeMachine_CraftingProgress
+  name: CraftingProgress
+  nameWithType: RecipeMachine.CraftingProgress
+  fullName: IndustrialValley.Machines.RecipeMachine.CraftingProgress
+- uid: IndustrialValley.Machines.RecipeMachine.CraftingProgressStyleLength
+  commentId: P:IndustrialValley.Machines.RecipeMachine.CraftingProgressStyleLength
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.CraftingProgressStyleLength.html#IndustrialValley_Machines_RecipeMachine_CraftingProgressStyleLength
+  name: CraftingProgressStyleLength
+  nameWithType: RecipeMachine.CraftingProgressStyleLength
+  fullName: IndustrialValley.Machines.RecipeMachine.CraftingProgressStyleLength
+- uid: IndustrialValley.Machines.RecipeMachine.CraftingProgressText
+  commentId: P:IndustrialValley.Machines.RecipeMachine.CraftingProgressText
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.CraftingProgressText.html#IndustrialValley_Machines_RecipeMachine_CraftingProgressText
+  name: CraftingProgressText
+  nameWithType: RecipeMachine.CraftingProgressText
+  fullName: IndustrialValley.Machines.RecipeMachine.CraftingProgressText
+- uid: IndustrialValley.Machines.RecipeMachine.RecipeName
+  commentId: P:IndustrialValley.Machines.RecipeMachine.RecipeName
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.RecipeName.html#IndustrialValley_Machines_RecipeMachine_RecipeName
+  name: RecipeName
+  nameWithType: RecipeMachine.RecipeName
+  fullName: IndustrialValley.Machines.RecipeMachine.RecipeName
+- uid: IndustrialValley.Machines.RecipeMachine.AssemblyTime
+  commentId: P:IndustrialValley.Machines.RecipeMachine.AssemblyTime
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.AssemblyTime.html#IndustrialValley_Machines_RecipeMachine_AssemblyTime
+  name: AssemblyTime
+  nameWithType: RecipeMachine.AssemblyTime
+  fullName: IndustrialValley.Machines.RecipeMachine.AssemblyTime
+- uid: IndustrialValley.Machines.RecipeMachine.CurrentRecipe
+  commentId: P:IndustrialValley.Machines.RecipeMachine.CurrentRecipe
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.CurrentRecipe.html#IndustrialValley_Machines_RecipeMachine_CurrentRecipe
+  name: CurrentRecipe
+  nameWithType: RecipeMachine.CurrentRecipe
+  fullName: IndustrialValley.Machines.RecipeMachine.CurrentRecipe
+- uid: IndustrialValley.Machines.RecipeMachine.Recipes
+  commentId: P:IndustrialValley.Machines.RecipeMachine.Recipes
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.Recipes.html#IndustrialValley_Machines_RecipeMachine_Recipes
+  name: Recipes
+  nameWithType: RecipeMachine.Recipes
+  fullName: IndustrialValley.Machines.RecipeMachine.Recipes
+- uid: IndustrialValley.Machines.RecipeMachine.OnSave
+  commentId: M:IndustrialValley.Machines.RecipeMachine.OnSave
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.OnSave.html#IndustrialValley_Machines_RecipeMachine_OnSave
+  name: OnSave()
+  nameWithType: RecipeMachine.OnSave()
+  fullName: IndustrialValley.Machines.RecipeMachine.OnSave()
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnSave
+    name: OnSave
+    href: IndustrialValley.Machines.RecipeMachine.OnSave.html#IndustrialValley_Machines_RecipeMachine_OnSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnSave
+    name: OnSave
+    href: IndustrialValley.Machines.RecipeMachine.OnSave.html#IndustrialValley_Machines_RecipeMachine_OnSave
+  - name: (
+  - name: )
+- uid: IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+  commentId: M:IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.OnLoad.html#IndustrialValley_Machines_RecipeMachine_OnLoad_IndustrialValley_Saving_SaveableData_
+  name: OnLoad(SaveableData)
+  nameWithType: RecipeMachine.OnLoad(SaveableData)
+  fullName: IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+    name: OnLoad
+    href: IndustrialValley.Machines.RecipeMachine.OnLoad.html#IndustrialValley_Machines_RecipeMachine_OnLoad_IndustrialValley_Saving_SaveableData_
+  - name: (
+  - uid: IndustrialValley.Saving.SaveableData
+    name: SaveableData
+    href: IndustrialValley.Saving.SaveableData.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnLoad(IndustrialValley.Saving.SaveableData)
+    name: OnLoad
+    href: IndustrialValley.Machines.RecipeMachine.OnLoad.html#IndustrialValley_Machines_RecipeMachine_OnLoad_IndustrialValley_Saving_SaveableData_
+  - name: (
+  - uid: IndustrialValley.Saving.SaveableData
+    name: SaveableData
+    href: IndustrialValley.Saving.SaveableData.html
+  - name: )
+- uid: IndustrialValley.Machines.RecipeMachine.CraftItem(System.Single)
+  commentId: M:IndustrialValley.Machines.RecipeMachine.CraftItem(System.Single)
+  parent: IndustrialValley.Machines.RecipeMachine
+  isExternal: true
+  href: IndustrialValley.Machines.RecipeMachine.CraftItem.html#IndustrialValley_Machines_RecipeMachine_CraftItem_System_Single_
+  name: CraftItem(float)
+  nameWithType: RecipeMachine.CraftItem(float)
+  fullName: IndustrialValley.Machines.RecipeMachine.CraftItem(float)
+  nameWithType.vb: RecipeMachine.CraftItem(Single)
+  fullName.vb: IndustrialValley.Machines.RecipeMachine.CraftItem(Single)
+  name.vb: CraftItem(Single)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.CraftItem(System.Single)
+    name: CraftItem
+    href: IndustrialValley.Machines.RecipeMachine.CraftItem.html#IndustrialValley_Machines_RecipeMachine_CraftItem_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.CraftItem(System.Single)
+    name: CraftItem
+    href: IndustrialValley.Machines.RecipeMachine.CraftItem.html#IndustrialValley_Machines_RecipeMachine_CraftItem_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.CanAcceptItem.html#IndustrialValley_Machines_RecipeMachine_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: CanAcceptItem(ConveyorItem)
+  nameWithType: RecipeMachine.CanAcceptItem(ConveyorItem)
+  fullName: IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Machines.RecipeMachine.CanAcceptItem.html#IndustrialValley_Machines_RecipeMachine_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Machines.RecipeMachine.CanAcceptItem.html#IndustrialValley_Machines_RecipeMachine_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.OnItemInserted.html#IndustrialValley_Machines_RecipeMachine_OnItemInserted_IndustrialValley_Conveyors_ConveyorItem_
+  name: OnItemInserted(ConveyorItem)
+  nameWithType: RecipeMachine.OnItemInserted(ConveyorItem)
+  fullName: IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+    name: OnItemInserted
+    href: IndustrialValley.Machines.RecipeMachine.OnItemInserted.html#IndustrialValley_Machines_RecipeMachine_OnItemInserted_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnItemInserted(IndustrialValley.Conveyors.ConveyorItem)
+    name: OnItemInserted
+    href: IndustrialValley.Machines.RecipeMachine.OnItemInserted.html#IndustrialValley_Machines_RecipeMachine_OnItemInserted_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.handoffDetectRadius
+  commentId: F:IndustrialValley.Machines.BaseMachine.handoffDetectRadius
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.handoffDetectRadius.html#IndustrialValley_Machines_BaseMachine_handoffDetectRadius
+  name: handoffDetectRadius
+  nameWithType: BaseMachine.handoffDetectRadius
+  fullName: IndustrialValley.Machines.BaseMachine.handoffDetectRadius
+- uid: IndustrialValley.Machines.BaseMachine.handoffOffsets
+  commentId: F:IndustrialValley.Machines.BaseMachine.handoffOffsets
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.handoffOffsets.html#IndustrialValley_Machines_BaseMachine_handoffOffsets
+  name: handoffOffsets
+  nameWithType: BaseMachine.handoffOffsets
+  fullName: IndustrialValley.Machines.BaseMachine.handoffOffsets
+- uid: IndustrialValley.Machines.BaseMachine.inputDetectRadius
+  commentId: F:IndustrialValley.Machines.BaseMachine.inputDetectRadius
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.inputDetectRadius.html#IndustrialValley_Machines_BaseMachine_inputDetectRadius
+  name: inputDetectRadius
+  nameWithType: BaseMachine.inputDetectRadius
+  fullName: IndustrialValley.Machines.BaseMachine.inputDetectRadius
+- uid: IndustrialValley.Machines.BaseMachine.inputOffsets
+  commentId: F:IndustrialValley.Machines.BaseMachine.inputOffsets
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.inputOffsets.html#IndustrialValley_Machines_BaseMachine_inputOffsets
+  name: inputOffsets
+  nameWithType: BaseMachine.inputOffsets
+  fullName: IndustrialValley.Machines.BaseMachine.inputOffsets
+- uid: IndustrialValley.Machines.BaseMachine.outputSpeed
+  commentId: F:IndustrialValley.Machines.BaseMachine.outputSpeed
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.outputSpeed.html#IndustrialValley_Machines_BaseMachine_outputSpeed
+  name: outputSpeed
+  nameWithType: BaseMachine.outputSpeed
+  fullName: IndustrialValley.Machines.BaseMachine.outputSpeed
+- uid: IndustrialValley.Machines.BaseMachine.lastOutputTime
+  commentId: F:IndustrialValley.Machines.BaseMachine.lastOutputTime
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.lastOutputTime.html#IndustrialValley_Machines_BaseMachine_lastOutputTime
+  name: lastOutputTime
+  nameWithType: BaseMachine.lastOutputTime
+  fullName: IndustrialValley.Machines.BaseMachine.lastOutputTime
+- uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: InsertItem(ConveyorItem)
+  nameWithType: BaseMachine.InsertItem(ConveyorItem)
+  fullName: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: InsertItem
+    href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: InsertItem
+    href: IndustrialValley.Machines.BaseMachine.InsertItem.html#IndustrialValley_Machines_BaseMachine_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
+  commentId: M:IndustrialValley.Machines.BaseMachine.GetInputPositions
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+  name: GetInputPositions()
+  nameWithType: BaseMachine.GetInputPositions()
+  fullName: IndustrialValley.Machines.BaseMachine.GetInputPositions()
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
+    name: GetInputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.GetInputPositions
+    name: GetInputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetInputPositions.html#IndustrialValley_Machines_BaseMachine_GetInputPositions
+  - name: (
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
+  commentId: M:IndustrialValley.Machines.BaseMachine.GetOutputPositions
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+  name: GetOutputPositions()
+  nameWithType: BaseMachine.GetOutputPositions()
+  fullName: IndustrialValley.Machines.BaseMachine.GetOutputPositions()
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
+    name: GetOutputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.GetOutputPositions
+    name: GetOutputPositions
+    href: IndustrialValley.Machines.BaseMachine.GetOutputPositions.html#IndustrialValley_Machines_BaseMachine_GetOutputPositions
+  - name: (
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor_IndustrialValley_Conveyors_ConveyorItem_
+  name: FindClosestDownstreamConveyor(ConveyorItem)
+  nameWithType: BaseMachine.FindClosestDownstreamConveyor(ConveyorItem)
+  fullName: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+    name: FindClosestDownstreamConveyor
+    href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor(IndustrialValley.Conveyors.ConveyorItem)
+    name: FindClosestDownstreamConveyor
+    href: IndustrialValley.Machines.BaseMachine.FindClosestDownstreamConveyor.html#IndustrialValley_Machines_BaseMachine_FindClosestDownstreamConveyor_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Machines.BaseMachine
+  href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: OutputItem(ConveyorItem)
+  nameWithType: BaseMachine.OutputItem(ConveyorItem)
+  fullName: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: OutputItem
+    href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.BaseMachine.OutputItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: OutputItem
+    href: IndustrialValley.Machines.BaseMachine.OutputItem.html#IndustrialValley_Machines_BaseMachine_OutputItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Conveyors
+  commentId: N:IndustrialValley.Conveyors
+  href: IndustrialValley.html
+  name: IndustrialValley.Conveyors
+  nameWithType: IndustrialValley.Conveyors
+  fullName: IndustrialValley.Conveyors
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+- uid: UnityEngine.ParticleSystem
+  commentId: T:UnityEngine.ParticleSystem
+  parent: UnityEngine
+  isExternal: true
+  name: ParticleSystem
+  nameWithType: ParticleSystem
+  fullName: UnityEngine.ParticleSystem
+- uid: IndustrialValley.Machines.RecipeMachine.OnUpdate
+  commentId: M:IndustrialValley.Machines.RecipeMachine.OnUpdate
+  parent: IndustrialValley.Machines.RecipeMachine
+  href: IndustrialValley.Machines.RecipeMachine.OnUpdate.html#IndustrialValley_Machines_RecipeMachine_OnUpdate
+  name: OnUpdate()
+  nameWithType: RecipeMachine.OnUpdate()
+  fullName: IndustrialValley.Machines.RecipeMachine.OnUpdate()
+  spec.csharp:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Machines.RecipeMachine.OnUpdate.html#IndustrialValley_Machines_RecipeMachine_OnUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Machines.RecipeMachine.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Machines.RecipeMachine.OnUpdate.html#IndustrialValley_Machines_RecipeMachine_OnUpdate
+  - name: (
+  - name: )
+- uid: IndustrialValley.Machines.SmelterMachine.OnUpdate*
+  commentId: Overload:IndustrialValley.Machines.SmelterMachine.OnUpdate
+  href: IndustrialValley.Machines.SmelterMachine.OnUpdate.html#IndustrialValley_Machines_SmelterMachine_OnUpdate
+  name: OnUpdate
+  nameWithType: SmelterMachine.OnUpdate
+  fullName: IndustrialValley.Machines.SmelterMachine.OnUpdate
+memberLayout: SeparatePages

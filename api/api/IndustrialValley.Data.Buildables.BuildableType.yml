@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Data.Buildables.BuildableType
+  commentId: T:IndustrialValley.Data.Buildables.BuildableType
+  id: Buildables.BuildableType
+  parent: IndustrialValley.Data
+  children:
+  - IndustrialValley.Data.Buildables.BuildableType.Machines
+  - IndustrialValley.Data.Buildables.BuildableType.Transport
+  - IndustrialValley.Data.Buildables.BuildableType.Utility
+  langs:
+  - csharp
+  - vb
+  name: Buildables.BuildableType
+  nameWithType: Buildables.BuildableType
+  fullName: IndustrialValley.Data.Buildables.BuildableType
+  type: Enum
+  source:
+    id: BuildableType
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Buildables.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public enum Buildables.BuildableType
+    content.vb: Public Enum Buildables.BuildableType
+- uid: IndustrialValley.Data.Buildables.BuildableType.Transport
+  commentId: F:IndustrialValley.Data.Buildables.BuildableType.Transport
+  id: Transport
+  parent: IndustrialValley.Data.Buildables.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: Buildables.BuildableType.Transport
+  fullName: IndustrialValley.Data.Buildables.BuildableType.Transport
+  type: Field
+  source:
+    id: Transport
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Buildables.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: Transport = 0
+    return:
+      type: IndustrialValley.Data.Buildables.BuildableType
+- uid: IndustrialValley.Data.Buildables.BuildableType.Machines
+  commentId: F:IndustrialValley.Data.Buildables.BuildableType.Machines
+  id: Machines
+  parent: IndustrialValley.Data.Buildables.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Machines
+  nameWithType: Buildables.BuildableType.Machines
+  fullName: IndustrialValley.Data.Buildables.BuildableType.Machines
+  type: Field
+  source:
+    id: Machines
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Buildables.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: Machines = 1
+    return:
+      type: IndustrialValley.Data.Buildables.BuildableType
+- uid: IndustrialValley.Data.Buildables.BuildableType.Utility
+  commentId: F:IndustrialValley.Data.Buildables.BuildableType.Utility
+  id: Utility
+  parent: IndustrialValley.Data.Buildables.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Utility
+  nameWithType: Buildables.BuildableType.Utility
+  fullName: IndustrialValley.Data.Buildables.BuildableType.Utility
+  type: Field
+  source:
+    id: Utility
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Buildables.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: Utility = 2
+    return:
+      type: IndustrialValley.Data.Buildables.BuildableType
+references:
+- uid: IndustrialValley.Data
+  commentId: N:IndustrialValley.Data
+  href: IndustrialValley.html
+  name: IndustrialValley.Data
+  nameWithType: IndustrialValley.Data
+  fullName: IndustrialValley.Data
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+- uid: IndustrialValley.Data.Buildables.BuildableType
+  commentId: T:IndustrialValley.Data.Buildables.BuildableType
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.Buildables.html
+  name: Buildables.BuildableType
+  nameWithType: Buildables.BuildableType
+  fullName: IndustrialValley.Data.Buildables.BuildableType
+  spec.csharp:
+  - uid: IndustrialValley.Data.Buildables
+    name: Buildables
+    href: IndustrialValley.Data.Buildables.html
+  - name: .
+  - uid: IndustrialValley.Data.Buildables.BuildableType
+    name: BuildableType
+    href: IndustrialValley.Data.Buildables.BuildableType.html
+  spec.vb:
+  - uid: IndustrialValley.Data.Buildables
+    name: Buildables
+    href: IndustrialValley.Data.Buildables.html
+  - name: .
+  - uid: IndustrialValley.Data.Buildables.BuildableType
+    name: BuildableType
+    href: IndustrialValley.Data.Buildables.BuildableType.html
+memberLayout: SeparatePages

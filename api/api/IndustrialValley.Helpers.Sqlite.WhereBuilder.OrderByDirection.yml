@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  id: WhereBuilder.OrderByDirection
+  parent: IndustrialValley.Helpers.Sqlite
+  children:
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Ascending
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Descending
+  langs:
+  - csharp
+  - vb
+  name: WhereBuilder.OrderByDirection
+  nameWithType: WhereBuilder.OrderByDirection
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  type: Enum
+  source:
+    id: OrderByDirection
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public enum WhereBuilder.OrderByDirection
+    content.vb: Public Enum WhereBuilder.OrderByDirection
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Ascending
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Ascending
+  id: Ascending
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  langs:
+  - csharp
+  - vb
+  name: Ascending
+  nameWithType: WhereBuilder.OrderByDirection.Ascending
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Ascending
+  type: Field
+  source:
+    id: Ascending
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: Ascending = 0
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Descending
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Descending
+  id: Descending
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  langs:
+  - csharp
+  - vb
+  name: Descending
+  nameWithType: WhereBuilder.OrderByDirection.Descending
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.Descending
+  type: Field
+  source:
+    id: Descending
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: Descending = 1
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+references:
+- uid: IndustrialValley.Helpers.Sqlite
+  commentId: N:IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers.Sqlite
+  nameWithType: IndustrialValley.Helpers.Sqlite
+  fullName: IndustrialValley.Helpers.Sqlite
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  parent: IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  name: WhereBuilder.OrderByDirection
+  nameWithType: WhereBuilder.OrderByDirection
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+    name: OrderByDirection
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.html
+  spec.vb:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+    name: OrderByDirection
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection.html
+memberLayout: SeparatePages

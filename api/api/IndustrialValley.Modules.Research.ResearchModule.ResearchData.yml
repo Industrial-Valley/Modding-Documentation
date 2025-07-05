@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  commentId: T:IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  id: ResearchModule.ResearchData
+  parent: IndustrialValley.Modules.Research
+  children:
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData)
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData,System.Single)
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+  langs:
+  - csharp
+  - vb
+  name: ResearchModule.ResearchData
+  nameWithType: ResearchModule.ResearchData
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  type: Class
+  source:
+    id: ResearchData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 98
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: public class ResearchModule.ResearchData
+    content.vb: Public Class ResearchModule.ResearchData
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData)
+  commentId: M:IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData)
+  id: '#ctor(IndustrialValley.Data.ResearchableData)'
+  parent: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  langs:
+  - csharp
+  - vb
+  name: ResearchData(ResearchableData)
+  nameWithType: ResearchModule.ResearchData.ResearchData(ResearchableData)
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.ResearchData(IndustrialValley.Data.ResearchableData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 100
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: public ResearchData(ResearchableData researchable)
+    parameters:
+    - id: researchable
+      type: IndustrialValley.Data.ResearchableData
+    content.vb: Public Sub New(researchable As ResearchableData)
+  overload: IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor*
+  nameWithType.vb: ResearchModule.ResearchData.New(ResearchableData)
+  fullName.vb: IndustrialValley.Modules.Research.ResearchModule.ResearchData.New(IndustrialValley.Data.ResearchableData)
+  name.vb: New(ResearchableData)
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData,System.Single)
+  commentId: M:IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor(IndustrialValley.Data.ResearchableData,System.Single)
+  id: '#ctor(IndustrialValley.Data.ResearchableData,System.Single)'
+  parent: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  langs:
+  - csharp
+  - vb
+  name: ResearchData(ResearchableData, float)
+  nameWithType: ResearchModule.ResearchData.ResearchData(ResearchableData, float)
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.ResearchData(IndustrialValley.Data.ResearchableData, float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 106
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: public ResearchData(ResearchableData researchable, float progress)
+    parameters:
+    - id: researchable
+      type: IndustrialValley.Data.ResearchableData
+    - id: progress
+      type: System.Single
+    content.vb: Public Sub New(researchable As ResearchableData, progress As Single)
+  overload: IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor*
+  nameWithType.vb: ResearchModule.ResearchData.New(ResearchableData, Single)
+  fullName.vb: IndustrialValley.Modules.Research.ResearchModule.ResearchData.New(IndustrialValley.Data.ResearchableData, Single)
+  name.vb: New(ResearchableData, Single)
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+  commentId: P:IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+  id: Researchable
+  parent: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  langs:
+  - csharp
+  - vb
+  name: Researchable
+  nameWithType: ResearchModule.ResearchData.Researchable
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+  type: Property
+  source:
+    id: Researchable
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 112
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: public ResearchableData Researchable { get; set; }
+    parameters: []
+    return:
+      type: IndustrialValley.Data.ResearchableData
+    content.vb: Public Property Researchable As ResearchableData
+  overload: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable*
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+  commentId: P:IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+  id: Progress
+  parent: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: ResearchModule.ResearchData.Progress
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+  type: Property
+  source:
+    id: Progress
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 114
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: >-
+      [CreateProperty]
+
+      public float Progress { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: >-
+      <CreateProperty>
+
+      Public ReadOnly Property Progress As Single
+  overload: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress*
+  attributes:
+  - type: Unity.Properties.CreatePropertyAttribute
+    ctor: Unity.Properties.CreatePropertyAttribute.#ctor
+    arguments: []
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+  commentId: P:IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+  id: StartTime
+  parent: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: ResearchModule.ResearchData.StartTime
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+  type: Property
+  source:
+    id: StartTime
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Research\ResearchModule.cs
+    startLine: 118
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Research
+  syntax:
+    content: public float StartTime { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property StartTime As Single
+  overload: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime*
+references:
+- uid: IndustrialValley.Modules.Research
+  commentId: N:IndustrialValley.Modules.Research
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Research
+  nameWithType: IndustrialValley.Modules.Research
+  fullName: IndustrialValley.Modules.Research
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research
+    name: Research
+    href: IndustrialValley.Modules.Research.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research
+    name: Research
+    href: IndustrialValley.Modules.Research.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor*
+  commentId: Overload:IndustrialValley.Modules.Research.ResearchModule.ResearchData.#ctor
+  href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.-ctor.html#IndustrialValley_Modules_Research_ResearchModule_ResearchData__ctor_IndustrialValley_Data_ResearchableData_
+  name: ResearchData
+  nameWithType: ResearchModule.ResearchData.ResearchData
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.ResearchData
+  nameWithType.vb: ResearchModule.ResearchData.New
+  fullName.vb: IndustrialValley.Modules.Research.ResearchModule.ResearchData.New
+  name.vb: New
+- uid: IndustrialValley.Data.ResearchableData
+  commentId: T:IndustrialValley.Data.ResearchableData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.ResearchableData.html
+  name: ResearchableData
+  nameWithType: ResearchableData
+  fullName: IndustrialValley.Data.ResearchableData
+- uid: IndustrialValley.Data
+  commentId: N:IndustrialValley.Data
+  href: IndustrialValley.html
+  name: IndustrialValley.Data
+  nameWithType: IndustrialValley.Data
+  fullName: IndustrialValley.Data
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable*
+  commentId: Overload:IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+  href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable.html#IndustrialValley_Modules_Research_ResearchModule_ResearchData_Researchable
+  name: Researchable
+  nameWithType: ResearchModule.ResearchData.Researchable
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Researchable
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress*
+  commentId: Overload:IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+  href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress.html#IndustrialValley_Modules_Research_ResearchModule_ResearchData_Progress
+  name: Progress
+  nameWithType: ResearchModule.ResearchData.Progress
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.Progress
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime*
+  commentId: Overload:IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+  href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime.html#IndustrialValley_Modules_Research_ResearchModule_ResearchData_StartTime
+  name: StartTime
+  nameWithType: ResearchModule.ResearchData.StartTime
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData.StartTime
+memberLayout: SeparatePages

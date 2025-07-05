@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Research
+  commentId: N:IndustrialValley.Modules.Research
+  id: IndustrialValley.Modules.Research
+  children:
+  - IndustrialValley.Modules.Research.ResearchModule
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  - IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+  - IndustrialValley.Modules.Research.ResearchState
+  - IndustrialValley.Modules.Research.ResearchStateChange
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Modules.Research
+  nameWithType: IndustrialValley.Modules.Research
+  fullName: IndustrialValley.Modules.Research
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Modules.Research.ResearchStateChange
+  commentId: T:IndustrialValley.Modules.Research.ResearchStateChange
+  parent: IndustrialValley.Modules.Research
+  href: IndustrialValley.Modules.Research.ResearchStateChange.html
+  name: ResearchStateChange
+  nameWithType: ResearchStateChange
+  fullName: IndustrialValley.Modules.Research.ResearchStateChange
+- uid: IndustrialValley.Modules.Research.ResearchState
+  commentId: T:IndustrialValley.Modules.Research.ResearchState
+  parent: IndustrialValley.Modules.Research
+  href: IndustrialValley.Modules.Research.ResearchState.html
+  name: ResearchState
+  nameWithType: ResearchState
+  fullName: IndustrialValley.Modules.Research.ResearchState
+- uid: IndustrialValley.Modules.Research.ResearchModule
+  commentId: T:IndustrialValley.Modules.Research.ResearchModule
+  parent: IndustrialValley.Modules.Research
+  href: IndustrialValley.Modules.Research.ResearchModule.html
+  name: ResearchModule
+  nameWithType: ResearchModule
+  fullName: IndustrialValley.Modules.Research.ResearchModule
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  commentId: T:IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  href: IndustrialValley.Modules.Research.ResearchModule.html
+  name: ResearchModule.ResearchData
+  nameWithType: ResearchModule.ResearchData
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Research.ResearchModule
+    name: ResearchModule
+    href: IndustrialValley.Modules.Research.ResearchModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+    name: ResearchData
+    href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.html
+  spec.vb:
+  - uid: IndustrialValley.Modules.Research.ResearchModule
+    name: ResearchModule
+    href: IndustrialValley.Modules.Research.ResearchModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+    name: ResearchData
+    href: IndustrialValley.Modules.Research.ResearchModule.ResearchData.html
+- uid: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+  commentId: T:IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+  href: IndustrialValley.Modules.Research.ResearchModule.html
+  name: ResearchModule.ResearchSaveData
+  nameWithType: ResearchModule.ResearchSaveData
+  fullName: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Research.ResearchModule
+    name: ResearchModule
+    href: IndustrialValley.Modules.Research.ResearchModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+    name: ResearchSaveData
+    href: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData.html
+  spec.vb:
+  - uid: IndustrialValley.Modules.Research.ResearchModule
+    name: ResearchModule
+    href: IndustrialValley.Modules.Research.ResearchModule.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+    name: ResearchSaveData
+    href: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData.html
+- uid: IndustrialValley.Modules.Research
+  commentId: N:IndustrialValley.Modules.Research
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Research
+  nameWithType: IndustrialValley.Modules.Research
+  fullName: IndustrialValley.Modules.Research
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research
+    name: Research
+    href: IndustrialValley.Modules.Research.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Research
+    name: Research
+    href: IndustrialValley.Modules.Research.html
+memberLayout: SeparatePages

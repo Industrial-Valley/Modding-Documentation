@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.UI
+  commentId: T:IndustrialValley.Helpers.UI
+  id: UI
+  parent: IndustrialValley.Helpers
+  children:
+  - IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,System.Func{UnityEngine.UIElements.VisualElement})
+  - IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,UnityEngine.UIElements.VisualElement)
+  - IndustrialValley.Helpers.UI.AddNavigationToAll``1(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,``0)
+  - IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  - IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  - IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement)
+  - IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement,System.String)
+  - IndustrialValley.Helpers.UI.RemoveNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction[])
+  - IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,System.Func{UnityEngine.UIElements.VisualElement})
+  - IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement)
+  - IndustrialValley.Helpers.UI.SupportSteamDeck(UnityEngine.UIElements.TextField)
+  langs:
+  - csharp
+  - vb
+  name: UI
+  nameWithType: UI
+  fullName: IndustrialValley.Helpers.UI
+  type: Class
+  source:
+    id: UI
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public static class UI
+    content.vb: Public Module UI
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  id: AddUISounds(UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddUISounds(VisualElement)
+  nameWithType: UI.AddUISounds(VisualElement)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    id: AddUISounds
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 19
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Adds UI sounds to all buttons in the given VisualElement.
+  example: []
+  syntax:
+    content: public static void AddUISounds(this VisualElement elem)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub AddUISounds(elem As VisualElement)
+  overload: IndustrialValley.Helpers.UI.AddUISounds*
+- uid: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  commentId: M:IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  id: AddUISounds(UnityEngine.UIElements.Button)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddUISounds(Button)
+  nameWithType: UI.AddUISounds(Button)
+  fullName: IndustrialValley.Helpers.UI.AddUISounds(UnityEngine.UIElements.Button)
+  type: Method
+  source:
+    id: AddUISounds
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 30
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Adds UI sounds to the given button.
+  example: []
+  syntax:
+    content: public static void AddUISounds(this Button button)
+    parameters:
+    - id: button
+      type: UnityEngine.UIElements.Button
+    content.vb: Public Shared Sub AddUISounds(button As Button)
+  overload: IndustrialValley.Helpers.UI.AddUISounds*
+- uid: IndustrialValley.Helpers.UI.SupportSteamDeck(UnityEngine.UIElements.TextField)
+  commentId: M:IndustrialValley.Helpers.UI.SupportSteamDeck(UnityEngine.UIElements.TextField)
+  id: SupportSteamDeck(UnityEngine.UIElements.TextField)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: SupportSteamDeck(TextField)
+  nameWithType: UI.SupportSteamDeck(TextField)
+  fullName: IndustrialValley.Helpers.UI.SupportSteamDeck(UnityEngine.UIElements.TextField)
+  type: Method
+  source:
+    id: SupportSteamDeck
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 58
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Not setup
+  example: []
+  syntax:
+    content: public static void SupportSteamDeck(this TextField textField)
+    parameters:
+    - id: textField
+      type: UnityEngine.UIElements.TextField
+    content.vb: Public Shared Sub SupportSteamDeck(textField As TextField)
+  overload: IndustrialValley.Helpers.UI.SupportSteamDeck*
+- uid: IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement)
+  id: SetupMenu(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: SetupMenu(VisualElement, VisualElement)
+  nameWithType: UI.SetupMenu(VisualElement, VisualElement)
+  fullName: IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    id: SetupMenu
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 72
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Sets up the menu to focus on a target VisualElement when navigating down.
+  example: []
+  syntax:
+    content: public static void SetupMenu(this VisualElement elem, VisualElement target)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: target
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub SetupMenu(elem As VisualElement, target As VisualElement)
+  overload: IndustrialValley.Helpers.UI.SetupMenu*
+- uid: IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,System.Func{UnityEngine.UIElements.VisualElement})
+  commentId: M:IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement,System.Func{UnityEngine.UIElements.VisualElement})
+  id: SetupMenu(UnityEngine.UIElements.VisualElement,System.Func{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: SetupMenu(VisualElement, Func<VisualElement>)
+  nameWithType: UI.SetupMenu(VisualElement, Func<VisualElement>)
+  fullName: IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement, System.Func<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  source:
+    id: SetupMenu
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 84
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Sets up the menu to focus on a target VisualElement when navigating down.
+  example: []
+  syntax:
+    content: public static void SetupMenu(this VisualElement elem, Func<VisualElement> targetFunc)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: targetFunc
+      type: System.Func{UnityEngine.UIElements.VisualElement}
+    content.vb: Public Shared Sub SetupMenu(elem As VisualElement, targetFunc As Func(Of VisualElement))
+  overload: IndustrialValley.Helpers.UI.SetupMenu*
+  nameWithType.vb: UI.SetupMenu(VisualElement, Func(Of VisualElement))
+  fullName.vb: IndustrialValley.Helpers.UI.SetupMenu(UnityEngine.UIElements.VisualElement, System.Func(Of UnityEngine.UIElements.VisualElement))
+  name.vb: SetupMenu(VisualElement, Func(Of VisualElement))
+- uid: IndustrialValley.Helpers.UI.RemoveNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction[])
+  commentId: M:IndustrialValley.Helpers.UI.RemoveNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction[])
+  id: RemoveNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction[])
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: RemoveNavigation(VisualElement, params Direction[])
+  nameWithType: UI.RemoveNavigation(VisualElement, params NavigationMoveEvent.Direction[])
+  fullName: IndustrialValley.Helpers.UI.RemoveNavigation(UnityEngine.UIElements.VisualElement, params UnityEngine.UIElements.NavigationMoveEvent.Direction[])
+  type: Method
+  source:
+    id: RemoveNavigation
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 107
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Ignores the given navigation directions for the given VisualElement.
+  example: []
+  syntax:
+    content: public static void RemoveNavigation(this VisualElement elem, params NavigationMoveEvent.Direction[] direction)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: direction
+      type: UnityEngine.UIElements.NavigationMoveEvent.Direction[]
+    content.vb: Public Shared Sub RemoveNavigation(elem As VisualElement, ParamArray direction As NavigationMoveEvent.Direction())
+  overload: IndustrialValley.Helpers.UI.RemoveNavigation*
+  nameWithType.vb: UI.RemoveNavigation(VisualElement, ParamArray NavigationMoveEvent.Direction())
+  fullName.vb: IndustrialValley.Helpers.UI.RemoveNavigation(UnityEngine.UIElements.VisualElement, ParamArray UnityEngine.UIElements.NavigationMoveEvent.Direction())
+  name.vb: RemoveNavigation(VisualElement, ParamArray Direction())
+- uid: IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,UnityEngine.UIElements.VisualElement)
+  id: AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddNavigation(VisualElement, Direction, VisualElement)
+  nameWithType: UI.AddNavigation(VisualElement, NavigationMoveEvent.Direction, VisualElement)
+  fullName: IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.NavigationMoveEvent.Direction, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    id: AddNavigation
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 121
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Adds a navigation direction to the given VisualElement.
+  example: []
+  syntax:
+    content: public static void AddNavigation(this VisualElement elem, NavigationMoveEvent.Direction direction, VisualElement target)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: direction
+      type: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    - id: target
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub AddNavigation(elem As VisualElement, direction As NavigationMoveEvent.Direction, target As VisualElement)
+  overload: IndustrialValley.Helpers.UI.AddNavigation*
+- uid: IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,System.Func{UnityEngine.UIElements.VisualElement})
+  commentId: M:IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,System.Func{UnityEngine.UIElements.VisualElement})
+  id: AddNavigation(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,System.Func{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddNavigation(VisualElement, Direction, Func<VisualElement>)
+  nameWithType: UI.AddNavigation(VisualElement, NavigationMoveEvent.Direction, Func<VisualElement>)
+  fullName: IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.NavigationMoveEvent.Direction, System.Func<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  source:
+    id: AddNavigation
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 139
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Adds a navigation direction to the given VisualElement using a target function.
+  example: []
+  syntax:
+    content: public static void AddNavigation(this VisualElement elem, NavigationMoveEvent.Direction direction, Func<VisualElement> targetFunc)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: direction
+      type: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    - id: targetFunc
+      type: System.Func{UnityEngine.UIElements.VisualElement}
+    content.vb: Public Shared Sub AddNavigation(elem As VisualElement, direction As NavigationMoveEvent.Direction, targetFunc As Func(Of VisualElement))
+  overload: IndustrialValley.Helpers.UI.AddNavigation*
+  nameWithType.vb: UI.AddNavigation(VisualElement, NavigationMoveEvent.Direction, Func(Of VisualElement))
+  fullName.vb: IndustrialValley.Helpers.UI.AddNavigation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.NavigationMoveEvent.Direction, System.Func(Of UnityEngine.UIElements.VisualElement))
+  name.vb: AddNavigation(VisualElement, Direction, Func(Of VisualElement))
+- uid: IndustrialValley.Helpers.UI.AddNavigationToAll``1(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,``0)
+  commentId: M:IndustrialValley.Helpers.UI.AddNavigationToAll``1(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,``0)
+  id: AddNavigationToAll``1(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.NavigationMoveEvent.Direction,``0)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: AddNavigationToAll<T>(VisualElement, Direction, T)
+  nameWithType: UI.AddNavigationToAll<T>(VisualElement, NavigationMoveEvent.Direction, T)
+  fullName: IndustrialValley.Helpers.UI.AddNavigationToAll<T>(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.NavigationMoveEvent.Direction, T)
+  type: Method
+  source:
+    id: AddNavigationToAll
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 160
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Adds a navigation direction to all children of the given VisualElement.
+  example: []
+  syntax:
+    content: 'public static void AddNavigationToAll<T>(this VisualElement elem, NavigationMoveEvent.Direction direction, T target) where T : VisualElement'
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: direction
+      type: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    - id: target
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub AddNavigationToAll(Of T As VisualElement)(elem As VisualElement, direction As NavigationMoveEvent.Direction, target As T)
+  overload: IndustrialValley.Helpers.UI.AddNavigationToAll*
+  nameWithType.vb: UI.AddNavigationToAll(Of T)(VisualElement, NavigationMoveEvent.Direction, T)
+  fullName.vb: IndustrialValley.Helpers.UI.AddNavigationToAll(Of T)(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.NavigationMoveEvent.Direction, T)
+  name.vb: AddNavigationToAll(Of T)(VisualElement, Direction, T)
+- uid: IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement)
+  commentId: M:IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement)
+  id: Builder(UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: Builder(VisualElement)
+  nameWithType: UI.Builder(VisualElement)
+  fullName: IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    id: Builder
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 173
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Creates a new UIBuilder for the given VisualElement.
+  example: []
+  syntax:
+    content: public static UIBuilder Builder(this VisualElement elem)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    return:
+      type: IndustrialValley.Helpers.UIBuilder
+    content.vb: Public Shared Function Builder(elem As VisualElement) As UIBuilder
+  overload: IndustrialValley.Helpers.UI.Builder*
+- uid: IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement,System.String)
+  id: Builder(UnityEngine.UIElements.VisualElement,System.String)
+  isExtensionMethod: true
+  parent: IndustrialValley.Helpers.UI
+  langs:
+  - csharp
+  - vb
+  name: Builder(VisualElement, string)
+  nameWithType: UI.Builder(VisualElement, string)
+  fullName: IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement, string)
+  type: Method
+  source:
+    id: Builder
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\UI.cs
+    startLine: 181
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Creates a new UIBuilder for the given VisualElement and adds a class to it.
+  example: []
+  syntax:
+    content: public static UIBuilder Builder(this VisualElement elem, string @class)
+    parameters:
+    - id: elem
+      type: UnityEngine.UIElements.VisualElement
+    - id: class
+      type: System.String
+    return:
+      type: IndustrialValley.Helpers.UIBuilder
+    content.vb: Public Shared Function Builder(elem As VisualElement, [class] As String) As UIBuilder
+  overload: IndustrialValley.Helpers.UI.Builder*
+  nameWithType.vb: UI.Builder(VisualElement, String)
+  fullName.vb: IndustrialValley.Helpers.UI.Builder(UnityEngine.UIElements.VisualElement, String)
+  name.vb: Builder(VisualElement, String)
+references:
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Helpers.UI.AddUISounds*
+  commentId: Overload:IndustrialValley.Helpers.UI.AddUISounds
+  href: IndustrialValley.Helpers.UI.AddUISounds.html#IndustrialValley_Helpers_UI_AddUISounds_UnityEngine_UIElements_VisualElement_
+  name: AddUISounds
+  nameWithType: UI.AddUISounds
+  fullName: IndustrialValley.Helpers.UI.AddUISounds
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button
+- uid: IndustrialValley.Helpers.UI.SupportSteamDeck*
+  commentId: Overload:IndustrialValley.Helpers.UI.SupportSteamDeck
+  href: IndustrialValley.Helpers.UI.SupportSteamDeck.html#IndustrialValley_Helpers_UI_SupportSteamDeck_UnityEngine_UIElements_TextField_
+  name: SupportSteamDeck
+  nameWithType: UI.SupportSteamDeck
+  fullName: IndustrialValley.Helpers.UI.SupportSteamDeck
+- uid: UnityEngine.UIElements.TextField
+  commentId: T:UnityEngine.UIElements.TextField
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TextField
+  nameWithType: TextField
+  fullName: UnityEngine.UIElements.TextField
+- uid: IndustrialValley.Helpers.UI.SetupMenu*
+  commentId: Overload:IndustrialValley.Helpers.UI.SetupMenu
+  href: IndustrialValley.Helpers.UI.SetupMenu.html#IndustrialValley_Helpers_UI_SetupMenu_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_VisualElement_
+  name: SetupMenu
+  nameWithType: UI.SetupMenu
+  fullName: IndustrialValley.Helpers.UI.SetupMenu
+- uid: System.Func{UnityEngine.UIElements.VisualElement}
+  commentId: T:System.Func{UnityEngine.UIElements.VisualElement}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<VisualElement>
+  nameWithType: Func<VisualElement>
+  fullName: System.Func<UnityEngine.UIElements.VisualElement>
+  nameWithType.vb: Func(Of VisualElement)
+  fullName.vb: System.Func(Of UnityEngine.UIElements.VisualElement)
+  name.vb: Func(Of VisualElement)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: IndustrialValley.Helpers.UI.RemoveNavigation*
+  commentId: Overload:IndustrialValley.Helpers.UI.RemoveNavigation
+  href: IndustrialValley.Helpers.UI.RemoveNavigation.html#IndustrialValley_Helpers_UI_RemoveNavigation_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_NavigationMoveEvent_Direction___
+  name: RemoveNavigation
+  nameWithType: UI.RemoveNavigation
+  fullName: IndustrialValley.Helpers.UI.RemoveNavigation
+- uid: UnityEngine.UIElements.NavigationMoveEvent.Direction[]
+  isExternal: true
+  name: Direction[]
+  nameWithType: NavigationMoveEvent.Direction[]
+  fullName: UnityEngine.UIElements.NavigationMoveEvent.Direction[]
+  nameWithType.vb: NavigationMoveEvent.Direction()
+  fullName.vb: UnityEngine.UIElements.NavigationMoveEvent.Direction()
+  name.vb: Direction()
+  spec.csharp:
+  - uid: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    name: Direction
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    name: Direction
+    isExternal: true
+  - name: (
+  - name: )
+- uid: IndustrialValley.Helpers.UI.AddNavigation*
+  commentId: Overload:IndustrialValley.Helpers.UI.AddNavigation
+  href: IndustrialValley.Helpers.UI.AddNavigation.html#IndustrialValley_Helpers_UI_AddNavigation_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_NavigationMoveEvent_Direction_UnityEngine_UIElements_VisualElement_
+  name: AddNavigation
+  nameWithType: UI.AddNavigation
+  fullName: IndustrialValley.Helpers.UI.AddNavigation
+- uid: UnityEngine.UIElements.NavigationMoveEvent.Direction
+  commentId: T:UnityEngine.UIElements.NavigationMoveEvent.Direction
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: NavigationMoveEvent.Direction
+  nameWithType: NavigationMoveEvent.Direction
+  fullName: UnityEngine.UIElements.NavigationMoveEvent.Direction
+  spec.csharp:
+  - uid: UnityEngine.UIElements.NavigationMoveEvent
+    name: NavigationMoveEvent
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    name: Direction
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine.UIElements.NavigationMoveEvent
+    name: NavigationMoveEvent
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements.NavigationMoveEvent.Direction
+    name: Direction
+    isExternal: true
+- uid: IndustrialValley.Helpers.UI.AddNavigationToAll*
+  commentId: Overload:IndustrialValley.Helpers.UI.AddNavigationToAll
+  href: IndustrialValley.Helpers.UI.AddNavigationToAll.html#IndustrialValley_Helpers_UI_AddNavigationToAll__1_UnityEngine_UIElements_VisualElement_UnityEngine_UIElements_NavigationMoveEvent_Direction___0_
+  name: AddNavigationToAll
+  nameWithType: UI.AddNavigationToAll
+  fullName: IndustrialValley.Helpers.UI.AddNavigationToAll
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: IndustrialValley.Helpers.UI.Builder*
+  commentId: Overload:IndustrialValley.Helpers.UI.Builder
+  href: IndustrialValley.Helpers.UI.Builder.html#IndustrialValley_Helpers_UI_Builder_UnityEngine_UIElements_VisualElement_
+  name: Builder
+  nameWithType: UI.Builder
+  fullName: IndustrialValley.Helpers.UI.Builder
+- uid: IndustrialValley.Helpers.UIBuilder
+  commentId: T:IndustrialValley.Helpers.UIBuilder
+  parent: IndustrialValley.Helpers
+  href: IndustrialValley.Helpers.UIBuilder.html
+  name: UIBuilder
+  nameWithType: UIBuilder
+  fullName: IndustrialValley.Helpers.UIBuilder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+memberLayout: SeparatePages

@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Utility.Settings
+  commentId: T:IndustrialValley.Utility.Settings
+  id: Settings
+  parent: IndustrialValley.Utility
+  children:
+  - IndustrialValley.Utility.Settings.GetSetting``1(System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Settings
+  fullName: IndustrialValley.Utility.Settings
+  type: Class
+  source:
+    id: Settings
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  syntax:
+    content: public static class Settings
+    content.vb: Public Module Settings
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Utility.Settings.GetSetting``1(System.String,``0)
+  commentId: M:IndustrialValley.Utility.Settings.GetSetting``1(System.String,``0)
+  id: GetSetting``1(System.String,``0)
+  parent: IndustrialValley.Utility.Settings
+  langs:
+  - csharp
+  - vb
+  name: GetSetting<T>(string, T)
+  nameWithType: Settings.GetSetting<T>(string, T)
+  fullName: IndustrialValley.Utility.Settings.GetSetting<T>(string, T)
+  type: Method
+  source:
+    id: GetSetting
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Utility\Settings.cs
+    startLine: 100
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Utility
+  summary: Gets a setting by name, returning the default value if not found.
+  example: []
+  syntax:
+    content: public static T GetSetting<T>(string name, T defaultValue)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function GetSetting(Of T)(name As String, defaultValue As T) As T
+  overload: IndustrialValley.Utility.Settings.GetSetting*
+  nameWithType.vb: Settings.GetSetting(Of T)(String, T)
+  fullName.vb: IndustrialValley.Utility.Settings.GetSetting(Of T)(String, T)
+  name.vb: GetSetting(Of T)(String, T)
+references:
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Utility.Settings.GetSetting*
+  commentId: Overload:IndustrialValley.Utility.Settings.GetSetting
+  href: IndustrialValley.Utility.Settings.GetSetting.html#IndustrialValley_Utility_Settings_GetSetting__1_System_String___0_
+  name: GetSetting
+  nameWithType: Settings.GetSetting
+  fullName: IndustrialValley.Utility.Settings.GetSetting
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+memberLayout: SeparatePages

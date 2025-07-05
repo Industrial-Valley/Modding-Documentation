@@ -1,0 +1,441 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving.Converters.Vector2Converter
+  commentId: T:IndustrialValley.Saving.Converters.Vector2Converter
+  id: Vector2Converter
+  parent: IndustrialValley.Saving.Converters
+  children:
+  - IndustrialValley.Saving.Converters.Vector2Converter.Deserialize(System.String)
+  - IndustrialValley.Saving.Converters.Vector2Converter.Serialize(UnityEngine.Vector2)
+  langs:
+  - csharp
+  - vb
+  name: Vector2Converter
+  nameWithType: Vector2Converter
+  fullName: IndustrialValley.Saving.Converters.Vector2Converter
+  type: Class
+  source:
+    id: Vector2Converter
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\Vector2Converter.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  syntax:
+    content: 'public class Vector2Converter : TypeConverter<Vector2>, ITypeConverter'
+    content.vb: Public Class Vector2Converter Inherits TypeConverter(Of Vector2) Implements ITypeConverter
+  inheritance:
+  - System.Object
+  - IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  implements:
+  - IndustrialValley.Saving.Converters.ITypeConverter
+  inheritedMembers:
+  - IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  - IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+- uid: IndustrialValley.Saving.Converters.Vector2Converter.Serialize(UnityEngine.Vector2)
+  commentId: M:IndustrialValley.Saving.Converters.Vector2Converter.Serialize(UnityEngine.Vector2)
+  id: Serialize(UnityEngine.Vector2)
+  parent: IndustrialValley.Saving.Converters.Vector2Converter
+  langs:
+  - csharp
+  - vb
+  name: Serialize(Vector2)
+  nameWithType: Vector2Converter.Serialize(Vector2)
+  fullName: IndustrialValley.Saving.Converters.Vector2Converter.Serialize(UnityEngine.Vector2)
+  type: Method
+  source:
+    id: Serialize
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\Vector2Converter.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  example: []
+  syntax:
+    content: public override string Serialize(Vector2 data)
+    parameters:
+    - id: data
+      type: UnityEngine.Vector2
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Serialize(data As Vector2) As String
+  overridden: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Serialize(UnityEngine.Vector2)
+  overload: IndustrialValley.Saving.Converters.Vector2Converter.Serialize*
+- uid: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.Vector2Converter.Deserialize(System.String)
+  id: Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.Vector2Converter
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(string)
+  nameWithType: Vector2Converter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize(string)
+  type: Method
+  source:
+    id: Deserialize
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\Vector2Converter.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  example: []
+  syntax:
+    content: public override Vector2 Deserialize(string data)
+    parameters:
+    - id: data
+      type: System.String
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Overrides Function Deserialize(data As String) As Vector2
+  overridden: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Deserialize(System.String)
+  overload: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize*
+  nameWithType.vb: Vector2Converter.Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize(String)
+  name.vb: Deserialize(String)
+references:
+- uid: IndustrialValley.Saving.Converters
+  commentId: N:IndustrialValley.Saving.Converters
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving.Converters
+  nameWithType: IndustrialValley.Saving.Converters
+  fullName: IndustrialValley.Saving.Converters
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters
+    name: Converters
+    href: IndustrialValley.Saving.Converters.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters
+    name: Converters
+    href: IndustrialValley.Saving.Converters.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  commentId: T:IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  parent: IndustrialValley.Saving.Converters
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  name: TypeConverter<Vector2>
+  nameWithType: TypeConverter<Vector2>
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<UnityEngine.Vector2>
+  nameWithType.vb: TypeConverter(Of Vector2)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of UnityEngine.Vector2)
+  name.vb: TypeConverter(Of Vector2)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: <
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: IndustrialValley.Saving.Converters.ITypeConverter
+  commentId: T:IndustrialValley.Saving.Converters.ITypeConverter
+  parent: IndustrialValley.Saving.Converters
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: IndustrialValley.Saving.Converters.ITypeConverter
+- uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Serialize(object)
+  nameWithType: TypeConverter<Vector2>.ITypeConverter.Serialize(object)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<UnityEngine.Vector2>.IndustrialValley.Saving.Converters.ITypeConverter.Serialize(object)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Serialize_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Deserialize(string)
+  nameWithType: TypeConverter<Vector2>.ITypeConverter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<UnityEngine.Vector2>.IndustrialValley.Saving.Converters.ITypeConverter.Deserialize(string)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1
+  commentId: T:IndustrialValley.Saving.Converters.TypeConverter`1
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  name: TypeConverter<T>
+  nameWithType: TypeConverter<T>
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>
+  nameWithType.vb: TypeConverter(Of T)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T)
+  name.vb: TypeConverter(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Serialize(object)
+  nameWithType: TypeConverter<T>.ITypeConverter.Serialize(object)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.IndustrialValley.Saving.Converters.ITypeConverter.Serialize(object)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Serialize_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Deserialize(string)
+  nameWithType: TypeConverter<T>.ITypeConverter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.IndustrialValley.Saving.Converters.ITypeConverter.Deserialize(string)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Serialize(UnityEngine.Vector2)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Serialize(UnityEngine.Vector2)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  name: Serialize(Vector2)
+  nameWithType: TypeConverter<Vector2>.Serialize(Vector2)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<UnityEngine.Vector2>.Serialize(UnityEngine.Vector2)
+  nameWithType.vb: TypeConverter(Of Vector2).Serialize(Vector2)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of UnityEngine.Vector2).Serialize(UnityEngine.Vector2)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Serialize(UnityEngine.Vector2)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Serialize(UnityEngine.Vector2)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: IndustrialValley.Saving.Converters.Vector2Converter.Serialize*
+  commentId: Overload:IndustrialValley.Saving.Converters.Vector2Converter.Serialize
+  href: IndustrialValley.Saving.Converters.Vector2Converter.Serialize.html#IndustrialValley_Saving_Converters_Vector2Converter_Serialize_UnityEngine_Vector2_
+  name: Serialize
+  nameWithType: Vector2Converter.Serialize
+  fullName: IndustrialValley.Saving.Converters.Vector2Converter.Serialize
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  name: Serialize(T)
+  nameWithType: TypeConverter<T>.Serialize(T)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.Serialize(T)
+  nameWithType.vb: TypeConverter(Of T).Serialize(T)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T).Serialize(T)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  name: Deserialize(string)
+  nameWithType: TypeConverter<Vector2>.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<UnityEngine.Vector2>.Deserialize(string)
+  nameWithType.vb: TypeConverter(Of Vector2).Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of UnityEngine.Vector2).Deserialize(String)
+  name.vb: Deserialize(String)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{UnityEngine.Vector2}.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize*
+  commentId: Overload:IndustrialValley.Saving.Converters.Vector2Converter.Deserialize
+  href: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize.html#IndustrialValley_Saving_Converters_Vector2Converter_Deserialize_System_String_
+  name: Deserialize
+  nameWithType: Vector2Converter.Deserialize
+  fullName: IndustrialValley.Saving.Converters.Vector2Converter.Deserialize
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  name: Deserialize(string)
+  nameWithType: TypeConverter<T>.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.Deserialize(string)
+  nameWithType.vb: TypeConverter(Of T).Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T).Deserialize(String)
+  name.vb: Deserialize(String)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+memberLayout: SeparatePages

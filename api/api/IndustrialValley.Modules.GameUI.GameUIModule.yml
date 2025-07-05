@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.GameUI.GameUIModule
+  commentId: T:IndustrialValley.Modules.GameUI.GameUIModule
+  id: GameUIModule
+  parent: IndustrialValley.Modules.GameUI
+  children:
+  - IndustrialValley.Modules.GameUI.GameUIModule.HideControls
+  - IndustrialValley.Modules.GameUI.GameUIModule.OnStart
+  - IndustrialValley.Modules.GameUI.GameUIModule.Root
+  - IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List{System.String})
+  langs:
+  - csharp
+  - vb
+  name: GameUIModule
+  nameWithType: GameUIModule
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule
+  type: Class
+  source:
+    id: GameUIModule
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIModule.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: 'public sealed class GameUIModule : Module<GameUIData>'
+    content.vb: Public NotInheritable Class GameUIModule Inherits Module(Of GameUIData)
+  inheritance:
+  - System.Object
+  - IndustrialValley.Modules.Module
+  - IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}
+  inheritedMembers:
+  - IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}.Data
+  - IndustrialValley.Modules.Module.OnInitialize
+  - IndustrialValley.Modules.Module.OnUpdate
+  - IndustrialValley.Modules.Module.OnFixedUpdate
+  - IndustrialValley.Modules.Module.OnSave
+  - IndustrialValley.Modules.Module.OnLoad
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.Root
+  commentId: P:IndustrialValley.Modules.GameUI.GameUIModule.Root
+  id: Root
+  parent: IndustrialValley.Modules.GameUI.GameUIModule
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: GameUIModule.Root
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.Root
+  type: Property
+  source:
+    id: Root
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIModule.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: public VisualElement Root { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public ReadOnly Property Root As VisualElement
+  overload: IndustrialValley.Modules.GameUI.GameUIModule.Root*
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.OnStart
+  commentId: M:IndustrialValley.Modules.GameUI.GameUIModule.OnStart
+  id: OnStart
+  parent: IndustrialValley.Modules.GameUI.GameUIModule
+  langs:
+  - csharp
+  - vb
+  name: OnStart()
+  nameWithType: GameUIModule.OnStart()
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.OnStart()
+  type: Method
+  source:
+    id: OnStart
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIModule.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  summary: Called when the module is started. This is called after all modules are initialized.
+  example: []
+  syntax:
+    content: public override void OnStart()
+    content.vb: Public Overrides Sub OnStart()
+  overridden: IndustrialValley.Modules.Module.OnStart
+  overload: IndustrialValley.Modules.GameUI.GameUIModule.OnStart*
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.HideControls
+  commentId: M:IndustrialValley.Modules.GameUI.GameUIModule.HideControls
+  id: HideControls
+  parent: IndustrialValley.Modules.GameUI.GameUIModule
+  langs:
+  - csharp
+  - vb
+  name: HideControls()
+  nameWithType: GameUIModule.HideControls()
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.HideControls()
+  type: Method
+  source:
+    id: HideControls
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIModule.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: public void HideControls()
+    content.vb: Public Sub HideControls()
+  overload: IndustrialValley.Modules.GameUI.GameUIModule.HideControls*
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List{System.String})
+  commentId: M:IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List{System.String})
+  id: ShowControls(System.Collections.Generic.List{System.String})
+  parent: IndustrialValley.Modules.GameUI.GameUIModule
+  langs:
+  - csharp
+  - vb
+  name: ShowControls(List<string>)
+  nameWithType: GameUIModule.ShowControls(List<string>)
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List<string>)
+  type: Method
+  source:
+    id: ShowControls
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIModule.cs
+    startLine: 32
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: public void ShowControls(List<string> controlList)
+    parameters:
+    - id: controlList
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Sub ShowControls(controlList As List(Of String))
+  overload: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls*
+  nameWithType.vb: GameUIModule.ShowControls(List(Of String))
+  fullName.vb: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls(System.Collections.Generic.List(Of String))
+  name.vb: ShowControls(List(Of String))
+references:
+- uid: IndustrialValley.Modules.GameUI
+  commentId: N:IndustrialValley.Modules.GameUI
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.GameUI
+  nameWithType: IndustrialValley.Modules.GameUI
+  fullName: IndustrialValley.Modules.GameUI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: IndustrialValley.Modules.Module
+  commentId: T:IndustrialValley.Modules.Module
+  parent: IndustrialValley.Modules
+  href: IndustrialValley.Modules.Module.html
+  name: Module
+  nameWithType: Module
+  fullName: IndustrialValley.Modules.Module
+- uid: IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}
+  commentId: T:IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}
+  parent: IndustrialValley.Modules
+  definition: IndustrialValley.Modules.Module`1
+  href: IndustrialValley.Modules.Module-1.html
+  name: Module<GameUIData>
+  nameWithType: Module<GameUIData>
+  fullName: IndustrialValley.Modules.Module<IndustrialValley.Modules.GameUI.GameUIData>
+  nameWithType.vb: Module(Of GameUIData)
+  fullName.vb: IndustrialValley.Modules.Module(Of IndustrialValley.Modules.GameUI.GameUIData)
+  name.vb: Module(Of GameUIData)
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module`1
+    name: Module
+    href: IndustrialValley.Modules.Module-1.html
+  - name: <
+  - uid: IndustrialValley.Modules.GameUI.GameUIData
+    name: GameUIData
+    href: IndustrialValley.Modules.GameUI.GameUIData.html
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module`1
+    name: Module
+    href: IndustrialValley.Modules.Module-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IndustrialValley.Modules.GameUI.GameUIData
+    name: GameUIData
+    href: IndustrialValley.Modules.GameUI.GameUIData.html
+  - name: )
+- uid: IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}.Data
+  commentId: P:IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}.Data
+  parent: IndustrialValley.Modules.Module{IndustrialValley.Modules.GameUI.GameUIData}
+  definition: IndustrialValley.Modules.Module`1.Data
+  href: IndustrialValley.Modules.Module-1.Data.html#IndustrialValley_Modules_Module_1_Data
+  name: Data
+  nameWithType: Module<GameUIData>.Data
+  fullName: IndustrialValley.Modules.Module<IndustrialValley.Modules.GameUI.GameUIData>.Data
+  nameWithType.vb: Module(Of GameUIData).Data
+  fullName.vb: IndustrialValley.Modules.Module(Of IndustrialValley.Modules.GameUI.GameUIData).Data
+- uid: IndustrialValley.Modules.Module.OnInitialize
+  commentId: M:IndustrialValley.Modules.Module.OnInitialize
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnInitialize.html#IndustrialValley_Modules_Module_OnInitialize
+  name: OnInitialize()
+  nameWithType: Module.OnInitialize()
+  fullName: IndustrialValley.Modules.Module.OnInitialize()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnInitialize
+    name: OnInitialize
+    href: IndustrialValley.Modules.Module.OnInitialize.html#IndustrialValley_Modules_Module_OnInitialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnInitialize
+    name: OnInitialize
+    href: IndustrialValley.Modules.Module.OnInitialize.html#IndustrialValley_Modules_Module_OnInitialize
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.Module.OnUpdate
+  commentId: M:IndustrialValley.Modules.Module.OnUpdate
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnUpdate.html#IndustrialValley_Modules_Module_OnUpdate
+  name: OnUpdate()
+  nameWithType: Module.OnUpdate()
+  fullName: IndustrialValley.Modules.Module.OnUpdate()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Modules.Module.OnUpdate.html#IndustrialValley_Modules_Module_OnUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Modules.Module.OnUpdate.html#IndustrialValley_Modules_Module_OnUpdate
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.Module.OnFixedUpdate
+  commentId: M:IndustrialValley.Modules.Module.OnFixedUpdate
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnFixedUpdate.html#IndustrialValley_Modules_Module_OnFixedUpdate
+  name: OnFixedUpdate()
+  nameWithType: Module.OnFixedUpdate()
+  fullName: IndustrialValley.Modules.Module.OnFixedUpdate()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnFixedUpdate
+    name: OnFixedUpdate
+    href: IndustrialValley.Modules.Module.OnFixedUpdate.html#IndustrialValley_Modules_Module_OnFixedUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnFixedUpdate
+    name: OnFixedUpdate
+    href: IndustrialValley.Modules.Module.OnFixedUpdate.html#IndustrialValley_Modules_Module_OnFixedUpdate
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.Module.OnSave
+  commentId: M:IndustrialValley.Modules.Module.OnSave
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnSave.html#IndustrialValley_Modules_Module_OnSave
+  name: OnSave()
+  nameWithType: Module.OnSave()
+  fullName: IndustrialValley.Modules.Module.OnSave()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnSave
+    name: OnSave
+    href: IndustrialValley.Modules.Module.OnSave.html#IndustrialValley_Modules_Module_OnSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnSave
+    name: OnSave
+    href: IndustrialValley.Modules.Module.OnSave.html#IndustrialValley_Modules_Module_OnSave
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.Module.OnLoad
+  commentId: M:IndustrialValley.Modules.Module.OnLoad
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnLoad.html#IndustrialValley_Modules_Module_OnLoad
+  name: OnLoad()
+  nameWithType: Module.OnLoad()
+  fullName: IndustrialValley.Modules.Module.OnLoad()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnLoad
+    name: OnLoad
+    href: IndustrialValley.Modules.Module.OnLoad.html#IndustrialValley_Modules_Module_OnLoad
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnLoad
+    name: OnLoad
+    href: IndustrialValley.Modules.Module.OnLoad.html#IndustrialValley_Modules_Module_OnLoad
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Modules
+  commentId: N:IndustrialValley.Modules
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules
+  nameWithType: IndustrialValley.Modules
+  fullName: IndustrialValley.Modules
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+- uid: IndustrialValley.Modules.Module`1
+  commentId: T:IndustrialValley.Modules.Module`1
+  href: IndustrialValley.Modules.Module-1.html
+  name: Module<T>
+  nameWithType: Module<T>
+  fullName: IndustrialValley.Modules.Module<T>
+  nameWithType.vb: Module(Of T)
+  fullName.vb: IndustrialValley.Modules.Module(Of T)
+  name.vb: Module(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module`1
+    name: Module
+    href: IndustrialValley.Modules.Module-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module`1
+    name: Module
+    href: IndustrialValley.Modules.Module-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Modules.Module`1.Data
+  commentId: P:IndustrialValley.Modules.Module`1.Data
+  href: IndustrialValley.Modules.Module-1.Data.html#IndustrialValley_Modules_Module_1_Data
+  name: Data
+  nameWithType: Module<T>.Data
+  fullName: IndustrialValley.Modules.Module<T>.Data
+  nameWithType.vb: Module(Of T).Data
+  fullName.vb: IndustrialValley.Modules.Module(Of T).Data
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.Root*
+  commentId: Overload:IndustrialValley.Modules.GameUI.GameUIModule.Root
+  href: IndustrialValley.Modules.GameUI.GameUIModule.Root.html#IndustrialValley_Modules_GameUI_GameUIModule_Root
+  name: Root
+  nameWithType: GameUIModule.Root
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.Root
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: IndustrialValley.Modules.Module.OnStart
+  commentId: M:IndustrialValley.Modules.Module.OnStart
+  parent: IndustrialValley.Modules.Module
+  href: IndustrialValley.Modules.Module.OnStart.html#IndustrialValley_Modules_Module_OnStart
+  name: OnStart()
+  nameWithType: Module.OnStart()
+  fullName: IndustrialValley.Modules.Module.OnStart()
+  spec.csharp:
+  - uid: IndustrialValley.Modules.Module.OnStart
+    name: OnStart
+    href: IndustrialValley.Modules.Module.OnStart.html#IndustrialValley_Modules_Module_OnStart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Modules.Module.OnStart
+    name: OnStart
+    href: IndustrialValley.Modules.Module.OnStart.html#IndustrialValley_Modules_Module_OnStart
+  - name: (
+  - name: )
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.OnStart*
+  commentId: Overload:IndustrialValley.Modules.GameUI.GameUIModule.OnStart
+  href: IndustrialValley.Modules.GameUI.GameUIModule.OnStart.html#IndustrialValley_Modules_GameUI_GameUIModule_OnStart
+  name: OnStart
+  nameWithType: GameUIModule.OnStart
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.OnStart
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.HideControls*
+  commentId: Overload:IndustrialValley.Modules.GameUI.GameUIModule.HideControls
+  href: IndustrialValley.Modules.GameUI.GameUIModule.HideControls.html#IndustrialValley_Modules_GameUI_GameUIModule_HideControls
+  name: HideControls
+  nameWithType: GameUIModule.HideControls
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.HideControls
+- uid: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls*
+  commentId: Overload:IndustrialValley.Modules.GameUI.GameUIModule.ShowControls
+  href: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls.html#IndustrialValley_Modules_GameUI_GameUIModule_ShowControls_System_Collections_Generic_List_System_String__
+  name: ShowControls
+  nameWithType: GameUIModule.ShowControls
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule.ShowControls
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+memberLayout: SeparatePages

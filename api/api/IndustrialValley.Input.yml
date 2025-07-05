@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Input
+  commentId: T:IndustrialValley.Input
+  id: Input
+  parent: IndustrialValley
+  children:
+  - IndustrialValley.Input.Cancel
+  - IndustrialValley.Input.Duplicate
+  - IndustrialValley.Input.Escape
+  - IndustrialValley.Input.IsUsingController
+  - IndustrialValley.Input.Mirror
+  - IndustrialValley.Input.MousePosition
+  - IndustrialValley.Input.Movement
+  - IndustrialValley.Input.Place
+  - IndustrialValley.Input.PlaceDown
+  - IndustrialValley.Input.PlaceUp
+  - IndustrialValley.Input.Rotate
+  - IndustrialValley.Input.Scroll
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: Input
+  fullName: IndustrialValley.Input
+  type: Class
+  source:
+    id: Input
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  syntax:
+    content: public static class Input
+    content.vb: Public Module Input
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Input.IsUsingController
+  commentId: P:IndustrialValley.Input.IsUsingController
+  id: IsUsingController
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: IsUsingController
+  nameWithType: Input.IsUsingController
+  fullName: IndustrialValley.Input.IsUsingController
+  type: Property
+  source:
+    id: IsUsingController
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Indicates if the player is currently using a controller.
+  example: []
+  syntax:
+    content: public static bool IsUsingController { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsUsingController As Boolean
+  overload: IndustrialValley.Input.IsUsingController*
+- uid: IndustrialValley.Input.MousePosition
+  commentId: P:IndustrialValley.Input.MousePosition
+  id: MousePosition
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: MousePosition
+  nameWithType: Input.MousePosition
+  fullName: IndustrialValley.Input.MousePosition
+  type: Property
+  source:
+    id: MousePosition
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Returns the current mouse position in screen coordinates.
+  example: []
+  syntax:
+    content: public static Vector2 MousePosition { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared ReadOnly Property MousePosition As Vector2
+  overload: IndustrialValley.Input.MousePosition*
+- uid: IndustrialValley.Input.Movement
+  commentId: P:IndustrialValley.Input.Movement
+  id: Movement
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Movement
+  nameWithType: Input.Movement
+  fullName: IndustrialValley.Input.Movement
+  type: Property
+  source:
+    id: Movement
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 29
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Horizontal and Vertical movement inputs
+  example: []
+  syntax:
+    content: public static Vector2 Movement { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared ReadOnly Property Movement As Vector2
+  overload: IndustrialValley.Input.Movement*
+- uid: IndustrialValley.Input.Place
+  commentId: P:IndustrialValley.Input.Place
+  id: Place
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Place
+  nameWithType: Input.Place
+  fullName: IndustrialValley.Input.Place
+  type: Property
+  source:
+    id: Place
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 34
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Place button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Place { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Place As Boolean
+  overload: IndustrialValley.Input.Place*
+- uid: IndustrialValley.Input.PlaceDown
+  commentId: P:IndustrialValley.Input.PlaceDown
+  id: PlaceDown
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: PlaceDown
+  nameWithType: Input.PlaceDown
+  fullName: IndustrialValley.Input.PlaceDown
+  type: Property
+  source:
+    id: PlaceDown
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 39
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Place button held down this frame.
+  example: []
+  syntax:
+    content: public static bool PlaceDown { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property PlaceDown As Boolean
+  overload: IndustrialValley.Input.PlaceDown*
+- uid: IndustrialValley.Input.PlaceUp
+  commentId: P:IndustrialValley.Input.PlaceUp
+  id: PlaceUp
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: PlaceUp
+  nameWithType: Input.PlaceUp
+  fullName: IndustrialValley.Input.PlaceUp
+  type: Property
+  source:
+    id: PlaceUp
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 44
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Place button released this frame.
+  example: []
+  syntax:
+    content: public static bool PlaceUp { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property PlaceUp As Boolean
+  overload: IndustrialValley.Input.PlaceUp*
+- uid: IndustrialValley.Input.Cancel
+  commentId: P:IndustrialValley.Input.Cancel
+  id: Cancel
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: Input.Cancel
+  fullName: IndustrialValley.Input.Cancel
+  type: Property
+  source:
+    id: Cancel
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 49
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Cancel button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Cancel { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Cancel As Boolean
+  overload: IndustrialValley.Input.Cancel*
+- uid: IndustrialValley.Input.Rotate
+  commentId: P:IndustrialValley.Input.Rotate
+  id: Rotate
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: Input.Rotate
+  fullName: IndustrialValley.Input.Rotate
+  type: Property
+  source:
+    id: Rotate
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 54
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Rotate button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Rotate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Rotate As Boolean
+  overload: IndustrialValley.Input.Rotate*
+- uid: IndustrialValley.Input.Scroll
+  commentId: P:IndustrialValley.Input.Scroll
+  id: Scroll
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Scroll
+  nameWithType: Input.Scroll
+  fullName: IndustrialValley.Input.Scroll
+  type: Property
+  source:
+    id: Scroll
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 59
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Scroll input for zooming in and out.
+  example: []
+  syntax:
+    content: public static float Scroll { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property Scroll As Single
+  overload: IndustrialValley.Input.Scroll*
+- uid: IndustrialValley.Input.Escape
+  commentId: P:IndustrialValley.Input.Escape
+  id: Escape
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Escape
+  nameWithType: Input.Escape
+  fullName: IndustrialValley.Input.Escape
+  type: Property
+  source:
+    id: Escape
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 64
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Escape button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Escape { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Escape As Boolean
+  overload: IndustrialValley.Input.Escape*
+- uid: IndustrialValley.Input.Duplicate
+  commentId: P:IndustrialValley.Input.Duplicate
+  id: Duplicate
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Duplicate
+  nameWithType: Input.Duplicate
+  fullName: IndustrialValley.Input.Duplicate
+  type: Property
+  source:
+    id: Duplicate
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 69
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Duplicate button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Duplicate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Duplicate As Boolean
+  overload: IndustrialValley.Input.Duplicate*
+- uid: IndustrialValley.Input.Mirror
+  commentId: P:IndustrialValley.Input.Mirror
+  id: Mirror
+  parent: IndustrialValley.Input
+  langs:
+  - csharp
+  - vb
+  name: Mirror
+  nameWithType: Input.Mirror
+  fullName: IndustrialValley.Input.Mirror
+  type: Property
+  source:
+    id: Mirror
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Input.cs
+    startLine: 74
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley
+  summary: Mirror button pressed this frame.
+  example: []
+  syntax:
+    content: public static bool Mirror { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Mirror As Boolean
+  overload: IndustrialValley.Input.Mirror*
+references:
+- uid: IndustrialValley
+  commentId: N:IndustrialValley
+  href: IndustrialValley.html
+  name: IndustrialValley
+  nameWithType: IndustrialValley
+  fullName: IndustrialValley
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Input.IsUsingController*
+  commentId: Overload:IndustrialValley.Input.IsUsingController
+  href: IndustrialValley.Input.IsUsingController.html#IndustrialValley_Input_IsUsingController
+  name: IsUsingController
+  nameWithType: Input.IsUsingController
+  fullName: IndustrialValley.Input.IsUsingController
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.Input.MousePosition*
+  commentId: Overload:IndustrialValley.Input.MousePosition
+  href: IndustrialValley.Input.MousePosition.html#IndustrialValley_Input_MousePosition
+  name: MousePosition
+  nameWithType: Input.MousePosition
+  fullName: IndustrialValley.Input.MousePosition
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Input.Movement*
+  commentId: Overload:IndustrialValley.Input.Movement
+  href: IndustrialValley.Input.Movement.html#IndustrialValley_Input_Movement
+  name: Movement
+  nameWithType: Input.Movement
+  fullName: IndustrialValley.Input.Movement
+- uid: IndustrialValley.Input.Place*
+  commentId: Overload:IndustrialValley.Input.Place
+  href: IndustrialValley.Input.Place.html#IndustrialValley_Input_Place
+  name: Place
+  nameWithType: Input.Place
+  fullName: IndustrialValley.Input.Place
+- uid: IndustrialValley.Input.PlaceDown*
+  commentId: Overload:IndustrialValley.Input.PlaceDown
+  href: IndustrialValley.Input.PlaceDown.html#IndustrialValley_Input_PlaceDown
+  name: PlaceDown
+  nameWithType: Input.PlaceDown
+  fullName: IndustrialValley.Input.PlaceDown
+- uid: IndustrialValley.Input.PlaceUp*
+  commentId: Overload:IndustrialValley.Input.PlaceUp
+  href: IndustrialValley.Input.PlaceUp.html#IndustrialValley_Input_PlaceUp
+  name: PlaceUp
+  nameWithType: Input.PlaceUp
+  fullName: IndustrialValley.Input.PlaceUp
+- uid: IndustrialValley.Input.Cancel*
+  commentId: Overload:IndustrialValley.Input.Cancel
+  href: IndustrialValley.Input.Cancel.html#IndustrialValley_Input_Cancel
+  name: Cancel
+  nameWithType: Input.Cancel
+  fullName: IndustrialValley.Input.Cancel
+- uid: IndustrialValley.Input.Rotate*
+  commentId: Overload:IndustrialValley.Input.Rotate
+  href: IndustrialValley.Input.Rotate.html#IndustrialValley_Input_Rotate
+  name: Rotate
+  nameWithType: Input.Rotate
+  fullName: IndustrialValley.Input.Rotate
+- uid: IndustrialValley.Input.Scroll*
+  commentId: Overload:IndustrialValley.Input.Scroll
+  href: IndustrialValley.Input.Scroll.html#IndustrialValley_Input_Scroll
+  name: Scroll
+  nameWithType: Input.Scroll
+  fullName: IndustrialValley.Input.Scroll
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: IndustrialValley.Input.Escape*
+  commentId: Overload:IndustrialValley.Input.Escape
+  href: IndustrialValley.Input.Escape.html#IndustrialValley_Input_Escape
+  name: Escape
+  nameWithType: Input.Escape
+  fullName: IndustrialValley.Input.Escape
+- uid: IndustrialValley.Input.Duplicate*
+  commentId: Overload:IndustrialValley.Input.Duplicate
+  href: IndustrialValley.Input.Duplicate.html#IndustrialValley_Input_Duplicate
+  name: Duplicate
+  nameWithType: Input.Duplicate
+  fullName: IndustrialValley.Input.Duplicate
+- uid: IndustrialValley.Input.Mirror*
+  commentId: Overload:IndustrialValley.Input.Mirror
+  href: IndustrialValley.Input.Mirror.html#IndustrialValley_Input_Mirror
+  name: Mirror
+  nameWithType: Input.Mirror
+  fullName: IndustrialValley.Input.Mirror
+memberLayout: SeparatePages

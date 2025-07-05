@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.UI.InputGlyphData
+  commentId: T:IndustrialValley.UI.InputGlyphData
+  id: InputGlyphData
+  parent: IndustrialValley.UI
+  children:
+  - IndustrialValley.UI.InputGlyphData.glyphEntries
+  - IndustrialValley.UI.InputGlyphData.glyphs
+  langs:
+  - csharp
+  - vb
+  name: InputGlyphData
+  nameWithType: InputGlyphData
+  fullName: IndustrialValley.UI.InputGlyphData
+  type: Class
+  source:
+    id: InputGlyphData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\InputGlyphData.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "InputGlyphData", menuName = "IndustrialValley/InputGlyphData", order = 1)]
+
+      public sealed class InputGlyphData : ScriptableObject
+    content.vb: >-
+      <CreateAssetMenu(fileName:="InputGlyphData", menuName:="IndustrialValley/InputGlyphData", order:=1)>
+
+      Public NotInheritable Class InputGlyphData Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: InputGlyphData
+    - name: menuName
+      type: System.String
+      value: IndustrialValley/InputGlyphData
+    - name: order
+      type: System.Int32
+      value: 1
+- uid: IndustrialValley.UI.InputGlyphData.glyphEntries
+  commentId: F:IndustrialValley.UI.InputGlyphData.glyphEntries
+  id: glyphEntries
+  parent: IndustrialValley.UI.InputGlyphData
+  langs:
+  - csharp
+  - vb
+  name: glyphEntries
+  nameWithType: InputGlyphData.glyphEntries
+  fullName: IndustrialValley.UI.InputGlyphData.glyphEntries
+  type: Field
+  source:
+    id: glyphEntries
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\InputGlyphData.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public List<InputGlyphData.GlyphEntry> glyphEntries
+    return:
+      type: System.Collections.Generic.List{IndustrialValley.UI.InputGlyphData.GlyphEntry}
+    content.vb: Public glyphEntries As List(Of InputGlyphData.GlyphEntry)
+- uid: IndustrialValley.UI.InputGlyphData.glyphs
+  commentId: P:IndustrialValley.UI.InputGlyphData.glyphs
+  id: glyphs
+  parent: IndustrialValley.UI.InputGlyphData
+  langs:
+  - csharp
+  - vb
+  name: glyphs
+  nameWithType: InputGlyphData.glyphs
+  fullName: IndustrialValley.UI.InputGlyphData.glyphs
+  type: Property
+  source:
+    id: glyphs
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\UI\InputGlyphData.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.UI
+  syntax:
+    content: public Dictionary<string, Texture2D> glyphs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,UnityEngine.Texture2D}
+    content.vb: Public ReadOnly Property glyphs As Dictionary(Of String, Texture2D)
+  overload: IndustrialValley.UI.InputGlyphData.glyphs*
+references:
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  href: IndustrialValley.html
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.List{IndustrialValley.UI.InputGlyphData.GlyphEntry}
+  commentId: T:System.Collections.Generic.List{IndustrialValley.UI.InputGlyphData.GlyphEntry}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<InputGlyphData.GlyphEntry>
+  nameWithType: List<InputGlyphData.GlyphEntry>
+  fullName: System.Collections.Generic.List<IndustrialValley.UI.InputGlyphData.GlyphEntry>
+  nameWithType.vb: List(Of InputGlyphData.GlyphEntry)
+  fullName.vb: System.Collections.Generic.List(Of IndustrialValley.UI.InputGlyphData.GlyphEntry)
+  name.vb: List(Of InputGlyphData.GlyphEntry)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IndustrialValley.UI.InputGlyphData.glyphs*
+  commentId: Overload:IndustrialValley.UI.InputGlyphData.glyphs
+  href: IndustrialValley.UI.InputGlyphData.glyphs.html#IndustrialValley_UI_InputGlyphData_glyphs
+  name: glyphs
+  nameWithType: InputGlyphData.glyphs
+  fullName: IndustrialValley.UI.InputGlyphData.glyphs
+- uid: System.Collections.Generic.Dictionary{System.String,UnityEngine.Texture2D}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,UnityEngine.Texture2D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Texture2D>
+  nameWithType: Dictionary<string, Texture2D>
+  fullName: System.Collections.Generic.Dictionary<string, UnityEngine.Texture2D>
+  nameWithType.vb: Dictionary(Of String, Texture2D)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, UnityEngine.Texture2D)
+  name.vb: Dictionary(Of String, Texture2D)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Texture2D
+    name: Texture2D
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Texture2D
+    name: Texture2D
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+memberLayout: SeparatePages

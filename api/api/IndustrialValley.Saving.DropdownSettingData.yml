@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving.DropdownSettingData
+  commentId: T:IndustrialValley.Saving.DropdownSettingData
+  id: DropdownSettingData
+  parent: IndustrialValley.Saving
+  children:
+  - IndustrialValley.Saving.DropdownSettingData.Name
+  - IndustrialValley.Saving.DropdownSettingData.Value
+  langs:
+  - csharp
+  - vb
+  name: DropdownSettingData
+  nameWithType: DropdownSettingData
+  fullName: IndustrialValley.Saving.DropdownSettingData
+  type: Class
+  source:
+    id: DropdownSettingData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 432
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public class DropdownSettingData
+    content.vb: Public Class DropdownSettingData
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Saving.DropdownSettingData.Name
+  commentId: P:IndustrialValley.Saving.DropdownSettingData.Name
+  id: Name
+  parent: IndustrialValley.Saving.DropdownSettingData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DropdownSettingData.Name
+  fullName: IndustrialValley.Saving.DropdownSettingData.Name
+  type: Property
+  source:
+    id: Name
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 435
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: IndustrialValley.Saving.DropdownSettingData.Name*
+- uid: IndustrialValley.Saving.DropdownSettingData.Value
+  commentId: P:IndustrialValley.Saving.DropdownSettingData.Value
+  id: Value
+  parent: IndustrialValley.Saving.DropdownSettingData
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DropdownSettingData.Value
+  fullName: IndustrialValley.Saving.DropdownSettingData.Value
+  type: Property
+  source:
+    id: Value
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 436
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: IndustrialValley.Saving.DropdownSettingData.Value*
+references:
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Saving.DropdownSettingData.Name*
+  commentId: Overload:IndustrialValley.Saving.DropdownSettingData.Name
+  href: IndustrialValley.Saving.DropdownSettingData.Name.html#IndustrialValley_Saving_DropdownSettingData_Name
+  name: Name
+  nameWithType: DropdownSettingData.Name
+  fullName: IndustrialValley.Saving.DropdownSettingData.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Saving.DropdownSettingData.Value*
+  commentId: Overload:IndustrialValley.Saving.DropdownSettingData.Value
+  href: IndustrialValley.Saving.DropdownSettingData.Value.html#IndustrialValley_Saving_DropdownSettingData_Value
+  name: Value
+  nameWithType: DropdownSettingData.Value
+  fullName: IndustrialValley.Saving.DropdownSettingData.Value
+memberLayout: SeparatePages

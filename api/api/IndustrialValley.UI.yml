@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  id: IndustrialValley.UI
+  children:
+  - IndustrialValley.UI.DraggableManipulator
+  - IndustrialValley.UI.GlyphLabel
+  - IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  - IndustrialValley.UI.InputGlyphData
+  - IndustrialValley.UI.InputGlyphData.GlyphEntry
+  - IndustrialValley.UI.MachineMenuUIManager
+  - IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+  - IndustrialValley.UI.ModalExtension
+  - IndustrialValley.UI.ModalUI
+  - IndustrialValley.UI.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.UI.DraggableManipulator
+  commentId: T:IndustrialValley.UI.DraggableManipulator
+  parent: IndustrialValley.UI
+  href: IndustrialValley.UI.DraggableManipulator.html
+  name: DraggableManipulator
+  nameWithType: DraggableManipulator
+  fullName: IndustrialValley.UI.DraggableManipulator
+- uid: IndustrialValley.UI.GlyphLabel
+  commentId: T:IndustrialValley.UI.GlyphLabel
+  href: IndustrialValley.UI.GlyphLabel.html
+  name: GlyphLabel
+  nameWithType: GlyphLabel
+  fullName: IndustrialValley.UI.GlyphLabel
+- uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  commentId: T:IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  href: IndustrialValley.UI.GlyphLabel.html
+  name: GlyphLabel.UxmlSerializedData
+  nameWithType: GlyphLabel.UxmlSerializedData
+  fullName: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+  spec.csharp:
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+    href: IndustrialValley.UI.GlyphLabel.html
+  - name: .
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html
+  spec.vb:
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+    href: IndustrialValley.UI.GlyphLabel.html
+  - name: .
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: IndustrialValley.UI.GlyphLabel.UxmlSerializedData.html
+- uid: IndustrialValley.UI.Tooltip
+  commentId: T:IndustrialValley.UI.Tooltip
+  href: IndustrialValley.UI.Tooltip.html
+  name: Tooltip
+  nameWithType: Tooltip
+  fullName: IndustrialValley.UI.Tooltip
+- uid: IndustrialValley.UI.InputGlyphData
+  commentId: T:IndustrialValley.UI.InputGlyphData
+  href: IndustrialValley.UI.InputGlyphData.html
+  name: InputGlyphData
+  nameWithType: InputGlyphData
+  fullName: IndustrialValley.UI.InputGlyphData
+- uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+  commentId: T:IndustrialValley.UI.InputGlyphData.GlyphEntry
+  href: IndustrialValley.UI.InputGlyphData.html
+  name: InputGlyphData.GlyphEntry
+  nameWithType: InputGlyphData.GlyphEntry
+  fullName: IndustrialValley.UI.InputGlyphData.GlyphEntry
+  spec.csharp:
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+  spec.vb:
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+    href: IndustrialValley.UI.InputGlyphData.html
+  - name: .
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: GlyphEntry
+    href: IndustrialValley.UI.InputGlyphData.GlyphEntry.html
+- uid: IndustrialValley.UI.ModalUI
+  commentId: T:IndustrialValley.UI.ModalUI
+  href: IndustrialValley.UI.ModalUI.html
+  name: ModalUI
+  nameWithType: ModalUI
+  fullName: IndustrialValley.UI.ModalUI
+- uid: IndustrialValley.UI.ModalExtension
+  commentId: T:IndustrialValley.UI.ModalExtension
+  parent: IndustrialValley.UI
+  href: IndustrialValley.UI.ModalExtension.html
+  name: ModalExtension
+  nameWithType: ModalExtension
+  fullName: IndustrialValley.UI.ModalExtension
+- uid: IndustrialValley.UI.MachineMenuUIManager
+  commentId: T:IndustrialValley.UI.MachineMenuUIManager
+  href: IndustrialValley.UI.MachineMenuUIManager.html
+  name: MachineMenuUIManager
+  nameWithType: MachineMenuUIManager
+  fullName: IndustrialValley.UI.MachineMenuUIManager
+- uid: IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+  commentId: T:IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+  href: IndustrialValley.UI.MachineMenuUIManager.html
+  name: MachineMenuUIManager.InventoryItems
+  nameWithType: MachineMenuUIManager.InventoryItems
+  fullName: IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+  spec.csharp:
+  - uid: IndustrialValley.UI.MachineMenuUIManager
+    name: MachineMenuUIManager
+    href: IndustrialValley.UI.MachineMenuUIManager.html
+  - name: .
+  - uid: IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+    name: InventoryItems
+    href: IndustrialValley.UI.MachineMenuUIManager.InventoryItems.html
+  spec.vb:
+  - uid: IndustrialValley.UI.MachineMenuUIManager
+    name: MachineMenuUIManager
+    href: IndustrialValley.UI.MachineMenuUIManager.html
+  - name: .
+  - uid: IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+    name: InventoryItems
+    href: IndustrialValley.UI.MachineMenuUIManager.InventoryItems.html
+- uid: IndustrialValley.UI
+  commentId: N:IndustrialValley.UI
+  href: IndustrialValley.html
+  name: IndustrialValley.UI
+  nameWithType: IndustrialValley.UI
+  fullName: IndustrialValley.UI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.UI
+    name: UI
+    href: IndustrialValley.UI.html
+memberLayout: SeparatePages

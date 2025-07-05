@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.InjectAttribute
+  commentId: T:IndustrialValley.Helpers.InjectAttribute
+  id: InjectAttribute
+  parent: IndustrialValley.Helpers
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: InjectAttribute
+  nameWithType: InjectAttribute
+  fullName: IndustrialValley.Helpers.InjectAttribute
+  type: Class
+  source:
+    id: InjectAttribute
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\InjectAttribute.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: >-
+      [AttributeUsage(AttributeTargets.Property)]
+
+      public class InjectAttribute : Attribute
+    content.vb: >-
+      <AttributeUsage(AttributeTargets.Property)>
+
+      Public Class InjectAttribute Inherits Attribute
+  inheritance:
+  - System.Object
+  - System.Attribute
+  attributes:
+  - type: System.AttributeUsageAttribute
+    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
+    arguments:
+    - type: System.AttributeTargets
+      value: 128
+references:
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.attribute
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+memberLayout: SeparatePages

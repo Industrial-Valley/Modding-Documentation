@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  id: WhereBuilder.WhereOperator
+  parent: IndustrialValley.Helpers.Sqlite
+  children:
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Equal
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThan
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThanOrEqual
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.In
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNotNull
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNull
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThan
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThanOrEqual
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Like
+  - IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.NotEqual
+  langs:
+  - csharp
+  - vb
+  name: WhereBuilder.WhereOperator
+  nameWithType: WhereBuilder.WhereOperator
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  type: Enum
+  source:
+    id: WhereOperator
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public enum WhereBuilder.WhereOperator
+    content.vb: Public Enum WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Equal
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Equal
+  id: Equal
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: WhereBuilder.WhereOperator.Equal
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Equal
+  type: Field
+  source:
+    id: Equal
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 16
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: Equal = 0
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.NotEqual
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.NotEqual
+  id: NotEqual
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: NotEqual
+  nameWithType: WhereBuilder.WhereOperator.NotEqual
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.NotEqual
+  type: Field
+  source:
+    id: NotEqual
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: NotEqual = 1
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThan
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThan
+  id: GreaterThan
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan
+  nameWithType: WhereBuilder.WhereOperator.GreaterThan
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThan
+  type: Field
+  source:
+    id: GreaterThan
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 18
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: GreaterThan = 2
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThan
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThan
+  id: LessThan
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThan
+  nameWithType: WhereBuilder.WhereOperator.LessThan
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThan
+  type: Field
+  source:
+    id: LessThan
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 19
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: LessThan = 3
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThanOrEqual
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThanOrEqual
+  id: GreaterThanOrEqual
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEqual
+  nameWithType: WhereBuilder.WhereOperator.GreaterThanOrEqual
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.GreaterThanOrEqual
+  type: Field
+  source:
+    id: GreaterThanOrEqual
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: GreaterThanOrEqual = 4
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThanOrEqual
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThanOrEqual
+  id: LessThanOrEqual
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEqual
+  nameWithType: WhereBuilder.WhereOperator.LessThanOrEqual
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.LessThanOrEqual
+  type: Field
+  source:
+    id: LessThanOrEqual
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 21
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: LessThanOrEqual = 5
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Like
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Like
+  id: Like
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: Like
+  nameWithType: WhereBuilder.WhereOperator.Like
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.Like
+  type: Field
+  source:
+    id: Like
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 22
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: Like = 6
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.In
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.In
+  id: In
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: In
+  nameWithType: WhereBuilder.WhereOperator.In
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.In
+  type: Field
+  source:
+    id: In
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 23
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: In = 7
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNull
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNull
+  id: IsNull
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: IsNull
+  nameWithType: WhereBuilder.WhereOperator.IsNull
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNull
+  type: Field
+  source:
+    id: IsNull
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 24
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: IsNull = 8
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNotNull
+  commentId: F:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNotNull
+  id: IsNotNull
+  parent: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull
+  nameWithType: WhereBuilder.WhereOperator.IsNotNull
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.IsNotNull
+  type: Field
+  source:
+    id: IsNotNull
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\WhereBuilder.cs
+    startLine: 25
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: IsNotNull = 9
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+references:
+- uid: IndustrialValley.Helpers.Sqlite
+  commentId: N:IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers.Sqlite
+  nameWithType: IndustrialValley.Helpers.Sqlite
+  fullName: IndustrialValley.Helpers.Sqlite
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  parent: IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  name: WhereBuilder.WhereOperator
+  nameWithType: WhereBuilder.WhereOperator
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+    name: WhereOperator
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.html
+  spec.vb:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+    name: WhereOperator
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.html
+memberLayout: SeparatePages

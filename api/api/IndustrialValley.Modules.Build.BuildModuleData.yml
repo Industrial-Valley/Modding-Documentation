@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.Build.BuildModuleData
+  commentId: T:IndustrialValley.Modules.Build.BuildModuleData
+  id: BuildModuleData
+  parent: IndustrialValley.Modules.Build
+  children:
+  - IndustrialValley.Modules.Build.BuildModuleData.arrowPreviewMaterial
+  - IndustrialValley.Modules.Build.BuildModuleData.audioSource
+  - IndustrialValley.Modules.Build.BuildModuleData.gridCellPrefab
+  - IndustrialValley.Modules.Build.BuildModuleData.placementParticles
+  - IndustrialValley.Modules.Build.BuildModuleData.placementSound
+  - IndustrialValley.Modules.Build.BuildModuleData.previewInvalidMaterial
+  - IndustrialValley.Modules.Build.BuildModuleData.previewMaterial
+  - IndustrialValley.Modules.Build.BuildModuleData.sellSound
+  langs:
+  - csharp
+  - vb
+  name: BuildModuleData
+  nameWithType: BuildModuleData
+  fullName: IndustrialValley.Modules.Build.BuildModuleData
+  type: Class
+  source:
+    id: BuildModuleData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: 'public class BuildModuleData : ModuleData'
+    content.vb: Public Class BuildModuleData Inherits ModuleData
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - IndustrialValley.Modules.ModuleData
+- uid: IndustrialValley.Modules.Build.BuildModuleData.arrowPreviewMaterial
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.arrowPreviewMaterial
+  id: arrowPreviewMaterial
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: arrowPreviewMaterial
+  nameWithType: BuildModuleData.arrowPreviewMaterial
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.arrowPreviewMaterial
+  type: Field
+  source:
+    id: arrowPreviewMaterial
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public Material arrowPreviewMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public arrowPreviewMaterial As Material
+- uid: IndustrialValley.Modules.Build.BuildModuleData.audioSource
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.audioSource
+  id: audioSource
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: audioSource
+  nameWithType: BuildModuleData.audioSource
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.audioSource
+  type: Field
+  source:
+    id: audioSource
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public AudioSource audioSource
+    return:
+      type: UnityEngine.AudioSource
+    content.vb: Public audioSource As AudioSource
+- uid: IndustrialValley.Modules.Build.BuildModuleData.gridCellPrefab
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.gridCellPrefab
+  id: gridCellPrefab
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: gridCellPrefab
+  nameWithType: BuildModuleData.gridCellPrefab
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.gridCellPrefab
+  type: Field
+  source:
+    id: gridCellPrefab
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 8
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public GameObject gridCellPrefab
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public gridCellPrefab As GameObject
+- uid: IndustrialValley.Modules.Build.BuildModuleData.placementParticles
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.placementParticles
+  id: placementParticles
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: placementParticles
+  nameWithType: BuildModuleData.placementParticles
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.placementParticles
+  type: Field
+  source:
+    id: placementParticles
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public GameObject placementParticles
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public placementParticles As GameObject
+- uid: IndustrialValley.Modules.Build.BuildModuleData.placementSound
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.placementSound
+  id: placementSound
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: placementSound
+  nameWithType: BuildModuleData.placementSound
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.placementSound
+  type: Field
+  source:
+    id: placementSound
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 10
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public AudioClip placementSound
+    return:
+      type: UnityEngine.AudioClip
+    content.vb: Public placementSound As AudioClip
+- uid: IndustrialValley.Modules.Build.BuildModuleData.previewInvalidMaterial
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.previewInvalidMaterial
+  id: previewInvalidMaterial
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: previewInvalidMaterial
+  nameWithType: BuildModuleData.previewInvalidMaterial
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.previewInvalidMaterial
+  type: Field
+  source:
+    id: previewInvalidMaterial
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public Material previewInvalidMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public previewInvalidMaterial As Material
+- uid: IndustrialValley.Modules.Build.BuildModuleData.previewMaterial
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.previewMaterial
+  id: previewMaterial
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: previewMaterial
+  nameWithType: BuildModuleData.previewMaterial
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.previewMaterial
+  type: Field
+  source:
+    id: previewMaterial
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public Material previewMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public previewMaterial As Material
+- uid: IndustrialValley.Modules.Build.BuildModuleData.sellSound
+  commentId: F:IndustrialValley.Modules.Build.BuildModuleData.sellSound
+  id: sellSound
+  parent: IndustrialValley.Modules.Build.BuildModuleData
+  langs:
+  - csharp
+  - vb
+  name: sellSound
+  nameWithType: BuildModuleData.sellSound
+  fullName: IndustrialValley.Modules.Build.BuildModuleData.sellSound
+  type: Field
+  source:
+    id: sellSound
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Build\BuildModuleData.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.Build
+  syntax:
+    content: public AudioClip sellSound
+    return:
+      type: UnityEngine.AudioClip
+    content.vb: Public sellSound As AudioClip
+references:
+- uid: IndustrialValley.Modules.Build
+  commentId: N:IndustrialValley.Modules.Build
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.Build
+  nameWithType: IndustrialValley.Modules.Build
+  fullName: IndustrialValley.Modules.Build
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.Build
+    name: Build
+    href: IndustrialValley.Modules.Build.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Modules.ModuleData
+  commentId: T:IndustrialValley.Modules.ModuleData
+  parent: IndustrialValley.Modules
+  href: IndustrialValley.Modules.ModuleData.html
+  name: ModuleData
+  nameWithType: ModuleData
+  fullName: IndustrialValley.Modules.ModuleData
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Modules
+  commentId: N:IndustrialValley.Modules
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules
+  nameWithType: IndustrialValley.Modules
+  fullName: IndustrialValley.Modules
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine.AudioSource
+  commentId: T:UnityEngine.AudioSource
+  parent: UnityEngine
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: UnityEngine.AudioSource
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.AudioClip
+  commentId: T:UnityEngine.AudioClip
+  parent: UnityEngine
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: UnityEngine.AudioClip
+memberLayout: SeparatePages

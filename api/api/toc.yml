@@ -1,0 +1,381 @@
+### YamlMime:TableOfContent
+items:
+- uid: IndustrialValley
+  name: IndustrialValley
+  items:
+  - uid: IndustrialValley.Input
+    name: Input
+  - uid: IndustrialValley.InputManager
+    name: InputManager
+  - uid: IndustrialValley.InputManager.DeviceType
+    name: InputManager.DeviceType
+- uid: IndustrialValley.Conveyors
+  name: IndustrialValley.Conveyors
+  items:
+  - uid: IndustrialValley.Conveyors.BaseMovement
+    name: BaseMovement
+  - uid: IndustrialValley.Conveyors.Conveyor
+    name: Conveyor
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+  - uid: IndustrialValley.Conveyors.ConveyorItem.ConveyorSaveData
+    name: ConveyorItem.ConveyorSaveData
+  - uid: IndustrialValley.Conveyors.IConveyor
+    name: IConveyor
+  - uid: IndustrialValley.Conveyors.SmartSplitterConveyor
+    name: SmartSplitterConveyor
+  - uid: IndustrialValley.Conveyors.UndergroundConveyor
+    name: UndergroundConveyor
+- uid: IndustrialValley.Data
+  name: IndustrialValley.Data
+  items:
+  - uid: IndustrialValley.Data.BuildableData
+    name: BuildableData
+  - uid: IndustrialValley.Data.BuildableTypes
+    name: BuildableTypes
+  - uid: IndustrialValley.Data.Buildables
+    name: Buildables
+  - uid: IndustrialValley.Data.Buildables.BuildableType
+    name: Buildables.BuildableType
+  - uid: IndustrialValley.Data.Items
+    name: Items
+  - uid: IndustrialValley.Data.RecipeData
+    name: RecipeData
+  - uid: IndustrialValley.Data.RecipeData.ItemInfo
+    name: RecipeData.ItemInfo
+  - uid: IndustrialValley.Data.RecipeData.RecipeType
+    name: RecipeData.RecipeType
+  - uid: IndustrialValley.Data.Recipes
+    name: Recipes
+  - uid: IndustrialValley.Data.Research
+    name: Research
+  - uid: IndustrialValley.Data.ResearchableData
+    name: ResearchableData
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+  - uid: IndustrialValley.Data.Tiers.FactoryTier
+    name: Tiers.FactoryTier
+  - uid: IndustrialValley.Data.Tiers.TierData
+    name: Tiers.TierData
+- uid: IndustrialValley.Factory
+  name: IndustrialValley.Factory
+  items:
+  - uid: IndustrialValley.Factory.FactoryGenerator
+    name: FactoryGenerator
+  - uid: IndustrialValley.Factory.FactoryGenerator.PlotDirection
+    name: FactoryGenerator.PlotDirection
+  - uid: IndustrialValley.Factory.FactoryPlot
+    name: FactoryPlot
+  - uid: IndustrialValley.Factory.PlotData
+    name: PlotData
+  - uid: IndustrialValley.Factory.PlotData.DetailsData
+    name: PlotData.DetailsData
+  - uid: IndustrialValley.Factory.PlotData.Ore
+    name: PlotData.Ore
+  - uid: IndustrialValley.Factory.PlotData.OreData
+    name: PlotData.OreData
+- uid: IndustrialValley.Game
+  name: IndustrialValley.Game
+  items:
+  - uid: IndustrialValley.Game.FactoryManager
+    name: FactoryManager
+  - uid: IndustrialValley.Game.Ore
+    name: Ore
+- uid: IndustrialValley.Helpers
+  name: IndustrialValley.Helpers
+  items:
+  - uid: IndustrialValley.Helpers.Cursor
+    name: Cursor
+  - uid: IndustrialValley.Helpers.Cursor.CursorType
+    name: Cursor.CursorType
+  - uid: IndustrialValley.Helpers.InjectAttribute
+    name: InjectAttribute
+  - uid: IndustrialValley.Helpers.InputGlyph
+    name: InputGlyph
+  - uid: IndustrialValley.Helpers.InputGlyph.InputDeviceType
+    name: InputGlyph.InputDeviceType
+  - uid: IndustrialValley.Helpers.Mouse
+    name: Mouse
+  - uid: IndustrialValley.Helpers.Random
+    name: Random
+  - uid: IndustrialValley.Helpers.UI
+    name: UI
+  - uid: IndustrialValley.Helpers.UIBuilder
+    name: UIBuilder
+- uid: IndustrialValley.Helpers.Sqlite
+  name: IndustrialValley.Helpers.Sqlite
+  items:
+  - uid: IndustrialValley.Helpers.Sqlite.AlterTableBuilder
+    name: AlterTableBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.ColumnBuilder
+    name: ColumnBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.ColumnBuilder.ColumnType
+    name: ColumnBuilder.ColumnType
+  - uid: IndustrialValley.Helpers.Sqlite.DeleteBuilder
+    name: DeleteBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.InsertBuilder
+    name: InsertBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.Migration
+    name: Migration
+  - uid: IndustrialValley.Helpers.Sqlite.SelectBuilder
+    name: SelectBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.Sqlite
+    name: Sqlite
+  - uid: IndustrialValley.Helpers.Sqlite.TableBuilder
+    name: TableBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.UpdateBuilder
+    name: UpdateBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.OrderByDirection
+    name: WhereBuilder.OrderByDirection
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+    name: WhereBuilder.WhereOperator
+- uid: IndustrialValley.Helpers.Sqlite.Attributes
+  name: IndustrialValley.Helpers.Sqlite.Attributes
+  items:
+  - uid: IndustrialValley.Helpers.Sqlite.Attributes.AutoIncrementAttribute
+    name: AutoIncrementAttribute
+  - uid: IndustrialValley.Helpers.Sqlite.Attributes.ColumnAttribute
+    name: ColumnAttribute
+  - uid: IndustrialValley.Helpers.Sqlite.Attributes.TableAttribute
+    name: TableAttribute
+- uid: IndustrialValley.Machines
+  name: IndustrialValley.Machines
+  items:
+  - uid: IndustrialValley.Machines.BaseMachine
+    name: BaseMachine
+  - uid: IndustrialValley.Machines.ClickerMachine
+    name: ClickerMachine
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+  - uid: IndustrialValley.Machines.Inventory.InventorySlot
+    name: Inventory.InventorySlot
+  - uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+    name: Inventory.InventorySlotSaveData
+  - uid: IndustrialValley.Machines.InventoryUpdateHandler
+    name: InventoryUpdateHandler
+  - uid: IndustrialValley.Machines.InventoryUpdateType
+    name: InventoryUpdateType
+  - uid: IndustrialValley.Machines.RecipeMachine
+    name: RecipeMachine
+  - uid: IndustrialValley.Machines.SellingMachine
+    name: SellingMachine
+  - uid: IndustrialValley.Machines.SmelterMachine
+    name: SmelterMachine
+  - uid: IndustrialValley.Machines.StorageMachine
+    name: StorageMachine
+- uid: IndustrialValley.Mod
+  name: IndustrialValley.Mod
+  items:
+  - uid: IndustrialValley.Mod.GameMod
+    name: GameMod
+  - uid: IndustrialValley.Mod.ModData
+    name: ModData
+  - uid: IndustrialValley.Mod.ProfileMod
+    name: ProfileMod
+- uid: IndustrialValley.Modules
+  name: IndustrialValley.Modules
+  items:
+  - uid: IndustrialValley.Modules.Module
+    name: Module
+  - uid: IndustrialValley.Modules.ModuleData
+    name: ModuleData
+  - uid: IndustrialValley.Modules.Module`1
+    name: Module<T>
+- uid: IndustrialValley.Modules.Bank
+  name: IndustrialValley.Modules.Bank
+  items:
+  - uid: IndustrialValley.Modules.Bank.BankModule
+    name: BankModule
+  - uid: IndustrialValley.Modules.Bank.BankModuleUI
+    name: BankModuleUI
+- uid: IndustrialValley.Modules.Build
+  name: IndustrialValley.Modules.Build
+  items:
+  - uid: IndustrialValley.Modules.Build.BuildModule
+    name: BuildModule
+  - uid: IndustrialValley.Modules.Build.BuildModule.DragAxis
+    name: BuildModule.DragAxis
+  - uid: IndustrialValley.Modules.Build.BuildModule.FactoryBuildable
+    name: BuildModule.FactoryBuildable
+  - uid: IndustrialValley.Modules.Build.BuildModuleData
+    name: BuildModuleData
+  - uid: IndustrialValley.Modules.Build.BuildModuleUI
+    name: BuildModuleUI
+  - uid: IndustrialValley.Modules.Build.BuildModuleUIData
+    name: BuildModuleUIData
+- uid: IndustrialValley.Modules.GameUI
+  name: IndustrialValley.Modules.GameUI
+  items:
+  - uid: IndustrialValley.Modules.GameUI.GameUIData
+    name: GameUIData
+  - uid: IndustrialValley.Modules.GameUI.GameUIModule
+    name: GameUIModule
+- uid: IndustrialValley.Modules.Research
+  name: IndustrialValley.Modules.Research
+  items:
+  - uid: IndustrialValley.Modules.Research.ResearchModule
+    name: ResearchModule
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchData
+    name: ResearchModule.ResearchData
+  - uid: IndustrialValley.Modules.Research.ResearchModule.ResearchSaveData
+    name: ResearchModule.ResearchSaveData
+  - uid: IndustrialValley.Modules.Research.ResearchState
+    name: ResearchState
+  - uid: IndustrialValley.Modules.Research.ResearchStateChange
+    name: ResearchStateChange
+- uid: IndustrialValley.Poolers
+  name: IndustrialValley.Poolers
+  items:
+  - uid: IndustrialValley.Poolers.ObjectPooler
+    name: ObjectPooler
+  - uid: IndustrialValley.Poolers.ParticleObject
+    name: ParticleObject
+  - uid: IndustrialValley.Poolers.PoolingItem
+    name: PoolingItem
+- uid: IndustrialValley.SDK
+  name: IndustrialValley.SDK
+  items:
+  - uid: IndustrialValley.SDK.ItemData
+    name: ItemData
+- uid: IndustrialValley.Saving
+  name: IndustrialValley.Saving
+  items:
+  - uid: IndustrialValley.Saving.BoolSettingData
+    name: BoolSettingData
+  - uid: IndustrialValley.Saving.BuildableSaveData
+    name: BuildableSaveData
+  - uid: IndustrialValley.Saving.Database
+    name: Database
+  - uid: IndustrialValley.Saving.DatabaseMigration
+    name: DatabaseMigration
+  - uid: IndustrialValley.Saving.DropdownSettingData
+    name: DropdownSettingData
+  - uid: IndustrialValley.Saving.FactorySaveData
+    name: FactorySaveData
+  - uid: IndustrialValley.Saving.FloatSettingData
+    name: FloatSettingData
+  - uid: IndustrialValley.Saving.ISavable
+    name: ISavable
+  - uid: IndustrialValley.Saving.SaveData
+    name: SaveData
+  - uid: IndustrialValley.Saving.SaveInfo
+    name: SaveInfo
+  - uid: IndustrialValley.Saving.SaveableData
+    name: SaveableData
+  - uid: IndustrialValley.Saving.SettingsData
+    name: SettingsData
+  - uid: IndustrialValley.Saving.SqlResult`1
+    name: SqlResult<T>
+- uid: IndustrialValley.Saving.Converters
+  name: IndustrialValley.Saving.Converters
+  items:
+  - uid: IndustrialValley.Saving.Converters.BoolConverter
+    name: BoolConverter
+  - uid: IndustrialValley.Saving.Converters.ByteConverter
+    name: ByteConverter
+  - uid: IndustrialValley.Saving.Converters.DateTimeConverter
+    name: DateTimeConverter
+  - uid: IndustrialValley.Saving.Converters.DictionaryConverter`2
+    name: DictionaryConverter<TKey, TValue>
+  - uid: IndustrialValley.Saving.Converters.DoubleConverter
+    name: DoubleConverter
+  - uid: IndustrialValley.Saving.Converters.FloatConverter
+    name: FloatConverter
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+  - uid: IndustrialValley.Saving.Converters.Int32Converter
+    name: Int32Converter
+  - uid: IndustrialValley.Saving.Converters.IntConverter
+    name: IntConverter
+  - uid: IndustrialValley.Saving.Converters.LongConverter
+    name: LongConverter
+  - uid: IndustrialValley.Saving.Converters.QuaternionConverter
+    name: QuaternionConverter
+  - uid: IndustrialValley.Saving.Converters.StringConverter
+    name: StringConverter
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter<T>
+  - uid: IndustrialValley.Saving.Converters.UInt32Converter
+    name: UInt32Converter
+  - uid: IndustrialValley.Saving.Converters.UIntConverter
+    name: UIntConverter
+  - uid: IndustrialValley.Saving.Converters.ULongConverter
+    name: ULongConverter
+  - uid: IndustrialValley.Saving.Converters.Vector2Converter
+    name: Vector2Converter
+  - uid: IndustrialValley.Saving.Converters.Vector2IntConverter
+    name: Vector2IntConverter
+  - uid: IndustrialValley.Saving.Converters.Vector3Converter
+    name: Vector3Converter
+  - uid: IndustrialValley.Saving.Converters.Vector3IntConverter
+    name: Vector3IntConverter
+- uid: IndustrialValley.UI
+  name: IndustrialValley.UI
+  items:
+  - uid: IndustrialValley.UI.DraggableManipulator
+    name: DraggableManipulator
+  - uid: IndustrialValley.UI.GlyphLabel
+    name: GlyphLabel
+  - uid: IndustrialValley.UI.GlyphLabel.UxmlSerializedData
+    name: GlyphLabel.UxmlSerializedData
+  - uid: IndustrialValley.UI.InputGlyphData
+    name: InputGlyphData
+  - uid: IndustrialValley.UI.InputGlyphData.GlyphEntry
+    name: InputGlyphData.GlyphEntry
+  - uid: IndustrialValley.UI.MachineMenuUIManager
+    name: MachineMenuUIManager
+  - uid: IndustrialValley.UI.MachineMenuUIManager.InventoryItems
+    name: MachineMenuUIManager.InventoryItems
+  - uid: IndustrialValley.UI.ModalExtension
+    name: ModalExtension
+  - uid: IndustrialValley.UI.ModalUI
+    name: ModalUI
+  - uid: IndustrialValley.UI.Tooltip
+    name: Tooltip
+- uid: IndustrialValley.UI.Developer
+  name: IndustrialValley.UI.Developer
+  items:
+  - uid: IndustrialValley.UI.Developer.CustomDebugItem`1
+    name: CustomDebugItem<T>
+  - uid: IndustrialValley.UI.Developer.DebugItem
+    name: DebugItem
+  - uid: IndustrialValley.UI.Developer.DebugUI
+    name: DebugUI
+- uid: IndustrialValley.Utility
+  name: IndustrialValley.Utility
+  items:
+  - uid: IndustrialValley.Utility.AudioManager
+    name: AudioManager
+  - uid: IndustrialValley.Utility.BaseSetting
+    name: BaseSetting
+  - uid: IndustrialValley.Utility.BoolSetting
+    name: BoolSetting
+  - uid: IndustrialValley.Utility.Buildable
+    name: Buildable
+  - uid: IndustrialValley.Utility.DropdownSetting
+    name: DropdownSetting
+  - uid: IndustrialValley.Utility.FloatSetting
+    name: FloatSetting
+  - uid: IndustrialValley.Utility.IConnectedBuildable
+    name: IConnectedBuildable
+  - uid: IndustrialValley.Utility.KeySetting
+    name: KeySetting
+  - uid: IndustrialValley.Utility.ProceduralAnimation
+    name: ProceduralAnimation
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationData
+    name: ProceduralAnimation.AnimationData
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationItem
+    name: ProceduralAnimation.AnimationItem
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationSpace
+    name: ProceduralAnimation.AnimationSpace
+  - uid: IndustrialValley.Utility.ProceduralAnimation.AnimationType
+    name: ProceduralAnimation.AnimationType
+  - uid: IndustrialValley.Utility.Setting`1
+    name: Setting<T>
+  - uid: IndustrialValley.Utility.Settings
+    name: Settings
+  - uid: IndustrialValley.Utility.Singleton`1
+    name: Singleton<T>
+memberLayout: SeparatePages

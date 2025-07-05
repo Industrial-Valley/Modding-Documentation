@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Industrial Valley</title>
+  <link rel="icon" href="_media/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Industrial Valley Modding Documentation">
+  <meta name="theme-color" content="#2586e8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5.0.0-rc.1/dist/themes/core.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5.0.0-rc.1/dist/themes/addons/core-dark.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-dark.min.css" integrity="sha512-c6S8OdtvoqZCbMfA1lWE0qd368pLdFvVHVILQzNizfowC+zV8rmVKdSlmL5SuidvATO0A7awDg53axd+s/9amw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="_css/main.css" />
+  <style>
+    .app-name-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  </style>
+</head>
+<body class="sidebar-chevron-right sidebar-group-box">
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Industrial Valley',
+      logo: '/_media/logo_small.png',
+      loadSidebar: true,
+      auto2top: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      nameLink: {
+        '/': '#/',
+      },
+      search: {
+        insertAfter: '.app-name',
+        noData: {
+          '/': 'No results!',
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search',
+        },
+        depth: 6,
+      },
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5.0.0-rc.1/dist/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5.0.0-rc.1/dist/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5.0.0-rc.1/dist/plugins/front-matter.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+</body>
+</html>

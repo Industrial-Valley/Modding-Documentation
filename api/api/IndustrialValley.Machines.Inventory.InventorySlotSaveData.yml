@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  commentId: T:IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  id: Inventory.InventorySlotSaveData
+  parent: IndustrialValley.Machines
+  children:
+  - IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(IndustrialValley.Machines.Inventory.InventorySlot)
+  - IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(System.String,System.Int32)
+  - IndustrialValley.Machines.Inventory.InventorySlotSaveData.itemId
+  - IndustrialValley.Machines.Inventory.InventorySlotSaveData.quantity
+  langs:
+  - csharp
+  - vb
+  name: Inventory.InventorySlotSaveData
+  nameWithType: Inventory.InventorySlotSaveData
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  type: Struct
+  source:
+    id: InventorySlotSaveData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 130
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public struct Inventory.InventorySlotSaveData
+    content.vb: Public Structure Inventory.InventorySlotSaveData
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData.itemId
+  commentId: F:IndustrialValley.Machines.Inventory.InventorySlotSaveData.itemId
+  id: itemId
+  parent: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  langs:
+  - csharp
+  - vb
+  name: itemId
+  nameWithType: Inventory.InventorySlotSaveData.itemId
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData.itemId
+  type: Field
+  source:
+    id: itemId
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 132
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public string itemId
+    return:
+      type: System.String
+    content.vb: Public itemId As String
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData.quantity
+  commentId: F:IndustrialValley.Machines.Inventory.InventorySlotSaveData.quantity
+  id: quantity
+  parent: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  langs:
+  - csharp
+  - vb
+  name: quantity
+  nameWithType: Inventory.InventorySlotSaveData.quantity
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData.quantity
+  type: Field
+  source:
+    id: quantity
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 133
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public int quantity
+    return:
+      type: System.Int32
+    content.vb: Public quantity As Integer
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(System.String,System.Int32)
+  commentId: M:IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  langs:
+  - csharp
+  - vb
+  name: InventorySlotSaveData(string, int)
+  nameWithType: Inventory.InventorySlotSaveData.InventorySlotSaveData(string, int)
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData.InventorySlotSaveData(string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 135
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public InventorySlotSaveData(string itemId, int quantity)
+    parameters:
+    - id: itemId
+      type: System.String
+    - id: quantity
+      type: System.Int32
+    content.vb: Public Sub New(itemId As String, quantity As Integer)
+  overload: IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor*
+  nameWithType.vb: Inventory.InventorySlotSaveData.New(String, Integer)
+  fullName.vb: IndustrialValley.Machines.Inventory.InventorySlotSaveData.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(IndustrialValley.Machines.Inventory.InventorySlot)
+  commentId: M:IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor(IndustrialValley.Machines.Inventory.InventorySlot)
+  id: '#ctor(IndustrialValley.Machines.Inventory.InventorySlot)'
+  parent: IndustrialValley.Machines.Inventory.InventorySlotSaveData
+  langs:
+  - csharp
+  - vb
+  name: InventorySlotSaveData(InventorySlot)
+  nameWithType: Inventory.InventorySlotSaveData.InventorySlotSaveData(Inventory.InventorySlot)
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData.InventorySlotSaveData(IndustrialValley.Machines.Inventory.InventorySlot)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Machines\Inventory.cs
+    startLine: 141
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Machines
+  syntax:
+    content: public InventorySlotSaveData(Inventory.InventorySlot slot)
+    parameters:
+    - id: slot
+      type: IndustrialValley.Machines.Inventory.InventorySlot
+    content.vb: Public Sub New(slot As Inventory.InventorySlot)
+  overload: IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor*
+  nameWithType.vb: Inventory.InventorySlotSaveData.New(Inventory.InventorySlot)
+  fullName.vb: IndustrialValley.Machines.Inventory.InventorySlotSaveData.New(IndustrialValley.Machines.Inventory.InventorySlot)
+  name.vb: New(InventorySlot)
+references:
+- uid: IndustrialValley.Machines
+  commentId: N:IndustrialValley.Machines
+  href: IndustrialValley.html
+  name: IndustrialValley.Machines
+  nameWithType: IndustrialValley.Machines
+  fullName: IndustrialValley.Machines
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Machines
+    name: Machines
+    href: IndustrialValley.Machines.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor*
+  commentId: Overload:IndustrialValley.Machines.Inventory.InventorySlotSaveData.#ctor
+  href: IndustrialValley.Machines.Inventory.InventorySlotSaveData.-ctor.html#IndustrialValley_Machines_Inventory_InventorySlotSaveData__ctor_System_String_System_Int32_
+  name: InventorySlotSaveData
+  nameWithType: Inventory.InventorySlotSaveData.InventorySlotSaveData
+  fullName: IndustrialValley.Machines.Inventory.InventorySlotSaveData.InventorySlotSaveData
+  nameWithType.vb: Inventory.InventorySlotSaveData.New
+  fullName.vb: IndustrialValley.Machines.Inventory.InventorySlotSaveData.New
+  name.vb: New
+- uid: IndustrialValley.Machines.Inventory.InventorySlot
+  commentId: T:IndustrialValley.Machines.Inventory.InventorySlot
+  parent: IndustrialValley.Machines
+  href: IndustrialValley.Machines.Inventory.html
+  name: Inventory.InventorySlot
+  nameWithType: Inventory.InventorySlot
+  fullName: IndustrialValley.Machines.Inventory.InventorySlot
+  spec.csharp:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlot
+    name: InventorySlot
+    href: IndustrialValley.Machines.Inventory.InventorySlot.html
+  spec.vb:
+  - uid: IndustrialValley.Machines.Inventory
+    name: Inventory
+    href: IndustrialValley.Machines.Inventory.html
+  - name: .
+  - uid: IndustrialValley.Machines.Inventory.InventorySlot
+    name: InventorySlot
+    href: IndustrialValley.Machines.Inventory.InventorySlot.html
+memberLayout: SeparatePages

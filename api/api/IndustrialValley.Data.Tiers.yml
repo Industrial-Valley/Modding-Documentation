@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Data.Tiers
+  commentId: T:IndustrialValley.Data.Tiers
+  id: Tiers
+  parent: IndustrialValley.Data
+  children:
+  - IndustrialValley.Data.Tiers.AddTier(System.String,System.String)
+  - IndustrialValley.Data.Tiers.All
+  - IndustrialValley.Data.Tiers.DisplayName(IndustrialValley.Data.Tiers.FactoryTier)
+  - IndustrialValley.Data.Tiers.GetTier(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Tiers
+  nameWithType: Tiers
+  fullName: IndustrialValley.Data.Tiers
+  type: Class
+  source:
+    id: Tiers
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Tiers.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public static class Tiers
+    content.vb: Public Module Tiers
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Data.Tiers.All
+  commentId: P:IndustrialValley.Data.Tiers.All
+  id: All
+  parent: IndustrialValley.Data.Tiers
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: Tiers.All
+  fullName: IndustrialValley.Data.Tiers.All
+  type: Property
+  source:
+    id: All
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Tiers.cs
+    startLine: 19
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: A list of all factory tiers, can be modified to add custom tiers.
+  example: []
+  syntax:
+    content: public static Dictionary<string, Tiers.TierData> All { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.Tiers.TierData}
+    content.vb: Public Shared ReadOnly Property All As Dictionary(Of String, Tiers.TierData)
+  overload: IndustrialValley.Data.Tiers.All*
+- uid: IndustrialValley.Data.Tiers.AddTier(System.String,System.String)
+  commentId: M:IndustrialValley.Data.Tiers.AddTier(System.String,System.String)
+  id: AddTier(System.String,System.String)
+  parent: IndustrialValley.Data.Tiers
+  langs:
+  - csharp
+  - vb
+  name: AddTier(string, string)
+  nameWithType: Tiers.AddTier(string, string)
+  fullName: IndustrialValley.Data.Tiers.AddTier(string, string)
+  type: Method
+  source:
+    id: AddTier
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Tiers.cs
+    startLine: 26
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: Adds a new tier to the list of factory tiers.
+  example: []
+  syntax:
+    content: public static void AddTier(string tierName, string shortName)
+    parameters:
+    - id: tierName
+      type: System.String
+      description: Used to identify the tier in code
+    - id: shortName
+      type: System.String
+      description: Used to display on build menu
+    content.vb: Public Shared Sub AddTier(tierName As String, shortName As String)
+  overload: IndustrialValley.Data.Tiers.AddTier*
+  nameWithType.vb: Tiers.AddTier(String, String)
+  fullName.vb: IndustrialValley.Data.Tiers.AddTier(String, String)
+  name.vb: AddTier(String, String)
+- uid: IndustrialValley.Data.Tiers.GetTier(System.String)
+  commentId: M:IndustrialValley.Data.Tiers.GetTier(System.String)
+  id: GetTier(System.String)
+  parent: IndustrialValley.Data.Tiers
+  langs:
+  - csharp
+  - vb
+  name: GetTier(string)
+  nameWithType: Tiers.GetTier(string)
+  fullName: IndustrialValley.Data.Tiers.GetTier(string)
+  type: Method
+  source:
+    id: GetTier
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Tiers.cs
+    startLine: 49
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public static Tiers.TierData GetTier(string tierName)
+    parameters:
+    - id: tierName
+      type: System.String
+    return:
+      type: IndustrialValley.Data.Tiers.TierData
+    content.vb: Public Shared Function GetTier(tierName As String) As Tiers.TierData
+  overload: IndustrialValley.Data.Tiers.GetTier*
+  nameWithType.vb: Tiers.GetTier(String)
+  fullName.vb: IndustrialValley.Data.Tiers.GetTier(String)
+  name.vb: GetTier(String)
+- uid: IndustrialValley.Data.Tiers.DisplayName(IndustrialValley.Data.Tiers.FactoryTier)
+  commentId: M:IndustrialValley.Data.Tiers.DisplayName(IndustrialValley.Data.Tiers.FactoryTier)
+  id: DisplayName(IndustrialValley.Data.Tiers.FactoryTier)
+  isExtensionMethod: true
+  parent: IndustrialValley.Data.Tiers
+  langs:
+  - csharp
+  - vb
+  name: DisplayName(FactoryTier)
+  nameWithType: Tiers.DisplayName(Tiers.FactoryTier)
+  fullName: IndustrialValley.Data.Tiers.DisplayName(IndustrialValley.Data.Tiers.FactoryTier)
+  type: Method
+  source:
+    id: DisplayName
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Tiers.cs
+    startLine: 60
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public static string DisplayName(this Tiers.FactoryTier tier)
+    parameters:
+    - id: tier
+      type: IndustrialValley.Data.Tiers.FactoryTier
+    return:
+      type: System.String
+    content.vb: Public Shared Function DisplayName(tier As Tiers.FactoryTier) As String
+  overload: IndustrialValley.Data.Tiers.DisplayName*
+references:
+- uid: IndustrialValley.Data
+  commentId: N:IndustrialValley.Data
+  href: IndustrialValley.html
+  name: IndustrialValley.Data
+  nameWithType: IndustrialValley.Data
+  fullName: IndustrialValley.Data
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Data.Tiers.All*
+  commentId: Overload:IndustrialValley.Data.Tiers.All
+  href: IndustrialValley.Data.Tiers.All.html#IndustrialValley_Data_Tiers_All
+  name: All
+  nameWithType: Tiers.All
+  fullName: IndustrialValley.Data.Tiers.All
+- uid: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.Tiers.TierData}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.Tiers.TierData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Tiers.TierData>
+  nameWithType: Dictionary<string, Tiers.TierData>
+  fullName: System.Collections.Generic.Dictionary<string, IndustrialValley.Data.Tiers.TierData>
+  nameWithType.vb: Dictionary(Of String, Tiers.TierData)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, IndustrialValley.Data.Tiers.TierData)
+  name.vb: Dictionary(Of String, Tiers.TierData)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.TierData
+    name: TierData
+    href: IndustrialValley.Data.Tiers.TierData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.TierData
+    name: TierData
+    href: IndustrialValley.Data.Tiers.TierData.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IndustrialValley.Data.Tiers.AddTier*
+  commentId: Overload:IndustrialValley.Data.Tiers.AddTier
+  href: IndustrialValley.Data.Tiers.AddTier.html#IndustrialValley_Data_Tiers_AddTier_System_String_System_String_
+  name: AddTier
+  nameWithType: Tiers.AddTier
+  fullName: IndustrialValley.Data.Tiers.AddTier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Data.Tiers.GetTier*
+  commentId: Overload:IndustrialValley.Data.Tiers.GetTier
+  href: IndustrialValley.Data.Tiers.GetTier.html#IndustrialValley_Data_Tiers_GetTier_System_String_
+  name: GetTier
+  nameWithType: Tiers.GetTier
+  fullName: IndustrialValley.Data.Tiers.GetTier
+- uid: IndustrialValley.Data.Tiers.TierData
+  commentId: T:IndustrialValley.Data.Tiers.TierData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.Tiers.html
+  name: Tiers.TierData
+  nameWithType: Tiers.TierData
+  fullName: IndustrialValley.Data.Tiers.TierData
+  spec.csharp:
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.TierData
+    name: TierData
+    href: IndustrialValley.Data.Tiers.TierData.html
+  spec.vb:
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.TierData
+    name: TierData
+    href: IndustrialValley.Data.Tiers.TierData.html
+- uid: IndustrialValley.Data.Tiers.DisplayName*
+  commentId: Overload:IndustrialValley.Data.Tiers.DisplayName
+  href: IndustrialValley.Data.Tiers.DisplayName.html#IndustrialValley_Data_Tiers_DisplayName_IndustrialValley_Data_Tiers_FactoryTier_
+  name: DisplayName
+  nameWithType: Tiers.DisplayName
+  fullName: IndustrialValley.Data.Tiers.DisplayName
+- uid: IndustrialValley.Data.Tiers.FactoryTier
+  commentId: T:IndustrialValley.Data.Tiers.FactoryTier
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.Tiers.html
+  name: Tiers.FactoryTier
+  nameWithType: Tiers.FactoryTier
+  fullName: IndustrialValley.Data.Tiers.FactoryTier
+  spec.csharp:
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Data.Tiers.FactoryTier.html
+  spec.vb:
+  - uid: IndustrialValley.Data.Tiers
+    name: Tiers
+    href: IndustrialValley.Data.Tiers.html
+  - name: .
+  - uid: IndustrialValley.Data.Tiers.FactoryTier
+    name: FactoryTier
+    href: IndustrialValley.Data.Tiers.FactoryTier.html
+memberLayout: SeparatePages

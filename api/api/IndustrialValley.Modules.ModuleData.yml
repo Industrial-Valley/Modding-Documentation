@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.ModuleData
+  commentId: T:IndustrialValley.Modules.ModuleData
+  id: ModuleData
+  parent: IndustrialValley.Modules
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ModuleData
+  nameWithType: ModuleData
+  fullName: IndustrialValley.Modules.ModuleData
+  type: Class
+  source:
+    id: ModuleData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\Module.cs
+    startLine: 87
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules
+  syntax:
+    content: 'public class ModuleData : MonoBehaviour'
+    content.vb: Public Class ModuleData Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - IndustrialValley.Modules.Build.BuildModuleData
+  - IndustrialValley.Modules.Build.BuildModuleUIData
+  - IndustrialValley.Modules.GameUI.GameUIData
+references:
+- uid: IndustrialValley.Modules
+  commentId: N:IndustrialValley.Modules
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules
+  nameWithType: IndustrialValley.Modules
+  fullName: IndustrialValley.Modules
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+memberLayout: SeparatePages

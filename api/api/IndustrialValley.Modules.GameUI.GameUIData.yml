@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.GameUI.GameUIData
+  commentId: T:IndustrialValley.Modules.GameUI.GameUIData
+  id: GameUIData
+  parent: IndustrialValley.Modules.GameUI
+  children:
+  - IndustrialValley.Modules.GameUI.GameUIData.uiDocument
+  langs:
+  - csharp
+  - vb
+  name: GameUIData
+  nameWithType: GameUIData
+  fullName: IndustrialValley.Modules.GameUI.GameUIData
+  type: Class
+  source:
+    id: GameUIData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIData.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: 'public class GameUIData : ModuleData'
+    content.vb: Public Class GameUIData Inherits ModuleData
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - IndustrialValley.Modules.ModuleData
+- uid: IndustrialValley.Modules.GameUI.GameUIData.uiDocument
+  commentId: F:IndustrialValley.Modules.GameUI.GameUIData.uiDocument
+  id: uiDocument
+  parent: IndustrialValley.Modules.GameUI.GameUIData
+  langs:
+  - csharp
+  - vb
+  name: uiDocument
+  nameWithType: GameUIData.uiDocument
+  fullName: IndustrialValley.Modules.GameUI.GameUIData.uiDocument
+  type: Field
+  source:
+    id: uiDocument
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Modules\GameUI\GameUIData.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Modules.GameUI
+  syntax:
+    content: public UIDocument uiDocument
+    return:
+      type: UnityEngine.UIElements.UIDocument
+    content.vb: Public uiDocument As UIDocument
+references:
+- uid: IndustrialValley.Modules.GameUI
+  commentId: N:IndustrialValley.Modules.GameUI
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.GameUI
+  nameWithType: IndustrialValley.Modules.GameUI
+  fullName: IndustrialValley.Modules.GameUI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Modules.ModuleData
+  commentId: T:IndustrialValley.Modules.ModuleData
+  parent: IndustrialValley.Modules
+  href: IndustrialValley.Modules.ModuleData.html
+  name: ModuleData
+  nameWithType: ModuleData
+  fullName: IndustrialValley.Modules.ModuleData
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Modules
+  commentId: N:IndustrialValley.Modules
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules
+  nameWithType: IndustrialValley.Modules
+  fullName: IndustrialValley.Modules
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+- uid: UnityEngine.UIElements.UIDocument
+  commentId: T:UnityEngine.UIElements.UIDocument
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UIDocument
+  nameWithType: UIDocument
+  fullName: UnityEngine.UIElements.UIDocument
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+memberLayout: SeparatePages

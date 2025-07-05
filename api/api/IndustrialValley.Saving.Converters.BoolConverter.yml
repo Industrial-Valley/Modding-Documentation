@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving.Converters.BoolConverter
+  commentId: T:IndustrialValley.Saving.Converters.BoolConverter
+  id: BoolConverter
+  parent: IndustrialValley.Saving.Converters
+  children:
+  - IndustrialValley.Saving.Converters.BoolConverter.Deserialize(System.String)
+  - IndustrialValley.Saving.Converters.BoolConverter.Serialize(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BoolConverter
+  nameWithType: BoolConverter
+  fullName: IndustrialValley.Saving.Converters.BoolConverter
+  type: Class
+  source:
+    id: BoolConverter
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\DefaultConverters.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  syntax:
+    content: 'public class BoolConverter : TypeConverter<bool>, ITypeConverter'
+    content.vb: Public Class BoolConverter Inherits TypeConverter(Of Boolean) Implements ITypeConverter
+  inheritance:
+  - System.Object
+  - IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  implements:
+  - IndustrialValley.Saving.Converters.ITypeConverter
+  inheritedMembers:
+  - IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  - IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+- uid: IndustrialValley.Saving.Converters.BoolConverter.Serialize(System.Boolean)
+  commentId: M:IndustrialValley.Saving.Converters.BoolConverter.Serialize(System.Boolean)
+  id: Serialize(System.Boolean)
+  parent: IndustrialValley.Saving.Converters.BoolConverter
+  langs:
+  - csharp
+  - vb
+  name: Serialize(bool)
+  nameWithType: BoolConverter.Serialize(bool)
+  fullName: IndustrialValley.Saving.Converters.BoolConverter.Serialize(bool)
+  type: Method
+  source:
+    id: Serialize
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\DefaultConverters.cs
+    startLine: 6
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  example: []
+  syntax:
+    content: public override string Serialize(bool data)
+    parameters:
+    - id: data
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Serialize(data As Boolean) As String
+  overridden: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Serialize(System.Boolean)
+  overload: IndustrialValley.Saving.Converters.BoolConverter.Serialize*
+  nameWithType.vb: BoolConverter.Serialize(Boolean)
+  fullName.vb: IndustrialValley.Saving.Converters.BoolConverter.Serialize(Boolean)
+  name.vb: Serialize(Boolean)
+- uid: IndustrialValley.Saving.Converters.BoolConverter.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.BoolConverter.Deserialize(System.String)
+  id: Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.BoolConverter
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(string)
+  nameWithType: BoolConverter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.BoolConverter.Deserialize(string)
+  type: Method
+  source:
+    id: Deserialize
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\Converters\DefaultConverters.cs
+    startLine: 11
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving.Converters
+  example: []
+  syntax:
+    content: public override bool Deserialize(string data)
+    parameters:
+    - id: data
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Deserialize(data As String) As Boolean
+  overridden: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Deserialize(System.String)
+  overload: IndustrialValley.Saving.Converters.BoolConverter.Deserialize*
+  nameWithType.vb: BoolConverter.Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.BoolConverter.Deserialize(String)
+  name.vb: Deserialize(String)
+references:
+- uid: IndustrialValley.Saving.Converters
+  commentId: N:IndustrialValley.Saving.Converters
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving.Converters
+  nameWithType: IndustrialValley.Saving.Converters
+  fullName: IndustrialValley.Saving.Converters
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters
+    name: Converters
+    href: IndustrialValley.Saving.Converters.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters
+    name: Converters
+    href: IndustrialValley.Saving.Converters.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  commentId: T:IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  parent: IndustrialValley.Saving.Converters
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  name: TypeConverter<bool>
+  nameWithType: TypeConverter<bool>
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<bool>
+  nameWithType.vb: TypeConverter(Of Boolean)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of Boolean)
+  name.vb: TypeConverter(Of Boolean)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: IndustrialValley.Saving.Converters.ITypeConverter
+  commentId: T:IndustrialValley.Saving.Converters.ITypeConverter
+  parent: IndustrialValley.Saving.Converters
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: IndustrialValley.Saving.Converters.ITypeConverter
+- uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Serialize(object)
+  nameWithType: TypeConverter<bool>.ITypeConverter.Serialize(object)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<bool>.IndustrialValley.Saving.Converters.ITypeConverter.Serialize(object)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Serialize_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Deserialize(string)
+  nameWithType: TypeConverter<bool>.ITypeConverter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<bool>.IndustrialValley.Saving.Converters.ITypeConverter.Deserialize(string)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1
+  commentId: T:IndustrialValley.Saving.Converters.TypeConverter`1
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  name: TypeConverter<T>
+  nameWithType: TypeConverter<T>
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>
+  nameWithType.vb: TypeConverter(Of T)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T)
+  name.vb: TypeConverter(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1
+    name: TypeConverter
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Serialize(object)
+  nameWithType: TypeConverter<T>.ITypeConverter.Serialize(object)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.IndustrialValley.Saving.Converters.ITypeConverter.Serialize(object)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Serialize(System.Object)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Serialize_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  name: ITypeConverter.Deserialize(string)
+  nameWithType: TypeConverter<T>.ITypeConverter.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.IndustrialValley.Saving.Converters.ITypeConverter.Deserialize(string)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.ITypeConverter
+    name: ITypeConverter
+    href: IndustrialValley.Saving.Converters.ITypeConverter.html
+  - name: .
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.IndustrialValley#Saving#Converters#ITypeConverter#Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.IndustrialValley-Saving-Converters-ITypeConverter-Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_IndustrialValley_Saving_Converters_ITypeConverter_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Serialize(System.Boolean)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Serialize(System.Boolean)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  name: Serialize(bool)
+  nameWithType: TypeConverter<bool>.Serialize(bool)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<bool>.Serialize(bool)
+  nameWithType.vb: TypeConverter(Of Boolean).Serialize(Boolean)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of Boolean).Serialize(Boolean)
+  name.vb: Serialize(Boolean)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Serialize(System.Boolean)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Serialize(System.Boolean)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: IndustrialValley.Saving.Converters.BoolConverter.Serialize*
+  commentId: Overload:IndustrialValley.Saving.Converters.BoolConverter.Serialize
+  href: IndustrialValley.Saving.Converters.BoolConverter.Serialize.html#IndustrialValley_Saving_Converters_BoolConverter_Serialize_System_Boolean_
+  name: Serialize
+  nameWithType: BoolConverter.Serialize
+  fullName: IndustrialValley.Saving.Converters.BoolConverter.Serialize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  name: Serialize(T)
+  nameWithType: TypeConverter<T>.Serialize(T)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.Serialize(T)
+  nameWithType.vb: TypeConverter(Of T).Serialize(T)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T).Serialize(T)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Serialize(`0)
+    name: Serialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Serialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Serialize__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Deserialize(System.String)
+  parent: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}
+  definition: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  name: Deserialize(string)
+  nameWithType: TypeConverter<bool>.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<bool>.Deserialize(string)
+  nameWithType.vb: TypeConverter(Of Boolean).Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of Boolean).Deserialize(String)
+  name.vb: Deserialize(String)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter{System.Boolean}.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: IndustrialValley.Saving.Converters.BoolConverter.Deserialize*
+  commentId: Overload:IndustrialValley.Saving.Converters.BoolConverter.Deserialize
+  href: IndustrialValley.Saving.Converters.BoolConverter.Deserialize.html#IndustrialValley_Saving_Converters_BoolConverter_Deserialize_System_String_
+  name: Deserialize
+  nameWithType: BoolConverter.Deserialize
+  fullName: IndustrialValley.Saving.Converters.BoolConverter.Deserialize
+- uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  commentId: M:IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+  isExternal: true
+  href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  name: Deserialize(string)
+  nameWithType: TypeConverter<T>.Deserialize(string)
+  fullName: IndustrialValley.Saving.Converters.TypeConverter<T>.Deserialize(string)
+  nameWithType.vb: TypeConverter(Of T).Deserialize(String)
+  fullName.vb: IndustrialValley.Saving.Converters.TypeConverter(Of T).Deserialize(String)
+  name.vb: Deserialize(String)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Saving.Converters.TypeConverter`1.Deserialize(System.String)
+    name: Deserialize
+    href: IndustrialValley.Saving.Converters.TypeConverter-1.Deserialize.html#IndustrialValley_Saving_Converters_TypeConverter_1_Deserialize_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+memberLayout: SeparatePages

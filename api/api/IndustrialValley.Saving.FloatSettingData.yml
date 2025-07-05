@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving.FloatSettingData
+  commentId: T:IndustrialValley.Saving.FloatSettingData
+  id: FloatSettingData
+  parent: IndustrialValley.Saving
+  children:
+  - IndustrialValley.Saving.FloatSettingData.Name
+  - IndustrialValley.Saving.FloatSettingData.Value
+  langs:
+  - csharp
+  - vb
+  name: FloatSettingData
+  nameWithType: FloatSettingData
+  fullName: IndustrialValley.Saving.FloatSettingData
+  type: Class
+  source:
+    id: FloatSettingData
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 425
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public class FloatSettingData
+    content.vb: Public Class FloatSettingData
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Saving.FloatSettingData.Name
+  commentId: P:IndustrialValley.Saving.FloatSettingData.Name
+  id: Name
+  parent: IndustrialValley.Saving.FloatSettingData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FloatSettingData.Name
+  fullName: IndustrialValley.Saving.FloatSettingData.Name
+  type: Property
+  source:
+    id: Name
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 428
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: IndustrialValley.Saving.FloatSettingData.Name*
+- uid: IndustrialValley.Saving.FloatSettingData.Value
+  commentId: P:IndustrialValley.Saving.FloatSettingData.Value
+  id: Value
+  parent: IndustrialValley.Saving.FloatSettingData
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: FloatSettingData.Value
+  fullName: IndustrialValley.Saving.FloatSettingData.Value
+  type: Property
+  source:
+    id: Value
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Saving\SaveSystem.cs
+    startLine: 429
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Saving
+  syntax:
+    content: public float Value { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Value As Single
+  overload: IndustrialValley.Saving.FloatSettingData.Value*
+references:
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Saving.FloatSettingData.Name*
+  commentId: Overload:IndustrialValley.Saving.FloatSettingData.Name
+  href: IndustrialValley.Saving.FloatSettingData.Name.html#IndustrialValley_Saving_FloatSettingData_Name
+  name: Name
+  nameWithType: FloatSettingData.Name
+  fullName: IndustrialValley.Saving.FloatSettingData.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Saving.FloatSettingData.Value*
+  commentId: Overload:IndustrialValley.Saving.FloatSettingData.Value
+  href: IndustrialValley.Saving.FloatSettingData.Value.html#IndustrialValley_Saving_FloatSettingData_Value
+  name: Value
+  nameWithType: FloatSettingData.Value
+  fullName: IndustrialValley.Saving.FloatSettingData.Value
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+memberLayout: SeparatePages

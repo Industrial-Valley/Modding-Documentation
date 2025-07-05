@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Modules.GameUI
+  commentId: N:IndustrialValley.Modules.GameUI
+  id: IndustrialValley.Modules.GameUI
+  children:
+  - IndustrialValley.Modules.GameUI.GameUIData
+  - IndustrialValley.Modules.GameUI.GameUIModule
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Modules.GameUI
+  nameWithType: IndustrialValley.Modules.GameUI
+  fullName: IndustrialValley.Modules.GameUI
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Modules.GameUI.GameUIData
+  commentId: T:IndustrialValley.Modules.GameUI.GameUIData
+  href: IndustrialValley.Modules.GameUI.GameUIData.html
+  name: GameUIData
+  nameWithType: GameUIData
+  fullName: IndustrialValley.Modules.GameUI.GameUIData
+- uid: IndustrialValley.Modules.GameUI.GameUIModule
+  commentId: T:IndustrialValley.Modules.GameUI.GameUIModule
+  parent: IndustrialValley.Modules.GameUI
+  href: IndustrialValley.Modules.GameUI.GameUIModule.html
+  name: GameUIModule
+  nameWithType: GameUIModule
+  fullName: IndustrialValley.Modules.GameUI.GameUIModule
+- uid: IndustrialValley.Modules.GameUI
+  commentId: N:IndustrialValley.Modules.GameUI
+  href: IndustrialValley.html
+  name: IndustrialValley.Modules.GameUI
+  nameWithType: IndustrialValley.Modules.GameUI
+  fullName: IndustrialValley.Modules.GameUI
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Modules
+    name: Modules
+    href: IndustrialValley.Modules.html
+  - name: .
+  - uid: IndustrialValley.Modules.GameUI
+    name: GameUI
+    href: IndustrialValley.Modules.GameUI.html
+memberLayout: SeparatePages

@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Data.Research
+  commentId: T:IndustrialValley.Data.Research
+  id: Research
+  parent: IndustrialValley.Data
+  children:
+  - IndustrialValley.Data.Research.Add(IndustrialValley.Data.ResearchableData)
+  - IndustrialValley.Data.Research.All
+  - IndustrialValley.Data.Research.GetFromBuildable(IndustrialValley.Data.BuildableData)
+  - IndustrialValley.Data.Research.GetFromRecipe(IndustrialValley.Data.RecipeData)
+  langs:
+  - csharp
+  - vb
+  name: Research
+  nameWithType: Research
+  fullName: IndustrialValley.Data.Research
+  type: Class
+  source:
+    id: Research
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Research.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public static class Research
+    content.vb: Public Module Research
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Data.Research.All
+  commentId: P:IndustrialValley.Data.Research.All
+  id: All
+  parent: IndustrialValley.Data.Research
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: Research.All
+  fullName: IndustrialValley.Data.Research.All
+  type: Property
+  source:
+    id: All
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Research.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  syntax:
+    content: public static Dictionary<string, ResearchableData> All { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.ResearchableData}
+    content.vb: Public Shared ReadOnly Property All As Dictionary(Of String, ResearchableData)
+  overload: IndustrialValley.Data.Research.All*
+- uid: IndustrialValley.Data.Research.Add(IndustrialValley.Data.ResearchableData)
+  commentId: M:IndustrialValley.Data.Research.Add(IndustrialValley.Data.ResearchableData)
+  id: Add(IndustrialValley.Data.ResearchableData)
+  parent: IndustrialValley.Data.Research
+  langs:
+  - csharp
+  - vb
+  name: Add(ResearchableData)
+  nameWithType: Research.Add(ResearchableData)
+  fullName: IndustrialValley.Data.Research.Add(IndustrialValley.Data.ResearchableData)
+  type: Method
+  source:
+    id: Add
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Research.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: Adds a new researchable item to the collection.
+  example: []
+  syntax:
+    content: public static void Add(ResearchableData recipe)
+    parameters:
+    - id: recipe
+      type: IndustrialValley.Data.ResearchableData
+    content.vb: Public Shared Sub Add(recipe As ResearchableData)
+  overload: IndustrialValley.Data.Research.Add*
+- uid: IndustrialValley.Data.Research.GetFromBuildable(IndustrialValley.Data.BuildableData)
+  commentId: M:IndustrialValley.Data.Research.GetFromBuildable(IndustrialValley.Data.BuildableData)
+  id: GetFromBuildable(IndustrialValley.Data.BuildableData)
+  parent: IndustrialValley.Data.Research
+  langs:
+  - csharp
+  - vb
+  name: GetFromBuildable(BuildableData)
+  nameWithType: Research.GetFromBuildable(BuildableData)
+  fullName: IndustrialValley.Data.Research.GetFromBuildable(IndustrialValley.Data.BuildableData)
+  type: Method
+  source:
+    id: GetFromBuildable
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Research.cs
+    startLine: 26
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: Gets a researchable if it unlocks the given buildable.
+  example: []
+  syntax:
+    content: public static ResearchableData GetFromBuildable(BuildableData buildable)
+    parameters:
+    - id: buildable
+      type: IndustrialValley.Data.BuildableData
+    return:
+      type: IndustrialValley.Data.ResearchableData
+    content.vb: Public Shared Function GetFromBuildable(buildable As BuildableData) As ResearchableData
+  overload: IndustrialValley.Data.Research.GetFromBuildable*
+- uid: IndustrialValley.Data.Research.GetFromRecipe(IndustrialValley.Data.RecipeData)
+  commentId: M:IndustrialValley.Data.Research.GetFromRecipe(IndustrialValley.Data.RecipeData)
+  id: GetFromRecipe(IndustrialValley.Data.RecipeData)
+  parent: IndustrialValley.Data.Research
+  langs:
+  - csharp
+  - vb
+  name: GetFromRecipe(RecipeData)
+  nameWithType: Research.GetFromRecipe(RecipeData)
+  fullName: IndustrialValley.Data.Research.GetFromRecipe(IndustrialValley.Data.RecipeData)
+  type: Method
+  source:
+    id: GetFromRecipe
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Data\Research.cs
+    startLine: 37
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Data
+  summary: Gets a researchable if it unlocks the given recipe.
+  example: []
+  syntax:
+    content: public static ResearchableData GetFromRecipe(RecipeData recipe)
+    parameters:
+    - id: recipe
+      type: IndustrialValley.Data.RecipeData
+    return:
+      type: IndustrialValley.Data.ResearchableData
+    content.vb: Public Shared Function GetFromRecipe(recipe As RecipeData) As ResearchableData
+  overload: IndustrialValley.Data.Research.GetFromRecipe*
+references:
+- uid: IndustrialValley.Data
+  commentId: N:IndustrialValley.Data
+  href: IndustrialValley.html
+  name: IndustrialValley.Data
+  nameWithType: IndustrialValley.Data
+  fullName: IndustrialValley.Data
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Data
+    name: Data
+    href: IndustrialValley.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Data.Research.All*
+  commentId: Overload:IndustrialValley.Data.Research.All
+  href: IndustrialValley.Data.Research.All.html#IndustrialValley_Data_Research_All
+  name: All
+  nameWithType: Research.All
+  fullName: IndustrialValley.Data.Research.All
+- uid: System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.ResearchableData}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,IndustrialValley.Data.ResearchableData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, ResearchableData>
+  nameWithType: Dictionary<string, ResearchableData>
+  fullName: System.Collections.Generic.Dictionary<string, IndustrialValley.Data.ResearchableData>
+  nameWithType.vb: Dictionary(Of String, ResearchableData)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, IndustrialValley.Data.ResearchableData)
+  name.vb: Dictionary(Of String, ResearchableData)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: IndustrialValley.Data.ResearchableData
+    name: ResearchableData
+    href: IndustrialValley.Data.ResearchableData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: IndustrialValley.Data.ResearchableData
+    name: ResearchableData
+    href: IndustrialValley.Data.ResearchableData.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IndustrialValley.Data.Research.Add*
+  commentId: Overload:IndustrialValley.Data.Research.Add
+  href: IndustrialValley.Data.Research.Add.html#IndustrialValley_Data_Research_Add_IndustrialValley_Data_ResearchableData_
+  name: Add
+  nameWithType: Research.Add
+  fullName: IndustrialValley.Data.Research.Add
+- uid: IndustrialValley.Data.ResearchableData
+  commentId: T:IndustrialValley.Data.ResearchableData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.ResearchableData.html
+  name: ResearchableData
+  nameWithType: ResearchableData
+  fullName: IndustrialValley.Data.ResearchableData
+- uid: IndustrialValley.Data.Research.GetFromBuildable*
+  commentId: Overload:IndustrialValley.Data.Research.GetFromBuildable
+  href: IndustrialValley.Data.Research.GetFromBuildable.html#IndustrialValley_Data_Research_GetFromBuildable_IndustrialValley_Data_BuildableData_
+  name: GetFromBuildable
+  nameWithType: Research.GetFromBuildable
+  fullName: IndustrialValley.Data.Research.GetFromBuildable
+- uid: IndustrialValley.Data.BuildableData
+  commentId: T:IndustrialValley.Data.BuildableData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.BuildableData.html
+  name: BuildableData
+  nameWithType: BuildableData
+  fullName: IndustrialValley.Data.BuildableData
+- uid: IndustrialValley.Data.Research.GetFromRecipe*
+  commentId: Overload:IndustrialValley.Data.Research.GetFromRecipe
+  href: IndustrialValley.Data.Research.GetFromRecipe.html#IndustrialValley_Data_Research_GetFromRecipe_IndustrialValley_Data_RecipeData_
+  name: GetFromRecipe
+  nameWithType: Research.GetFromRecipe
+  fullName: IndustrialValley.Data.Research.GetFromRecipe
+- uid: IndustrialValley.Data.RecipeData
+  commentId: T:IndustrialValley.Data.RecipeData
+  parent: IndustrialValley.Data
+  href: IndustrialValley.Data.RecipeData.html
+  name: RecipeData
+  nameWithType: RecipeData
+  fullName: IndustrialValley.Data.RecipeData
+memberLayout: SeparatePages

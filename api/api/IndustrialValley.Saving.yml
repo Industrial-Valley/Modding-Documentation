@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  id: IndustrialValley.Saving
+  children:
+  - IndustrialValley.Saving.BoolSettingData
+  - IndustrialValley.Saving.BuildableSaveData
+  - IndustrialValley.Saving.Database
+  - IndustrialValley.Saving.DatabaseMigration
+  - IndustrialValley.Saving.DropdownSettingData
+  - IndustrialValley.Saving.FactorySaveData
+  - IndustrialValley.Saving.FloatSettingData
+  - IndustrialValley.Saving.ISavable
+  - IndustrialValley.Saving.SaveData
+  - IndustrialValley.Saving.SaveInfo
+  - IndustrialValley.Saving.SaveableData
+  - IndustrialValley.Saving.SettingsData
+  - IndustrialValley.Saving.SqlResult`1
+  langs:
+  - csharp
+  - vb
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  type: Namespace
+  assemblies:
+  - IndustrialValley
+references:
+- uid: IndustrialValley.Saving.SaveInfo
+  commentId: T:IndustrialValley.Saving.SaveInfo
+  href: IndustrialValley.Saving.SaveInfo.html
+  name: SaveInfo
+  nameWithType: SaveInfo
+  fullName: IndustrialValley.Saving.SaveInfo
+- uid: IndustrialValley.Saving.SaveData
+  commentId: T:IndustrialValley.Saving.SaveData
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.SaveData.html
+  name: SaveData
+  nameWithType: SaveData
+  fullName: IndustrialValley.Saving.SaveData
+- uid: IndustrialValley.Saving.FactorySaveData
+  commentId: T:IndustrialValley.Saving.FactorySaveData
+  href: IndustrialValley.Saving.FactorySaveData.html
+  name: FactorySaveData
+  nameWithType: FactorySaveData
+  fullName: IndustrialValley.Saving.FactorySaveData
+- uid: IndustrialValley.Saving.BuildableSaveData
+  commentId: T:IndustrialValley.Saving.BuildableSaveData
+  href: IndustrialValley.Saving.BuildableSaveData.html
+  name: BuildableSaveData
+  nameWithType: BuildableSaveData
+  fullName: IndustrialValley.Saving.BuildableSaveData
+- uid: IndustrialValley.Saving.SettingsData
+  commentId: T:IndustrialValley.Saving.SettingsData
+  href: IndustrialValley.Saving.SettingsData.html
+  name: SettingsData
+  nameWithType: SettingsData
+  fullName: IndustrialValley.Saving.SettingsData
+- uid: IndustrialValley.Saving.FloatSettingData
+  commentId: T:IndustrialValley.Saving.FloatSettingData
+  href: IndustrialValley.Saving.FloatSettingData.html
+  name: FloatSettingData
+  nameWithType: FloatSettingData
+  fullName: IndustrialValley.Saving.FloatSettingData
+- uid: IndustrialValley.Saving.DropdownSettingData
+  commentId: T:IndustrialValley.Saving.DropdownSettingData
+  href: IndustrialValley.Saving.DropdownSettingData.html
+  name: DropdownSettingData
+  nameWithType: DropdownSettingData
+  fullName: IndustrialValley.Saving.DropdownSettingData
+- uid: IndustrialValley.Saving.BoolSettingData
+  commentId: T:IndustrialValley.Saving.BoolSettingData
+  href: IndustrialValley.Saving.BoolSettingData.html
+  name: BoolSettingData
+  nameWithType: BoolSettingData
+  fullName: IndustrialValley.Saving.BoolSettingData
+- uid: IndustrialValley.Saving.SaveableData
+  commentId: T:IndustrialValley.Saving.SaveableData
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.SaveableData.html
+  name: SaveableData
+  nameWithType: SaveableData
+  fullName: IndustrialValley.Saving.SaveableData
+- uid: IndustrialValley.Saving.Database
+  commentId: T:IndustrialValley.Saving.Database
+  href: IndustrialValley.Saving.Database.html
+  name: Database
+  nameWithType: Database
+  fullName: IndustrialValley.Saving.Database
+- uid: IndustrialValley.Saving.DatabaseMigration
+  commentId: T:IndustrialValley.Saving.DatabaseMigration
+  href: IndustrialValley.Saving.DatabaseMigration.html
+  name: DatabaseMigration
+  nameWithType: DatabaseMigration
+  fullName: IndustrialValley.Saving.DatabaseMigration
+- uid: IndustrialValley.Saving.SqlResult`1
+  commentId: T:IndustrialValley.Saving.SqlResult`1
+  href: IndustrialValley.Saving.SqlResult-1.html
+  name: SqlResult<T>
+  nameWithType: SqlResult<T>
+  fullName: IndustrialValley.Saving.SqlResult<T>
+  nameWithType.vb: SqlResult(Of T)
+  fullName.vb: IndustrialValley.Saving.SqlResult(Of T)
+  name.vb: SqlResult(Of T)
+  spec.csharp:
+  - uid: IndustrialValley.Saving.SqlResult`1
+    name: SqlResult
+    href: IndustrialValley.Saving.SqlResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: IndustrialValley.Saving.SqlResult`1
+    name: SqlResult
+    href: IndustrialValley.Saving.SqlResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: IndustrialValley.Saving.ISavable
+  commentId: T:IndustrialValley.Saving.ISavable
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.ISavable.html
+  name: ISavable
+  nameWithType: ISavable
+  fullName: IndustrialValley.Saving.ISavable
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+memberLayout: SeparatePages

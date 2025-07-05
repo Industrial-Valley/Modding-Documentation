@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.Random
+  commentId: T:IndustrialValley.Helpers.Random
+  id: Random
+  parent: IndustrialValley.Helpers
+  children:
+  - IndustrialValley.Helpers.Random.GenerateSeed
+  - IndustrialValley.Helpers.Random.Seed
+  - IndustrialValley.Helpers.Random.SetSeed(System.Int32)
+  - IndustrialValley.Helpers.Random.SetSeed(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Random
+  nameWithType: Random
+  fullName: IndustrialValley.Helpers.Random
+  type: Class
+  source:
+    id: Random
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Random.cs
+    startLine: 4
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  syntax:
+    content: public static class Random
+    content.vb: Public Module Random
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Helpers.Random.Seed
+  commentId: P:IndustrialValley.Helpers.Random.Seed
+  id: Seed
+  parent: IndustrialValley.Helpers.Random
+  langs:
+  - csharp
+  - vb
+  name: Seed
+  nameWithType: Random.Seed
+  fullName: IndustrialValley.Helpers.Random.Seed
+  type: Property
+  source:
+    id: Seed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Random.cs
+    startLine: 9
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: The current seed.
+  example: []
+  syntax:
+    content: public static string Seed { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property Seed As String
+  overload: IndustrialValley.Helpers.Random.Seed*
+- uid: IndustrialValley.Helpers.Random.GenerateSeed
+  commentId: M:IndustrialValley.Helpers.Random.GenerateSeed
+  id: GenerateSeed
+  parent: IndustrialValley.Helpers.Random
+  langs:
+  - csharp
+  - vb
+  name: GenerateSeed()
+  nameWithType: Random.GenerateSeed()
+  fullName: IndustrialValley.Helpers.Random.GenerateSeed()
+  type: Method
+  source:
+    id: GenerateSeed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Random.cs
+    startLine: 15
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Generates a new random seed based on the current time.
+  example: []
+  syntax:
+    content: public static string GenerateSeed()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GenerateSeed() As String
+  overload: IndustrialValley.Helpers.Random.GenerateSeed*
+- uid: IndustrialValley.Helpers.Random.SetSeed(System.String)
+  commentId: M:IndustrialValley.Helpers.Random.SetSeed(System.String)
+  id: SetSeed(System.String)
+  parent: IndustrialValley.Helpers.Random
+  langs:
+  - csharp
+  - vb
+  name: SetSeed(string)
+  nameWithType: Random.SetSeed(string)
+  fullName: IndustrialValley.Helpers.Random.SetSeed(string)
+  type: Method
+  source:
+    id: SetSeed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Random.cs
+    startLine: 27
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Sets the random seed for Unity's Random class.
+  example: []
+  syntax:
+    content: public static void SetSeed(string seed)
+    parameters:
+    - id: seed
+      type: System.String
+      description: ''
+    content.vb: Public Shared Sub SetSeed(seed As String)
+  overload: IndustrialValley.Helpers.Random.SetSeed*
+  nameWithType.vb: Random.SetSeed(String)
+  fullName.vb: IndustrialValley.Helpers.Random.SetSeed(String)
+  name.vb: SetSeed(String)
+- uid: IndustrialValley.Helpers.Random.SetSeed(System.Int32)
+  commentId: M:IndustrialValley.Helpers.Random.SetSeed(System.Int32)
+  id: SetSeed(System.Int32)
+  parent: IndustrialValley.Helpers.Random
+  langs:
+  - csharp
+  - vb
+  name: SetSeed(int)
+  nameWithType: Random.SetSeed(int)
+  fullName: IndustrialValley.Helpers.Random.SetSeed(int)
+  type: Method
+  source:
+    id: SetSeed
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Random.cs
+    startLine: 37
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers
+  summary: Sets the random seed for Unity's Random class.
+  example: []
+  syntax:
+    content: public static void SetSeed(int seed)
+    parameters:
+    - id: seed
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub SetSeed(seed As Integer)
+  overload: IndustrialValley.Helpers.Random.SetSeed*
+  nameWithType.vb: Random.SetSeed(Integer)
+  fullName.vb: IndustrialValley.Helpers.Random.SetSeed(Integer)
+  name.vb: SetSeed(Integer)
+references:
+- uid: IndustrialValley.Helpers
+  commentId: N:IndustrialValley.Helpers
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers
+  nameWithType: IndustrialValley.Helpers
+  fullName: IndustrialValley.Helpers
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Helpers.Random.Seed*
+  commentId: Overload:IndustrialValley.Helpers.Random.Seed
+  href: IndustrialValley.Helpers.Random.Seed.html#IndustrialValley_Helpers_Random_Seed
+  name: Seed
+  nameWithType: Random.Seed
+  fullName: IndustrialValley.Helpers.Random.Seed
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Helpers.Random.GenerateSeed*
+  commentId: Overload:IndustrialValley.Helpers.Random.GenerateSeed
+  href: IndustrialValley.Helpers.Random.GenerateSeed.html#IndustrialValley_Helpers_Random_GenerateSeed
+  name: GenerateSeed
+  nameWithType: Random.GenerateSeed
+  fullName: IndustrialValley.Helpers.Random.GenerateSeed
+- uid: IndustrialValley.Helpers.Random.SetSeed*
+  commentId: Overload:IndustrialValley.Helpers.Random.SetSeed
+  href: IndustrialValley.Helpers.Random.SetSeed.html#IndustrialValley_Helpers_Random_SetSeed_System_String_
+  name: SetSeed
+  nameWithType: Random.SetSeed
+  fullName: IndustrialValley.Helpers.Random.SetSeed
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+memberLayout: SeparatePages

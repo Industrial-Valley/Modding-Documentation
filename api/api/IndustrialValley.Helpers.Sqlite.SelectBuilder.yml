@@ -1,0 +1,756 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  commentId: T:IndustrialValley.Helpers.Sqlite.SelectBuilder
+  id: SelectBuilder
+  parent: IndustrialValley.Helpers.Sqlite
+  children:
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor(System.String)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.New(System.String)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.Select(System.String[])
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit(System.Int32)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset(System.Int32)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(IndustrialValley.Helpers.Sqlite.WhereBuilder)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(System.String,IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator,System.Object)
+  - IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+  langs:
+  - csharp
+  - vb
+  name: SelectBuilder
+  nameWithType: SelectBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  type: Class
+  source:
+    id: SelectBuilder
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 5
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public class SelectBuilder
+    content.vb: Public Class SelectBuilder
+  inheritance:
+  - System.Object
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor(System.String)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: SelectBuilder(string)
+  nameWithType: SelectBuilder.SelectBuilder(string)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectBuilder(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 7
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public SelectBuilder(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    content.vb: Public Sub New(tableName As String)
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor*
+  nameWithType.vb: SelectBuilder.New(String)
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.New(String)
+  name.vb: New(String)
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+  commentId: P:IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+  id: TableName
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: SelectBuilder.TableName
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+  type: Property
+  source:
+    id: TableName
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 12
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+  commentId: P:IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+  id: SelectColumns
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: SelectColumns
+  nameWithType: SelectBuilder.SelectColumns
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+  type: Property
+  source:
+    id: SelectColumns
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 14
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public List<string> SelectColumns { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property SelectColumns As List(Of String)
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+  commentId: P:IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+  id: WhereBuilder
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: WhereBuilder
+  nameWithType: SelectBuilder.WhereBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+  type: Property
+  source:
+    id: WhereBuilder
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 16
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public WhereBuilder? WhereBuilder { get; set; }
+    parameters: []
+    return:
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    content.vb: Public Property WhereBuilder As WhereBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+  commentId: P:IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+  id: Limit
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: SelectBuilder.Limit
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+  type: Property
+  source:
+    id: Limit
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 18
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+  commentId: P:IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+  id: Offset
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: SelectBuilder.Offset
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+  type: Property
+  source:
+    id: Offset
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.New(System.String)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.New(System.String)
+  id: New(System.String)
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: New(string)
+  nameWithType: SelectBuilder.New(string)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.New(string)
+  type: Method
+  source:
+    id: New
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 27
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Creates a new instance of SelectBuilder with the specified table name.
+  example: []
+  syntax:
+    content: public static SelectBuilder New(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Shared Function [New](tableName As String) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.New*
+  nameWithType.vb: SelectBuilder.New(String)
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.New(String)
+  name.vb: New(String)
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select(System.String[])
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.Select(System.String[])
+  id: Select(System.String[])
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Select(params string[])
+  nameWithType: SelectBuilder.Select(params string[])
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select(params string[])
+  type: Method
+  source:
+    id: Select
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 37
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Sets the columns to select from the table.
+  example: []
+  syntax:
+    content: public SelectBuilder Select(params string[] columns)
+    parameters:
+    - id: columns
+      type: System.String[]
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Function [Select](ParamArray columns As String()) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select*
+  nameWithType.vb: SelectBuilder.Select(ParamArray String())
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select(ParamArray String())
+  name.vb: Select(ParamArray String())
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(IndustrialValley.Helpers.Sqlite.WhereBuilder)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(IndustrialValley.Helpers.Sqlite.WhereBuilder)
+  id: Where(IndustrialValley.Helpers.Sqlite.WhereBuilder)
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Where(WhereBuilder)
+  nameWithType: SelectBuilder.Where(WhereBuilder)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(IndustrialValley.Helpers.Sqlite.WhereBuilder)
+  type: Method
+  source:
+    id: Where
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 48
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Where clause for filtering results.
+  example: []
+  syntax:
+    content: public SelectBuilder Where(WhereBuilder where)
+    parameters:
+    - id: where
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Function Where(where As WhereBuilder) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where*
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(System.String,IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator,System.Object)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(System.String,IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator,System.Object)
+  id: Where(System.String,IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator,System.Object)
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Where(string, WhereOperator, object)
+  nameWithType: SelectBuilder.Where(string, WhereBuilder.WhereOperator, object)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(string, IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator, object)
+  type: Method
+  source:
+    id: Where
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 61
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Adds a where clause to the select statement with a specific column, operator, and value.
+  example: []
+  syntax:
+    content: public SelectBuilder Where(string column, WhereBuilder.WhereOperator @operator, object value)
+    parameters:
+    - id: column
+      type: System.String
+      description: ''
+    - id: operator
+      type: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+      description: ''
+    - id: value
+      type: System.Object
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Function Where(column As String, [operator] As WhereBuilder.WhereOperator, value As Object) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where*
+  nameWithType.vb: SelectBuilder.Where(String, WhereBuilder.WhereOperator, Object)
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where(String, IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator, Object)
+  name.vb: Where(String, WhereOperator, Object)
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit(System.Int32)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit(System.Int32)
+  id: SetLimit(System.Int32)
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: SetLimit(int)
+  nameWithType: SelectBuilder.SetLimit(int)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit(int)
+  type: Method
+  source:
+    id: SetLimit
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 72
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Sets the limit for the number of rows returned by the query.
+  example: []
+  syntax:
+    content: public SelectBuilder SetLimit(int limit)
+    parameters:
+    - id: limit
+      type: System.Int32
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Function SetLimit(limit As Integer) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit*
+  nameWithType.vb: SelectBuilder.SetLimit(Integer)
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit(Integer)
+  name.vb: SetLimit(Integer)
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset(System.Int32)
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset(System.Int32)
+  id: SetOffset(System.Int32)
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: SetOffset(int)
+  nameWithType: SelectBuilder.SetOffset(int)
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset(int)
+  type: Method
+  source:
+    id: SetOffset
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 83
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  summary: Sets the offset for the query, which is used for pagination.
+  example: []
+  syntax:
+    content: public SelectBuilder SetOffset(int offset)
+    parameters:
+    - id: offset
+      type: System.Int32
+      description: ''
+    return:
+      type: IndustrialValley.Helpers.Sqlite.SelectBuilder
+      description: ''
+    content.vb: Public Function SetOffset(offset As Integer) As SelectBuilder
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset*
+  nameWithType.vb: SelectBuilder.SetOffset(Integer)
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset(Integer)
+  name.vb: SetOffset(Integer)
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString
+  commentId: M:IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString
+  id: ToString
+  parent: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SelectBuilder.ToString()
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Helpers\Sqlite\SelectBuilder.cs
+    startLine: 89
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Helpers.Sqlite
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString*
+references:
+- uid: IndustrialValley.Helpers.Sqlite
+  commentId: N:IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.html
+  name: IndustrialValley.Helpers.Sqlite
+  nameWithType: IndustrialValley.Helpers.Sqlite
+  fullName: IndustrialValley.Helpers.Sqlite
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Helpers
+    name: Helpers
+    href: IndustrialValley.Helpers.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite
+    name: Sqlite
+    href: IndustrialValley.Helpers.Sqlite.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.#ctor
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.-ctor.html#IndustrialValley_Helpers_Sqlite_SelectBuilder__ctor_System_String_
+  name: SelectBuilder
+  nameWithType: SelectBuilder.SelectBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectBuilder
+  nameWithType.vb: SelectBuilder.New
+  fullName.vb: IndustrialValley.Helpers.Sqlite.SelectBuilder.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_TableName
+  name: TableName
+  nameWithType: SelectBuilder.TableName
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.TableName
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_SelectColumns
+  name: SelectColumns
+  nameWithType: SelectBuilder.SelectColumns
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SelectColumns
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_WhereBuilder
+  name: WhereBuilder
+  nameWithType: SelectBuilder.WhereBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.WhereBuilder
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder
+  parent: IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  name: WhereBuilder
+  nameWithType: WhereBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_Limit
+  name: Limit
+  nameWithType: SelectBuilder.Limit
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Limit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_Offset
+  name: Offset
+  nameWithType: SelectBuilder.Offset
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Offset
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.New*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.New
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.New.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_New_System_String_
+  name: New
+  nameWithType: SelectBuilder.New
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.New
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder
+  commentId: T:IndustrialValley.Helpers.Sqlite.SelectBuilder
+  parent: IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.html
+  name: SelectBuilder
+  nameWithType: SelectBuilder
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.Select
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_Select_System_String___
+  name: Select
+  nameWithType: SelectBuilder.Select
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Select
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.Where
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_Where_IndustrialValley_Helpers_Sqlite_WhereBuilder_
+  name: Where
+  nameWithType: SelectBuilder.Where
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.Where
+- uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  commentId: T:IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  parent: IndustrialValley.Helpers.Sqlite
+  href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  name: WhereBuilder.WhereOperator
+  nameWithType: WhereBuilder.WhereOperator
+  fullName: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+  spec.csharp:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+    name: WhereOperator
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.html
+  spec.vb:
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder
+    name: WhereBuilder
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.html
+  - name: .
+  - uid: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator
+    name: WhereOperator
+    href: IndustrialValley.Helpers.Sqlite.WhereBuilder.WhereOperator.html
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_SetLimit_System_Int32_
+  name: SetLimit
+  nameWithType: SelectBuilder.SetLimit
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetLimit
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_SetOffset_System_Int32_
+  name: SetOffset
+  nameWithType: SelectBuilder.SetOffset
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.SetOffset
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString*
+  commentId: Overload:IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString
+  href: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString.html#IndustrialValley_Helpers_Sqlite_SelectBuilder_ToString
+  name: ToString
+  nameWithType: SelectBuilder.ToString
+  fullName: IndustrialValley.Helpers.Sqlite.SelectBuilder.ToString
+memberLayout: SeparatePages

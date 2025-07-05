@@ -1,0 +1,1136 @@
+### YamlMime:ManagedReference
+items:
+- uid: IndustrialValley.Conveyors.UndergroundConveyor
+  commentId: T:IndustrialValley.Conveyors.UndergroundConveyor
+  id: UndergroundConveyor
+  parent: IndustrialValley.Conveyors
+  children:
+  - IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions
+  - IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions
+  - IndustrialValley.Conveyors.UndergroundConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  - IndustrialValley.Conveyors.UndergroundConveyor.OnLoad(IndustrialValley.Saving.SaveableData)
+  - IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected(UnityEngine.GameObject)
+  - IndustrialValley.Conveyors.UndergroundConveyor.OnSave
+  - IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate
+  - IndustrialValley.Conveyors.UndergroundConveyor.endPoint
+  - IndustrialValley.Conveyors.UndergroundConveyor.gizmoSphereRadius
+  - IndustrialValley.Conveyors.UndergroundConveyor.handoffDetectRadius
+  - IndustrialValley.Conveyors.UndergroundConveyor.maxCapacity
+  - IndustrialValley.Conveyors.UndergroundConveyor.outputConveyor
+  - IndustrialValley.Conveyors.UndergroundConveyor.outputConveyorId
+  - IndustrialValley.Conveyors.UndergroundConveyor.startPoint
+  langs:
+  - csharp
+  - vb
+  name: UndergroundConveyor
+  nameWithType: UndergroundConveyor
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor
+  type: Class
+  source:
+    id: UndergroundConveyor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 13
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [RequireComponent(typeof(Collider))]
+
+      public class UndergroundConveyor : BaseMovement, ISavable, IConveyor, IConnectedBuildable
+    content.vb: >-
+      <RequireComponent(GetType(Collider))>
+
+      Public Class UndergroundConveyor Inherits BaseMovement Implements ISavable, IConveyor, IConnectedBuildable
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - IndustrialValley.Conveyors.BaseMovement
+  implements:
+  - IndustrialValley.Saving.ISavable
+  - IndustrialValley.Conveyors.IConveyor
+  - IndustrialValley.Utility.IConnectedBuildable
+  inheritedMembers:
+  - IndustrialValley.Conveyors.BaseMovement.items
+  - IndustrialValley.Conveyors.BaseMovement.OnSell
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.startPoint
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.startPoint
+  id: startPoint
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: startPoint
+  nameWithType: UndergroundConveyor.startPoint
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.startPoint
+  type: Field
+  source:
+    id: startPoint
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 17
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [Header("Belt Transforms")]
+
+      [Tooltip("World‐space transform where items enter this belt.")]
+
+      public Transform startPoint
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <Header("Belt Transforms")>
+
+      <Tooltip("World‐space transform where items enter this belt.")>
+
+      Public startPoint As Transform
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Belt Transforms
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: World‐space transform where items enter this belt.
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.endPoint
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.endPoint
+  id: endPoint
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: endPoint
+  nameWithType: UndergroundConveyor.endPoint
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.endPoint
+  type: Field
+  source:
+    id: endPoint
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 20
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [Tooltip("World‐space transform where items exit this belt.")]
+
+      public Transform endPoint
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <Tooltip("World‐space transform where items exit this belt.")>
+
+      Public endPoint As Transform
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: World‐space transform where items exit this belt.
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.maxCapacity
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.maxCapacity
+  id: maxCapacity
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: maxCapacity
+  nameWithType: UndergroundConveyor.maxCapacity
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.maxCapacity
+  type: Field
+  source:
+    id: maxCapacity
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 23
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [Tooltip("Maximum number of items that can occupy this belt at once.")]
+
+      public int maxCapacity
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Tooltip("Maximum number of items that can occupy this belt at once.")>
+
+      Public maxCapacity As Integer
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Maximum number of items that can occupy this belt at once.
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.handoffDetectRadius
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.handoffDetectRadius
+  id: handoffDetectRadius
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: handoffDetectRadius
+  nameWithType: UndergroundConveyor.handoffDetectRadius
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.handoffDetectRadius
+  type: Field
+  source:
+    id: handoffDetectRadius
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 27
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [Header("Handoff Detection")]
+
+      [Tooltip("Radius around the output gizmo where a downstream conveyor’s input gizmo must lie to receive an item.")]
+
+      public float handoffDetectRadius
+    return:
+      type: System.Single
+    content.vb: >-
+      <Header("Handoff Detection")>
+
+      <Tooltip("Radius around the output gizmo where a downstream conveyor’s input gizmo must lie to receive an item.")>
+
+      Public handoffDetectRadius As Single
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Handoff Detection
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Radius around the output gizmo where a downstream conveyor’s input gizmo must lie to receive an item.
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.gizmoSphereRadius
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.gizmoSphereRadius
+  id: gizmoSphereRadius
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: gizmoSphereRadius
+  nameWithType: UndergroundConveyor.gizmoSphereRadius
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.gizmoSphereRadius
+  type: Field
+  source:
+    id: gizmoSphereRadius
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 30
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: >-
+      [Header("Debug Gizmos (Editor Only)")]
+
+      [Tooltip("Radius of the input (green) and output (red) gizmos.")]
+
+      public float gizmoSphereRadius
+    return:
+      type: System.Single
+    content.vb: >-
+      <Header("Debug Gizmos (Editor Only)")>
+
+      <Tooltip("Radius of the input (green) and output (red) gizmos.")>
+
+      Public gizmoSphereRadius As Single
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Debug Gizmos (Editor Only)
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Radius of the input (green) and output (red) gizmos.
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.outputConveyor
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.outputConveyor
+  id: outputConveyor
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: outputConveyor
+  nameWithType: UndergroundConveyor.outputConveyor
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.outputConveyor
+  type: Field
+  source:
+    id: outputConveyor
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 32
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: public UndergroundConveyor outputConveyor
+    return:
+      type: IndustrialValley.Conveyors.UndergroundConveyor
+    content.vb: Public outputConveyor As UndergroundConveyor
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.outputConveyorId
+  commentId: F:IndustrialValley.Conveyors.UndergroundConveyor.outputConveyorId
+  id: outputConveyorId
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: outputConveyorId
+  nameWithType: UndergroundConveyor.outputConveyorId
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.outputConveyorId
+  type: Field
+  source:
+    id: outputConveyorId
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 34
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  syntax:
+    content: public long outputConveyorId
+    return:
+      type: System.Int64
+    content.vb: Public outputConveyorId As Long
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected(UnityEngine.GameObject)
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected(UnityEngine.GameObject)
+  id: OnPlacementConnected(UnityEngine.GameObject)
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: OnPlacementConnected(GameObject)
+  nameWithType: UndergroundConveyor.OnPlacementConnected(GameObject)
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected(UnityEngine.GameObject)
+  type: Method
+  source:
+    id: OnPlacementConnected
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 59
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  example: []
+  syntax:
+    content: public void OnPlacementConnected(GameObject other)
+    parameters:
+    - id: other
+      type: UnityEngine.GameObject
+    content.vb: Public Sub OnPlacementConnected(other As GameObject)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected*
+  implements:
+  - IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  id: InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: InsertItem(ConveyorItem)
+  nameWithType: UndergroundConveyor.InsertItem(ConveyorItem)
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  type: Method
+  source:
+    id: InsertItem
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 71
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  summary: Adds a new item to this belt, placing its visual at startPoint (progress = 0).
+  example: []
+  syntax:
+    content: public void InsertItem(ConveyorItem item)
+    parameters:
+    - id: item
+      type: IndustrialValley.Conveyors.ConveyorItem
+    content.vb: Public Sub InsertItem(item As ConveyorItem)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem*
+  implements:
+  - IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  id: CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: CanAcceptItem(ConveyorItem)
+  nameWithType: UndergroundConveyor.CanAcceptItem(ConveyorItem)
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  type: Method
+  source:
+    id: CanAcceptItem
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 84
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  summary: Returns true if there is room
+  example: []
+  syntax:
+    content: public override bool CanAcceptItem(ConveyorItem item)
+    parameters:
+    - id: item
+      type: IndustrialValley.Conveyors.ConveyorItem
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanAcceptItem(item As ConveyorItem) As Boolean
+  overridden: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem*
+  implements:
+  - IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions
+  id: GetInputPositions
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: GetInputPositions()
+  nameWithType: UndergroundConveyor.GetInputPositions()
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions()
+  type: Method
+  source:
+    id: GetInputPositions
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 93
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  summary: >-
+    Returns an array of all world‐space input positions for this conveyor.
+
+    For a belt, that is exactly one position: startPoint.position.
+  example: []
+  syntax:
+    content: public List<Vector3> GetInputPositions()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Function GetInputPositions() As List(Of Vector3)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions*
+  implements:
+  - IndustrialValley.Conveyors.IConveyor.GetInputPositions
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions
+  id: GetOutputPositions
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: GetOutputPositions()
+  nameWithType: UndergroundConveyor.GetOutputPositions()
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions()
+  type: Method
+  source:
+    id: GetOutputPositions
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 102
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  summary: >-
+    Returns an array of all world‐space output positions for this conveyor.
+
+    For a belt, that is exactly one position: endPoint.position.
+  example: []
+  syntax:
+    content: public List<Vector3> GetOutputPositions()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Function GetOutputPositions() As List(Of Vector3)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions*
+  implements:
+  - IndustrialValley.Conveyors.IConveyor.GetOutputPositions
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate
+  id: OnUpdate
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate()
+  nameWithType: UndergroundConveyor.OnUpdate()
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate()
+  type: Method
+  source:
+    id: OnUpdate
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 107
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  example: []
+  syntax:
+    content: protected override void OnUpdate()
+    content.vb: Protected Overrides Sub OnUpdate()
+  overridden: IndustrialValley.Conveyors.BaseMovement.OnUpdate
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate*
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnSave
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.OnSave
+  id: OnSave
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: OnSave()
+  nameWithType: UndergroundConveyor.OnSave()
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnSave()
+  type: Method
+  source:
+    id: OnSave
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 148
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  example: []
+  syntax:
+    content: public override SaveableData OnSave()
+    return:
+      type: IndustrialValley.Saving.SaveableData
+    content.vb: Public Overrides Function OnSave() As SaveableData
+  overridden: IndustrialValley.Conveyors.BaseMovement.OnSave
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.OnSave*
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad(IndustrialValley.Saving.SaveableData)
+  commentId: M:IndustrialValley.Conveyors.UndergroundConveyor.OnLoad(IndustrialValley.Saving.SaveableData)
+  id: OnLoad(IndustrialValley.Saving.SaveableData)
+  parent: IndustrialValley.Conveyors.UndergroundConveyor
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(SaveableData)
+  nameWithType: UndergroundConveyor.OnLoad(SaveableData)
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad(IndustrialValley.Saving.SaveableData)
+  type: Method
+  source:
+    id: OnLoad
+    path: F:\Unity Games\Industrial Valley\Industrial Valley\Assets\IndustrialValley\Scripts\Conveyors\UndergroundConveyor.cs
+    startLine: 161
+  assemblies:
+  - IndustrialValley
+  namespace: IndustrialValley.Conveyors
+  example: []
+  syntax:
+    content: public override void OnLoad(SaveableData data)
+    parameters:
+    - id: data
+      type: IndustrialValley.Saving.SaveableData
+    content.vb: Public Overrides Sub OnLoad(data As SaveableData)
+  overridden: IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+  overload: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad*
+references:
+- uid: IndustrialValley.Conveyors
+  commentId: N:IndustrialValley.Conveyors
+  href: IndustrialValley.html
+  name: IndustrialValley.Conveyors
+  nameWithType: IndustrialValley.Conveyors
+  fullName: IndustrialValley.Conveyors
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Conveyors
+    name: Conveyors
+    href: IndustrialValley.Conveyors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: IndustrialValley.Conveyors.BaseMovement
+  commentId: T:IndustrialValley.Conveyors.BaseMovement
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.BaseMovement.html
+  name: BaseMovement
+  nameWithType: BaseMovement
+  fullName: IndustrialValley.Conveyors.BaseMovement
+- uid: IndustrialValley.Saving.ISavable
+  commentId: T:IndustrialValley.Saving.ISavable
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.ISavable.html
+  name: ISavable
+  nameWithType: ISavable
+  fullName: IndustrialValley.Saving.ISavable
+- uid: IndustrialValley.Conveyors.IConveyor
+  commentId: T:IndustrialValley.Conveyors.IConveyor
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.IConveyor.html
+  name: IConveyor
+  nameWithType: IConveyor
+  fullName: IndustrialValley.Conveyors.IConveyor
+- uid: IndustrialValley.Utility.IConnectedBuildable
+  commentId: T:IndustrialValley.Utility.IConnectedBuildable
+  parent: IndustrialValley.Utility
+  href: IndustrialValley.Utility.IConnectedBuildable.html
+  name: IConnectedBuildable
+  nameWithType: IConnectedBuildable
+  fullName: IndustrialValley.Utility.IConnectedBuildable
+- uid: IndustrialValley.Conveyors.BaseMovement.items
+  commentId: F:IndustrialValley.Conveyors.BaseMovement.items
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.items.html#IndustrialValley_Conveyors_BaseMovement_items
+  name: items
+  nameWithType: BaseMovement.items
+  fullName: IndustrialValley.Conveyors.BaseMovement.items
+- uid: IndustrialValley.Conveyors.BaseMovement.OnSell
+  commentId: M:IndustrialValley.Conveyors.BaseMovement.OnSell
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.OnSell.html#IndustrialValley_Conveyors_BaseMovement_OnSell
+  name: OnSell()
+  nameWithType: BaseMovement.OnSell()
+  fullName: IndustrialValley.Conveyors.BaseMovement.OnSell()
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnSell
+    name: OnSell
+    href: IndustrialValley.Conveyors.BaseMovement.OnSell.html#IndustrialValley_Conveyors_BaseMovement_OnSell
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnSell
+    name: OnSell
+    href: IndustrialValley.Conveyors.BaseMovement.OnSell.html#IndustrialValley_Conveyors_BaseMovement_OnSell
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: IndustrialValley.Saving
+  commentId: N:IndustrialValley.Saving
+  href: IndustrialValley.html
+  name: IndustrialValley.Saving
+  nameWithType: IndustrialValley.Saving
+  fullName: IndustrialValley.Saving
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Saving
+    name: Saving
+    href: IndustrialValley.Saving.html
+- uid: IndustrialValley.Utility
+  commentId: N:IndustrialValley.Utility
+  href: IndustrialValley.html
+  name: IndustrialValley.Utility
+  nameWithType: IndustrialValley.Utility
+  fullName: IndustrialValley.Utility
+  spec.csharp:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+  spec.vb:
+  - uid: IndustrialValley
+    name: IndustrialValley
+    href: IndustrialValley.html
+  - name: .
+  - uid: IndustrialValley.Utility
+    name: Utility
+    href: IndustrialValley.Utility.html
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: IndustrialValley.Conveyors.UndergroundConveyor
+  commentId: T:IndustrialValley.Conveyors.UndergroundConveyor
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.UndergroundConveyor.html
+  name: UndergroundConveyor
+  nameWithType: UndergroundConveyor
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected
+  href: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected.html#IndustrialValley_Conveyors_UndergroundConveyor_OnPlacementConnected_UnityEngine_GameObject_
+  name: OnPlacementConnected
+  nameWithType: UndergroundConveyor.OnPlacementConnected
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnPlacementConnected
+- uid: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+  commentId: M:IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+  parent: IndustrialValley.Utility.IConnectedBuildable
+  isExternal: true
+  href: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected.html#IndustrialValley_Utility_IConnectedBuildable_OnPlacementConnected_UnityEngine_GameObject_
+  name: OnPlacementConnected(GameObject)
+  nameWithType: IConnectedBuildable.OnPlacementConnected(GameObject)
+  fullName: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+  spec.csharp:
+  - uid: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+    name: OnPlacementConnected
+    href: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected.html#IndustrialValley_Utility_IConnectedBuildable_OnPlacementConnected_UnityEngine_GameObject_
+  - name: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected(UnityEngine.GameObject)
+    name: OnPlacementConnected
+    href: IndustrialValley.Utility.IConnectedBuildable.OnPlacementConnected.html#IndustrialValley_Utility_IConnectedBuildable_OnPlacementConnected_UnityEngine_GameObject_
+  - name: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.InsertItem
+  href: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem.html#IndustrialValley_Conveyors_UndergroundConveyor_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: InsertItem
+  nameWithType: UndergroundConveyor.InsertItem
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.InsertItem
+- uid: IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Conveyors.IConveyor
+  href: IndustrialValley.Conveyors.IConveyor.InsertItem.html#IndustrialValley_Conveyors_IConveyor_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: InsertItem(ConveyorItem)
+  nameWithType: IConveyor.InsertItem(ConveyorItem)
+  fullName: IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: InsertItem
+    href: IndustrialValley.Conveyors.IConveyor.InsertItem.html#IndustrialValley_Conveyors_IConveyor_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.IConveyor.InsertItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: InsertItem
+    href: IndustrialValley.Conveyors.IConveyor.InsertItem.html#IndustrialValley_Conveyors_IConveyor_InsertItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Conveyors.ConveyorItem
+  commentId: T:IndustrialValley.Conveyors.ConveyorItem
+  parent: IndustrialValley.Conveyors
+  href: IndustrialValley.Conveyors.ConveyorItem.html
+  name: ConveyorItem
+  nameWithType: ConveyorItem
+  fullName: IndustrialValley.Conveyors.ConveyorItem
+- uid: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem.html#IndustrialValley_Conveyors_BaseMovement_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: CanAcceptItem(ConveyorItem)
+  nameWithType: BaseMovement.CanAcceptItem(ConveyorItem)
+  fullName: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem.html#IndustrialValley_Conveyors_BaseMovement_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Conveyors.BaseMovement.CanAcceptItem.html#IndustrialValley_Conveyors_BaseMovement_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem
+  href: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem.html#IndustrialValley_Conveyors_UndergroundConveyor_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: CanAcceptItem
+  nameWithType: UndergroundConveyor.CanAcceptItem
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.CanAcceptItem
+- uid: IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  commentId: M:IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  parent: IndustrialValley.Conveyors.IConveyor
+  href: IndustrialValley.Conveyors.IConveyor.CanAcceptItem.html#IndustrialValley_Conveyors_IConveyor_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  name: CanAcceptItem(ConveyorItem)
+  nameWithType: IConveyor.CanAcceptItem(ConveyorItem)
+  fullName: IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Conveyors.IConveyor.CanAcceptItem.html#IndustrialValley_Conveyors_IConveyor_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.IConveyor.CanAcceptItem(IndustrialValley.Conveyors.ConveyorItem)
+    name: CanAcceptItem
+    href: IndustrialValley.Conveyors.IConveyor.CanAcceptItem.html#IndustrialValley_Conveyors_IConveyor_CanAcceptItem_IndustrialValley_Conveyors_ConveyorItem_
+  - name: (
+  - uid: IndustrialValley.Conveyors.ConveyorItem
+    name: ConveyorItem
+    href: IndustrialValley.Conveyors.ConveyorItem.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions
+  href: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions.html#IndustrialValley_Conveyors_UndergroundConveyor_GetInputPositions
+  name: GetInputPositions
+  nameWithType: UndergroundConveyor.GetInputPositions
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.GetInputPositions
+- uid: IndustrialValley.Conveyors.IConveyor.GetInputPositions
+  commentId: M:IndustrialValley.Conveyors.IConveyor.GetInputPositions
+  parent: IndustrialValley.Conveyors.IConveyor
+  href: IndustrialValley.Conveyors.IConveyor.GetInputPositions.html#IndustrialValley_Conveyors_IConveyor_GetInputPositions
+  name: GetInputPositions()
+  nameWithType: IConveyor.GetInputPositions()
+  fullName: IndustrialValley.Conveyors.IConveyor.GetInputPositions()
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.IConveyor.GetInputPositions
+    name: GetInputPositions
+    href: IndustrialValley.Conveyors.IConveyor.GetInputPositions.html#IndustrialValley_Conveyors_IConveyor_GetInputPositions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.IConveyor.GetInputPositions
+    name: GetInputPositions
+    href: IndustrialValley.Conveyors.IConveyor.GetInputPositions.html#IndustrialValley_Conveyors_IConveyor_GetInputPositions
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions
+  href: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions.html#IndustrialValley_Conveyors_UndergroundConveyor_GetOutputPositions
+  name: GetOutputPositions
+  nameWithType: UndergroundConveyor.GetOutputPositions
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.GetOutputPositions
+- uid: IndustrialValley.Conveyors.IConveyor.GetOutputPositions
+  commentId: M:IndustrialValley.Conveyors.IConveyor.GetOutputPositions
+  parent: IndustrialValley.Conveyors.IConveyor
+  href: IndustrialValley.Conveyors.IConveyor.GetOutputPositions.html#IndustrialValley_Conveyors_IConveyor_GetOutputPositions
+  name: GetOutputPositions()
+  nameWithType: IConveyor.GetOutputPositions()
+  fullName: IndustrialValley.Conveyors.IConveyor.GetOutputPositions()
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.IConveyor.GetOutputPositions
+    name: GetOutputPositions
+    href: IndustrialValley.Conveyors.IConveyor.GetOutputPositions.html#IndustrialValley_Conveyors_IConveyor_GetOutputPositions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.IConveyor.GetOutputPositions
+    name: GetOutputPositions
+    href: IndustrialValley.Conveyors.IConveyor.GetOutputPositions.html#IndustrialValley_Conveyors_IConveyor_GetOutputPositions
+  - name: (
+  - name: )
+- uid: IndustrialValley.Conveyors.BaseMovement.OnUpdate
+  commentId: M:IndustrialValley.Conveyors.BaseMovement.OnUpdate
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.OnUpdate.html#IndustrialValley_Conveyors_BaseMovement_OnUpdate
+  name: OnUpdate()
+  nameWithType: BaseMovement.OnUpdate()
+  fullName: IndustrialValley.Conveyors.BaseMovement.OnUpdate()
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Conveyors.BaseMovement.OnUpdate.html#IndustrialValley_Conveyors_BaseMovement_OnUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnUpdate
+    name: OnUpdate
+    href: IndustrialValley.Conveyors.BaseMovement.OnUpdate.html#IndustrialValley_Conveyors_BaseMovement_OnUpdate
+  - name: (
+  - name: )
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate
+  href: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate.html#IndustrialValley_Conveyors_UndergroundConveyor_OnUpdate
+  name: OnUpdate
+  nameWithType: UndergroundConveyor.OnUpdate
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnUpdate
+- uid: IndustrialValley.Conveyors.BaseMovement.OnSave
+  commentId: M:IndustrialValley.Conveyors.BaseMovement.OnSave
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.OnSave.html#IndustrialValley_Conveyors_BaseMovement_OnSave
+  name: OnSave()
+  nameWithType: BaseMovement.OnSave()
+  fullName: IndustrialValley.Conveyors.BaseMovement.OnSave()
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnSave
+    name: OnSave
+    href: IndustrialValley.Conveyors.BaseMovement.OnSave.html#IndustrialValley_Conveyors_BaseMovement_OnSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnSave
+    name: OnSave
+    href: IndustrialValley.Conveyors.BaseMovement.OnSave.html#IndustrialValley_Conveyors_BaseMovement_OnSave
+  - name: (
+  - name: )
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnSave*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.OnSave
+  href: IndustrialValley.Conveyors.UndergroundConveyor.OnSave.html#IndustrialValley_Conveyors_UndergroundConveyor_OnSave
+  name: OnSave
+  nameWithType: UndergroundConveyor.OnSave
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnSave
+- uid: IndustrialValley.Saving.SaveableData
+  commentId: T:IndustrialValley.Saving.SaveableData
+  parent: IndustrialValley.Saving
+  href: IndustrialValley.Saving.SaveableData.html
+  name: SaveableData
+  nameWithType: SaveableData
+  fullName: IndustrialValley.Saving.SaveableData
+- uid: IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+  commentId: M:IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+  parent: IndustrialValley.Conveyors.BaseMovement
+  href: IndustrialValley.Conveyors.BaseMovement.OnLoad.html#IndustrialValley_Conveyors_BaseMovement_OnLoad_IndustrialValley_Saving_SaveableData_
+  name: OnLoad(SaveableData)
+  nameWithType: BaseMovement.OnLoad(SaveableData)
+  fullName: IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+  spec.csharp:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+    name: OnLoad
+    href: IndustrialValley.Conveyors.BaseMovement.OnLoad.html#IndustrialValley_Conveyors_BaseMovement_OnLoad_IndustrialValley_Saving_SaveableData_
+  - name: (
+  - uid: IndustrialValley.Saving.SaveableData
+    name: SaveableData
+    href: IndustrialValley.Saving.SaveableData.html
+  - name: )
+  spec.vb:
+  - uid: IndustrialValley.Conveyors.BaseMovement.OnLoad(IndustrialValley.Saving.SaveableData)
+    name: OnLoad
+    href: IndustrialValley.Conveyors.BaseMovement.OnLoad.html#IndustrialValley_Conveyors_BaseMovement_OnLoad_IndustrialValley_Saving_SaveableData_
+  - name: (
+  - uid: IndustrialValley.Saving.SaveableData
+    name: SaveableData
+    href: IndustrialValley.Saving.SaveableData.html
+  - name: )
+- uid: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad*
+  commentId: Overload:IndustrialValley.Conveyors.UndergroundConveyor.OnLoad
+  href: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad.html#IndustrialValley_Conveyors_UndergroundConveyor_OnLoad_IndustrialValley_Saving_SaveableData_
+  name: OnLoad
+  nameWithType: UndergroundConveyor.OnLoad
+  fullName: IndustrialValley.Conveyors.UndergroundConveyor.OnLoad
+memberLayout: SeparatePages
