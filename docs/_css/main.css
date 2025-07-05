@@ -1,7 +1,18 @@
 @font-face {
     font-family: 'JetbrainsMono';
     src: url('/_fonts/JetBrainsMono-Regular.woff2') format('woff2'),
-         url('/_fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    url('/_fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+.app-name-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
 }
 
 code[class*="language-"] {
