@@ -60,8 +60,8 @@ public class MyModule : Module
 }
 ```
 
-You can only inject modules that have been registered and are in an Module file. If you try to inject a module that is
-not registered, it will throw an exception.
+You can only inject modules that have been registered and are in a Module file. If you try to inject a module that is
+not registered, it will return null.
 
 If you need to access a module in a non-module class, you can use the `GameManager.GetModule<T>()` method to retrieve
 it. For example:
