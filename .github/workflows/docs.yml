@@ -30,7 +30,7 @@ jobs:
           dotnet-version: 8.x
       - run: dotnet tool update -g docfx --version 2.77.0
       - name: Build DocFX API docs
-        run: docfx api/docfx.json --output api/_site
+        run: docfx api/docfx.json
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
