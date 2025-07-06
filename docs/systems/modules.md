@@ -9,20 +9,20 @@ game.
 
 ## Module Methods
 
-| **Method**                                                                                                                                | **Description**                                                                                | **When Called**              |
-|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------|
-| **[OnInitialize](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnInitialize.html)**   | Initializes the module. Avoid using injected modules here, as they may not be initialized yet. | During module initialization |
-| **[OnStart](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnStart.html)**             | Starts the module. Injected modules are guaranteed to be initialized at this point.            | After all modules initialize |
-| **[OnUpdate](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnUpdate.html)**           | Updates logic that runs every frame (e.g., input, animations).                                 | Every frame                  |
-| **[OnFixedUpdate](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnFixedUpdate.html)** | Handles physics or logic that runs at a fixed interval (e.g., movement, collisions).           | Every fixed frame            |
-| **[OnSave](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnSave.html)**               | Saves the module’s state.                                                                      | When the game is saved       |
-| **[OnLoad](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnLoad.html)**               | Loads the module’s state.                                                                      | When the game is loaded      |
-| **[OnDestroy](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.OnDestroy.html)**         | Cleans up resources or references when the module is no longer needed.                         | When the module is destroyed |
+| **Method**                                                                                               | **Description**                                                                                | **When Called**              |
+|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------|
+| **[OnInitialize](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnInitialize.html)**   | Initializes the module. Avoid using injected modules here, as they may not be initialized yet. | During module initialization |
+| **[OnStart](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnStart.html)**             | Starts the module. Injected modules are guaranteed to be initialized at this point.            | After all modules initialize |
+| **[OnUpdate](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnUpdate.html)**           | Updates logic that runs every frame (e.g., input, animations).                                 | Every frame                  |
+| **[OnFixedUpdate](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnFixedUpdate.html)** | Handles physics or logic that runs at a fixed interval (e.g., movement, collisions).           | Every fixed frame            |
+| **[OnSave](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnSave.html)**               | Saves the module’s state.                                                                      | When the game is saved       |
+| **[OnLoad](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnLoad.html)**               | Loads the module’s state.                                                                      | When the game is loaded      |
+| **[OnDestroy](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.OnDestroy.html)**         | Cleans up resources or references when the module is no longer needed.                         | When the module is destroyed |
 
 ## Usage
 
 To create a module, you need to inherit from
-the [Module](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.Modules.Module.html)
+the [Module](https://industrialvalley.dev/api/IndustrialValley.Modules.Module.html)
 class and implement its methods. Here is an example of a simple module:
 
 ```cs

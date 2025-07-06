@@ -2,9 +2,9 @@
 
 - About
 
-  - [Getting Started](about/getting-started.md)
+    - [Getting Started](about/getting-started.md)
 - Systems
 
-  - [Modules](systems/modules.md)
+    - [Modules](systems/modules.md)
 
-- [API Documentation](https://industrial-valley.github.io/Modding-Documentation/api/api/IndustrialValley.html)
+- [API Documentation](https://industrialvalley.dev/api/IndustrialValley.html)
