@@ -1,1 +1,5 @@
-View the documentation here [https://industrialvalley.dev/](https://industrialvalley.dev/)
+# Headline
+
+> An awesome project.
+
+<button-counter></button-counter>

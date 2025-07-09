@@ -26,7 +26,7 @@ jobs:
 
       - name: Combine outputs
         run: |
-          cp -r docs/* site
+          cp -r * site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
