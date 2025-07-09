@@ -22,6 +22,9 @@
 		name: 'Industrial Valley',
 		logo: '/_media/logo_small.png',
 		loadSidebar: true,
+		alias: {
+			'/.*/_sidebar.md': '/_sidebar.md',
+		},
 		auto2top: true,
 		maxLevel: 4,
 		subMaxLevel: 3,
@@ -38,6 +41,29 @@
 				'/': 'Search',
 			},
 			depth: 6,
+			namespace: `industrial-valley-${Date.now()}`
+		},
+		vueComponents: {
+			'Declaration': {
+				template: `
+          <div class="declaration-container">
+            <p>
+              <span class="declaration-modifier" v-html="modifier"></span>
+              <span v-html="content"></span>
+            </p>
+          </div>
+				`,
+				props: {
+					modifier: {
+						type: String,
+						default: 'public'
+					},
+					content: {
+						type: String,
+						default: ''
+					}
+				}
+			},
 		},
 		plugins: [
 			function (hook, vm) {
@@ -45,6 +71,10 @@
 					url =
 						'https://github.com/Industrial-Valley/Modding-Documentation/tree/main/docs/' +
 						vm.route.file;
+
+					if (vm.route.path.includes('/api')) {
+						return html;
+					}
 
 					const footerHTML = [
 						'<hr>',
@@ -71,5 +101,6 @@
 	window.mermaid = mermaid;
 </script>
 <script src="https://unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
 </body>
 </html>
